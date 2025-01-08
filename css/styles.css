@@ -143,10 +143,15 @@ body {
 .about-grid {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .about-text {
     text-align: center;
+    max-width: 100%;
+    padding: 0 1rem;
 }
 
 .about-text p {
@@ -549,7 +554,8 @@ body {
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    display: none;
+    opacity: 0;
+    visibility: hidden;
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
@@ -564,5 +570,7 @@ body {
 }
 
 .scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
     display: flex;
 } 
