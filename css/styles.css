@@ -295,7 +295,7 @@ body {
 .btn-github {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #24292e;
+    background: #1e40af;
     color: white;
     border-radius: 0.5rem;
     text-decoration: none;
@@ -303,7 +303,27 @@ body {
 }
 
 .btn-github:hover {
-    background: #1a1e21;
+    background: #1e3a8a;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-huggingface {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #1e40af;
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-huggingface:hover {
+    background: #1e3a8a;
 }
 
 /* Contact Section */
