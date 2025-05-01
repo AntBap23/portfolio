@@ -33,7 +33,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #1e40af;
+    color: #000000;
 }
 
 .nav-links {
@@ -49,13 +49,13 @@ body {
 }
 
 .nav-links a:hover {
-    color: #1e40af;
+    color: #4a4a4a;
 }
 
 /* Hero Section */
 .hero {
     min-height: 60vh;
-    background: linear-gradient(to right, #1e3a8a, #1e40af, #1e3a8a);
+    background: linear-gradient(to right, #1a1a1a, #2d2d2d, #1a1a1a);
     padding-top: 80px;
 }
 
@@ -100,7 +100,7 @@ body {
 
 .btn-primary {
     background: white;
-    color: #1e40af;
+    color: #000000;
 }
 
 .btn-secondary {
@@ -209,7 +209,7 @@ body {
 .skill-category h3 {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
-    color: #1e40af;
+    color: #000000;
     line-height: 1.2;
     -webkit-hyphens: auto;
     hyphens: auto;
@@ -268,7 +268,7 @@ body {
 .project-info h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #1e40af;
+    color: #000000;
 }
 
 .project-info p {
@@ -295,7 +295,7 @@ body {
 .btn-github {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #1e40af;
+    background: #000000;
     color: white;
     border-radius: 0.5rem;
     text-decoration: none;
@@ -303,7 +303,7 @@ body {
 }
 
 .btn-github:hover {
-    background: #1e3a8a;
+    background: #333333;
 }
 
 .project-buttons {
@@ -315,7 +315,7 @@ body {
 .btn-huggingface {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #1e40af;
+    background: #000000;
     color: white;
     border-radius: 0.5rem;
     text-decoration: none;
@@ -323,7 +323,7 @@ body {
 }
 
 .btn-huggingface:hover {
-    background: #1e3a8a;
+    background: #333333;
 }
 
 /* Contact Section */
@@ -459,7 +459,7 @@ body {
 
 .resume-card h3 {
     font-size: 1.5rem;
-    color: #1e40af;
+    color: #000000;
     margin-bottom: 1rem;
 }
 
@@ -491,7 +491,7 @@ body {
 
 /* Active state for navigation links */
 .nav-links a.active {
-    color: #1e40af;
+    color: #4a4a4a;
     font-weight: bold;
 }
 
@@ -508,7 +508,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #1e40af, transparent);
+    background: linear-gradient(45deg, #333333, transparent);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -567,7 +567,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #1e40af;
+    background: #000000;
     color: white;
     width: 40px;
     height: 40px;
@@ -585,7 +585,7 @@ body {
 }
 
 .scroll-to-top:hover {
-    background: #1e3a8a;
+    background: #333333;
     transform: translateY(-3px);
 }
 
