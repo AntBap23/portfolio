@@ -7,6 +7,16 @@
     <title>Anthony Baptiste Portfolio</title>
     <link href="./css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ERXLTSZNYJ');
+    </script>
 </head>
 
 <body>
@@ -29,8 +39,8 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>Hi, I'm Anthony Baptiste</h1>
-                <p>Data-driven problem solver with a passion for analytics, machine learning, and supply chain operations.
-                    NIU student majoring in Operations & Information Management, minoring in Computer Science.</p>
+                <p>I'm a data-driven problem solver passionate about analytics, machine learning, and optimizing supply chain networks. 
+                    Currently conducting AI research at Northern Illinois University, where I'm majoring in Operations & Information Management with a minor in Computer Science.</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Contact Me</a>
@@ -48,9 +58,10 @@
             <h2>About Me</h2>
             <div class="about-grid">
                 <div class="about-text">
-                    <p>I'm a student at Northern Illinois University majoring in Operations and Information Management with a minor in Computer Science. I’m passionate about using data analytics, machine learning, and information systems to solve real-world business problems.</p>
-                    <p>Beyond the classroom, I’ve gained hands-on experience through internships in IT, data analytics, and supply chain operations. I’ve worked on projects involving automation, dashboarding, and network planning, developing practical solutions that support strategic decision-making.</p>
-                    <p>With a foundation in both business and technology, I’m especially interested in how data can drive efficiency across operations, logistics, and enterprise systems.</p>
+                    <p>I'm a student at Northern Illinois University majoring in Operations and Information Management with a minor in Computer Science. I’m passionate about applying data analytics, machine learning, and information systems to solve real-world business challenges.</p>
+                    <p>Outside the classroom, I’ve gained hands-on experience through internships in IT, data analytics, and supply chain operations. My work has included automation, dashboard development, and network planning, building solutions that help drive smarter decision making.</p>
+                    <p>I also conduct AI research focused on using large language models for qualitative data analysis and similarity modeling, including developing a custom GPT-based tool to automate these processes.</p>
+                    <p>With a strong foundation in both business and technology, I’m especially interested in how data can unlock efficiency across logistics, operations, and enterprise systems.</p>
                 </div>
             </div>
         </div>
@@ -66,7 +77,7 @@
                     <ul>
                         <li>Python</li>
                         <li>C++</li>
-                        <li>SQL</li>
+                        <li>SQL/Snowflake</li>
                         <li>Tableau</li>
                         <li>Power BI</li>
                     </ul>
@@ -78,6 +89,7 @@
                         <li>TensorFlow</li>
                         <li>Neural Networks</li>
                         <li>Predictive Modeling</li>
+                        <li>LLMs</li>
                     </ul>
                 </div>
                 <div class="skill-category">
@@ -147,29 +159,28 @@
                 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-info">
-                        <h3>Web Store</h3>
-                        <p>Webstore selling tech products created for a group project in Databases class at NIU.</p>
+                        <h3>Amazon employee review analysis</h3>
+                        <p>Built a multi-task NLP pipeline to analyze Amazon employee reviews using sentiment analysis (VADER), topic modeling (BERTopic), and semantic similarity (BERT embeddings) to uncover themes in leadership, culture, and attrition.</p>
                         <div class="project-tags">
-                            <span>PHP</span>
-                            <span>CSS</span>
-                            <span>HTML</span>
+                            <span>Python</span>
+                            <span>PyTorch</span>
                             <span>SQL</span>
                         </div>
-                        <a href="https://github.com/AntBap23/466-WebStore" class="btn btn-github">View on GitHub</a>
+                        <a href="https://github.com/AntBap23/amazon-employee-review-analysis-with-NLP" class="btn btn-github">View on GitHub</a>
                     </div>
                 </div>
 
                 <!-- Project 4 -->
                 <div class="project-card">
                     <div class="project-info">
-                        <h3>Retail Data Cleaning and Analysis</h3>
-                        <p>Comprehensive analysis of Retail data with visualizations to identify trends and patterns.</p>
+                        <h3>Call Center Queue Optimization</h3>
+                        <p>Simulated multi-server queue systems in Python using SimPy to model call arrivals, service times, and customer abandonment. Analyzed KPIs like wait time, queue length, and agent utilization to identify bottlenecks.</p>
                         <div class="project-tags">
                             <span>Python</span>
-                            <span>SQL</span>
-                            <span>Power BI</span>
+                            <span>SimPy</span>
+                            <span>Streamlit</span>
                         </div>
-                        <a href="https://github.com/AntBap23/Retail-data-cleaning-and-analysis" class="btn btn-github">View on GitHub</a>
+                        <a href="https://github.com/AntBap23/Call-center-queue-optimization" class="btn btn-github">View on GitHub</a>
                     </div>
                 </div>
 
