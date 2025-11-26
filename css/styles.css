@@ -7,6 +7,7 @@
 
 body {
     font-family: system-ui, -apple-system, sans-serif;
+    font-size: 16px;
     line-height: 1.5;
     color: #1f2937;
 }
@@ -150,7 +151,8 @@ body {
 
 .about-text {
     text-align: center;
-    max-width: 100%;
+    max-width: 75ch;
+    margin: 0 auto;
     padding: 0 1rem;
 }
 
@@ -179,6 +181,49 @@ body {
 
 .stat-label {
     color: #6b7280;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 6rem 2rem;
+    background: #f9fafb;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    color: #4b5563;
+    font-style: italic;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    max-width: 75ch;
+}
+
+.testimonial-author {
+    font-size: 0.95rem;
+    color: #6b7280;
+    font-weight: 600;
 }
 
 /* Skills Section */
@@ -246,6 +291,8 @@ body {
     font-size: 1.1rem;
     color: #4b5563;
     line-height: 1.6;
+    max-width: 75ch;
+    margin: 0 auto;
 }
 
 .research-grid {
@@ -278,6 +325,7 @@ body {
     color: #4b5563;
     margin-bottom: 1.5rem;
     line-height: 1.6;
+    max-width: 75ch;
 }
 
 .research-actions {
@@ -337,6 +385,7 @@ body {
     color: #4b5563;
     margin-bottom: 1.5rem;
     line-height: 1.6;
+    max-width: 75ch;
 }
 
 .project-tags {
@@ -350,7 +399,7 @@ body {
     background: #e5e7eb;
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
-    font-size: 0.875rem;
+    font-size: 14px;
     color: #4b5563;
 }
 
@@ -559,6 +608,9 @@ body {
     font-size: 1.1rem;
     margin-bottom: 2rem;
     color: #4b5563;
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-methods {
@@ -634,6 +686,10 @@ body {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Resume Section Styles */
@@ -677,6 +733,7 @@ body {
 .resume-card p {
     color: #4b5563;
     margin-bottom: 1.5rem;
+    max-width: 75ch;
 }
 
 .resume-actions {
