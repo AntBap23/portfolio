@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Anthony Baptiste</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">AB</div>
+            <ul class="nav-links">
+                <li class="nav-dropdown">
+                    <button class="nav-link-button">
+                        Profile <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="../#about">About</a></li>
+                        <li><a href="../#skills">Skills</a></li>
+                        <li><a href="../#testimonials">Testimonials</a></li>
+                        <li><a href="../#contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="../projects/">Projects</a></li>
+                <li><a href="../experience/">Experience</a></li>
+                <li><a href="../research/">Research</a></li>
+                <li><a href="../resume/">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="section-content">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <p class="resume-intro">View and download my specialized resumes based on different career focuses.</p>
+
+                <!-- Embedded PDF Viewer (default: Data Science / ML resume) -->
+                <div class="resume-viewer" style="margin-bottom: 2rem;">
+                    <h3>Preview: Data Science / Machine Learning Resume</h3>
+                    <iframe 
+                        src="../resumes/Anthony_Baptiste_DSML.pdf" 
+                        style="width: 100%; height: 600px; border: 1px solid #e5e7eb; border-radius: 0.75rem;"
+                        title="Anthony Baptiste Data Science / Machine Learning Resume">
+                    </iframe>
+                    <div style="margin-top: 1rem;">
+                        <a href="../resumes/Anthony_Baptiste_DSML.pdf" 
+                           class="btn btn-primary" 
+                           download="Anthony_Baptiste_DSML.pdf">
+                           Download This Resume
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="resume-grid">
+                    <!-- Data Science Resume -->
+                    <div class="resume-card">
+                        <h3>Data Science / Machine Learning</h3>
+                        <p>Focus on machine learning, AI, and advanced analytics projects.</p>
+                        <div class="resume-actions">
+                            <a href="../resumes/Anthony_Baptiste_DSML.pdf" 
+                               class="btn btn-primary" 
+                               target="_blank"
+                               rel="noopener noreferrer">
+                               View Resume
+                            </a>
+                            <a href="../resumes/Anthony_Baptiste_DSML.pdf" 
+                               class="btn btn-secondary" 
+                               download="Anthony_Baptiste_DSML.pdf">
+                               Download PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Data Analyst Resume -->
+                    <div class="resume-card">
+                        <h3>Data Analytics</h3>
+                        <p>Emphasis on data analysis, visualization, and business intelligence.</p>
+                        <div class="resume-actions">
+                            <a href="../resumes/Anthony_Baptiste_DA_tableau.pdf" 
+                               class="btn btn-primary" 
+                               target="_blank"
+                               rel="noopener noreferrer">
+                               View Resume
+                            </a>
+                            <a href="../resumes/Anthony_Baptiste_DA_tableau.pdf" 
+                               class="btn btn-secondary" 
+                               download="Anthony_Baptiste_DA_tableau.pdf">
+                               Download PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Supply Chain Resume -->
+                    <div class="resume-card">
+                        <h3>Supply Chain / Operations</h3>
+                        <p>Focused on logistics, operations, and supply chain management.</p>
+                        <div class="resume-actions">
+                            <a href="../resumes/Anthony_Baptiste_OIM.pdf" 
+                               class="btn btn-primary" 
+                               target="_blank"
+                               rel="noopener noreferrer">
+                               View Resume
+                            </a>
+                            <a href="../resumes/Anthony_Baptiste_OIM.pdf" 
+                               class="btn btn-secondary" 
+                               download="Anthony_Baptiste_OIM.pdf">
+                               Download PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Anthony Baptiste. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
+

@@ -78,6 +78,34 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Dropdown navigation (Profile menu)
+    const navDropdown = document.querySelector('.nav-dropdown');
+    const navDropdownButton = document.querySelector('.nav-link-button');
+    if (navDropdown && navDropdownButton) {
+        navDropdownButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navDropdown.classList.toggle('open');
+        });
+
+        document.addEventListener('click', () => {
+            navDropdown.classList.remove('open');
+        });
+    }
+
+    // Experience selector
+    const experienceSelect = document.getElementById('experience-select');
+    const experienceCards = document.querySelectorAll('.experience-card');
+    if (experienceSelect && experienceCards.length) {
+        const updateExperience = () => {
+            const value = experienceSelect.value;
+            experienceCards.forEach(card => {
+                card.style.display = card.getAttribute('data-experience') === value ? 'block' : 'none';
+            });
+        };
+        experienceSelect.addEventListener('change', updateExperience);
+        updateExperience();
+    }
+
     // Scroll to top functionality
     const scrollToTopButton = document.getElementById('scrollToTop');
 

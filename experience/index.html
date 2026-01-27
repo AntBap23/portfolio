@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Anthony Baptiste</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">AB</div>
+            <ul class="nav-links">
+                <li class="nav-dropdown">
+                    <button class="nav-link-button">
+                        Profile <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="../#about">About</a></li>
+                        <li><a href="../#skills">Skills</a></li>
+                        <li><a href="../#testimonials">Testimonials</a></li>
+                        <li><a href="../#contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="../projects/">Projects</a></li>
+                <li><a href="../experience/">Experience</a></li>
+                <li><a href="../research/">Research</a></li>
+                <li><a href="../resume/">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-content">
+            <h2>Experience</h2>
+            <div class="experience-selector">
+                <label for="experience-select">Select a role:</label>
+                <select id="experience-select">
+                    <option value="research" selected>Undergraduate Researcher – NIU College of Business</option>
+                    <option value="consultant">Student Consultant – Mystery Street Recording Company</option>
+                    <option value="shipt">Network Planning Intern – Shipt</option>
+                    <option value="idp">IT Data Analyst – Innovation DuPage</option>
+                    <option value="acm">Community Ambassador – ACM NIU</option>
+                </select>
+            </div>
+            <div class="experience-details">
+                <div class="experience-card" data-experience="research">
+                    <h3>Undergraduate Researcher – NIU College of Business</h3>
+                    <p>Conducting AI research on large language models for qualitative data analysis, building GPT-based simulation frameworks and NLP pipelines to compare AI and human-generated text.</p>
+                </div>
+                <div class="experience-card" data-experience="consultant">
+                    <h3>Student Consultant – Mystery Street Recording Company</h3>
+                    <p>Delivered strategic marketing and HR recommendations for a Chicago-based audio studio through NIU's Experiential Learning Center, using market research and data-driven analysis.</p>
+                    <div class="experience-resources">
+                        <p class="experience-resources-label">Supporting material (add later):</p>
+                        <button class="btn btn-secondary" type="button">Mystery Street Slide Deck (PDF)</button>
+                        <button class="btn btn-secondary" type="button">Project Visual (PNG)</button>
+                    </div>
+                </div>
+                <div class="experience-card" data-experience="shipt">
+                    <h3>Network Planning Intern – Shipt</h3>
+                    <p>Designed and deployed Tableau systems to monitor delivery performance and support operations planning across Shipt's network.</p>
+                    <div class="experience-resources">
+                        <p class="experience-resources-label">Supporting material (add later):</p>
+                        <button class="btn btn-secondary" type="button">Network Planning Report (PDF)</button>
+                        <button class="btn btn-secondary" type="button">Dashboard Screenshot (PNG)</button>
+                    </div>
+                </div>
+                <div class="experience-card" data-experience="idp">
+                    <h3>IT Data Analyst – Innovation DuPage</h3>
+                    <p>Built automated dashboards and reporting frameworks to support stakeholders at a startup-focused innovation center.</p>
+                </div>
+                <div class="experience-card" data-experience="acm">
+                    <h3>Community Ambassador – ACM NIU</h3>
+                    <p>Supported NIU's computing community by organizing events and helping connect students with technical and professional opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Anthony Baptiste. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
+

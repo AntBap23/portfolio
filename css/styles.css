@@ -53,6 +53,53 @@ body {
     color: #4a4a4a;
 }
 
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-link-button {
+    background: none;
+    border: none;
+    color: #1f2937;
+    cursor: pointer;
+    font: inherit;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.nav-link-button i {
+    font-size: 0.75rem;
+}
+
+.nav-dropdown-menu {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    padding: 0.75rem 0;
+    list-style: none;
+    min-width: 180px;
+    display: none;
+    z-index: 1001;
+}
+
+.nav-dropdown-menu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+}
+
+.nav-dropdown-menu li a:hover {
+    background: #f3f4f6;
+}
+
+.nav-dropdown.open .nav-dropdown-menu {
+    display: block;
+}
+
 /* Hero Section */
 .hero {
     min-height: 60vh;
@@ -240,7 +287,7 @@ body {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
 
@@ -267,6 +314,73 @@ body {
 .skill-category li {
     margin-bottom: 0.75rem;
     color: #4b5563;
+}
+
+.skills-note {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.95rem;
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Experience Section */
+.experience {
+    padding: 6rem 2rem;
+    background: #f9fafb;
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.experience-selector {
+    max-width: 400px;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+}
+
+.experience-selector label {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+
+.experience-selector select {
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+    font-size: 0.95rem;
+}
+
+.experience-details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e7eb;
+}
+
+.experience-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    color: #000000;
+}
+
+.experience-card p {
+    color: #4b5563;
+    line-height: 1.6;
 }
 
 /* Research Section */

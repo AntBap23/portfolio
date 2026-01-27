@@ -25,13 +25,21 @@
         <div class="nav-content">
             <div class="logo">AB</div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="nav-dropdown">
+                    <button class="nav-link-button">
+                        Profile <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="projects/">Projects</a></li>
+                <li><a href="experience/">Experience</a></li>
+                <li><a href="research/">Research</a></li>
+                <li><a href="resume/">Resume</a></li>
             </ul>
         </div>
     </nav>
@@ -43,7 +51,7 @@
                 <h1>Hi, I'm Anthony Baptiste</h1>
                 <p>Data-driven problem solver passionate about analytics, machine learning, and business consulting. ACM Community Ambassador at NIU, conducting AI research on LLM applications.</p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="projects/" class="btn btn-primary">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Contact Me</a>
                 </div>
             </div>
@@ -62,131 +70,6 @@
                     <p>I'm a data-driven problem solver at Northern Illinois University, majoring in Operations & Information Management with a Computer Science minor. I serve as an ACM Community Ambassador and conduct AI research on LLM applications for qualitative analysis.</p>
                     <p>I completed a Student Consultant role with Mystery Street Recording Company through NIU's Experiential Learning Center, where I delivered strategic marketing and HR recommendations for a Chicago-based audio studio. I also research LLM applications, developing custom GPT frameworks and NLP pipelines that analyze AI and human-generated text.</p>
                     <p>Previously, I designed Tableau systems for delivery performance at Shipt and built automated dashboards at Innovation DuPage. I'm passionate about applying data-driven solutions to solve complex business challenges.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="section-content">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Adventure Works Full Data Lifecycle Project</h3>
-                        <p>End-to-end data platform enabling real-time retail analytics and business intelligence for faster decision-making.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>PostgreSQL</span>
-                            <span>Streamlit</span>
-                            <span>Tableau</span>
-                        </div>
-                        <div class="project-buttons">
-                            <a href="https://github.com/AntBap23/Real-Time-Retail-Intelligence-Platform" class="btn btn-github">View on GitHub</a>
-                            <a href="https://adventureworksanalytics.streamlit.app/" class="btn btn-website" target="_blank" rel="noopener noreferrer">View on Website</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Routing Improvement and Supply Chain Analysis</h3>
-                        <p>Supply chain platform that optimizes routing and predicts delays, reducing logistics costs and improving delivery performance. Created an interactive dashboard for real-time analytics.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Streamlit</span>
-                            <span>PostgreSQL</span>
-                            <span>Tableau</span>
-                        </div>
-                        <div class="project-buttons">
-                            <a href="https://github.com/AntBap23/SmartLogix-Transport-Optimization" class="btn btn-github">View on GitHub</a>
-                            <a href="https://smartlogisticapp.streamlit.app/" class="btn btn-website" target="_blank" rel="noopener noreferrer">View on Website</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Additional Projects Dropdown -->
-            <div class="additional-projects">
-                <h3>Explore More Projects</h3>
-                <p>Discover additional projects by category:</p>
-                
-                <div class="project-categories">
-                    <!-- Group Projects -->
-                    <div class="category-section">
-                        <h4>Group Projects</h4>
-                        <div class="project-links">
-                            <div class="project-item">
-                                <div class="project-title">
-                                    <i class="fas fa-handshake"></i>
-                                    Nonprofit Engagement Consulting Project
-                                </div>
-                                <div class="project-buttons">
-                                    <a href="https://drive.google.com/file/d/1EzaXbZKwlncOvMJsv03k6D2WbNfll4zB/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Open PDF</a>
-                                </div>
-                            </div>
-                            <div class="project-item">
-                                <div class="project-title">
-                                    <i class="fas fa-chart-line"></i>
-                                    UBUS 288 Group Case Study – Business Strategy & Analytics Project
-                                </div>
-                                <div class="project-buttons">
-                                    <a href="https://drive.google.com/file/d/1aA6K13g2n6HZpvzRjAVzrRjuNz3r8EQN/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Open PDF</a>
-                                </div>
-                            </div>
-                            <div class="project-item">
-                                <div class="project-title">
-                                    <i class="fas fa-store"></i>
-                                    NIU csci 466 Webstore
-                                </div>
-                                <div class="project-buttons">
-                                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Visit Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Solo Projects -->
-                    <div class="category-section">
-                        <h4>Solo Projects</h4>
-                        <div class="project-links">
-                            <div class="project-item">
-                                <div class="project-title">
-                                    <i class="fas fa-users"></i>
-                                    Employee Churn Prediction
-                                </div>
-                                <div class="project-buttons">
-                                    <a href="https://github.com/AntBap23/Employee-Churn-Prediction" target="_blank" rel="noopener noreferrer">
-                                        <i class="fab fa-github"></i>
-                                        GitHub
-                                    </a>
-                                    <a href="https://antbap-employee-churn-prediction.streamlit.app/" target="_blank" rel="noopener noreferrer">
-                                        <i class="fas fa-external-link-alt"></i>
-                                        Streamlit App
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="project-item">
-                                <div class="project-title">
-                                    <i class="fas fa-chart-bar"></i>
-                                    Anime Data Analysis Dashboard
-                                </div>
-                                <div class="project-buttons">
-                                    <a href="https://github.com/AntBap23/Anime-Data-Analysis" target="_blank" rel="noopener noreferrer">
-                                        <i class="fab fa-github"></i>
-                                        GitHub
-                                    </a>
-                                    <a href="https://anime-data-analysis.streamlit.app/" target="_blank" rel="noopener noreferrer">
-                                        <i class="fas fa-external-link-alt"></i>
-                                        Streamlit App
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -216,166 +99,44 @@
             <h2>Skills & Expertise</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Programming & Analytics</h3>
+                    <h3>Programming &amp; Data</h3>
                     <ul>
                         <li>Python</li>
                         <li>C++</li>
                         <li>SQL</li>
+                        <li>LLMs</li>
+                        <li>Scikit-learn, TensorFlow, Neural Networks</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Analytics &amp; BI</h3>
+                    <ul>
+                        <li>Predictive Modeling</li>
                         <li>Tableau</li>
                         <li>Power BI</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Machine Learning</h3>
-                    <ul>
-                        <li>Scikit-learn</li>
-                        <li>TensorFlow</li>
-                        <li>Neural Networks</li>
-                        <li>Predictive Modeling</li>
-                        <li>LLMs</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Supply Chain</h3>
+                    <h3>Supply Chain &amp; Operations</h3>
                     <ul>
                         <li>Logistics Optimization</li>
                         <li>Inventory Management</li>
                         <li>Process Improvement</li>
-                        <li>Supply Chain Analytics</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Technologies & Frameworks</h3>
+                    <h3>Platforms &amp; Tools</h3>
                     <ul>
                         <li>Git/GitHub</li>
                         <li>Google Cloud Platform (GCP)</li>
-                        <li>Snowflake</li>
-                        <li>Salesforce</li>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Problem-Solving & Critical Thinking</li>
-                        <li>Data-Driven Decision Making</li>
-                        <li>Collaborative Teamwork</li>
-                        <li>Clear Communication</li>
+                        <li>Snowflake &amp; Salesforce</li>
+                        <li>Docker &amp; AWS</li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Research Section -->
-    <section id="research" class="research">
-        <div class="section-content">
-            <h2>Research</h2>
-            <div class="research-content">
-                <div class="research-intro">
-                    <p>I conduct AI research using large language models for qualitative data analysis. My work automates complex textual analysis, making it more efficient for researchers.</p>
-                </div>
-                
-                <div class="research-grid">
-                    <!-- Research Paper -->
-                    <div class="research-card">
-                        <h3>Research Paper</h3>
-                        <p>My academic research on LLM applications in qualitative data analysis and similarity modeling.</p>
-                        <div class="research-actions">
-                            <a href="#" class="btn btn-primary">View Research Paper</a>
-                        </div>
-                    </div>
-
-                    <!-- Custom GPT Tool -->
-                    <div class="research-card">
-                        <h3>Gioia Interview & Thematic Analysis Assistant</h3>
-                        <p>A specialized custom GPT tool that simulates interviews and performs Gioia Method analysis with thematic structuring for qualitative research.</p>
-                        <div class="research-actions">
-                            <a href="https://chatgpt.com/g/g-687db22c3c7081918496776c15133e92-gioia-interview-thematic-analysis-assistant" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Try ChatGPT Tool</a>
-                            <a href="https://custom-gpt-interview-research-assistant.streamlit.app/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Streamlit Version</a>
-                        </div>
-                    </div>
-
-                    <!-- Research Website -->
-                    <div class="research-card">
-                        <h3>Research Website</h3>
-                        <p>An interactive website showcasing LLM-based qualitative analysis capabilities and demonstrations using the Gioia Method framework.</p>
-                        <div class="research-actions">
-                            <a href="https://custom-gpt-interview-research-assistant.streamlit.app" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit Website</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume">
-        <div class="section-content">
-            <h2>Resume</h2>
-            <div class="resume-content">
-                <p class="resume-intro">View my specialized resumes based on different career focuses:</p>
-                
-                <div class="resume-grid">
-                    <!-- Data Science Resume -->
-                    <div class="resume-card">
-                        <h3>Data Science / Machine Learning</h3>
-                        <p>Focus on machine learning, AI, and advanced analytics projects.</p>
-                        <div class="resume-actions">
-                            <a href="./resumes/Anthony_Baptiste_DSML.pdf" 
-                               class="btn btn-primary" 
-                               target="_blank"
-                               rel="noopener noreferrer">
-                               View Resume
-                            </a>
-                            <a href="./resumes/Anthony_Baptiste_DSML.pdf" 
-                               class="btn btn-secondary" 
-                               download="Anthony_Baptiste_DSML.pdf">
-                               Download PDF
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Data Analyst Resume -->
-                    <div class="resume-card">
-                        <h3>Data Analytics</h3>
-                        <p>Emphasis on data analysis, visualization, and business intelligence.</p>
-                        <div class="resume-actions">
-                            <a href="./resumes/Anthony_Baptiste_DA_tableau.pdf" 
-                               class="btn btn-primary" 
-                               target="_blank"
-                               rel="noopener noreferrer">
-                               View Resume
-                            </a>
-                            <a href="./resumes/Anthony_Baptiste_DA_tableau.pdf" 
-                               class="btn btn-secondary" 
-                               download="Anthony_Baptiste_DA_tableau.pdf">
-                               Download PDF
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Supply Chain Resume -->
-                    <div class="resume-card">
-                        <h3>Supply Chain / Operations</h3>
-                        <p>Focused on logistics, operations, and supply chain management.</p>
-                        <div class="resume-actions">
-                            <a href="./resumes/Anthony_Baptiste_OIM.pdf" 
-                               class="btn btn-primary" 
-                               target="_blank"
-                               rel="noopener noreferrer">
-                               View Resume
-                            </a>
-                            <a href="./resumes/Anthony_Baptiste_OIM.pdf" 
-                               class="btn btn-secondary" 
-                               download="Anthony_Baptiste_OIM.pdf">
-                               Download PDF
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="skills-note">
+                I enjoy collaborating with cross-functional teams and communicating complex data insights clearly to both technical and non-technical stakeholders.
+            </p>
         </div>
     </section>
 
