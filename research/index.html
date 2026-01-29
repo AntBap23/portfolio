@@ -15,21 +15,23 @@
         <div class="nav-content">
             <div class="logo">AB</div>
             <ul class="nav-links">
+                <li><a href="../projects/">Projects</a></li>
+                <li><a href="../competitions/">Competitions</a></li>
+                <li><a href="../experience/">Experience</a></li>
+                <li><a href="../research/">Research</a></li>
+                <li><a href="../resume/">Resume</a></li>
                 <li class="nav-dropdown">
                     <button class="nav-link-button">
                         Profile <i class="fas fa-chevron-down"></i>
                     </button>
                     <ul class="nav-dropdown-menu">
+                        <li><a href="../">Home</a></li>
                         <li><a href="../#about">About</a></li>
                         <li><a href="../#skills">Skills</a></li>
                         <li><a href="../#testimonials">Testimonials</a></li>
                         <li><a href="../#contact">Contact</a></li>
                     </ul>
                 </li>
-                <li><a href="../projects/">Projects</a></li>
-                <li><a href="../experience/">Experience</a></li>
-                <li><a href="../research/">Research</a></li>
-                <li><a href="../resume/">Resume</a></li>
             </ul>
         </div>
     </nav>
@@ -43,21 +45,35 @@
                     <p>I conduct AI research using large language models for qualitative data analysis. My work automates complex textual analysis, making it more efficient for researchers.</p>
                 </div>
 
-                <div class="research-pdf-embed">
-                    <div class="pdf-iframe-wrapper">
-                        <iframe 
-                            src="../assets/research.pdf"
-                            title="Dean's Research Seminar PDF"
-                            loading="lazy">
-                        </iframe>
+                <div class="research-presentations">
+                    <div class="research-pdf-embed">
+                        <h3>Dean's Research Seminar</h3>
+                        <div class="pdf-iframe-wrapper">
+                            <iframe 
+                                src="../assets/research.pdf"
+                                title="Dean's Research Seminar PDF"
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                        <div class="research-actions">
+                            <a href="../assets/research.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                Open in new tab
+                            </a>
+                            <a href="../assets/research.pdf" class="btn btn-secondary" download="deans-research-seminar.pdf">
+                                Download PDF
+                            </a>
+                        </div>
                     </div>
-                    <div class="research-actions">
-                        <a href="../assets/research.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                            Open in new tab
-                        </a>
-                        <a href="../assets/research.pdf" class="btn btn-secondary" download="deans-research-seminar.pdf">
-                            Download PDF
-                        </a>
+                    <div class="research-card research-cure-card">
+                        <h3>CURE Presentation</h3>
+                        <p>Coming soon.</p>
+                        <div class="research-actions">
+                            <button class="btn btn-primary view-gallery" type="button">View gallery</button>
+                        </div>
+                        <!-- Add more <img> tags here when you have CURE pictures -->
+                        <div class="gallery-images" style="display:none;">
+                            <!-- e.g. <img src="../images/cure1.png" alt="CURE slide 1"> -->
+                        </div>
                     </div>
                 </div>
 
@@ -111,6 +127,19 @@
     </button>
 
     <script src="../js/scripts.js"></script>
+    <!-- Gallery modal -->
+    <div id="gallery-modal" class="gallery-modal" aria-hidden="true" style="display:none;">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-content">
+            <button class="gallery-close btn" aria-label="Close gallery">&times;</button>
+            <img src="" alt="" class="gallery-current-image">
+            <div class="gallery-caption"></div>
+            <div class="gallery-controls">
+                <button class="btn btn-secondary gallery-prev">&larr; Prev</button>
+                <button class="btn btn-secondary gallery-next">Next &rarr;</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

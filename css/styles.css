@@ -466,6 +466,36 @@ body {
     flex-wrap: wrap;
 }
 
+/* Research presentations: PDF + CURE box side by side */
+.research-presentations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: start;
+}
+
+.research-presentations .research-pdf-embed h3,
+.research-cure-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.75rem;
+    color: #000000;
+}
+
+.research-cure-card {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    background: #f8fafc;
+}
+
+@media (max-width: 768px) {
+    .research-presentations {
+        grid-template-columns: 1fr;
+    }
+}
+
 .pdf-iframe-wrapper {
     width: 100%;
     border-radius: 0.75rem;
@@ -475,14 +505,19 @@ body {
 
 .pdf-iframe-wrapper iframe {
     width: 100%;
-    height: 800px;
+    height: 500px;
     border: none;
 }
 
 @media (max-width: 768px) {
     .pdf-iframe-wrapper iframe {
-        height: 600px;
+        height: 400px;
     }
+}
+
+/* Offset sections when navbar is fixed and followed by a section (non-hero pages) */
+.navbar + section {
+    padding-top: 80px;
 }
 
 /* Projects Section */
@@ -676,6 +711,112 @@ body {
     font-size: 1.1rem;
     color: #6b7280;
     min-width: 20px;
+}
+
+/* Competitions & Extracurriculars */
+.extras-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.extra-card {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-card:hover {
+    transform: translateY(-5px);
+}
+
+.extra-card .project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.extra-card .project-info {
+    padding: 1.25rem;
+}
+
+.extra-card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.extra-card p {
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+/* Gallery modal */
+.gallery-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+.gallery-content {
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    background: white;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    z-index: 2001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+.gallery-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.gallery-current-image {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    background: #f8fafc;
+}
+.gallery-caption {
+    color: #374151;
+    font-size: 0.95rem;
+    text-align: center;
+}
+.gallery-controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .gallery-content {
+        padding: 0.5rem;
+    }
+    .gallery-current-image {
+        max-height: 50vh;
+    }
 }
 
 /* Project with multiple links */

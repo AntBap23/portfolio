@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitions & Extracurriculars - Anthony Baptiste</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">AB</div>
+            <ul class="nav-links">
+                <li><a href="../projects/">Projects</a></li>
+                <li><a href="../competitions/">Competitions</a></li>
+                <li><a href="../experience/">Experience</a></li>
+                <li><a href="../research/">Research</a></li>
+                <li><a href="../resume/">Resume</a></li>
+                <li class="nav-dropdown">
+                    <button class="nav-link-button">
+                        Profile <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../#about">About</a></li>
+                        <li><a href="../#skills">Skills</a></li>
+                        <li><a href="../#testimonials">Testimonials</a></li>
+                        <li><a href="../#contact">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Competitions & Extracurriculars -->
+    <section id="competitions" class="competitions">
+        <div class="section-content">
+            <h2>Competitions & Extracurriculars</h2>
+            <p class="research-intro">Highlights from Events, Hackathons, Workshops, and Club activities. Click any card to add more details or view galleries.</p>
+
+            <div class="extras-grid" style="margin-top:1rem;">
+                <div class="extra-card">
+                    <div class="project-image">
+                        <img src="../images/Havi 1.png" alt="Event Solo photo">
+                    </div>
+                    <div class="project-info">
+                        <h4>Havi Data Visualization Competition</h4>
+                        <p> Developed a Power BI dashboard using Python and
+                            Excel to identify inventory waste and supplier performance issues across a QSR supply chain.</p>
+                        <div class="project-buttons">
+                            <button class="btn btn-primary view-gallery" type="button">View gallery</button>
+                            <a href="#" class="btn btn-secondary">More</a>
+                        </div>
+                            <!-- hidden gallery images - add more <img> tags here to expand gallery -->
+                            <div class="gallery-images" style="display:none;">
+                                <img src="../images/Havi 2.png" alt="Havi team">
+                                <img src="../images/DataViz.png" alt="Data visualization">
+                            </div>
+                    </div>
+                </div>
+
+                <div class="extra-card">
+                    <div class="project-image">
+                        <img src="../images/Havi 1.png" alt="Certificate image">
+                    </div>
+                    <div class="project-info">
+                        <h4>Workshop / Certification</h4>
+                        <p>Short subtitle or one-line summary. Replace with details later.</p>
+                        <div class="project-buttons">
+                            <button class="btn btn-primary view-gallery" type="button">View gallery</button>
+                            <a href="#" class="btn btn-secondary">More</a>
+                        </div>
+                            <div class="gallery-images" style="display:none;">
+                                <img src="../images/certi.png" alt="Certificate">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Anthony Baptiste. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="../js/scripts.js"></script>
+    <!-- Gallery modal -->
+    <div id="gallery-modal" class="gallery-modal" aria-hidden="true" style="display:none;">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-content">
+            <button class="gallery-close btn" aria-label="Close gallery">&times;</button>
+            <img src="" alt="" class="gallery-current-image">
+            <div class="gallery-caption"></div>
+            <div class="gallery-controls">
+                <button class="btn btn-secondary gallery-prev">&larr; Prev</button>
+                <button class="btn btn-secondary gallery-next">Next &rarr;</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

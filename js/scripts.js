@@ -3,7 +3,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
+            const href = this.getAttribute('href');
+            // Handle Home button (scroll to top)
+            if (href === '#' || href === '#top') {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+                return;
+            }
+            const target = document.querySelector(href);
             if (target) {
                 target.scrollIntoView({
                     behavior: 'smooth',
@@ -125,4 +134,75 @@ document.addEventListener('DOMContentLoaded', () => {
             behavior: 'smooth'
         });
     });
+    
+    // Gallery modal (for competitions / extras)
+    const galleryModal = document.getElementById('gallery-modal');
+    if (galleryModal) {
+        const overlay = galleryModal.querySelector('.gallery-overlay');
+        const imgEl = galleryModal.querySelector('.gallery-current-image');
+        const captionEl = galleryModal.querySelector('.gallery-caption');
+        const closeBtn = galleryModal.querySelector('.gallery-close');
+        const nextBtn = galleryModal.querySelector('.gallery-next');
+        const prevBtn = galleryModal.querySelector('.gallery-prev');
+
+        let galleryImages = [];
+        let galleryIndex = 0;
+
+        const showImage = (idx) => {
+            if (!galleryImages || galleryImages.length === 0) return;
+            galleryIndex = (idx + galleryImages.length) % galleryImages.length;
+            imgEl.src = galleryImages[galleryIndex].src;
+            imgEl.alt = galleryImages[galleryIndex].alt || '';
+            captionEl.textContent = galleryImages[galleryIndex].alt || '';
+        };
+
+        const openGallery = (images, start = 0) => {
+            galleryImages = images;
+            showImage(start);
+            galleryModal.style.display = 'flex';
+            galleryModal.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        };
+
+        const closeGallery = () => {
+            galleryModal.style.display = 'none';
+            galleryModal.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = '';
+            imgEl.src = '';
+            captionEl.textContent = '';
+            galleryImages = [];
+            galleryIndex = 0;
+        };
+
+        // Wire buttons on page
+        document.querySelectorAll('.view-gallery').forEach(button => {
+            button.addEventListener('click', (e) => {
+                // find nearest card (competitions extra-card, project-info, or research-card)
+                const card = button.closest('.extra-card') || button.closest('.project-info') || button.closest('.research-card');
+                if (!card) return;
+                // collect images: visible hero image and hidden gallery-images imgs
+                const imgs = [];
+                const mainImg = card.querySelector('.project-image img');
+                if (mainImg && mainImg.src) imgs.push({ src: mainImg.src, alt: mainImg.alt || '' });
+                const hidden = card.querySelectorAll('.gallery-images img');
+                hidden.forEach(i => {
+                    if (i.src) imgs.push({ src: i.src, alt: i.alt || '' });
+                });
+                if (imgs.length === 0) return;
+                openGallery(imgs, 0);
+            });
+        });
+
+        closeBtn.addEventListener('click', closeGallery);
+        overlay.addEventListener('click', closeGallery);
+        nextBtn.addEventListener('click', () => showImage(galleryIndex + 1));
+        prevBtn.addEventListener('click', () => showImage(galleryIndex - 1));
+
+        document.addEventListener('keydown', (e) => {
+            if (galleryModal.style.display === 'none' || galleryModal.getAttribute('aria-hidden') === 'true') return;
+            if (e.key === 'Escape') closeGallery();
+            if (e.key === 'ArrowRight') showImage(galleryIndex + 1);
+            if (e.key === 'ArrowLeft') showImage(galleryIndex - 1);
+        });
+    }
 });
