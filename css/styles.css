@@ -475,7 +475,6 @@ body {
     align-items: start;
 }
 
-.research-presentations .research-pdf-embed h3,
 .research-cure-card h3 {
     font-size: 1.35rem;
     margin-bottom: 0.75rem;
@@ -494,6 +493,36 @@ body {
     .research-presentations {
         grid-template-columns: 1fr;
     }
+}
+
+/* CURE column: shorter PDF next to Dean's seminar */
+.research-cure-card .research-cure-pdf iframe {
+    height: 380px;
+}
+
+@media (max-width: 768px) {
+    .research-cure-card .research-cure-pdf iframe {
+        height: 400px;
+    }
+}
+
+.research-cure-photos {
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.research-cure-photos h4 {
+    font-size: 1.05rem;
+    margin-bottom: 0.35rem;
+    color: #111827;
+}
+
+.research-cure-photos-note {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
 }
 
 .pdf-iframe-wrapper {
@@ -714,9 +743,38 @@ body {
 }
 
 /* Competitions & Extracurriculars */
+/* Competitions section (subpage) */
+.competitions {
+    padding: 6rem 2rem;
+    background: #f9fafb;
+    min-height: 100vh;
+}
+
+.competitions h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.competitions .research-intro {
+    margin-bottom: 1.5rem;
+}
+
+.extras-section-heading {
+    font-size: 1.5rem;
+    margin: 2rem 0 0.75rem 0;
+    color: #111827;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.35rem;
+}
+
+.competitions .extras-section-heading:first-of-type {
+    margin-top: 0.5rem;
+}
+
 .extras-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
 }
@@ -729,30 +787,59 @@ body {
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
+    min-width: 0; /* Chrome: prevent grid overflow */
 }
 
 .extra-card:hover {
     transform: translateY(-5px);
 }
 
+.extra-card .project-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    background: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .extra-card .project-image img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .extra-card .project-info {
     padding: 1.25rem;
+    min-width: 0;
 }
 
 .extra-card h4 {
     margin-bottom: 0.5rem;
     font-size: 1.25rem;
+    color: #111827;
 }
 
 .extra-card p {
     color: #4b5563;
     margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.extra-card .project-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.extra-card .project-buttons .btn,
+.extra-card .project-buttons button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
 }
 
 /* Gallery modal */

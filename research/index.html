@@ -16,7 +16,7 @@
             <div class="logo">AB</div>
             <ul class="nav-links">
                 <li><a href="../projects/">Projects</a></li>
-                <li><a href="../competitions/">Competitions</a></li>
+                <li><a href="../competitions/">Extracurriculars</a></li>
                 <li><a href="../experience/">Experience</a></li>
                 <li><a href="../research/">Research</a></li>
                 <li><a href="../resume/">Resume</a></li>
@@ -46,9 +46,9 @@
                 </div>
 
                 <div class="research-presentations">
-                    <div class="research-pdf-embed">
+                    <div class="research-card research-cure-card">
                         <h3>Dean's Research Seminar</h3>
-                        <div class="pdf-iframe-wrapper">
+                        <div class="pdf-iframe-wrapper research-cure-pdf">
                             <iframe 
                                 src="../assets/research.pdf"
                                 title="Dean's Research Seminar PDF"
@@ -63,16 +63,43 @@
                                 Download PDF
                             </a>
                         </div>
+                        <div class="research-cure-photos">
+                            <h4>Additional pictures</h4>
+                            <p class="research-cure-photos-note">Add images below for seminar photos and presentation moments.</p>
+                            <div class="research-actions">
+                                <button class="btn btn-primary view-gallery" type="button">View gallery</button>
+                            </div>
+                            <div class="gallery-images" style="display:none;">
+                                <!-- e.g. <img src="../images/seminar1.png" alt="Dean's seminar"> -->
+                            </div>
+                        </div>
                     </div>
                     <div class="research-card research-cure-card">
                         <h3>CURE Presentation</h3>
-                        <p>Coming soon.</p>
-                        <div class="research-actions">
-                            <button class="btn btn-primary view-gallery" type="button">View gallery</button>
+                        <div class="pdf-iframe-wrapper research-cure-pdf">
+                            <iframe
+                                src="../assets/cure-poster.pdf"
+                                title="CURE poster PDF"
+                                loading="lazy">
+                            </iframe>
                         </div>
-                        <!-- Add more <img> tags here when you have CURE pictures -->
-                        <div class="gallery-images" style="display:none;">
-                            <!-- e.g. <img src="../images/cure1.png" alt="CURE slide 1"> -->
+                        <div class="research-actions">
+                            <a href="../assets/cure-poster.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                Open in new tab
+                            </a>
+                            <a href="../assets/cure-poster.pdf" class="btn btn-secondary" download="cure-poster.pdf">
+                                Download PDF
+                            </a>
+                        </div>
+                        <div class="research-cure-photos">
+                            <h4>Additional pictures</h4>
+                            <p class="research-cure-photos-note">Add images below for event photos, team shots, or more slides.</p>
+                            <div class="research-actions">
+                                <button class="btn btn-primary view-gallery" type="button">View gallery</button>
+                            </div>
+                            <div class="gallery-images" style="display:none;">
+                                <!-- e.g. <img src="../images/cure-event.png" alt="CURE event"> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -84,15 +111,6 @@
                         <p>My academic research on LLM applications in qualitative data analysis and similarity modeling.</p>
                         <div class="research-actions">
                             <a href="#" class="btn btn-primary">View Paper (coming soon)</a>
-                        </div>
-                    </div>
-
-                    <!-- Custom GPT Tool -->
-                    <div class="research-card">
-                        <h3>Gioia Interview & Thematic Analysis Assistant</h3>
-                        <p>A specialized custom GPT tool that simulates interviews and performs Gioia Method analysis with thematic structuring for qualitative research.</p>
-                        <div class="research-actions">
-                            <a href="https://chatgpt.com/g/g-687db22c3c7081918496776c15133e92-gioia-interview-thematic-analysis-assistant" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Try ChatGPT Tool</a>
                         </div>
                     </div>
 
