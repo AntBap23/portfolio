@@ -720,6 +720,10 @@ h2::after {
     margin-top: 1rem;
 }
 
+.research-actions {
+    justify-content: center;
+}
+
 /* Research */
 .research-intro {
     text-align: center;
