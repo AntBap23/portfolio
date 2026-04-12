@@ -5,120 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience - Anthony Baptiste</title>
+    <script>
+        (function () {
+            var savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.dataset.theme = savedTheme;
+            }
+        }());
+    </script>
     <link href="../css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
-<body>
-    <!-- Navigation -->
+<body class="page-shell">
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">AB</div>
-            <ul class="nav-links">
-                <li><a href="../projects/">Projects</a></li>
-                <li><a href="../competitions/">Extracurriculars</a></li>
-                <li><a href="../experience/">Experience</a></li>
-                <li><a href="../research/">Research</a></li>
-                <li><a href="../resume/">Resume</a></li>
-                <li class="nav-dropdown">
-                    <button class="nav-link-button">
-                        Profile <i class="fas fa-chevron-down"></i>
+            <a class="logo-link" href="../" aria-label="Anthony Baptiste home">
+                <span class="logo">AB</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-panel" id="site-menu">
+                <ul class="nav-links">
+                    <li><a href="../#about">About</a></li>
+                    <li><a href="../#skills">Skills</a></li>
+                    <li><a href="../projects/">Projects</a></li>
+                    <li><a href="../competitions/">Extracurriculars</a></li>
+                    <li><a href="../experience/">Experience</a></li>
+                    <li><a href="../research/">Research</a></li>
+                    <li><a href="../resume/">Resume</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch to light mode">
+                        <i class="fas fa-moon"></i>
+                        <span class="sr-only">Switch to light mode</span>
                     </button>
-                    <ul class="nav-dropdown-menu">
-                        <li><a href="../">Home</a></li>
-                        <li><a href="../#about">About</a></li>
-                        <li><a href="../#skills">Skills</a></li>
-                        <li><a href="../#testimonials">Testimonials</a></li>
-                        <li><a href="../#contact">Contact</a></li>
-                    </ul>
-                </li>
-            </ul>
+                    <a href="../#contact" class="btn btn-primary nav-cta">Contact Me</a>
+                </div>
+            </div>
         </div>
     </nav>
 
-    <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="section-content">
-            <h2>Experience</h2>
+            <div class="page-intro">
+                <span class="section-kicker">Experience</span>
+                <h1>Roles that shaped how I approach analytics work.</h1>
+                <p>From operational reporting to research and consulting, these experiences reflect the environments where I’ve learned to connect technical work to practical decisions.</p>
+            </div>
+
             <div class="experience-selector">
-                <label for="experience-select">Select a role:</label>
+                <label for="experience-select">Select a role</label>
                 <select id="experience-select">
-                    <option value="research" selected>Undergraduate Researcher – NIU College of Business</option>
-                    <option value="consultant">Student Consultant – Mystery Street Recording Company</option>
-                    <option value="shipt">Network Planning Intern – Shipt</option>
-                    <option value="idp">IT Data Analyst – Innovation DuPage</option>
-                    <option value="acm">Community Ambassador – ACM NIU</option>
+                    <option value="research" selected>Undergraduate Researcher - NIU College of Business</option>
+                    <option value="consultant">Student Consultant - Mystery Street Recording Company</option>
+                    <option value="shipt">Network Planning Intern - Shipt</option>
+                    <option value="idp">IT Data Analyst - Innovation DuPage</option>
+                    <option value="acm">Community Ambassador - ACM NIU</option>
                 </select>
             </div>
+
             <div class="experience-details">
-                <div class="experience-card" data-experience="research">
-                    <h3>Undergraduate Researcher – NIU College of Business</h3>
+                <article class="experience-card" data-experience="research">
+                    <h3>Undergraduate Researcher - NIU College of Business</h3>
                     <p>I contribute to research on how large language models can support interview-based qualitative research without replacing human interpretation. My work has included generating AI personas based on real participants, running matched AI interview simulations using the same protocol as the human interviews, comparing transcripts across diagnostic categories, and helping build Custom GPT and Streamlit tools that make the workflow more structured, repeatable, and useful for researchers.</p>
-                </div>
-                <div class="experience-card" data-experience="consultant">
-                    <h3>Student Consultant – Mystery Street Recording Company</h3>
+                </article>
+
+                <article class="experience-card" data-experience="consultant">
+                    <h3>Student Consultant - Mystery Street Recording Company</h3>
                     <p>Through NIU's Experiential Learning Center, I worked on a consulting project for a Chicago-based recording studio. I led competitive and customer analysis across peer studios, reviewed SEO and campaign performance data, and helped turn fragmented market information into clearer recommendations around audience, positioning, and growth. This experience strengthened my ability to connect analysis to a real client need and present findings in a way leadership could act on.</p>
                     <div class="experience-resources">
-                        <p class="experience-resources-label">Supporting material:</p>
+                        <p class="experience-resources-label">Supporting material</p>
                         <div class="experience-images">
                             <figure class="experience-image-item">
-                                <img src="../images/team.png" alt="Team / project collaboration">
-                                <figcaption>Team / project collaboration</figcaption>
+                                <img src="../images/team.png" alt="Team or project collaboration">
+                                <figcaption>Team or project collaboration</figcaption>
                             </figure>
                             <figure class="experience-image-item">
-                                <img src="../images/certi.png" alt="Certification / training">
-                                <figcaption>Certification / training</figcaption>
+                                <img src="../images/certi.png" alt="Certification or training">
+                                <figcaption>Certification or training</figcaption>
                             </figure>
                         </div>
                     </div>
-                </div>
-                <div class="experience-card" data-experience="shipt">
-                    <h3>Network Planning Intern – Shipt</h3>
+                </article>
+
+                <article class="experience-card" data-experience="shipt">
+                    <h3>Network Planning Intern - Shipt</h3>
                     <p>At Shipt, I worked on network planning analytics for a large delivery operation and helped build reporting that made day-to-day performance easier to monitor and interpret. I designed and deployed a Tableau analytics system, automated recurring reporting workflows, and partnered with Market Operations and Network Planning to translate operational questions into dashboards and performance views. It was one of my most formative experiences in combining analytics with real operational decision-making.</p>
                     <div class="experience-resources">
-                        <p class="experience-resources-label">Supporting material:</p>
+                        <p class="experience-resources-label">Supporting material</p>
                         <div class="pdf-iframe-wrapper">
-                            <iframe
-                                src="../assets/network_planning.pdf"
-                                title="Network Planning report PDF"
-                                loading="lazy">
-                            </iframe>
+                            <iframe src="../assets/network_planning.pdf" title="Network Planning report PDF" loading="lazy"></iframe>
                         </div>
                         <div class="experience-actions">
-                            <a href="../assets/network_planning.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                                Open in new tab
-                            </a>
-                            <a href="../assets/network_planning.pdf" class="btn btn-secondary" download="network_planning.pdf">
-                                Download PDF
-                            </a>
+                            <a href="../assets/network_planning.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open in new tab</a>
+                            <a href="../assets/network_planning.pdf" class="btn btn-secondary" download="network_planning.pdf">Download PDF</a>
                         </div>
                     </div>
-                </div>
-                <div class="experience-card" data-experience="idp">
-                    <h3>IT Data Analyst – Innovation DuPage</h3>
+                </article>
+
+                <article class="experience-card" data-experience="idp">
+                    <h3>IT Data Analyst - Innovation DuPage</h3>
                     <p>At Innovation DuPage, I supported reporting and operational analysis across several programs by building and maintaining Tableau dashboards, improving Salesforce reporting, and using Excel models to explore engagement trends. A big part of the role was helping bring more consistency to KPI definitions and making reporting easier for stakeholders to understand and use. That experience gave me a stronger appreciation for reporting clarity, stakeholder trust, and the day-to-day value of well-structured analytics.</p>
-                </div>
-                <div class="experience-card" data-experience="acm">
-                    <h3>Community Ambassador – ACM NIU</h3>
+                </article>
+
+                <article class="experience-card" data-experience="acm">
+                    <h3>Community Ambassador - ACM NIU</h3>
                     <p>As an ACM Community Ambassador, I helped support NIU's computing community by promoting events, encouraging student involvement, and connecting peers with technical, academic, and professional opportunities. The role gave me another outlet for leadership and reinforced how much I enjoy building communities around learning, career growth, and shared interest in technology.</p>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2025 Anthony Baptiste. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
-                <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile"><i class="fab fa-x-twitter"></i></a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a class="footer-logo" href="../">AB</a>
+                    <p>Portfolio of Anthony Baptiste, focused on business intelligence, analytics engineering, operational reporting, and applied AI research.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <a href="../">Home</a>
+                    <a href="../#about">About</a>
+                    <a href="../#skills">Skills</a>
+                    <a href="../#testimonials">Testimonials</a>
+                    <a href="../#contact">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Portfolio</h3>
+                    <a href="../projects/">Projects</a>
+                    <a href="../competitions/">Extracurriculars</a>
+                    <a href="../experience/">Experience</a>
+                    <a href="../research/">Research</a>
+                    <a href="../resume/">Resume</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <a href="mailto:AnthonyBaptiste00@gmail.com">AnthonyBaptiste00@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anthony Baptiste. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer" aria-label="X profile"><i class="fab fa-twitter"></i></a>
+                </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to top button -->
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
         <i class="fas fa-arrow-up"></i>
     </button>

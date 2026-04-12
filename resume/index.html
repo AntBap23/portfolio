@@ -5,136 +5,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Anthony Baptiste</title>
+    <script>
+        (function () {
+            var savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.dataset.theme = savedTheme;
+            }
+        }());
+    </script>
     <link href="../css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
-<body>
-    <!-- Navigation -->
+<body class="page-shell">
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">AB</div>
-            <ul class="nav-links">
-                <li><a href="../projects/">Projects</a></li>
-                <li><a href="../competitions/">Extracurriculars</a></li>
-                <li><a href="../experience/">Experience</a></li>
-                <li><a href="../research/">Research</a></li>
-                <li><a href="../resume/">Resume</a></li>
-                <li class="nav-dropdown">
-                    <button class="nav-link-button">
-                        Profile <i class="fas fa-chevron-down"></i>
+            <a class="logo-link" href="../" aria-label="Anthony Baptiste home">
+                <span class="logo">AB</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-panel" id="site-menu">
+                <ul class="nav-links">
+                    <li><a href="../#about">About</a></li>
+                    <li><a href="../#skills">Skills</a></li>
+                    <li><a href="../projects/">Projects</a></li>
+                    <li><a href="../competitions/">Extracurriculars</a></li>
+                    <li><a href="../experience/">Experience</a></li>
+                    <li><a href="../research/">Research</a></li>
+                    <li><a href="../resume/">Resume</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch to light mode">
+                        <i class="fas fa-moon"></i>
+                        <span class="sr-only">Switch to light mode</span>
                     </button>
-                    <ul class="nav-dropdown-menu">
-                        <li><a href="../">Home</a></li>
-                        <li><a href="../#about">About</a></li>
-                        <li><a href="../#skills">Skills</a></li>
-                        <li><a href="../#testimonials">Testimonials</a></li>
-                        <li><a href="../#contact">Contact</a></li>
-                    </ul>
-                </li>
-            </ul>
+                    <a href="../#contact" class="btn btn-primary nav-cta">Contact Me</a>
+                </div>
+            </div>
         </div>
     </nav>
 
-    <!-- Resume Section -->
     <section id="resume" class="resume">
         <div class="section-content">
-            <h2>Resume</h2>
-            <div class="resume-content">
-                <p class="resume-intro">View and download my specialized resumes based on different career focuses.</p>
+            <div class="page-intro">
+                <span class="section-kicker">Resume</span>
+                <h1>Resume versions tailored to different analytics paths.</h1>
+                <p>View and download my specialized resumes based on different career focuses.</p>
+            </div>
 
-                <!-- Embedded PDF Viewer (default: Data Analytics and Business Intelligence resume) -->
-                <div class="resume-viewer" style="margin-bottom: 2rem;">
+            <div class="resume-preview-card">
+                <div class="resume-viewer">
                     <h3>Preview: Data Analytics and Business Intelligence Resume</h3>
-                    <iframe 
-                        src="../resumes/Anthony_Baptiste_DA.pdf" 
-                        style="width: 100%; height: 600px; border: 1px solid #e5e7eb; border-radius: 0.75rem;"
-                        title="Anthony Baptiste Data analytics and Business Intelligence Resume">
-                    </iframe>
-                    <div style="margin-top: 1rem;">
-                        <a href="../resumes/Anthony_Baptiste_DA.pdf" 
-                           class="btn btn-primary" 
-                           download="Anthony_Baptiste_DA.pdf">
-                           Download This Resume
-                        </a>
+                    <iframe src="../resumes/Anthony_Baptiste_DA.pdf" title="Anthony Baptiste Data Analytics and Business Intelligence Resume"></iframe>
+                    <div class="resume-actions">
+                        <a href="../resumes/Anthony_Baptiste_DA.pdf" class="btn btn-primary" download="Anthony_Baptiste_DA.pdf">Download This Resume</a>
                     </div>
                 </div>
-                
-                <div class="resume-grid">
-                    <!-- Data Science Resume -->
-                    <div class="resume-card">
-                        <h3>Data Science / Machine Learning</h3>
-                        <p>Focus on machine learning, AI, and advanced analytics projects.</p>
-                        <div class="resume-actions">
-                            <a href="../resumes/Anthony_Baptiste_DSML.pdf" 
-                               class="btn btn-primary" 
-                               target="_blank"
-                               rel="noopener noreferrer">
-                               View Resume
-                            </a>
-                            <a href="../resumes/Anthony_Baptiste_DSML.pdf" 
-                               class="btn btn-secondary" 
-                               download="Anthony_Baptiste_DSML.pdf">
-                               Download PDF
-                            </a>
-                        </div>
-                    </div>
+            </div>
 
-                    <!-- Data Analyst Resume -->
-                    <div class="resume-card">
-                        <h3>Data Analytics</h3>
-                        <p>Emphasis on data analysis, visualization, and business intelligence.</p>
-                        <div class="resume-actions">
-                            <a href="../resumes/Anthony_Baptiste_DA.pdf" 
-                               class="btn btn-primary" 
-                               target="_blank"
-                               rel="noopener noreferrer">
-                               View Resume
-                            </a>
-                            <a href="../resumes/Anthony_Baptiste_DA_tableau.pdf" 
-                               class="btn btn-secondary" 
-                               download="Anthony_Baptiste_DA_tableau.pdf">
-                               Download PDF
-                            </a>
-                        </div>
+            <div class="resume-grid" style="margin-top: 1.5rem;">
+                <article class="resume-card">
+                    <h3>Data Science / Machine Learning</h3>
+                    <p>Focus on machine learning, AI, and advanced analytics projects.</p>
+                    <div class="resume-actions">
+                        <a href="../resumes/Anthony_Baptiste_DSML.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Resume</a>
+                        <a href="../resumes/Anthony_Baptiste_DSML.pdf" class="btn btn-secondary" download="Anthony_Baptiste_DSML.pdf">Download PDF</a>
                     </div>
+                </article>
 
-                    <!-- Supply Chain Resume -->
-                    <div class="resume-card">
-                        <h3>Supply Chain / Operations</h3>
-                        <p>Focused on logistics, operations, and supply chain management.</p>
-                        <div class="resume-actions">
-                            <a href="../resumes/Anthony_Baptiste_OIM.pdf" 
-                               class="btn btn-primary" 
-                               target="_blank"
-                               rel="noopener noreferrer">
-                               View Resume
-                            </a>
-                            <a href="../resumes/Anthony_Baptiste_OIM.pdf" 
-                               class="btn btn-secondary" 
-                               download="Anthony_Baptiste_OIM.pdf">
-                               Download PDF
-                            </a>
-                        </div>
+                <article class="resume-card">
+                    <h3>Data Analytics</h3>
+                    <p>Emphasis on data analysis, visualization, and business intelligence.</p>
+                    <div class="resume-actions">
+                        <a href="../resumes/Anthony_Baptiste_DA.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Resume</a>
+                        <a href="../resumes/Anthony_Baptiste_DA.pdf" class="btn btn-secondary" download="Anthony_Baptiste_DA.pdf">Download PDF</a>
                     </div>
-                </div>
+                </article>
+
+                <article class="resume-card">
+                    <h3>Supply Chain / Operations</h3>
+                    <p>Focused on logistics, operations, and supply chain management.</p>
+                    <div class="resume-actions">
+                        <a href="../resumes/Anthony_Baptiste_OIM.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Resume</a>
+                        <a href="../resumes/Anthony_Baptiste_OIM.pdf" class="btn btn-secondary" download="Anthony_Baptiste_OIM.pdf">Download PDF</a>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2025 Anthony Baptiste. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
-                <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile"><i class="fab fa-x-twitter"></i></a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a class="footer-logo" href="../">AB</a>
+                    <p>Portfolio of Anthony Baptiste, focused on business intelligence, analytics engineering, operational reporting, and applied AI research.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <a href="../">Home</a>
+                    <a href="../#about">About</a>
+                    <a href="../#skills">Skills</a>
+                    <a href="../#testimonials">Testimonials</a>
+                    <a href="../#contact">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Portfolio</h3>
+                    <a href="../projects/">Projects</a>
+                    <a href="../competitions/">Extracurriculars</a>
+                    <a href="../experience/">Experience</a>
+                    <a href="../research/">Research</a>
+                    <a href="../resume/">Resume</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <a href="mailto:AnthonyBaptiste00@gmail.com">AnthonyBaptiste00@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anthony Baptiste. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/BapML_" target="_blank" rel="noopener noreferrer" aria-label="X profile"><i class="fab fa-twitter"></i></a>
+                </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to top button -->
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
         <i class="fas fa-arrow-up"></i>
     </button>
@@ -143,4 +146,3 @@
 </body>
 
 </html>
-
