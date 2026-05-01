@@ -987,6 +987,22 @@ html[data-theme='light'] .nav-content {
     border: none;
 }
 
+.research-cure-photo {
+    margin: 1rem 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--bg-muted);
+}
+
+.research-cure-photo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+}
+
 .research-cure-pdf iframe {
     min-height: 360px;
 }
