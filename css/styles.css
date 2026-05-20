@@ -118,12 +118,15 @@ ul {
 section {
     position: relative;
     padding: 5.5rem 1.5rem;
+}
+
+html.js-enabled section {
     opacity: 0;
     transform: translateY(28px);
     transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
-section.animate-in {
+html.js-enabled section.animate-in {
     opacity: 1;
     transform: translateY(0);
 }

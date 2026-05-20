@@ -16,9 +16,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <script>
         (function () {
-            var savedTheme = localStorage.getItem('theme');
-            if (savedTheme) {
-                document.documentElement.dataset.theme = savedTheme;
+            try {
+                var savedTheme = localStorage.getItem('theme');
+                if (savedTheme) {
+                    document.documentElement.dataset.theme = savedTheme;
+                }
+            } catch (error) {
+                document.documentElement.dataset.theme = 'dark';
             }
         }());
     </script>

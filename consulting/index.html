@@ -123,9 +123,13 @@
     </script>
     <script>
         (function () {
-            var savedTheme = localStorage.getItem('theme');
-            if (savedTheme) {
-                document.documentElement.dataset.theme = savedTheme;
+            try {
+                var savedTheme = localStorage.getItem('theme');
+                if (savedTheme) {
+                    document.documentElement.dataset.theme = savedTheme;
+                }
+            } catch (error) {
+                document.documentElement.dataset.theme = 'dark';
             }
         }());
     </script>

@@ -7,9 +7,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const scrollToTopButton = document.getElementById('scrollToTop');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 
+    const storage = {
+        get(key) {
+            try {
+                return window.localStorage.getItem(key);
+            } catch (error) {
+                return null;
+            }
+        },
+        set(key, value) {
+            try {
+                window.localStorage.setItem(key, value);
+            } catch (error) {
+                // Browsers can block localStorage in private or restricted contexts.
+            }
+        }
+    };
+
     const applyTheme = (theme) => {
         root.dataset.theme = theme;
-        window.localStorage.setItem('theme', theme);
+        storage.set('theme', theme);
         themeToggleButtons.forEach((button) => {
             const icon = button.querySelector('i');
             const label = button.querySelector('.sr-only, .theme-toggle-text');
@@ -29,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    const savedTheme = window.localStorage.getItem('theme');
+    const savedTheme = storage.get('theme');
     applyTheme(savedTheme || (prefersDark.matches ? 'dark' : 'light'));
 
     themeToggleButtons.forEach((button) => {
@@ -86,17 +103,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
-            }
-        });
-    }, {
-        threshold: 0.14
-    });
+    const sections = document.querySelectorAll('section');
+    root.classList.add('js-enabled');
 
-    document.querySelectorAll('section').forEach((section) => observer.observe(section));
+    if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, {
+            threshold: 0.14
+        });
+
+        sections.forEach((section) => observer.observe(section));
+    } else {
+        sections.forEach((section) => section.classList.add('animate-in'));
+    }
 
     const homeSections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-links a[href]');
