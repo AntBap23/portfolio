@@ -4,7 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anthony Baptiste Portfolio</title>
+    <title>Anthony Baptiste | Analytics Consulting &amp; BI Systems</title>
+    <meta name="description" content="Analytics consulting, BI dashboards, reporting systems, and applied AI workflows for teams that need clearer business decisions.">
+    <link rel="canonical" href="https://antbap23.github.io/portfolio/">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Anthony Baptiste | Analytics Consulting &amp; BI Systems">
+    <meta property="og:description" content="BI dashboards, KPI reporting, operations analytics, and applied AI workflow consulting for teams that need clearer decisions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://antbap23.github.io/portfolio/">
+    <meta property="og:image" content="https://antbap23.github.io/portfolio/images/abimage.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anthony Baptiste | Analytics Consulting &amp; BI Systems">
+    <meta name="twitter:description" content="I help teams turn messy business data into trusted dashboards, KPI reporting, and decision-support tools.">
+    <meta name="twitter:image" content="https://antbap23.github.io/portfolio/images/abimage.jpeg">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Person",
+                    "@id": "https://antbap23.github.io/portfolio/#anthony-baptiste",
+                    "name": "Anthony Baptiste",
+                    "url": "https://antbap23.github.io/portfolio/",
+                    "image": "https://antbap23.github.io/portfolio/images/abimage.jpeg",
+                    "email": "mailto:AnthonyBaptiste00@gmail.com",
+                    "jobTitle": "Analytics Consultant and BI Developer",
+                    "sameAs": [
+                        "https://www.linkedin.com/in/anthony-baptiste00/",
+                        "https://github.com/AntBap23"
+                    ],
+                    "alumniOf": {
+                        "@type": "CollegeOrUniversity",
+                        "name": "Northern Illinois University"
+                    },
+                    "knowsAbout": [
+                        "Business intelligence consulting",
+                        "Operations analytics",
+                        "Tableau dashboards",
+                        "Power BI dashboards",
+                        "KPI reporting",
+                        "Analytics engineering",
+                        "SQL",
+                        "Python",
+                        "dbt",
+                        "Applied AI workflows"
+                    ]
+                },
+                {
+                    "@type": "ProfessionalService",
+                    "@id": "https://antbap23.github.io/portfolio/#analytics-consulting",
+                    "name": "Anthony Baptiste Analytics Consulting",
+                    "url": "https://antbap23.github.io/portfolio/",
+                    "description": "Analytics consulting for BI dashboards, KPI reporting, operations analytics, analytics engineering, and applied AI workflow prototypes.",
+                    "founder": {
+                        "@id": "https://antbap23.github.io/portfolio/#anthony-baptiste"
+                    },
+                    "areaServed": [
+                        "Chicago",
+                        "Northern Illinois",
+                        "United States",
+                        "Remote"
+                    ],
+                    "priceRange": "$750-$15000",
+                    "hasOfferCatalog": {
+                        "@type": "OfferCatalog",
+                        "name": "Analytics Consulting Services",
+                        "itemListElement": [
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Analytics Clarity Audit",
+                                    "description": "KPI, dashboard, data quality, and reporting workflow review for teams with messy or unclear reporting."
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Dashboard and Reporting Sprint",
+                                    "description": "Tableau, Power BI, Excel, SQL, or Looker Studio reporting systems with cleaned data, KPI definitions, and handoff notes."
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Applied AI Workflow Prototype",
+                                    "description": "Custom GPT, Streamlit, summarization, transcript analysis, reporting assistant, or decision-support workflow prototype."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://antbap23.github.io/portfolio/#website",
+                    "url": "https://antbap23.github.io/portfolio/",
+                    "name": "Anthony Baptiste Analytics Consulting",
+                    "publisher": {
+                        "@id": "https://antbap23.github.io/portfolio/#anthony-baptiste"
+                    }
+                }
+            ]
+        }
+    </script>
     <script>
         (function () {
             var savedTheme = localStorage.getItem('theme');
@@ -37,12 +141,12 @@
             </button>
             <div class="nav-panel" id="site-menu">
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="projects/">Projects</a></li>
-                    <li><a href="competitions/">Extracurriculars</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#proof">Proof</a></li>
+                    <li><a href="consulting/">Consulting</a></li>
+                    <li><a href="projects/">Case Studies</a></li>
                     <li><a href="experience/">Experience</a></li>
-                    <li><a href="research/">Research</a></li>
+                    <li><a href="research/">AI Research</a></li>
                     <li><a href="resume/">Resume</a></li>
                 </ul>
                 <div class="nav-actions">
@@ -50,7 +154,7 @@
                         <i class="fas fa-moon"></i>
                         <span class="sr-only">Switch to light mode</span>
                     </button>
-                    <a href="#contact" class="btn btn-primary nav-cta">Contact Me</a>
+                    <a href="#contact" class="btn btn-primary nav-cta">Work With Me</a>
                 </div>
             </div>
         </div>
@@ -59,17 +163,31 @@
     <header class="hero" id="top">
         <div class="hero-content">
             <div class="hero-text">
-                <span class="hero-label">Business Intelligence • Analytics Engineering</span>
-                <h1>Anthony Baptiste builds <span class="highlight">decision-ready analytics</span> for teams that need clarity.</h1>
-                <p>I build analytics that help teams make better decisions. I'm a senior at Northern Illinois University with experience across business intelligence, analytics engineering, operational reporting, and applied AI research.</p>
+                <span class="hero-label">BI Consulting • Operations Analytics • Applied AI</span>
+                <h1>I build <span class="highlight">decision systems</span> from messy business data.</h1>
+                <p>I help founders, operators, researchers, and small teams turn spreadsheets, CRMs, operational data, and research workflows into clear dashboards, trusted metrics, and AI-assisted reporting tools.</p>
                 <div class="hero-buttons">
-                    <a href="projects/" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me <i class="fas fa-arrow-right"></i></a>
+                    <a href="consulting/" class="btn btn-primary">See Consulting Offers</a>
+                    <a href="projects/" class="btn btn-secondary">View Case Studies <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="hero-badges" aria-label="Focus areas">
-                    <span>Operational reporting</span>
-                    <span>Applied AI research</span>
-                    <span>Decision support</span>
+                <div class="hero-badges" aria-label="Client outcomes">
+                    <span>Dashboards leaders trust</span>
+                    <span>Cleaner KPI reporting</span>
+                    <span>AI workflows with business context</span>
+                </div>
+                <div class="metric-strip" aria-label="Proof metrics">
+                    <div>
+                        <strong>30,000+</strong>
+                        <span>ZIP codes analyzed</span>
+                    </div>
+                    <div>
+                        <strong>10+ hrs</strong>
+                        <span>manual reporting saved weekly</span>
+                    </div>
+                    <div>
+                        <strong>20+ KPIs</strong>
+                        <span>standardized for reporting</span>
+                    </div>
                 </div>
             </div>
             <div class="hero-visual">
@@ -77,7 +195,7 @@
                     <img src="./images/abimage.jpeg" alt="Portrait of Anthony Baptiste">
                 </div>
                 <div class="hero-orbit" aria-hidden="true">
-                    <span>Analytics • BI • Research</span>
+                    <span>Analytics • BI • AI</span>
                 </div>
                 <span class="sparkle sparkle-one" aria-hidden="true"></span>
                 <span class="sparkle sparkle-two" aria-hidden="true"></span>
@@ -86,108 +204,141 @@
         </div>
     </header>
 
-    <section id="skills" class="skills">
+    <section id="services" class="skills">
         <div class="section-content">
             <div class="section-heading centered">
-                <span class="section-kicker">Specialties</span>
-                <h2>My <span class="italic-highlight">expertise</span></h2>
-                <p>The strongest through-line in my work is making data easier to trust, easier to explain, and more useful for the people making decisions.</p>
+                <span class="section-kicker">Services</span>
+                <h2>Consulting offers built around <span class="italic-highlight">business outcomes</span></h2>
+                <p>These are focused, practical engagements for teams that need useful reporting now, without turning analytics into a slow enterprise project.</p>
             </div>
-            <div class="skills-grid">
-                <article class="skill-card">
-                    <span class="skill-icon"><i class="fas fa-database"></i></span>
+            <div class="offer-grid">
+                <article class="offer-card">
+                    <span class="skill-icon"><i class="fas fa-chart-pie"></i></span>
                     <div>
-                        <h3>Programming &amp; Data</h3>
-                        <p>Hands-on data work across Python, SQL, and modeling workflows.</p>
+                        <p class="offer-eyebrow">Most useful first step</p>
+                        <h3>Analytics Clarity Audit</h3>
+                        <p>I review your current spreadsheets, dashboards, KPIs, and reporting process, then map what is broken, duplicated, missing, or hard to trust.</p>
                     </div>
-                    <ul>
-                        <li>Python, SQL, and C++</li>
-                        <li>Pandas, scikit-learn, and TensorFlow</li>
-                        <li>Feature engineering and predictive modeling</li>
+                    <ul class="offer-list">
+                        <li>KPI and dashboard review</li>
+                        <li>Reporting gap analysis</li>
+                        <li>Prioritized analytics roadmap</li>
                     </ul>
+                    <p class="offer-price">Starting at $750</p>
                 </article>
-                <article class="skill-card">
-                    <span class="skill-icon"><i class="fas fa-sitemap"></i></span>
+                <article class="offer-card featured-offer">
+                    <span class="skill-icon"><i class="fas fa-table"></i></span>
                     <div>
-                        <h3>Analytics Engineering</h3>
-                        <p>Reliable transformation layers built for reporting, testing, and shared metrics.</p>
+                        <p class="offer-eyebrow">Best client offer</p>
+                        <h3>Dashboard &amp; Reporting Sprint</h3>
+                        <p>I design and build a working reporting system using tools like Tableau, Power BI, SQL, Excel, or Looker Studio so your team can see what is happening faster.</p>
                     </div>
-                    <ul>
-                        <li>dbt and ELT workflows</li>
-                        <li>Star schema data modeling</li>
-                        <li>Testing, documentation, and metric definitions</li>
+                    <ul class="offer-list">
+                        <li>Cleaned reporting dataset</li>
+                        <li>Interactive dashboard or KPI pack</li>
+                        <li>Metric definitions and handoff notes</li>
                     </ul>
+                    <p class="offer-price">$3,500-$10,000 typical range</p>
                 </article>
-                <article class="skill-card">
-                    <span class="skill-icon"><i class="fas fa-chart-bar"></i></span>
+                <article class="offer-card">
+                    <span class="skill-icon"><i class="fas fa-robot"></i></span>
                     <div>
-                        <h3>BI &amp; Decision Support</h3>
-                        <p>Dashboards and KPI systems that make operational and executive reporting more useful.</p>
+                        <p class="offer-eyebrow">Premium differentiator</p>
+                        <h3>Applied AI Workflow Prototype</h3>
+                        <p>I help research teams, consultants, and operators prototype AI-assisted workflows for summarization, interview simulation, reporting, and decision support.</p>
                     </div>
-                    <ul>
-                        <li>Tableau and Power BI</li>
-                        <li>Executive dashboards and KPI development</li>
-                        <li>Geospatial and operational analytics</li>
+                    <ul class="offer-list">
+                        <li>Custom GPT or Streamlit prototype</li>
+                        <li>Prompt and workflow design</li>
+                        <li>Responsible use documentation</li>
                     </ul>
-                </article>
-                <article class="skill-card">
-                    <span class="skill-icon"><i class="fas fa-cogs"></i></span>
-                    <div>
-                        <h3>Platforms &amp; Workflow</h3>
-                        <p>Cross-functional tooling experience across cloud, databases, and business systems.</p>
-                    </div>
-                    <ul>
-                        <li>PostgreSQL, Snowflake, and Salesforce</li>
-                        <li>GCP, AWS, Docker, Git, and GitHub</li>
-                        <li>Supply chain, operations, and market research contexts</li>
-                    </ul>
+                    <p class="offer-price">Scoped by project</p>
                 </article>
             </div>
-            <p class="skills-note">I'm strongest in environments where clean data, clear reporting, and strong communication all matter equally.</p>
+            <div class="service-cta">
+                <p>Best fit: startups, research groups, nonprofits with funding, local operators, supply chain teams, and small businesses with data they do not fully trust yet.</p>
+                <a href="consulting/" class="btn btn-primary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="proof" class="projects">
+        <div class="section-content">
+            <div class="section-heading centered">
+                <span class="section-kicker">Proof</span>
+                <h2>Work that shows the <span class="italic-highlight">client value</span></h2>
+                <p>My best work sits where technical analytics, business operations, and clear communication overlap.</p>
+            </div>
+            <div class="proof-grid">
+                <article class="proof-card">
+                    <span class="proof-number">01</span>
+                    <h3>Operational BI at Shipt</h3>
+                    <p>Built Tableau reporting and automated workflows for network planning and market operations, helping teams monitor performance and interpret operational movement.</p>
+                </article>
+                <article class="proof-card">
+                    <span class="proof-number">02</span>
+                    <h3>Analytics Engineering Platform</h3>
+                    <p>Created a full CSV-to-database-to-dbt workflow with validation, star schema modeling, and reporting-ready SQL for operational and product analysis.</p>
+                </article>
+                <article class="proof-card">
+                    <span class="proof-number">03</span>
+                    <h3>HAVI Forecasting Challenge</h3>
+                    <p>Built demand forecasting workflows using historical demand, calendar, weather, promotion features, and gradient boosting models for QSR supply chain planning.</p>
+                </article>
+                <article class="proof-card">
+                    <span class="proof-number">04</span>
+                    <h3>AI Research Workflow Tools</h3>
+                    <p>Developed persona-based interview simulation and transcript comparison workflows that help researchers test protocols before drawing larger conclusions.</p>
+                </article>
+            </div>
+            <div class="project-buttons centered-actions">
+                <a href="projects/" class="btn btn-primary">View Case Studies</a>
+                <a href="experience/" class="btn btn-secondary">See Experience</a>
+            </div>
         </div>
     </section>
 
     <section id="about" class="about">
         <div class="section-content">
             <div class="section-heading">
-                <span class="section-kicker">About</span>
-                <h2>Analytics work grounded in <span class="italic-highlight">business context</span></h2>
+                <span class="section-kicker">Positioning</span>
+                <h2>Analytics consulting grounded in <span class="italic-highlight">operations and research</span></h2>
             </div>
             <div class="about-grid">
                 <div class="about-narrative">
-                    <p>I'm an Operations &amp; Information Management major with a Computer Science minor at Northern Illinois University, and my work has mostly focused on helping teams use data more clearly and confidently. I'm especially drawn to problems that sit between analytics, reporting, and business decision-making.</p>
-                    <p>My experience includes operational analytics at Shipt, reporting and dashboard work at Innovation DuPage, consulting through NIU's Experiential Learning Center, and research at the NIU College of Business on how AI-generated personas and simulated interviews can support qualitative research design. Across those experiences, I’ve spent a lot of time turning messy information into dashboards, frameworks, and insights that people can actually use.</p>
-                    <p>I enjoy the mix of technical and business thinking that comes with analytics work: understanding the problem, structuring the data, building something reliable, and communicating it in a way that makes sense to stakeholders. That’s the kind of work I want to keep doing in business intelligence, analytics engineering, data engineering, and related roles.</p>
+                    <p>I am an Operations &amp; Information Management major with a Computer Science minor at Northern Illinois University. My background combines BI, analytics engineering, operational reporting, supply chain analytics, and applied AI research.</p>
+                    <p>That mix matters for consulting because most teams do not just need a dashboard. They need someone who can understand the decision, clean up the data path, define the metrics, build the reporting, and explain what changed in plain business language.</p>
+                    <p>I am especially strong with teams that have useful data trapped in spreadsheets, Salesforce, operations systems, research transcripts, or one-off reporting processes. My job is to turn that into something repeatable, credible, and easier to act on.</p>
                 </div>
                 <aside class="process-panel">
-                    <h3>How I approach the work</h3>
+                    <h3>How engagements work</h3>
                     <div class="process-list">
                         <div class="process-item">
                             <span class="process-number">01</span>
                             <div>
-                                <h4>Understand the decision</h4>
-                                <p>I start with the question behind the reporting request so the analysis stays tied to a real business need.</p>
+                                <h4>Find the decision</h4>
+                                <p>We define the business question, audience, current reporting pain, and what action the output should support.</p>
                             </div>
                         </div>
                         <div class="process-item">
                             <span class="process-number">02</span>
                             <div>
-                                <h4>Build a reliable data layer</h4>
-                                <p>Clean transformations, clear metric definitions, and structure matter when people need to trust the output.</p>
+                                <h4>Clean the signal</h4>
+                                <p>I structure the source data, clarify metrics, and reduce the manual work that makes reporting hard to trust.</p>
                             </div>
                         </div>
                         <div class="process-item">
                             <span class="process-number">03</span>
                             <div>
-                                <h4>Translate findings clearly</h4>
-                                <p>I focus on dashboards, summaries, and recommendations that stakeholders can actually use.</p>
+                                <h4>Build the tool</h4>
+                                <p>The deliverable may be a dashboard, SQL layer, reporting pack, forecast, Streamlit app, or AI-assisted workflow.</p>
                             </div>
                         </div>
                         <div class="process-item">
                             <span class="process-number">04</span>
                             <div>
-                                <h4>Keep iterating</h4>
-                                <p>The best analytics work gets sharper through feedback, context, and repeated refinement.</p>
+                                <h4>Hand it off clearly</h4>
+                                <p>You get documentation, recommendations, and a plain-language explanation of what to watch next.</p>
                             </div>
                         </div>
                     </div>
@@ -199,7 +350,7 @@
     <section id="testimonials" class="testimonials">
         <div class="section-content">
             <div class="section-heading centered">
-                <span class="section-kicker">Testimonials</span>
+                <span class="section-kicker">Trust</span>
                 <h2>What collaborators say about the <span class="italic-highlight">work</span></h2>
             </div>
             <div class="testimonials-grid">
@@ -235,22 +386,22 @@
         <div class="section-content">
             <div class="contact-panel">
                 <div>
-                    <span class="section-kicker">Contact</span>
-                    <h2>Let’s connect around analytics, BI, and applied AI work.</h2>
-                    <p>I'm currently exploring internships and full-time opportunities in business intelligence, analytics engineering, data engineering, and data science. If you're hiring for roles where analytics supports real business and operational decisions, I'd love to connect.</p>
+                    <span class="section-kicker">Work With Me</span>
+                    <h2>Have data, dashboards, or AI workflow ideas that need to become useful?</h2>
+                    <p>Send me a short note about the decision you are trying to support, the data you have, and what your team is currently doing manually. I am available for select consulting projects and analytics roles.</p>
                 </div>
                 <div class="contact-links">
-                    <a href="mailto:AnthonyBaptiste00@gmail.com" class="contact-item">
+                    <a href="mailto:AnthonyBaptiste00@gmail.com?subject=Analytics%20consulting%20project" class="contact-item">
                         <i class="fas fa-envelope"></i>
-                        <span>AnthonyBaptiste00@gmail.com</span>
+                        <span>Start a Project</span>
                     </a>
                     <a href="https://www.linkedin.com/in/anthony-baptiste00/" class="contact-item" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-linkedin-in"></i>
-                        <span>LinkedIn Profile</span>
+                        <span>Connect on LinkedIn</span>
                     </a>
-                    <a href="https://github.com/AntBap23" class="contact-item" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i>
-                        <span>GitHub Profile</span>
+                    <a href="resume/" class="contact-item">
+                        <i class="fas fa-file-alt"></i>
+                        <span>View Resume</span>
                     </a>
                 </div>
             </div>
@@ -262,26 +413,25 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a class="footer-logo" href="./">AB</a>
-                    <p>Portfolio of Anthony Baptiste, focused on business intelligence, analytics engineering, operational reporting, and applied AI research.</p>
+                    <p>Analytics consulting and BI systems by Anthony Baptiste, focused on dashboards, reporting workflows, operations analytics, and applied AI tools.</p>
                 </div>
                 <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <a href="./">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#testimonials">Testimonials</a>
-                    <a href="#contact">Contact</a>
+                    <h3>Services</h3>
+                    <a href="consulting/">Consulting</a>
+                    <a href="#services">Offers</a>
+                    <a href="#proof">Proof</a>
+                    <a href="#contact">Work With Me</a>
                 </div>
                 <div class="footer-column">
                     <h3>Portfolio</h3>
-                    <a href="projects/">Projects</a>
-                    <a href="competitions/">Extracurriculars</a>
+                    <a href="projects/">Case Studies</a>
                     <a href="experience/">Experience</a>
-                    <a href="research/">Research</a>
+                    <a href="research/">AI Research</a>
+                    <a href="competitions/">Community</a>
                     <a href="resume/">Resume</a>
                 </div>
                 <div class="footer-column">
-                    <h3>Contact Info</h3>
+                    <h3>Contact</h3>
                     <a href="mailto:AnthonyBaptiste00@gmail.com">AnthonyBaptiste00@gmail.com</a>
                     <a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer">GitHub</a>

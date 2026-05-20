@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://antbap23.github.io/portfolio/sitemap.xml
