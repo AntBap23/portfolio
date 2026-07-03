@@ -278,11 +278,13 @@ html.js-enabled .page-shell > section:first-of-type {
     grid-template-columns: minmax(0, 820px);
     gap: 2rem;
     align-items: center;
+    min-width: 0;
 }
 
 .hero-text {
     display: grid;
     gap: 1.15rem;
+    min-width: 0;
 }
 
 .section-kicker,
@@ -314,11 +316,14 @@ h4 {
 h1 {
     font-size: clamp(2.35rem, 5vw, 3.2rem);
     line-height: 1.08;
+    overflow-wrap: break-word;
+    text-wrap: balance;
 }
 
 h2 {
     font-size: clamp(1.85rem, 4vw, 2.35rem);
     line-height: 1.12;
+    text-wrap: balance;
 }
 
 h3 {
@@ -420,7 +425,36 @@ p {
 }
 
 .metric-strip {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    width: min(100%, 780px);
+    margin-top: 0.35rem;
+}
+
+.metric-strip div {
+    min-width: 0;
+    padding: 0.85rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.metric-strip strong {
+    display: block;
+    color: var(--white);
+    font-size: clamp(1.35rem, 3vw, 1.85rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+}
+
+.metric-strip span {
+    display: block;
+    margin-top: 0.3rem;
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 11px;
+    line-height: 1.35;
 }
 
 .hero-visual {
@@ -575,6 +609,7 @@ p {
 .offer-grid,
 .proof-grid,
 .value-grid,
+.tool-stack-grid,
 .projects-grid,
 .research-grid,
 .research-presentations,
@@ -595,6 +630,7 @@ p {
 .svc-card,
 .proof-card,
 .value-card,
+.tool-stack-card,
 .faq-card,
 .project-card,
 .project-item,
@@ -616,6 +652,7 @@ p {
 .offer-card,
 .proof-card,
 .value-card,
+.tool-stack-card,
 .faq-card,
 .project-info,
 .project-item,
@@ -730,9 +767,31 @@ p {
     background: var(--gray);
 }
 
-.proof-grid,
-.value-grid {
+.proof-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.value-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.tool-stack-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-bottom: 4rem;
+}
+
+.tool-stack-card {
+    display: grid;
+    gap: 0.65rem;
+    padding: 1.25rem;
+}
+
+.tool-stack-card h3 {
+    color: var(--blue);
+}
+
+.tool-stack-card p {
+    font-size: 13px;
 }
 
 .proof-card {
@@ -891,6 +950,11 @@ p {
 .page-intro > * {
     position: relative;
     z-index: 1;
+    min-width: 0;
+}
+
+.page-intro h1 {
+    max-width: 980px;
 }
 
 .consulting-page .section-content,
@@ -1232,6 +1296,7 @@ p {
     .offer-grid,
     .proof-grid,
     .value-grid,
+    .tool-stack-grid,
     .stats-inner {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -1254,6 +1319,15 @@ p {
         padding-right: 1rem;
     }
 
+    .section-content,
+    .stats-inner,
+    .footer-content {
+        width: min(100%, 22.5rem);
+        max-width: 22.5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .hero {
         padding-top: 3rem;
         padding-bottom: 3.5rem;
@@ -1267,6 +1341,31 @@ p {
 
     .hero-content {
         grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+        max-width: min(100%, 20.5rem);
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero-text,
+    .hero-text > *,
+    .page-intro > * {
+        justify-self: start;
+        width: min(100%, 20.5rem) !important;
+        max-width: 20.5rem !important;
+    }
+
+    .hero h1,
+    .page-intro h1 {
+        font-size: clamp(1.9rem, 8.2vw, 2.3rem);
+        line-height: 1.08;
+        text-wrap: wrap;
+        overflow-wrap: anywhere;
+    }
+
+    .hero-text > p,
+    .page-intro > p {
+        overflow-wrap: break-word;
     }
 
     .hero-widget {
@@ -1276,6 +1375,7 @@ p {
     .offer-grid,
     .proof-grid,
     .value-grid,
+    .tool-stack-grid,
     .faq-grid,
     .consulting-split,
     .stats-inner,
@@ -1311,6 +1411,11 @@ p {
     .cta-bottom-btns {
         align-items: stretch;
         flex-direction: column;
+    }
+
+    .metric-strip {
+        grid-template-columns: 1fr;
+        width: 100%;
     }
 
     .btn,

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://antbap23.github.io/portfolio/sitemap.xml
+Sitemap: https://anthony-baptiste.com/sitemap.xml

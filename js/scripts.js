@@ -103,6 +103,32 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    document.querySelectorAll('a[href]').forEach((link) => {
+        link.addEventListener('click', () => {
+            if (typeof window.gtag !== 'function') {
+                return;
+            }
+
+            const href = link.getAttribute('href') || '';
+            let eventName = '';
+
+            if (href.includes('calendly.com')) {
+                eventName = 'lead_click_calendly';
+            } else if (href.startsWith('mailto:')) {
+                eventName = 'lead_click_email';
+            } else if (href.includes('linkedin.com')) {
+                eventName = 'lead_click_linkedin';
+            }
+
+            if (eventName) {
+                window.gtag('event', eventName, {
+                    link_url: href,
+                    link_text: link.textContent.trim()
+                });
+            }
+        });
+    });
+
     const sections = document.querySelectorAll('section');
     root.classList.add('js-enabled');
 
