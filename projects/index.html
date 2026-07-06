@@ -12,10 +12,103 @@
     <meta property="og:description" content="BI, operations analytics, analytics engineering, forecasting, and experimentation case studies.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://anthony-baptiste.com/projects/">
-    <meta property="og:image" content="https://anthony-baptiste.com/images/abimage.jpeg">
+    <meta property="og:image" content="https://anthony-baptiste.com/images/og-card.png">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="/favicon.png" sizes="any">
     <link rel="apple-touch-icon" href="/images/abimage.jpeg">
+    <meta name="twitter:title" content="Analytics Case Studies | Anthony Baptiste">
+    <meta name="twitter:description" content="BI, operations analytics, analytics engineering, forecasting, and experimentation case studies.">
+    <meta name="twitter:image" content="https://anthony-baptiste.com/images/og-card.png">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://anthony-baptiste.com/projects/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://anthony-baptiste.com/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Case Studies",
+                            "item": "https://anthony-baptiste.com/projects/"
+                        }
+                    ]
+                },
+                {
+                    "@type": "ItemList",
+                    "@id": "https://anthony-baptiste.com/projects/#case-studies",
+                    "name": "Analytics Case Studies by Anthony Baptiste",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@type": "CreativeWork",
+                                "name": "Enterprise Operations Intelligence Platform",
+                                "url": "https://github.com/AntBap23/Enterprise_BI_Project_Repo",
+                                "about": "Analytics engineering, BI dashboards, dimensional modeling, data quality, and operational reporting.",
+                                "keywords": "Python, PostgreSQL, dbt, SQL, Tableau, analytics engineering",
+                                "text": "Anthony Baptiste built an end-to-end analytics engineering workflow that moves raw CSV files through validation, PostgreSQL, dbt transformations, dimensional modeling, data quality checks, and dashboard-ready SQL for operational and product analysis."
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "item": {
+                                "@type": "CreativeWork",
+                                "name": "HAVI Hackathon Demand Forecasting",
+                                "url": "https://github.com/AntBap23/Havi-Hackathon-2026",
+                                "about": "QSR demand forecasting, supply chain analytics, time-based validation, and wMAPE modeling.",
+                                "keywords": "Python, LightGBM, scikit-learn, forecasting, supply chain analytics",
+                                "text": "Anthony Baptiste built a demand forecasting workflow for the HAVI and NIU Quick Service Restaurant Demand Forecasting Challenge using calendar, weather, promotion, historical demand, and gradient boosting features."
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "item": {
+                                "@type": "CreativeWork",
+                                "name": "Ecommerce Strategy Analysis - A/B Testing",
+                                "url": "https://github.com/AntBap23/Ecommerce-Analysis",
+                                "about": "A/B testing, experiment validation, ecommerce analytics, SQL analysis, and business interpretation.",
+                                "keywords": "Python, SQL, Pandas, A/B testing, statistical analysis",
+                                "text": "Anthony Baptiste analyzed an ecommerce A/B test by cleaning experiment data, validating control and treatment setup, and comparing conversion behavior and session engagement before translating the results into business interpretation."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://anthony-baptiste.com/projects/#faq",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "What's the difference between an analytics audit and a dashboard build?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A dashboard build creates the reporting asset itself, including cleaned data, visual views, KPI definitions, QA checks, and handoff notes."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Can Anthony Baptiste analyze Adobe Target or A/B test results?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Anthony Baptiste can analyze A/B and multivariate tests, including Adobe Target and AB Tasty contexts, by checking setup quality, traffic splits, audience logic, KPI movement, segments, and business implications."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    </script>
     <script>
         (function () {
             try {
@@ -70,6 +163,10 @@
                 <span class="section-kicker">Case Studies</span>
                 <h1>Proof that I can turn data into decision support.</h1>
                 <p>These examples show the consulting value behind my work: cleaner reporting foundations, clearer operational metrics, better forecasting workflows, and business-facing analytics outputs.</p>
+                <div class="hero-buttons">
+                    <a href="https://calendly.com/anthonybaptiste00" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Book a Discovery Call</a>
+                    <a href="../consulting/" class="btn btn-secondary">See Consulting Offers</a>
+                </div>
             </div>
 
             <div class="projects-grid">
@@ -77,6 +174,13 @@
                     <div class="project-info">
                         <h3>Enterprise Operations Intelligence Platform</h3>
                         <p>I built this as an end-to-end analytics engineering and BI workflow for the kind of problem many growing teams face: raw files exist, but the data is not ready for trusted reporting. The project moves from CSV cleaning and validation into PostgreSQL, dbt transformations, dimensional modeling, data quality checks, and dashboard-oriented SQL for operational and product analysis.</p>
+                        <div class="case-steps">
+                            <p><strong>Decision:</strong> Give operators a trustworthy view of product and operational performance from raw files.</p>
+                            <p><strong>Data:</strong> CSV inputs cleaned and validated before loading into PostgreSQL and dbt models.</p>
+                            <p><strong>What I built:</strong> Dimensional models, data quality checks, and dashboard-ready SQL for analysis.</p>
+                            <p><strong>Result:</strong> A repeatable BI foundation that shows how messy source files can become decision-ready reporting.</p>
+                            <p><strong>What to watch next:</strong> Refresh reliability, metric ownership, and whether stakeholders act from the same definitions.</p>
+                        </div>
                         <div class="project-tags">
                             <span>Python</span>
                             <span>PostgreSQL</span>
@@ -94,6 +198,13 @@
                     <div class="project-info">
                         <h3>Havi Hackathon - Demand Forecasting</h3>
                         <p>This project was built for the HAVI / NIU Quick Service Restaurant Demand Forecasting Challenge, where the business problem was predicting daily menu-item demand by restaurant. The workflow combined exploratory analysis, time-based validation, calendar, weather, promotion, and historical demand features, plus gradient boosting models designed around the competition's wMAPE objective.</p>
+                        <div class="case-steps">
+                            <p><strong>Decision:</strong> Improve demand planning for daily restaurant menu-item volume.</p>
+                            <p><strong>Data:</strong> Historical demand joined with calendar, weather, promotion, and restaurant-level context.</p>
+                            <p><strong>What I built:</strong> A time-aware validation workflow and gradient boosting models aligned to wMAPE.</p>
+                            <p><strong>Result:</strong> A forecasting approach that connected model evaluation to a supply chain planning question.</p>
+                            <p><strong>What to watch next:</strong> Forecast drift, promotion effects, item-level bias, and planning adoption.</p>
+                        </div>
                         <div class="project-tags">
                             <span>Python</span>
                             <span>LightGBM</span>
@@ -112,6 +223,13 @@
                     <div class="project-info">
                         <h3>Ecommerce Strategy Analysis - A/B Testing</h3>
                         <p>This project analyzes an ecommerce A/B test by cleaning experiment data, validating the control and treatment setup, and comparing conversion behavior and session engagement across groups and countries. It demonstrates how experimentation work should connect data validation, SQL analysis, Python workflows, and business interpretation before a team acts on test results.</p>
+                        <div class="case-steps">
+                            <p><strong>Decision:</strong> Understand whether an ecommerce test produced a credible conversion signal.</p>
+                            <p><strong>Data:</strong> Experiment assignments, sessions, country segments, and conversion behavior.</p>
+                            <p><strong>What I built:</strong> A Python and SQL workflow for cleaning, validation, group comparison, and interpretation.</p>
+                            <p><strong>Result:</strong> A clearer readout of test behavior before turning analysis into a business recommendation.</p>
+                            <p><strong>What to watch next:</strong> Sample quality, segment-level effects, test duration, and repeated learning across future tests.</p>
+                        </div>
                         <div class="project-tags">
                             <span>Python</span>
                             <span>SQL</span>
@@ -196,6 +314,22 @@
                     </div>
                 </div>
             </div>
+
+            <div id="faq" class="section-heading centered consulting-proof-heading">
+                <span class="section-kicker">FAQ</span>
+                <h2>How to read these case studies</h2>
+            </div>
+            <div class="faq-grid">
+                <article class="faq-card">
+                    <h3>What's the difference between an analytics audit and a dashboard build?</h3>
+                    <p>An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A dashboard build creates the reporting asset itself, including cleaned data, visual views, KPI definitions, QA checks, and handoff notes.</p>
+                </article>
+                <article class="faq-card">
+                    <h3>Can you analyze Adobe Target / A/B test results?</h3>
+                    <p>I can analyze A/B and multivariate tests, including Adobe Target and AB Tasty contexts, by checking setup quality, traffic splits, audience logic, KPI movement, segments, and business implications.</p>
+                </article>
+            </div>
+            <p class="last-updated">Last updated July 6, 2026.</p>
         </div>
     </section>
 

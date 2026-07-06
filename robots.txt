@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+# AI crawlers are intentionally allowed for now so search and answer engines can index the public consulting pages.
 Sitemap: https://anthony-baptiste.com/sitemap.xml

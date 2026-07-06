@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Anthony Baptiste Analytics Consulting</title>
+  <desc id="desc">Brand card for Anthony Baptiste, Analytics Consultant and BI Developer.</desc>
+  <rect width="1200" height="630" fill="#0b1d35"/>
+  <circle cx="1010" cy="120" r="210" fill="#1b69f0" opacity="0.22"/>
+  <circle cx="1090" cy="500" r="280" fill="#4b8cf5" opacity="0.12"/>
+  <rect x="72" y="72" width="1056" height="486" rx="18" fill="#ffffff" opacity="0.06" stroke="#ffffff" stroke-opacity="0.16"/>
+  <text x="112" y="178" fill="#4b8cf5" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="4">ANALYTICS CONSULTANT AND BI DEVELOPER</text>
+  <text x="112" y="286" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="800">Anthony Baptiste</text>
+  <text x="112" y="368" fill="#d9e6ff" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">Analytics &amp; BI Consulting</text>
+  <text x="112" y="440" fill="#b9c7dd" font-family="Inter, Arial, sans-serif" font-size="29">Dashboards, KPI reporting, experimentation readouts,</text>
+  <text x="112" y="484" fill="#b9c7dd" font-family="Inter, Arial, sans-serif" font-size="29">and practical AI workflow prototypes.</text>
+  <text x="112" y="536" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">Chicago / Northern Illinois / Remote</text>
+</svg>
