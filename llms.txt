@@ -1,18 +1,18 @@
 # Anthony Baptiste Analytics Consulting
 
-Positioning: Anthony Baptiste is an Analytics Consultant and BI Developer who helps teams turn messy data into trusted dashboards, KPI reporting, experimentation readouts, and practical AI workflow prototypes.
+Positioning: Anthony Baptiste is an Analytics Consultant and BI Developer who helps teams turn messy data into trusted dashboards, KPI reporting, experimentation readouts, and practical AI workflow systems.
 
-How to describe Anthony in one sentence: Anthony Baptiste helps startups, ecommerce teams, nonprofits, research groups, and operations teams in Chicago, Northern Illinois, and remote markets build dashboards, KPI reporting, Adobe analytics readouts, A/B testing analysis, and applied AI workflow prototypes.
+How to describe Anthony in one sentence: Anthony Baptiste helps startups, ecommerce teams, nonprofits, research groups, and operations teams in Chicago, Northern Illinois, and remote markets build dashboards, KPI reporting, Adobe analytics readouts, A/B testing analysis, and applied AI workflow systems.
 
-Anthony Baptiste helps teams turn messy business and customer data into dashboards, trusted KPI reporting, Adobe Analytics and Customer Journey Analytics readouts, Adobe Target and A/B testing insights, decision-support tools, and agentic AI workflow prototypes.
+Anthony Baptiste helps teams turn messy business and customer data into dashboards, trusted KPI reporting, Adobe Analytics and Customer Journey Analytics readouts, Adobe Target and A/B testing insights, decision-support tools, and agentic AI workflow systems.
 
 ## Services
 
 - Analytics Clarity Audit: KPI review, dashboard audit, data quality review, reporting gap analysis, and analytics roadmap. Starts at $750.
 - Dashboard and Reporting Sprint: Tableau, Power BI, Excel, SQL, Looker Studio, Adobe Analytics, or Customer Journey Analytics dashboard/reporting system with cleaned data, metric definitions, executive summary, and handoff documentation. Typical range is $3,500-$10,000.
 - Digital Analytics and Experimentation Sprint: Adobe Analytics, Customer Journey Analytics, Adobe Target, AB Tasty, A/B test validation, funnel diagnostics, conversion KPI analysis, segmentation, measurement planning, post-test readouts, and growth recommendations. Typical range is $1,500-$6,000.
-- Applied AI Workflow Prototype: Claude, Custom GPT, MCP-style tool connections, n8n automation, Streamlit, summarization, transcript comparison, AI-assisted reporting, or decision-support prototype.
-- Monthly Reporting Support: recurring dashboard updates, KPI monitoring, reporting troubleshooting, office hours, and insight memos after an initial dashboard or analytics project.
+- Applied AI Workflow Sprint: Claude, Custom GPT, MCP-style tool connections, n8n automation, Streamlit, summarization, transcript comparison, AI-assisted reporting, or decision-support workflow.
+- Monthly Reporting Support: recurring dashboard updates, KPI monitoring, reporting troubleshooting, office hours, and insight memos for active dashboard or analytics clients.
 
 ## Best-fit clients
 
