@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-labelledby="title">
+  <title id="title">Innovation DuPage logo</title>
+  <rect width="360" height="120" rx="18" fill="#ffffff"/>
+  <circle cx="69" cy="58" r="28" fill="#1b69f0"/>
+  <path d="M58 58h22m-11-11v22" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M95 45c9-15 28-22 45-14" fill="none" stroke="#18a058" stroke-width="8" stroke-linecap="round"/>
+  <text x="118" y="55" fill="#10223a" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800">Innovation</text>
+  <text x="118" y="84" fill="#1b69f0" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800">DuPage</text>
+</svg>
