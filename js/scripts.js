@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const navPanel = document.querySelector('.nav-panel');
     const scrollToTopButton = document.getElementById('scrollToTop');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    document.querySelectorAll('.spotlight-card').forEach((card) => {
+        card.addEventListener('pointermove', (event) => {
+            const rect = card.getBoundingClientRect();
+            const x = ((event.clientX - rect.left) / rect.width) * 100;
+            const y = ((event.clientY - rect.top) / rect.height) * 100;
+
+            card.style.setProperty('--mouse-x', `${x}%`);
+            card.style.setProperty('--mouse-y', `${y}%`);
+        });
+    });
 
     const storage = {
         get(key) {
@@ -96,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             event.preventDefault();
             target.scrollIntoView({
-                behavior: 'smooth',
+                behavior: prefersReducedMotion.matches ? 'auto' : 'smooth',
                 block: 'start'
             });
             closeNavMenu();
@@ -118,12 +130,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 eventName = 'lead_click_email';
             } else if (href.includes('linkedin.com')) {
                 eventName = 'lead_click_linkedin';
+            } else if (href.includes('kpi-dashboard-readiness-checklist.pdf')) {
+                eventName = 'resource_click_kpi_checklist';
             }
 
             if (eventName) {
+                const section = link.closest('section, nav, footer');
                 window.gtag('event', eventName, {
                     link_url: href,
-                    link_text: link.textContent.trim()
+                    link_text: link.textContent.trim(),
+                    link_location: section?.id || section?.className || 'unknown'
                 });
             }
         });
@@ -193,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
         scrollToTopButton.addEventListener('click', () => {
             window.scrollTo({
                 top: 0,
-                behavior: 'smooth'
+                behavior: prefersReducedMotion.matches ? 'auto' : 'smooth'
             });
         });
     }

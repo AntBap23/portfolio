@@ -36,7 +36,10 @@ Anthony Baptiste helps teams turn messy business and customer data into dashboar
 ## Contact
 
 - Website: https://anthony-baptiste.com/
-- Services: https://anthony-baptiste.com/consulting/
+- Consulting overview: https://anthony-baptiste.com/consulting/
+- Consulting services and pricing: https://anthony-baptiste.com/consulting/services/
+- Consulting process and project fit: https://anthony-baptiste.com/consulting/process/
+- About Anthony's consulting approach: https://anthony-baptiste.com/consulting/about/
 - Case studies: https://anthony-baptiste.com/projects/
 - Experience proof: https://anthony-baptiste.com/experience/
 - Applied AI research: https://anthony-baptiste.com/research/
