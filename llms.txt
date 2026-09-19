@@ -1,36 +1,36 @@
-# Anthony Baptiste Analytics Consulting
+# Anthony Baptiste - Digital Experimentation and Product Analytics
 
-Positioning: Anthony Baptiste is an Analytics Consultant and BI Developer who helps teams turn messy data into trusted dashboards, KPI reporting, experimentation readouts, and practical AI workflow systems.
+Positioning: Anthony Baptiste is a Digital Experimentation Analyst at Ulta Beauty working across product analytics, A/B and multivariate testing, measurement strategy, KPI definition, and decision-ready analysis.
 
-How to describe Anthony in one sentence: Anthony Baptiste helps startups, ecommerce teams, nonprofits, research groups, and operations teams in Chicago, Northern Illinois, and remote markets build dashboards, KPI reporting, Adobe analytics readouts, A/B testing analysis, and applied AI workflow systems.
+How to describe Anthony in one sentence: Anthony Baptiste turns customer behavior, product metrics, and experiment results into clearer digital decisions through his full-time role, portfolio work, and independent consulting.
 
-Anthony Baptiste helps teams turn messy business and customer data into dashboards, trusted KPI reporting, Adobe Analytics and Customer Journey Analytics readouts, Adobe Target and A/B testing insights, decision-support tools, and agentic AI workflow systems.
+His professional background includes digital experimentation at Ulta Beauty, network planning and Tableau reporting at Shipt, KPI reporting at Innovation DuPage, growth consulting for Mystery Street Recording Company, and GPT-based qualitative research at Northern Illinois University.
 
-## Services
+## Independent consulting
 
-- Analytics Clarity Audit: KPI review, dashboard audit, data quality review, reporting gap analysis, and analytics roadmap. Starts at $750.
-- Dashboard and Reporting Sprint: Tableau, Power BI, Excel, SQL, Looker Studio, Adobe Analytics, or Customer Journey Analytics dashboard/reporting system with cleaned data, metric definitions, executive summary, and handoff documentation. Typical range is $3,500-$10,000.
-- Digital Analytics and Experimentation Sprint: Adobe Analytics, Customer Journey Analytics, Adobe Target, AB Tasty, A/B test validation, funnel diagnostics, conversion KPI analysis, segmentation, measurement planning, post-test readouts, and growth recommendations. Typical range is $1,500-$6,000.
-- Applied AI Workflow Sprint: Claude, Custom GPT, MCP-style tool connections, n8n automation, Streamlit, summarization, transcript comparison, AI-assisted reporting, or decision-support workflow.
-- Monthly Reporting Support: recurring dashboard updates, KPI monitoring, reporting troubleshooting, office hours, and insight memos for active dashboard or analytics clients.
+- Product Analytics Decision Sprint: a 10-business-day engagement covering KPI definition, funnel or customer-behavior analysis, a decision-ready dashboard or analysis pack, three to five prioritized findings, and a 90-day measurement roadmap. Launch rate: $750-$1,250.
+- Dashboard and Measurement Build: a 3-5 week project covering KPI definitions, a reusable dashboard or reporting model, QA checks, documentation, and handoff. Project range: $1,500-$3,500.
+- Fractional Product Analytics Partner: ongoing support capped at 5-8 hours per week with a three-month minimum, written updates, two scheduled review calls per month, and agreed monthly priorities. Monthly range: $1,500-$3,000.
+- Work is limited, async-first, and scheduled outside Anthony's full-time role. Fractional support is not embedded 9-5 or on-call coverage.
+- Clients provide relevant data exports or least-privilege access and any required paid platform license. Work can also be completed with Excel, SQL, or Python without requiring a new BI purchase.
+- Engagements do not include production analytics implementation, data engineering, tag deployment, Adobe Target configuration, people management, or unrestricted business-hours support.
 
 ## Best-fit clients
 
 - Startups with messy operations, sales, customer, program, or reporting data.
-- Ecommerce, digital product, and growth teams that need cleaner funnel measurement, customer journey analytics, Adobe Analytics, Adobe Target testing analysis, campaign reporting, or customer behavior insights.
+- Small SaaS, membership, marketplace, nonprofit, and service teams that need clearer funnel measurement, KPI strategy, segmentation, or customer-behavior insights.
 - Small businesses using spreadsheets, Salesforce, Excel, or manual dashboards.
 - Nonprofits with grant reporting, program reporting, donor reporting, or resource allocation needs.
-- University research teams exploring AI-assisted research workflows.
-- Logistics, delivery, QSR, supply chain, service, and operations-heavy teams.
-- Chicago, Northern Illinois, United States, and remote clients.
+- Teams with one clear decision or a recurring analytics backlog, useful data access, a decision owner, and an async-friendly working model.
+- Projects must not create a conflict with Anthony's employer or involve employer-confidential information.
 
 ## Proof points
 
 - Shipt Network Planning Analyst Intern: built Tableau geospatial analytics across 30,000+ ZIP codes, automated SQL/Python reporting workflows, eliminated 10+ hours of manual reporting per week, supported 5+ planning teams, and improved KPI visibility by 30%.
 - Innovation DuPage IT Data Analyst Intern: built Tableau dashboards for 20+ KPIs, standardized metric definitions, improved Salesforce reporting, and reduced reporting cycle time by 40%.
-- Mystery Street Recording Company Student Consultant: analyzed SEO, campaign KPIs, engagement data, and 15+ competitor studios to produce audience segments, KPI frameworks, and leadership recommendations.
+- Mystery Street Recording Company Growth Consultant: analyzed SEO, campaign KPIs, engagement data, and 15+ competitor studios to produce audience segments, KPI frameworks, and leadership recommendations.
 - Ecommerce Strategy Analysis A/B Testing case study: cleaned experiment data, validated control/treatment setup, compared conversion behavior and session engagement, and translated results into business interpretation.
-- NIU College of Business AI/NLP Researcher: built GPT interview simulation workflows, evaluated 28 founder personas, and used Python NLP workflows for thematic coding and sentiment scoring, with transferable patterns for Claude, Custom GPTs, MCP-connected tools, n8n automation, and agentic AI workflows.
+- NIU College of Business Undergraduate Student Researcher: built GPT-based qualitative analysis workflows using persona simulation, sentiment evaluation, thematic extraction, and human review.
 - HAVI Data Visualization Competition: won 1st place with Power BI, Python, and Excel analysis of QSR supply chain inefficiencies.
 
 ## Contact
@@ -42,10 +42,8 @@ Anthony Baptiste helps teams turn messy business and customer data into dashboar
 - About Anthony's consulting approach: https://anthony-baptiste.com/consulting/about/
 - Case studies: https://anthony-baptiste.com/projects/
 - Experience proof: https://anthony-baptiste.com/experience/
-- Applied AI research: https://anthony-baptiste.com/research/
 - Competitions and community proof: https://anthony-baptiste.com/competitions/
 - Resume: https://anthony-baptiste.com/resume/
-- Schedule: https://calendly.com/anthonybaptiste00
 - Email: AnthonyBaptiste00@gmail.com
 - LinkedIn: https://www.linkedin.com/in/anthony-baptiste00/
 - GitHub: https://github.com/AntBap23
