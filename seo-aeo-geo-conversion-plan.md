@@ -308,7 +308,7 @@ Paste one `@graph` on the homepage or split relevant pieces per page. Keep URLs 
       "name": "Anthony Baptiste",
       "url": "https://anthony-baptiste.com/",
       "image": "https://anthony-baptiste.com/images/abimage.jpeg",
-      "email": "mailto:AnthonyBaptiste00@gmail.com",
+      "email": "mailto:bapanalytics00@gmail.com",
       "jobTitle": "Analytics Consultant and BI Developer",
       "sameAs": [
         "https://www.linkedin.com/in/anthony-baptiste00/",
@@ -355,7 +355,7 @@ Paste one `@graph` on the homepage or split relevant pieces per page. Keep URLs 
         { "@type": "Country", "name": "United States" },
         "Remote"
       ],
-      "email": "AnthonyBaptiste00@gmail.com",
+      "email": "bapanalytics00@gmail.com",
       "priceRange": "$750-$10000+",
       "sameAs": [
         "https://www.linkedin.com/in/anthony-baptiste00/",
