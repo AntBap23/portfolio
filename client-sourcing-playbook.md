@@ -1,6 +1,6 @@
 # Client Sourcing Playbook
 
-Updated: September 19, 2026
+Updated: September 21, 2026
 
 ## Positioning to use
 
@@ -10,7 +10,7 @@ Ways to work together:
 
 - Product Analytics Decision Sprint: 10 business days for one high-value question.
 - Dashboard & Measurement Build: 3–5 weeks for a reusable reporting foundation.
-- Fractional Product Analytics Partner: 5–8 hours per week, three-month minimum, for recurring analysis and decision support.
+- Fractional Product Analytics Partner: 8–12 hours per week on average, three-month minimum, for recurring analysis and decision support. Up to 15 hours may be planned for heavier reporting, launch, or experimentation cycles.
 
 This is consulting, not a second 9–5: async-first, scheduled, capped, and outcome-based.
 
@@ -85,7 +85,7 @@ POSITIONING
 Anthony Baptiste is a Digital Experimentation Analyst at Ulta Beauty and an independent product analytics consultant. Outside his full-time role, he offers three async-first options:
 1. Product Analytics Decision Sprint: 10 business days, $750-$1,250.
 2. Dashboard & Measurement Build: 3-5 weeks, $1,500-$3,500.
-3. Fractional Product Analytics Partner: 5-8 hours per week, three-month minimum, $1,500-$3,000 per month.
+3. Fractional Product Analytics Partner: 8-12 hours per week on average, three-month minimum, $2,000-$4,000 per month. Up to 15 hours may be scheduled during planned push weeks; heavier scopes are generally $4,000-$5,000 per month.
 
 He does not provide embedded 9-5 coverage, same-day support, production data engineering, tag deployment, or unrestricted staff augmentation.
 

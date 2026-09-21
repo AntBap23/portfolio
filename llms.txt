@@ -10,7 +10,7 @@ His professional background includes digital experimentation at Ulta Beauty, net
 
 - Product Analytics Decision Sprint: a 10-business-day engagement covering KPI definition, funnel or customer-behavior analysis, a decision-ready dashboard or analysis pack, three to five prioritized findings, and a 90-day measurement roadmap. Launch rate: $750-$1,250.
 - Dashboard and Measurement Build: a 3-5 week project covering KPI definitions, a reusable dashboard or reporting model, QA checks, documentation, and handoff. Project range: $1,500-$3,500.
-- Fractional Product Analytics Partner: ongoing support capped at 5-8 hours per week with a three-month minimum, written updates, two scheduled review calls per month, and agreed monthly priorities. Monthly range: $1,500-$3,000.
+- Fractional Product Analytics Partner: ongoing support averaging 8-12 hours per week with a three-month minimum, written updates, two scheduled review calls per month, and agreed monthly priorities. Up to 15 hours may be scheduled during planned reporting, launch, or experimentation cycles. Monthly range: $2,000-$4,000; heavier 15-hour weeks may require a custom $4,000-$5,000 scope.
 - Work is limited, async-first, and scheduled outside Anthony's full-time role. Fractional support is not embedded 9-5 or on-call coverage.
 - Clients provide relevant data exports or least-privilege access and any required paid platform license. Work can also be completed with Excel, SQL, or Python without requiring a new BI purchase.
 - Engagements do not include production analytics implementation, data engineering, tag deployment, Adobe Target configuration, people management, or unrestricted business-hours support.
