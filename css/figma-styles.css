@@ -2725,3 +2725,39 @@ html.js-enabled .consulting-about-hero {
         display: none;
     }
 }
+
+/* Inquiry fields follow the existing palette and remain usable on small screens. */
+.inquiry-form {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 760px;
+    padding: clamp(1rem, 3vw, 2rem);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+}
+.inquiry-form label { font-weight: 700; }
+.inquiry-form input, .inquiry-form select, .inquiry-form textarea {
+    width: 100%;
+    min-width: 0;
+    padding: 0.8rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+    font-size: 1rem;
+}
+.inquiry-form textarea { resize: vertical; }
+.inquiry-form :focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.inquiry-form button { justify-self: start; white-space: normal; }
+#inquiry-fallback:not([hidden]) { display: grid; gap: 0.75rem; }
+#inquiry { scroll-margin-top: 110px; }
+.consulting-offer-card { min-width: 0; }
+.consulting-offer-card h3, .consulting-teaser-grid h3 { overflow-wrap: anywhere; }
+.offer-card-heading { flex-wrap: wrap; }
+.home-hero ~ main .two-column-section > .consulting-teaser-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 700px) {
+    .home-hero ~ main .two-column-section > .consulting-teaser-grid { grid-template-columns: 1fr; }
+    .inquiry-form button { width: 100%; }
+}
