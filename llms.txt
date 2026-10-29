@@ -11,7 +11,11 @@ His professional background includes digital experimentation at Ulta Beauty, net
 - Clients provide relevant data exports or least-privilege access and any required paid platform license. Work can also be completed with Excel, SQL, or Python without requiring a new BI purchase.
 - Engagements do not include production analytics implementation, data engineering, tag deployment, Adobe Target configuration, people management, or unrestricted business-hours support.
 
+Published prices are scope-dependent USD ranges. Scope, deliverables, timeline, and final price are confirmed in a written proposal before work begins.
+
 ## Best-fit clients
+
+I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work.
 
 - Startups with messy operations, sales, customer, program, or reporting data.
 - Small SaaS, membership, marketplace, nonprofit, and service teams that need clearer funnel measurement, KPI strategy, segmentation, or customer-behavior insights.
@@ -52,6 +56,8 @@ His professional background includes digital experimentation at Ulta Beauty, net
 - Structured Analytics Advisory: $2,000–$4,000/mo. Scheduled strategic consultations and analytics roadmap reviews; KPI strategy, reporting recommendations, and digital growth opportunity assessment; Periodic advisory deliverables and agreed next steps. Not included: Embedded daily operations, staffing, unrestricted advisory access, or on-call coverage. Each month has defined deliverables, scheduled reviews, and capped consulting capacity agreed in the proposal.
 
 Engagement process: Project Inquiry → Scope & Proposal → Independent Execution → Delivery & Handoff.
-Consultations are available by appointment, with flexible evening and weekend scheduling. All live sessions take place at or after 5:00 p.m. Central Time on weekdays or during mutually agreed weekend hours. Email communication can occur throughout the day; immediate responses are not guaranteed.
+Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days.
 Every engagement has an agreed scope, deliverables, milestones, deadlines, and review points before work begins. Additional work, revisions beyond the agreed scope, maintenance, and support require separate scoping and approval. Services do not include emergency response, on-call coverage, real-time monitoring, or live experimentation operations.
-Project inquiry: https://anthony-baptiste.com/consulting/#inquiry (prepares an email draft; the visitor sends it).
+Project inquiry: https://anthony-baptiste.com/consulting/#inquiry. Only name, email, and business challenge are required. The form uses Formspree to send inquiries to the business inbox, with visitor email as Reply-To. Provider errors preserve the inquiry and offer copy/email fallbacks.
+
+Sample consulting deliverables: https://anthony-baptiste.com/consulting/samples/ . Three clearly labeled samples use fictional scenarios and synthetic data; they are not paid client engagements or measured business results.

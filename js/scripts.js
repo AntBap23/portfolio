@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Static hosting uses the established email channel; never imply server delivery.
+// Website-to-inbox delivery. Keep user input available if the provider fails.
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('project-inquiry');
     if (!form) return;
@@ -338,25 +338,66 @@ document.addEventListener('DOMContentLoaded', () => {
     if ([...service.options].some(option => option.value === requested)) service.value = requested;
     const status = document.getElementById('inquiry-status');
     const draft = document.getElementById('inquiry-draft');
-    form.addEventListener('submit', event => {
+    const button = form.querySelector('button[type="submit"]');
+    let submitting = false;
+
+    const prepareFallback = (body, subject) => {
+        draft.value = body;
+        document.getElementById('inquiry-fallback').hidden = false;
+        document.getElementById('inquiry-email-app').href = `mailto:bapanalytics00@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        document.getElementById('inquiry-gmail').href = `https://mail.google.com/mail/?view=cm&fs=1&to=bapanalytics00%40gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    };
+    form.addEventListener('submit', async event => {
         event.preventDefault();
-        if (!form.reportValidity()) return;
+        if (submitting || !form.reportValidity()) return;
+        const serviceName = service.value ? service.options[service.selectedIndex].text : 'General inquiry';
+        const subject = 'Consulting project inquiry: ' + serviceName;
+        form.elements.namedItem('_subject').value = subject;
         const data = new FormData(form);
         const body = [
             ['Name', data.get('name')], ['Email', data.get('email')],
-            ['Organization', data.get('organization') || 'Not provided'],
-            ['Service', service.options[service.selectedIndex].text],
             ['Business challenge', data.get('challenge')],
-            ['Desired deliverables', data.get('deliverables')],
-            ['Budget range', data.get('budget')], ['Project timeline', data.get('timeline')],
+            ['Organization', data.get('organization') || 'Not provided'],
+            ['Service', serviceName],
+            ['Desired deliverables', data.get('deliverables') || 'To be discussed'],
+            ['Budget range', data.get('budget') || 'To be discussed'],
+            ['Project timeline', data.get('timeline') || 'To be discussed'],
             ['Meeting preferences', data.get('preferences') || 'Not provided']
         ].map(([label, value]) => `${label}: ${String(value).trim()}`).join('\n\n');
-        draft.value = body;
-        document.getElementById('inquiry-fallback').hidden = false;
-        status.textContent = 'Your draft is ready. Review and send it in your email app, or copy the draft below. Nothing has been submitted yet.';
-        window.location.href = `mailto:bapanalytics00@gmail.com?subject=${encodeURIComponent('Consulting project inquiry — ' + service.options[service.selectedIndex].text)}&body=${encodeURIComponent(body)}`;
-        // Count preparation only, without sending inquiry contents or contact details.
-        if (typeof window.gtag === 'function') window.gtag('event', 'project_inquiry_prepared', { service: service.value });
+        const controller = new AbortController();
+        const timeout = window.setTimeout(() => controller.abort(), 20000);
+        submitting = true;
+        button.disabled = true;
+        form.setAttribute('aria-busy', 'true');
+        status.textContent = 'Sending your inquiry…';
+        try {
+            const response = await fetch(form.action, {
+                method: 'POST',
+                headers: { 'Accept': 'application/json' },
+                body: data,
+                signal: controller.signal
+            });
+            const result = await response.json();
+            if (!response.ok || result.ok === false || (Array.isArray(result.errors) && result.errors.length)) {
+                const messages = Array.isArray(result.errors)
+                    ? result.errors.map(error => error.message).filter(message => typeof message === 'string').join(' ')
+                    : '';
+                throw new Error(messages || 'The form service could not accept the inquiry.');
+            }
+            status.textContent = 'Your inquiry was accepted by the form service. I’ll reply within two business days. No call needed.';
+            document.getElementById('inquiry-fallback').hidden = true;
+            form.reset();
+            if (typeof window.gtag === 'function') window.gtag('event', 'project_inquiry_submitted', { service: data.get('service') || 'unspecified' });
+        } catch (error) {
+            prepareFallback(body, subject);
+            const detail = error instanceof Error && error.name !== 'AbortError' && error.message !== 'Failed to fetch' ? ` ${error.message}` : '';
+            status.textContent = 'We could not confirm submission. Your details are preserved below. Please copy your inquiry or open a draft in Gmail or your email app and send it to bapanalytics00@gmail.com. If you received a separate confirmation, avoid sending a duplicate.' + detail;
+        } finally {
+            window.clearTimeout(timeout);
+            submitting = false;
+            button.disabled = false;
+            form.removeAttribute('aria-busy');
+        }
     });
     document.getElementById('copy-inquiry').addEventListener('click', async () => {
         try {

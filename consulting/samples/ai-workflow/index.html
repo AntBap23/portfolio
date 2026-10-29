@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample AI Workflow | Anthony Baptiste</title>
+    <meta name="description" content="A human-reviewed inquiry triage workflow for repetitive, non-critical work.">
+    <link rel="canonical" href="https://anthony-baptiste.com/consulting/samples/ai-workflow/">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Sample AI Workflow | Anthony Baptiste">
+    <meta property="og:description" content="A human-reviewed inquiry triage workflow for repetitive, non-critical work.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anthony-baptiste.com/consulting/samples/ai-workflow/">
+    <meta property="og:image" content="https://anthony-baptiste.com/images/og-consulting.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sample AI Workflow | Anthony Baptiste">
+    <meta name="twitter:description" content="A human-reviewed inquiry triage workflow for repetitive, non-critical work.">
+    <meta name="twitter:image" content="https://anthony-baptiste.com/images/og-consulting.png">
+    <link rel="icon" href="/favicon.png" sizes="any">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    
+    
+    <script>
+        (function () {
+            try {
+                var savedTheme = localStorage.getItem('theme');
+                if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'dark';
+            }
+        }());
+    </script>
+    <link href="/css/figma-styles.css?v=20261028-1" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ERXLTSZNYJ');
+    </script>
+</head>
+
+<body class="page-consulting">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a class="logo-link" href="/" aria-label="Anthony Baptiste home"><span class="logo">Anthony Baptiste<span>Analytics &amp; Applied AI</span></span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation"><span class="nav-toggle-text">Menu</span><i class="fas fa-bars" aria-hidden="true"></i></button>
+            <div class="nav-panel" id="site-menu">
+                <ul class="nav-links">
+                    <li><a href="/consulting/">Overview</a></li>
+                    <li><a href="/consulting/services/">Services</a></li>
+                    <li><a href="/projects/">Work</a></li>
+                    <li><a href="/consulting/process/">Process</a></li>
+                    <li><a href="/consulting/about/">About</a></li>
+                </ul>
+                <div class="nav-actions"><a href="/consulting/#inquiry" class="btn btn-primary nav-cta">Request a Project Proposal</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content"><section class="consulting-subpage-hero"><div class="section-content"><a class="text-link" href="/consulting/samples/">All sample deliverables</a><p class="section-kicker">Sample deliverable</p><h1>Sample AI Workflow</h1><p class="answer-summary">A human-reviewed inquiry triage workflow for repetitive, non-critical work.</p></div></section><section class="consulting-section"><div class="section-content sample-document"><p class="sample-notice"><strong>Illustrative sample.</strong> Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.</p><p><strong>Scenario:</strong> A fictional agency wants to sort routine project inquiries into a review queue. AI proposes a category and a short summary; a person decides what happens next. This example does not send replies, accept work, or make commitments automatically.</p>
+<h2>Workflow overview</h2><ol class="sample-flow"><li><strong>1. Receive an inquiry</strong><p>A normal form creates a message for the team. The existing inbox remains the source of record.</p></li><li><strong>2. Validate and minimize inputs</strong><p>Check required fields and remove unnecessary personal or confidential information before any model call.</p></li><li><strong>3. Draft a category and summary</strong><p>The model selects an allowed service category or “Needs review” and produces a short summary. Incoming message text is treated as untrusted content, never as system instructions.</p></li><li><strong>4. Apply deterministic checks</strong><p>Validate the output schema, allowed categories, and required fields. Invalid output, timeouts, or uncertain cases go to manual review.</p></li><li><strong>5. Human review</strong><p>A person checks the original message and proposed summary, chooses the service fit, and writes or approves a response.</p></li><li><strong>6. Log the reviewed outcome</strong><p>Record the approved category and review status under the team’s retention policy. No automated production action is taken.</p></li></ol>
+<h2>Example input and output</h2><div class="sample-table-wrap"><table><caption>Fictional inquiry triage example</caption><tbody><tr><th>Input</th><td>“We combine three spreadsheets every month and need one reporting view.”</td></tr><tr><th>Suggested category</th><td>Dashboard &amp; Reporting Sprint</td></tr><tr><th>Draft summary</th><td>The team wants to consolidate monthly spreadsheet reporting into a reusable view. Data sources and KPI definitions still need clarification.</td></tr><tr><th>Review status</th><td>Awaiting human review; no reply sent.</td></tr></tbody></table></div><h2>Validation and acceptance checks</h2><ul class="sample-list"><li>Known examples produce permitted categories; ambiguous requests route to manual review.</li><li>Instruction-like content in an inquiry cannot change workflow rules or trigger external actions.</li><li>Missing fields, malformed model output, and provider failures preserve the original inquiry and use the manual path.</li><li>Reviewers compare summaries against source messages for unsupported details before use.</li></ul><h2>Handoff and ownership</h2><p>A scoped project would include the workflow design, test examples, failure-path documentation, approved data handling, and a named maintenance owner. The client retains credentials and owns provider usage, ongoing review, maintenance, and operational support. This is non-critical assistance; email and manual review continue if AI is unavailable.</p><a class="btn btn-primary" href="/consulting/#inquiry">Discuss a similar project</a></div></section></main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-brand"><a class="footer-logo" href="/">Anthony Baptiste<span>Analytics &amp; Applied AI</span></a>
+<p>Independent analytics, digital experience, and applied AI consulting with defined deliverables.</p></div>
+                <div class="footer-column">
+<h3>Consulting</h3><a href="/consulting/">Overview</a><a href="/consulting/services/">Services</a><a href="/consulting/process/">Process</a><a href="/consulting/about/">About</a></div>
+                <div class="footer-column">
+<h3>Proof</h3><a href="/projects/">Case Studies</a><a href="/experience/">Experience</a><a href="/resume/">Resume</a></div>
+                <div class="footer-column">
+<h3>Contact</h3><a href="/consulting/#inquiry">Request a Project Proposal</a><a href="mailto:bapanalytics00@gmail.com">bapanalytics00@gmail.com</a><a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+            </div>
+            <div class="footer-bottom">
+<p>&copy; 2026 Anthony Baptiste. All rights reserved.</p>
+<div class="social-links"><a href="https://www.linkedin.com/in/anthony-baptiste00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/AntBap23" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a></div></div>
+        </div>
+    </footer>
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="/js/scripts.js?v=20261028-1"></script>
+</body>
+
+</html>
