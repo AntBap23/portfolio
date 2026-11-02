@@ -61,3 +61,5 @@ Every engagement has an agreed scope, deliverables, milestones, deadlines, and r
 Project inquiry: https://anthony-baptiste.com/consulting/#inquiry. Only name, email, and business challenge are required. The form uses Formspree to send inquiries to the business inbox, with visitor email as Reply-To. Provider errors preserve the inquiry and offer copy/email fallbacks.
 
 Sample consulting deliverables: https://anthony-baptiste.com/consulting/samples/ . Three clearly labeled samples use fictional scenarios and synthetic data; they are not paid client engagements or measured business results.
+
+Optional introductory call booking: https://calendly.com/bapanalytics00 . Project inquiries remain the primary starting point; no call is required.
