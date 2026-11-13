@@ -1,0 +1,15 @@
+{
+  "name": "qa-tooling",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA tooling for anthony-baptiste.com",
+  "scripts": {
+    "screenshots": "node screenshots.mjs",
+    "visual-diff": "node visual-diff.mjs"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  }
+}
