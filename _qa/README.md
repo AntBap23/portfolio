@@ -20,7 +20,7 @@ Fingerprints critical content, structure, and metadata to detect unintended chan
 - Contact form fields and Calendly links
 - Element IDs (fragment identifiers)
 - Locked visible copy (H1s, prices, disclaimers, etc.)
-- Hidden element inventory (52 elements)
+- Hidden element inventory (52 unique elements, 53 selector matches)
 - Template syntax (`{{`, `{%`, `{#` - must not appear in rendered output)
 - Repo files: `llms.txt`, `robots.txt`, `sitemap.xml`
 

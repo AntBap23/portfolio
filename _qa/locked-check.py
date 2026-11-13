@@ -366,7 +366,7 @@ def compute_fixture_id(fixture_data):
     return hashlib.sha256(canonical.encode('utf-8')).hexdigest()
 
 
-def snapshot_command(root_dir, output_file, hidden_inventory_file):
+def snapshot_command(root_dir, output_file, hidden_inventory_file, source_commit=None):
     """Generate and save a locked content fixture."""
     print(f"Scanning pages in {root_dir}...")
     pages = get_page_paths(root_dir)
@@ -454,15 +454,18 @@ def snapshot_command(root_dir, output_file, hidden_inventory_file):
         content_no_lastmod = re.sub(r'<lastmod>.*?</lastmod>', '<lastmod></lastmod>', content)
         fixture['sitemap_xml_normalized'] = content_no_lastmod
         
-    # Get source commit SHA if in git repo
-    try:
-        import subprocess
-        result = subprocess.run(['git', 'rev-parse', 'HEAD'], 
-                              capture_output=True, text=True, cwd=root_dir)
-        if result.returncode == 0:
-            fixture['source_commit'] = result.stdout.strip()
-    except:
-        pass
+    # Get source commit SHA (explicit override, else HEAD of git root)
+    if source_commit:
+        fixture['source_commit'] = source_commit
+    else:
+        try:
+            import subprocess
+            result = subprocess.run(['git', 'rev-parse', 'HEAD'],
+                                  capture_output=True, text=True, cwd=git_root)
+            if result.returncode == 0:
+                fixture['source_commit'] = result.stdout.strip()
+        except Exception:
+            pass
         
     # Compute fixture ID
     fixture['fixture_id'] = compute_fixture_id(fixture)
@@ -720,11 +723,14 @@ def main():
                        help='Hidden element inventory file path')
     parser.add_argument('--exceptions', default='_qa/locked-exceptions.json',
                        help='Exceptions file path')
+    parser.add_argument('--source-commit', default=None,
+                       help='Source commit SHA to record in the fixture (snapshot only)')
     
     args = parser.parse_args()
     
     if args.mode == 'snapshot':
-        snapshot_command(args.root, args.fixture, args.hidden_inventory)
+        snapshot_command(args.root, args.fixture, args.hidden_inventory,
+                         source_commit=args.source_commit)
         return 0
     elif args.mode == 'check':
         return check_command(args.root, args.fixture, args.hidden_inventory, args.exceptions)
