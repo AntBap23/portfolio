@@ -65,7 +65,7 @@ class LockedContentParser(HTMLParser):
             'calendly_links': [],
             'element_ids': [],
             'locked_copy': [],
-            'hidden_elements': [],
+            'hidden_elements': [],  # List of all hidden elements
             'template_syntax': []
         }
         self.tracker = ElementTracker()
@@ -94,33 +94,33 @@ class LockedContentParser(HTMLParser):
         self.tag_stack.append((tag, attrs_dict, self.getpos()))
         self.tracker.push(tag, attrs_dict)
         
-        # Check for hidden elements - exact QA definition
-        is_hidden = False
-        hidden_reason = None
+        # Check for hidden elements - track ALL matching selectors
+        matched_selectors = []
         
-        if attrs_dict.get('hidden') is not None:
-            is_hidden = True
-            hidden_reason = 'hidden-attribute'
-        elif attrs_dict.get('aria-hidden') == 'true':
-            is_hidden = True
-            hidden_reason = 'aria-hidden'
-        elif 'sr-only' in attrs_dict.get('class', '').split():
-            is_hidden = True
-            hidden_reason = 'sr-only'
-        else:
-            style = attrs_dict.get('style', '')
-            if 'display:none' in style.replace(' ', '') or 'display: none' in style:
-                is_hidden = True
-                hidden_reason = 'display-none'
-            elif 'visibility:hidden' in style.replace(' ', '') or 'visibility: hidden' in style:
-                is_hidden = True
-                hidden_reason = 'visibility-hidden'
+        # Fix: use 'in' for boolean attributes (hidden has value None from HTMLParser)
+        if 'hidden' in attrs_dict:
+            matched_selectors.append('hidden-attribute')
+        if attrs_dict.get('aria-hidden') == 'true':
+            matched_selectors.append('aria-hidden')
+        if 'sr-only' in attrs_dict.get('class', '').split():
+            matched_selectors.append('sr-only')
+        
+        style = attrs_dict.get('style', '')
+        if 'display:none' in style.replace(' ', '') or 'display: none' in style:
+            matched_selectors.append('inline-style')
+        if 'visibility:hidden' in style.replace(' ', '') or 'visibility: hidden' in style:
+            matched_selectors.append('inline-style')
                 
-        if is_hidden:
+        if matched_selectors:
+            elem_id = attrs_dict.get('id', '')
+            elem_class = attrs_dict.get('class', '')
+            
             self.hidden_capture = {
                 'selector': self.tracker.get_selector(),
-                'reason': hidden_reason,
+                'matched_selectors': matched_selectors,
                 'tag': tag,
+                'id': elem_id,
+                'class': elem_class,
                 'start_pos': self.getpos()
             }
             self.hidden_html = [self.get_starttag_text()]
@@ -191,9 +191,13 @@ class LockedContentParser(HTMLParser):
             outer_html = ''.join(self.hidden_html)
             outer_hash = hashlib.sha256(outer_html.encode('utf-8')).hexdigest()
             
+            # Append each hidden element to list
             self.results['hidden_elements'].append({
                 'selector': self.hidden_capture['selector'],
-                'reason': self.hidden_capture['reason'],
+                'tag': self.hidden_capture['tag'],
+                'id': self.hidden_capture['id'],
+                'class': self.hidden_capture['class'],
+                'matched_selectors': self.hidden_capture['matched_selectors'][:],
                 'outer_html_sha256': outer_hash
             })
             
@@ -275,7 +279,10 @@ class LockedContentParser(HTMLParser):
         
         self.results['hidden_elements'].append({
             'selector': selector,
-            'reason': 'html-comment',
+            'tag': '!--',
+            'id': '',
+            'class': '',
+            'matched_selectors': ['html-comment'],
             'outer_html_sha256': outer_hash
         })
 
@@ -378,15 +385,32 @@ def snapshot_command(root_dir, output_file, hidden_inventory_file):
         print(f"Processing {page['url_path']}...")
         results = parse_html_file(page['file_path'])
         
-        # Extract hidden elements for inventory
+        # Extract hidden elements for inventory with occurrence indices
+        # Track occurrence indices by (tag, id, class, hash)
+        occurrence_counts = {}
         for hidden_elem in results['hidden_elements']:
+            key = (
+                hidden_elem['tag'],
+                hidden_elem['id'],
+                hidden_elem['class'],
+                hidden_elem['outer_html_sha256']
+            )
+            
+            if key not in occurrence_counts:
+                occurrence_counts[key] = 0
+            occurrence_counts[key] += 1
+            
             hidden_inventory.append({
                 'page': page['url_path'],
-                'selector': hidden_elem['selector'],
-                'reason': hidden_elem['reason'],
-                'outer_html_sha256': hidden_elem['outer_html_sha256']
+                'tag': hidden_elem['tag'],
+                'id': hidden_elem['id'],
+                'class': hidden_elem['class'],
+                'matched_selectors': sorted(set(hidden_elem['matched_selectors'])),
+                'outer_html_sha256': hidden_elem['outer_html_sha256'],
+                'occurrence_index': occurrence_counts[key],
+                'selector': hidden_elem['selector']  # Informational only
             })
-            
+        
         fixture['pages'][page['url_path']] = results
         
     # Repo-level checks
@@ -444,14 +468,18 @@ def snapshot_command(root_dir, output_file, hidden_inventory_file):
     fixture['fixture_id'] = compute_fixture_id(fixture)
     
     # Count hidden elements
-    total_hidden = len(hidden_inventory)
-    print(f"\nTotal hidden elements across all pages: {total_hidden}")
+    unique_elements = len(hidden_inventory)
+    selector_matches = sum(len(item['matched_selectors']) for item in hidden_inventory)
+    
+    print(f"\nHidden element counts:")
+    print(f"  Unique elements: {unique_elements}")
+    print(f"  Selector matches: {selector_matches}")
     
     # Per-page counts
     page_counts = {}
     for item in hidden_inventory:
         page_counts[item['page']] = page_counts.get(item['page'], 0) + 1
-    print("\nPer-page hidden element counts:")
+    print("\nPer-page unique element counts:")
     for page_url in sorted(page_counts.keys()):
         print(f"  {page_url}: {page_counts[page_url]}")
     
@@ -459,9 +487,14 @@ def snapshot_command(root_dir, output_file, hidden_inventory_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(fixture, f, indent=2)
         
-    # Save hidden inventory
+    # Save hidden inventory with totals
+    inventory_data = {
+        'unique_elements': unique_elements,
+        'selector_matches': selector_matches,
+        'elements': hidden_inventory
+    }
     with open(hidden_inventory_file, 'w', encoding='utf-8') as f:
-        json.dump(hidden_inventory, f, indent=2)
+        json.dump(inventory_data, f, indent=2)
         
     print(f"\nFixture saved to {output_file}")
     print(f"Hidden inventory saved to {hidden_inventory_file}")
@@ -484,7 +517,11 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
     
     # Load hidden inventory
     with open(hidden_inventory_file, 'r', encoding='utf-8') as f:
-        expected_inventory = json.load(f)
+        expected_inventory_data = json.load(f)
+        
+    expected_unique = expected_inventory_data.get('unique_elements', 0)
+    expected_matches = expected_inventory_data.get('selector_matches', 0)
+    expected_inventory = expected_inventory_data.get('elements', [])
         
     # Load exceptions
     exceptions = {}
@@ -511,13 +548,29 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
         expected = fixture['pages'][url_path]
         actual = parse_html_file(page['file_path'])
         
-        # Add to current inventory
+        # Add to current inventory with occurrence indices
+        occurrence_counts = {}
         for hidden_elem in actual['hidden_elements']:
+            key = (
+                hidden_elem['tag'],
+                hidden_elem['id'],
+                hidden_elem['class'],
+                hidden_elem['outer_html_sha256']
+            )
+            
+            if key not in occurrence_counts:
+                occurrence_counts[key] = 0
+            occurrence_counts[key] += 1
+            
             current_inventory.append({
                 'page': url_path,
-                'selector': hidden_elem['selector'],
-                'reason': hidden_elem['reason'],
-                'outer_html_sha256': hidden_elem['outer_html_sha256']
+                'tag': hidden_elem['tag'],
+                'id': hidden_elem['id'],
+                'class': hidden_elem['class'],
+                'matched_selectors': sorted(set(hidden_elem['matched_selectors'])),
+                'outer_html_sha256': hidden_elem['outer_html_sha256'],
+                'occurrence_index': occurrence_counts[key],
+                'selector': hidden_elem['selector']
             })
         
         # Check each category
@@ -548,33 +601,47 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
     # Check hidden inventory
     print("\nChecking hidden element inventory...")
     
-    # Sort for comparison
-    expected_sorted = sorted(expected_inventory, key=lambda x: (x['page'], x['selector']))
-    current_sorted = sorted(current_inventory, key=lambda x: (x['page'], x['selector']))
+    # Calculate current totals
+    current_unique = len(current_inventory)
+    current_matches = sum(len(item['matched_selectors']) for item in current_inventory)
     
-    if expected_sorted != current_sorted:
-        print("  FAIL: Hidden element inventory changed")
-        
-        # Show differences
-        expected_set = {(item['page'], item['selector'], item['outer_html_sha256']) for item in expected_inventory}
-        current_set = {(item['page'], item['selector'], item['outer_html_sha256']) for item in current_inventory}
-        
-        added = current_set - expected_set
-        removed = expected_set - current_set
-        
-        if added:
-            print(f"    Added elements: {len(added)}")
-            for page, selector, sha in sorted(added)[:5]:
-                print(f"      {page} > {selector}")
-                
-        if removed:
-            print(f"    Removed elements: {len(removed)}")
-            for page, selector, sha in sorted(removed)[:5]:
-                print(f"      {page} > {selector}")
-                
+    print(f"  Expected: {expected_unique} unique elements, {expected_matches} selector matches")
+    print(f"  Current:  {current_unique} unique elements, {current_matches} selector matches")
+    
+    # Check totals
+    if current_unique != expected_unique or current_matches != expected_matches:
+        print(f"  FAIL: Totals changed")
         all_pass = False
     else:
-        print(f"  PASS: Hidden element inventory unchanged ({len(current_inventory)} elements)")
+        print(f"  PASS: Totals unchanged")
+    
+    # Sort for comparison by (page, tag, id, class, occurrence_index)
+    def sort_key(x):
+        return (x['page'], x['tag'], x['id'], x['class'], x['occurrence_index'])
+    
+    expected_sorted = sorted(expected_inventory, key=sort_key)
+    current_sorted = sorted(current_inventory, key=sort_key)
+    
+    # Compare element by element
+    inventory_match = True
+    if len(expected_sorted) != len(current_sorted):
+        inventory_match = False
+    else:
+        for exp, cur in zip(expected_sorted, current_sorted):
+            # Compare key fields only (not informational selector)
+            exp_key = (exp['page'], exp['tag'], exp['id'], exp['class'], 
+                      exp['matched_selectors'], exp['outer_html_sha256'], exp['occurrence_index'])
+            cur_key = (cur['page'], cur['tag'], cur['id'], cur['class'],
+                      cur['matched_selectors'], cur['outer_html_sha256'], cur['occurrence_index'])
+            if exp_key != cur_key:
+                inventory_match = False
+                break
+    
+    if not inventory_match:
+        print("  FAIL: Hidden element inventory changed")
+        all_pass = False
+    else:
+        print(f"  PASS: Hidden element inventory unchanged")
     
     # Repo-level checks
     print("\nChecking repo-level files...")

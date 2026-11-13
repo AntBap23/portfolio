@@ -1,308 +1,631 @@
-[
-  {
-    "page": "/competitions/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/competitions/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-    "reason": "display-none",
-    "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
-  },
-  {
-    "page": "/competitions/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-    "reason": "display-none",
-    "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
-  },
-  {
-    "page": "/competitions/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-    "reason": "display-none",
-    "outer_html_sha256": "c2d7f8ef4f8029b0d590a58662c8cfb02d8910d6b09023f91893d82019cc3479"
-  },
-  {
-    "page": "/competitions/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-    "reason": "display-none",
-    "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
-  },
-  {
-    "page": "/competitions/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-    "reason": "display-none",
-    "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
-  },
-  {
-    "page": "/competitions/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div#gallery-modal",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c761ec9ac1a3786af57608c747f4d771aa800d79c33a38a7bdfc23ac5ba8856d"
-  },
-  {
-    "page": "/consulting/about/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/about/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > div.section-content.consulting-about-hero-grid > div.consulting-about-copy > nav.breadcrumb.breadcrumb-dark > span:nth-of-type(1)",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "e4a44b579366fb889d58184cc521252b3e5decccea03ae47555265d87e67fa7c"
-  },
-  {
-    "page": "/consulting/about/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-proof-bar > div.section-content > h2#proof-title",
-    "reason": "sr-only",
-    "outer_html_sha256": "7b3bd319ba0d98746be07751dfa2fa3bc7a94491856bfc778e3430487e0a7b7e"
-  },
-  {
-    "page": "/consulting/about/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-section.consulting-background > div.section-content > div.section-action.multi-action > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > div.consulting-hero-copy > p.hero-credibility > i.fas.fa-check-circle",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "e958bb73eb24b9f7b384ae6436c0585ae53bacb9eb7bf764c03ee2d49c43c98b"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > aside.entry-offer > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-proof-bar > div.section-content > h2#consulting-proof-title",
-    "reason": "sr-only",
-    "outer_html_sha256": "9f7d3b27e54d10a07dcab1571b3b0430e88f712cfe0e1d6aaea6fa7b1504a34d"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(5) > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(6) > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(7) > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(8) > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-outcomes > div.section-content.outcomes-layout > div.section-heading > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(11) > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(12) > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(13) > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/consulting/process/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/samples/ai-workflow/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/samples/analytics-clarity/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/samples/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/samples/reporting-dashboard/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/services/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/consulting/services/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#analytics-clarity-audit > span#decision-sprint",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "1e04f20010540b4bad361156404d665cc12dba5f9e1762ddccc62bf760f4ca9c"
-  },
-  {
-    "page": "/consulting/services/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#dashboard-reporting-sprint > span#measurement-build",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "b40db109a895e064bb497992b77403dc212a96a7173f55c37427615fe6f9c3c7"
-  },
-  {
-    "page": "/consulting/services/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#structured-analytics-advisory > span#fractional-partner",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "a75d27804b584cb7f4ed6b909bda452f0cd2ed3a1fd5dcf1524b300b4d5af2f2"
-  },
-  {
-    "page": "/consulting/services/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-resource > div.section-content.resource-panel > div.resource-action > span.resource-format > i.far.fa-file-pdf",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "6d05d8470390c3b3561aab6f913bd233271a340b931d64d307a1583f03e4a852"
-  },
-  {
-    "page": "/experience/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > header.home-hero > div.section-content.home-hero-grid > div.home-hero-copy.fade-panel > div.hero-buttons > a.btn.btn-secondary > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.proof-strip > div.section-content > h2#proof-strip-title",
-    "reason": "sr-only",
-    "outer_html_sha256": "27a04f96053c3f152fe39e533ed3a1c18c5892f5268bfc84f70a87293d5286ff"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(5) > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(6) > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(7) > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#services > div.section-content.two-column-section > div.section-heading > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(7) > i.fas.fa-briefcase",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "64bc93206f663a4dc849ca0c6f0f785c86c57f9691dda0394305e2111e04312b"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(8) > i.fab.fa-linkedin-in",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "72900acf3a66942430b257062ce9b82e10bca10142e7d3d5b3fb269d5c087daf"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(9) > i.fas.fa-chart-line",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "745740ecda3fa6c2c666dd36c1183fcba3aeda0fa9374974e5b965baa3e66237"
-  },
-  {
-    "page": "/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > button#scrollToTop > i.fas.fa-arrow-up",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "39529c88f1bdf75d08a1ce5f3a74fdae65e98907923b8530ebac2ba20163d021"
-  },
-  {
-    "page": "/projects/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/research/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  },
-  {
-    "page": "/resume/",
-    "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-    "reason": "aria-hidden",
-    "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-  }
-]
+{
+  "unique_elements": 52,
+  "selector_matches": 53,
+  "elements": [
+    {
+      "page": "/competitions/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/competitions/",
+      "tag": "div",
+      "id": "",
+      "class": "gallery-images",
+      "matched_selectors": [
+        "inline-style"
+      ],
+      "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images"
+    },
+    {
+      "page": "/competitions/",
+      "tag": "div",
+      "id": "",
+      "class": "gallery-images",
+      "matched_selectors": [
+        "inline-style"
+      ],
+      "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.project-image > div.project-info > div.gallery-images"
+    },
+    {
+      "page": "/competitions/",
+      "tag": "div",
+      "id": "",
+      "class": "gallery-images",
+      "matched_selectors": [
+        "inline-style"
+      ],
+      "outer_html_sha256": "c2d7f8ef4f8029b0d590a58662c8cfb02d8910d6b09023f91893d82019cc3479",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images"
+    },
+    {
+      "page": "/competitions/",
+      "tag": "div",
+      "id": "",
+      "class": "gallery-images",
+      "matched_selectors": [
+        "inline-style"
+      ],
+      "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b",
+      "occurrence_index": 2,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.project-info > div.gallery-images"
+    },
+    {
+      "page": "/competitions/",
+      "tag": "div",
+      "id": "",
+      "class": "gallery-images",
+      "matched_selectors": [
+        "inline-style"
+      ],
+      "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1",
+      "occurrence_index": 2,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images"
+    },
+    {
+      "page": "/competitions/",
+      "tag": "div",
+      "id": "gallery-modal",
+      "class": "gallery-modal",
+      "matched_selectors": [
+        "aria-hidden",
+        "inline-style"
+      ],
+      "outer_html_sha256": "c761ec9ac1a3786af57608c747f4d771aa800d79c33a38a7bdfc23ac5ba8856d",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div#gallery-modal"
+    },
+    {
+      "page": "/consulting/about/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/about/",
+      "tag": "span",
+      "id": "",
+      "class": "",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "e4a44b579366fb889d58184cc521252b3e5decccea03ae47555265d87e67fa7c",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > div.section-content.consulting-about-hero-grid > div.consulting-about-copy > nav.breadcrumb.breadcrumb-dark > span:nth-of-type(1)"
+    },
+    {
+      "page": "/consulting/about/",
+      "tag": "h2",
+      "id": "proof-title",
+      "class": "sr-only",
+      "matched_selectors": [
+        "sr-only"
+      ],
+      "outer_html_sha256": "7b3bd319ba0d98746be07751dfa2fa3bc7a94491856bfc778e3430487e0a7b7e",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-proof-bar > div.section-content > h2#proof-title"
+    },
+    {
+      "page": "/consulting/about/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-section.consulting-background > div.section-content > div.section-action.multi-action > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-check-circle",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "e958bb73eb24b9f7b384ae6436c0585ae53bacb9eb7bf764c03ee2d49c43c98b",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > div.consulting-hero-copy > p.hero-credibility > i.fas.fa-check-circle"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > aside.entry-offer > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "h2",
+      "id": "consulting-proof-title",
+      "class": "sr-only",
+      "matched_selectors": [
+        "sr-only"
+      ],
+      "outer_html_sha256": "9f7d3b27e54d10a07dcab1571b3b0430e88f712cfe0e1d6aaea6fa7b1504a34d",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-proof-bar > div.section-content > h2#consulting-proof-title"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 2,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(5) > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 3,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(6) > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 4,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(7) > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 5,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(8) > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 6,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-outcomes > div.section-content.outcomes-layout > div.section-heading > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 7,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(11) > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 8,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(12) > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 9,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(13) > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/consulting/",
+      "tag": "div",
+      "id": "inquiry-fallback",
+      "class": "",
+      "matched_selectors": [
+        "hidden-attribute"
+      ],
+      "outer_html_sha256": "df6cc1127247e19a7c0d8ab7e00ebaeb361705984b575124bef3f9912610f08a",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#inquiry > div.section-content > form#project-inquiry > input:nth-of-type(1) > input#inquiry-name > input#inquiry-email > details.inquiry-optional > div.inquiry-optional-fields > input#inquiry-organization > div#inquiry-fallback"
+    },
+    {
+      "page": "/consulting/process/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/samples/ai-workflow/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/samples/analytics-clarity/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/samples/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/samples/reporting-dashboard/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/services/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/consulting/services/",
+      "tag": "span",
+      "id": "decision-sprint",
+      "class": "",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "1e04f20010540b4bad361156404d665cc12dba5f9e1762ddccc62bf760f4ca9c",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#analytics-clarity-audit > span#decision-sprint"
+    },
+    {
+      "page": "/consulting/services/",
+      "tag": "span",
+      "id": "measurement-build",
+      "class": "",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "b40db109a895e064bb497992b77403dc212a96a7173f55c37427615fe6f9c3c7",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#dashboard-reporting-sprint > span#measurement-build"
+    },
+    {
+      "page": "/consulting/services/",
+      "tag": "span",
+      "id": "fractional-partner",
+      "class": "",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "a75d27804b584cb7f4ed6b909bda452f0cd2ed3a1fd5dcf1524b300b4d5af2f2",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#structured-analytics-advisory > span#fractional-partner"
+    },
+    {
+      "page": "/consulting/services/",
+      "tag": "i",
+      "id": "",
+      "class": "far fa-file-pdf",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "6d05d8470390c3b3561aab6f913bd233271a340b931d64d307a1583f03e4a852",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-resource > div.section-content.resource-panel > div.resource-action > span.resource-format > i.far.fa-file-pdf"
+    },
+    {
+      "page": "/experience/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > header.home-hero > div.section-content.home-hero-grid > div.home-hero-copy.fade-panel > div.hero-buttons > a.btn.btn-secondary > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "h2",
+      "id": "proof-strip-title",
+      "class": "sr-only",
+      "matched_selectors": [
+        "sr-only"
+      ],
+      "outer_html_sha256": "27a04f96053c3f152fe39e533ed3a1c18c5892f5268bfc84f70a87293d5286ff",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.proof-strip > div.section-content > h2#proof-strip-title"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 2,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(5) > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 3,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(6) > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 4,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(7) > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 5,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#services > div.section-content.two-column-section > div.section-heading > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 6,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 7,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-right",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110",
+      "occurrence_index": 8,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-briefcase",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "64bc93206f663a4dc849ca0c6f0f785c86c57f9691dda0394305e2111e04312b",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(7) > i.fas.fa-briefcase"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fab fa-linkedin-in",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "72900acf3a66942430b257062ce9b82e10bca10142e7d3d5b3fb269d5c087daf",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(8) > i.fab.fa-linkedin-in"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-chart-line",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "745740ecda3fa6c2c666dd36c1183fcba3aeda0fa9374974e5b965baa3e66237",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(9) > i.fas.fa-chart-line"
+    },
+    {
+      "page": "/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-arrow-up",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "39529c88f1bdf75d08a1ce5f3a74fdae65e98907923b8530ebac2ba20163d021",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > button#scrollToTop > i.fas.fa-arrow-up"
+    },
+    {
+      "page": "/projects/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/research/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    },
+    {
+      "page": "/resume/",
+      "tag": "i",
+      "id": "",
+      "class": "fas fa-bars",
+      "matched_selectors": [
+        "aria-hidden"
+      ],
+      "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25",
+      "occurrence_index": 1,
+      "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars"
+    }
+  ]
+}

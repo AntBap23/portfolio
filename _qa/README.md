@@ -42,7 +42,7 @@ python3 _qa/locked-check.py check --root _qa/_site
 
 **Outputs:**
 - `_qa/locked-fixture.json` - Content fingerprints (fixture ID and source commit SHA)
-- `_qa/hidden-inventory.json` - Complete hidden element inventory (52 elements)
+- `_qa/hidden-inventory.json` - Complete hidden element inventory (52 unique elements, 53 selector matches)
 - `_qa/locked-exceptions.json` - Approved differences (currently empty)
 
 **Exit codes:**
@@ -170,9 +170,13 @@ npm run visual-diff
 ## Notes
 
 - The fixture includes a fixture ID (SHA256 hash) and source commit SHA
-- Hidden element inventory uses CSS selector paths and outerHTML hashes
+- Hidden element inventory format (rev 1.4):
+  - Top-level `unique_elements` and `selector_matches` totals (52 and 53)
+  - Each entry: page, tag, id, class, matched_selectors array, outerHTML SHA256, occurrence_index
+  - Keyed by page + tag + id + class + hash + occurrence (not positional CSS path)
+  - CSS selector path included as informational only
+  - `#gallery-modal` on `/competitions/` matches both `aria-hidden` and `inline-style`
 - Locked files use git blob SHAs:
   - `llms.txt`: `3b51141a346700b57fca132ed5d261360f869637`
   - `robots.txt`: `e698bea3d563b0b4b97a89dbd0c3ca25e037eefb`
-- PR #4 (reveal animation fix) may change mobile screenshots of `/consulting/services/`
 - Jekyll automatically excludes `_qa/` from build output (underscore prefix)

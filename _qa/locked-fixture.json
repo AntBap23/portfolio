@@ -25,37 +25,73 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "reason": "display-none",
+          "tag": "div",
+          "id": "",
+          "class": "gallery-images",
+          "matched_selectors": [
+            "inline-style"
+          ],
           "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "reason": "display-none",
+          "tag": "div",
+          "id": "",
+          "class": "gallery-images",
+          "matched_selectors": [
+            "inline-style"
+          ],
           "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "reason": "display-none",
+          "tag": "div",
+          "id": "",
+          "class": "gallery-images",
+          "matched_selectors": [
+            "inline-style"
+          ],
           "outer_html_sha256": "c2d7f8ef4f8029b0d590a58662c8cfb02d8910d6b09023f91893d82019cc3479"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "reason": "display-none",
+          "tag": "div",
+          "id": "",
+          "class": "gallery-images",
+          "matched_selectors": [
+            "inline-style"
+          ],
           "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "reason": "display-none",
+          "tag": "div",
+          "id": "",
+          "class": "gallery-images",
+          "matched_selectors": [
+            "inline-style"
+          ],
           "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div#gallery-modal",
-          "reason": "aria-hidden",
+          "tag": "div",
+          "id": "gallery-modal",
+          "class": "gallery-modal",
+          "matched_selectors": [
+            "aria-hidden",
+            "inline-style"
+          ],
           "outer_html_sha256": "c761ec9ac1a3786af57608c747f4d771aa800d79c33a38a7bdfc23ac5ba8856d"
         }
       ],
@@ -97,22 +133,42 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > div.section-content.consulting-about-hero-grid > div.consulting-about-copy > nav.breadcrumb.breadcrumb-dark > span:nth-of-type(1)",
-          "reason": "aria-hidden",
+          "tag": "span",
+          "id": "",
+          "class": "",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "e4a44b579366fb889d58184cc521252b3e5decccea03ae47555265d87e67fa7c"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-proof-bar > div.section-content > h2#proof-title",
-          "reason": "sr-only",
+          "tag": "h2",
+          "id": "proof-title",
+          "class": "sr-only",
+          "matched_selectors": [
+            "sr-only"
+          ],
           "outer_html_sha256": "7b3bd319ba0d98746be07751dfa2fa3bc7a94491856bfc778e3430487e0a7b7e"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-section.consulting-background > div.section-content > div.section-action.multi-action > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         }
       ],
@@ -276,63 +332,133 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > div.consulting-hero-copy > p.hero-credibility > i.fas.fa-check-circle",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-check-circle",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "e958bb73eb24b9f7b384ae6436c0585ae53bacb9eb7bf764c03ee2d49c43c98b"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > aside.entry-offer > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-proof-bar > div.section-content > h2#consulting-proof-title",
-          "reason": "sr-only",
+          "tag": "h2",
+          "id": "consulting-proof-title",
+          "class": "sr-only",
+          "matched_selectors": [
+            "sr-only"
+          ],
           "outer_html_sha256": "9f7d3b27e54d10a07dcab1571b3b0430e88f712cfe0e1d6aaea6fa7b1504a34d"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(5) > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(6) > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(7) > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(8) > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-outcomes > div.section-content.outcomes-layout > div.section-heading > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(11) > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(12) > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(13) > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#inquiry > div.section-content > form#project-inquiry > input:nth-of-type(1) > input#inquiry-name > input#inquiry-email > details.inquiry-optional > div.inquiry-optional-fields > input#inquiry-organization > div#inquiry-fallback",
+          "tag": "div",
+          "id": "inquiry-fallback",
+          "class": "",
+          "matched_selectors": [
+            "hidden-attribute"
+          ],
+          "outer_html_sha256": "df6cc1127247e19a7c0d8ab7e00ebaeb361705984b575124bef3f9912610f08a"
         }
       ],
       "template_syntax": []
@@ -367,7 +493,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -401,7 +532,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -435,7 +571,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -469,7 +610,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -551,7 +697,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -615,27 +766,52 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#analytics-clarity-audit > span#decision-sprint",
-          "reason": "aria-hidden",
+          "tag": "span",
+          "id": "decision-sprint",
+          "class": "",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "1e04f20010540b4bad361156404d665cc12dba5f9e1762ddccc62bf760f4ca9c"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#dashboard-reporting-sprint > span#measurement-build",
-          "reason": "aria-hidden",
+          "tag": "span",
+          "id": "measurement-build",
+          "class": "",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "b40db109a895e064bb497992b77403dc212a96a7173f55c37427615fe6f9c3c7"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#structured-analytics-advisory > span#fractional-partner",
-          "reason": "aria-hidden",
+          "tag": "span",
+          "id": "fractional-partner",
+          "class": "",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "a75d27804b584cb7f4ed6b909bda452f0cd2ed3a1fd5dcf1524b300b4d5af2f2"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-resource > div.section-content.resource-panel > div.resource-action > span.resource-format > i.far.fa-file-pdf",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "far fa-file-pdf",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "6d05d8470390c3b3561aab6f913bd233271a340b931d64d307a1583f03e4a852"
         }
       ],
@@ -670,7 +846,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -723,72 +904,142 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > header.home-hero > div.section-content.home-hero-grid > div.home-hero-copy.fade-panel > div.hero-buttons > a.btn.btn-secondary > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.proof-strip > div.section-content > h2#proof-strip-title",
-          "reason": "sr-only",
+          "tag": "h2",
+          "id": "proof-strip-title",
+          "class": "sr-only",
+          "matched_selectors": [
+            "sr-only"
+          ],
           "outer_html_sha256": "27a04f96053c3f152fe39e533ed3a1c18c5892f5268bfc84f70a87293d5286ff"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(5) > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(6) > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(7) > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#services > div.section-content.two-column-section > div.section-heading > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-right",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(7) > i.fas.fa-briefcase",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-briefcase",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "64bc93206f663a4dc849ca0c6f0f785c86c57f9691dda0394305e2111e04312b"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(8) > i.fab.fa-linkedin-in",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fab fa-linkedin-in",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "72900acf3a66942430b257062ce9b82e10bca10142e7d3d5b3fb269d5c087daf"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(9) > i.fas.fa-chart-line",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-chart-line",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "745740ecda3fa6c2c666dd36c1183fcba3aeda0fa9374974e5b965baa3e66237"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > button#scrollToTop > i.fas.fa-arrow-up",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-arrow-up",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "39529c88f1bdf75d08a1ce5f3a74fdae65e98907923b8530ebac2ba20163d021"
         }
       ],
@@ -796,7 +1047,7 @@
     },
     "/projects/": {
       "jsonld_blocks": [
-        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"Case Studies\",\n                            \"item\": \"https://anthony-baptiste.com/projects/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"ItemList\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#case-studies\",\n                    \"name\": \"Analytics Case Studies by Anthony Baptiste\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"Enterprise Operations Intelligence Platform\",\n                                \"url\": \"https://github.com/AntBap23/Enterprise_BI_Project_Repo\",\n                                \"about\": \"Analytics engineering, BI dashboards, dimensional modeling, data quality, and operational reporting.\",\n                                \"keywords\": \"Python, PostgreSQL, dbt, SQL, Tableau, analytics engineering\",\n                                \"text\": \"Anthony Baptiste built an end-to-end analytics engineering workflow that moves raw CSV files through validation, PostgreSQL, dbt transformations, dimensional modeling, data quality checks, and dashboard-ready SQL for operational and product analysis.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"HAVI Hackathon Demand Forecasting\",\n                                \"url\": \"https://github.com/AntBap23/Havi-Hackathon-2026\",\n                                \"about\": \"QSR demand forecasting, supply chain analytics, time-based validation, and wMAPE modeling.\",\n                                \"keywords\": \"Python, LightGBM, scikit-learn, forecasting, supply chain analytics\",\n                                \"text\": \"Anthony Baptiste built a demand forecasting workflow for the HAVI and NIU Quick Service Restaurant Demand Forecasting Challenge using calendar, weather, promotion, historical demand, and gradient boosting features.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 3,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"Ecommerce Strategy Analysis - A/B Testing\",\n                                \"url\": \"https://github.com/AntBap23/Ecommerce-Analysis\",\n                                \"about\": \"A/B testing, experiment validation, ecommerce analytics, SQL analysis, and business interpretation.\",\n                                \"keywords\": \"Python, SQL, Pandas, A/B testing, statistical analysis\",\n                                \"text\": \"Anthony Baptiste analyzed an ecommerce A/B test by cleaning experiment data, validating control and treatment setup, and comparing conversion behavior and session engagement before translating the results into business interpretation.\"\n                            }\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"FAQPage\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#faq\",\n                    \"mainEntity\": [\n                        {\n                            \"@type\": \"Question\",\n                            \"name\": \"What's the difference between an analytics audit and a dashboard build?\",\n                            \"acceptedAnswer\": {\n                                \"@type\": \"Answer\",\n                                \"text\": \"An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A dashboard build creates the reporting asset itself, including cleaned data, visual views, KPI definitions, QA checks, and handoff notes.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"Question\",\n                            \"name\": \"Can Anthony Baptiste analyze Adobe Target or A/B test results?\",\n                            \"acceptedAnswer\": {\n                                \"@type\": \"Answer\",\n                                \"text\": \"Anthony Baptiste can analyze A/B and multivariate tests by checking hypotheses, success metrics, sample size, traffic allocation, KPI movement, segments, and business implications.\"\n                            }\n                        }\n                    ]\n                }\n            ]\n        }\n    </script>"
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"Case Studies\",\n                            \"item\": \"https://anthony-baptiste.com/projects/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"ItemList\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#case-studies\",\n                    \"name\": \"Analytics Case Studies by Anthony Baptiste\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"Enterprise Operations Intelligence Platform\",\n                                \"url\": \"https://github.com/AntBap23/Enterprise_BI_Project_Repo\",\n                                \"about\": \"Analytics engineering, BI dashboards, dimensional modeling, data quality, and operational reporting.\",\n                                \"keywords\": \"Python, PostgreSQL, dbt, SQL, Tableau, analytics engineering\",\n                                \"text\": \"Anthony Baptiste built an end-to-end analytics engineering workflow that moves raw CSV files through validation, PostgreSQL, dbt transformations, dimensional modeling, data quality checks, and dashboard-ready SQL for operational and product analysis.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"HAVI Hackathon Demand Forecasting\",\n                                \"url\": \"https://github.com/AntBap23/Havi-Hackathon-2026\",\n                                \"about\": \"QSR demand forecasting, supply chain analytics, time-based validation, and wMAPE modeling.\",\n                                \"keywords\": \"Python, LightGBM, scikit-learn, forecasting, supply chain analytics\",\n                                \"text\": \"Anthony Baptiste built a demand forecasting workflow for the HAVI and NIU Quick Service Restaurant Demand Forecasting Challenge using calendar, weather, promotion, historical demand, and gradient boosting features.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 3,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"Ecommerce Strategy Analysis - A/B Testing\",\n                                \"url\": \"https://github.com/AntBap23/Ecommerce-Analysis\",\n                                \"about\": \"A/B testing, experiment validation, ecommerce analytics, SQL analysis, and business interpretation.\",\n                                \"keywords\": \"Python, SQL, Pandas, A/B testing, statistical analysis\",\n                                \"text\": \"Anthony Baptiste analyzed an ecommerce A/B test by cleaning experiment data, validating control and treatment setup, and comparing conversion behavior and session engagement before translating the results into business interpretation.\"\n                            }\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"FAQPage\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#faq\",\n                    \"mainEntity\": [\n                        {\n                            \"@type\": \"Question\",\n                            \"name\": \"What's the difference between an analytics audit and a dashboard build?\",\n                            \"acceptedAnswer\": {\n                                \"@type\": \"Answer\",\n                                \"text\": \"An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A dashboard build creates the reporting asset itself, including cleaned data, visual views, KPI definitions, QA checks, and handoff notes.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"Question\",\n                            \"name\": \"How does experimentation experience inform consulting?\",\n                            \"acceptedAnswer\": {\n                                \"@type\": \"Answer\",\n                                \"text\": \"Anthony Baptiste can analyze A/B and multivariate tests by checking hypotheses, success metrics, sample size, traffic allocation, KPI movement, segments, and business implications.\"\n                            }\n                        }\n                    ]\n                }\n            ]\n        }\n    </script>"
       ],
       "title": null,
       "title_raw": "<title>Case Studies | Anthony Baptiste</title>",
@@ -820,7 +1071,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -850,7 +1106,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -880,7 +1141,12 @@
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "reason": "aria-hidden",
+          "tag": "i",
+          "id": "",
+          "class": "fas fa-bars",
+          "matched_selectors": [
+            "aria-hidden"
+          ],
           "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
         }
       ],
@@ -890,6 +1156,6 @@
   "llms_txt_blob_sha": "3b51141a346700b57fca132ed5d261360f869637",
   "robots_txt_blob_sha": "e698bea3d563b0b4b97a89dbd0c3ca25e037eefb",
   "sitemap_xml_normalized": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <url>\n        <loc>https://anthony-baptiste.com/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>1.0</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.75</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/services/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.72</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/process/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.68</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/about/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/projects/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.85</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/experience/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.95</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/competitions/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/resume/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.55</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/research/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/analytics-clarity/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/reporting-dashboard/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/ai-workflow/</loc><lastmod></lastmod></url>\n</urlset>\n",
-  "source_commit": "d2103f162905c4b767ecd6d5b1784f1803ebb601",
-  "fixture_id": "0c13d2e8f753dad83f61ef2e2dbb78252c5558b39fe80e49874c88f976c51f38"
+  "source_commit": "caaac95d7accd64fe8766e7c6b5b82cefde442b1",
+  "fixture_id": "93e944c05c1c15e6509f9b3612840819636e95a42375d766fadcd6215263e1d8"
 }
