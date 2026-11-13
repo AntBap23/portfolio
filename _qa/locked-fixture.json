@@ -1,0 +1,895 @@
+{
+  "pages": {
+    "/competitions/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/competitions/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"Competitions\",\n                            \"item\": \"https://anthony-baptiste.com/competitions/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"Person\",\n                    \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\",\n                    \"name\": \"Anthony Baptiste\",\n                    \"award\": \"1st Place, NIU Data Visualization Competition with HAVI\"\n                },\n                {\n                    \"@type\": \"ItemList\",\n                    \"@id\": \"https://anthony-baptiste.com/competitions/#awards-and-community\",\n                    \"name\": \"Analytics competitions and community work\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"HAVI Data Visualization Competition\",\n                                \"award\": \"1st Place, NIU Data Visualization Competition with HAVI\",\n                                \"about\": \"Power BI, Python, Excel, QSR supply chain analytics, inventory waste, and supplier performance.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"HAVI Hackathon Competition\",\n                                \"about\": \"Demand forecasting workflow for the HAVI and NIU Quick Service Restaurant Demand Forecasting Challenge.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 3,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"OMIS x IGNITE\",\n                                \"about\": \"Student-led professional development, speaker, promotion, and networking initiative.\"\n                            }\n                        }\n                    ]\n                }\n            ]\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Community & Competitions | Anthony Baptiste</title>",
+      "meta_description": "Analytics competitions, leadership, workshops, and community work by Anthony Baptiste, including HAVI data visualization, OMIS IGNITE, ACM NIU, and AI agents training.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Analytics competitions, leadership, workshops, and community work by Anthony Baptiste, including HAVI data visualization, OMIS IGNITE, ACM NIU, and AI agents training.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "competitions",
+        "scrollToTop",
+        "gallery-modal"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Competitions, clubs, and public proof beyond the classroom."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
+          "reason": "display-none",
+          "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.project-image > div.project-info > div.gallery-images",
+          "reason": "display-none",
+          "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
+          "reason": "display-none",
+          "outer_html_sha256": "c2d7f8ef4f8029b0d590a58662c8cfb02d8910d6b09023f91893d82019cc3479"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.project-info > div.gallery-images",
+          "reason": "display-none",
+          "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
+          "reason": "display-none",
+          "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div#gallery-modal",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c761ec9ac1a3786af57608c747f4d771aa800d79c33a38a7bdfc23ac5ba8856d"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/about/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://anthony-baptiste.com/\"},\n                {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Consulting\", \"item\": \"https://anthony-baptiste.com/consulting/\"},\n                {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"About\", \"item\": \"https://anthony-baptiste.com/consulting/about/\"}\n            ]\n        }\n    </script>",
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@type\": \"ProfilePage\",\n            \"@id\": \"https://anthony-baptiste.com/consulting/about/#profile\",\n            \"url\": \"https://anthony-baptiste.com/consulting/about/\",\n            \"mainEntity\": {\n                \"@type\": \"Person\",\n                \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\",\n                \"name\": \"Anthony Baptiste\",\n                \"jobTitle\": \"Digital Experimentation Analyst\",\n                \"url\": \"https://anthony-baptiste.com/\",\n                \"image\": \"https://anthony-baptiste.com/images/anthony-baptiste.webp\",\n                \"email\": \"mailto:bapanalytics00@gmail.com\",\n                \"sameAs\": [\"https://www.linkedin.com/in/anthony-baptiste00/\", \"https://github.com/AntBap23\"],\n                \"knowsAbout\": [\"Product analytics\", \"Business intelligence\", \"KPI reporting\", \"Digital experimentation\", \"Adobe Analytics\", \"Adobe Target\", \"A/B testing\", \"Operations analytics\", \"Growth strategy\"]\n            }\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>About Anthony Baptiste | Analytics Consultant</title>",
+      "meta_description": "Meet Anthony Baptiste: analytics, business intelligence, conversion analysis, and applied AI experience behind evidence-based independent consulting.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Meet Anthony Baptiste: analytics, business intelligence, conversion analysis, and applied AI experience behind evidence-based independent consulting.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "about-title",
+        "approach-title",
+        "proof-title",
+        "expertise-title",
+        "background-title",
+        "contact",
+        "contact-title",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "An analyst who works from the decision backward."
+        },
+        {
+          "type": "answer-summary",
+          "text": "I am a Digital Experimentation Analyst at Ulta Beauty with experience across product analytics, operations analytics, KPI reporting, dashboard development, and growth strategy."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > div.section-content.consulting-about-hero-grid > div.consulting-about-copy > nav.breadcrumb.breadcrumb-dark > span:nth-of-type(1)",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "e4a44b579366fb889d58184cc521252b3e5decccea03ae47555265d87e67fa7c"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-proof-bar > div.section-content > h2#proof-title",
+          "reason": "sr-only",
+          "outer_html_sha256": "7b3bd319ba0d98746be07751dfa2fa3bc7a94491856bfc778e3430487e0a7b7e"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-about-hero > section.consulting-section.consulting-background > div.section-content > div.section-action.multi-action > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"ProfessionalService\",\n                    \"@id\": \"https://anthony-baptiste.com/#analytics-consulting\",\n                    \"name\": \"Anthony Baptiste Analytics and Applied AI Consulting\",\n                    \"url\": \"https://anthony-baptiste.com/consulting/\",\n                    \"description\": \"Independent analytics consulting for startups and small businesses: KPI audits, dashboards, digital experience audits, AI workflows, and structured monthly support.\",\n                    \"areaServed\": [\"Chicago\", \"Northern Illinois\", \"United States\", \"Remote\"],\n                    \"priceRange\": \"Project ranges: $500\u2013$900 and $1,200\u2013$2,500; Structured Analytics Advisory or Monthly Reporting Support: $1,200\u2013$2,500/month. Final scope and price confirmed in proposal.\",\n                    \"founder\": {\n                        \"@type\": \"Person\",\n                        \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\",\n                        \"name\": \"Anthony Baptiste\",\n                        \"url\": \"https://anthony-baptiste.com/\",\n                        \"email\": \"mailto:bapanalytics00@gmail.com\"\n                    },\n                    \"potentialAction\": {\n                        \"@type\": \"CommunicateAction\",\n                        \"target\": \"https://anthony-baptiste.com/consulting/#inquiry\",\n                        \"name\": \"Request a Project Proposal\"\n                    }\n                },\n                {\n                    \"@type\": \"WebPage\",\n                    \"@id\": \"https://anthony-baptiste.com/consulting/#webpage\",\n                    \"url\": \"https://anthony-baptiste.com/consulting/\",\n                    \"name\": \"Independent Analytics and Applied AI Consulting\",\n                    \"about\": {\n                        \"@id\": \"https://anthony-baptiste.com/#analytics-consulting\"\n                    }\n                }\n            ]\n        }\n    </script>",
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@type\": \"BreadcrumbList\",\n            \"@id\": \"https://anthony-baptiste.com/consulting/#breadcrumb\",\n            \"itemListElement\": [\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 1,\n                    \"name\": \"Home\",\n                    \"item\": \"https://anthony-baptiste.com/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Consulting\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/\"\n                }\n            ]\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Independent Analytics & AI Consulting | Anthony Baptiste</title>",
+      "meta_description": "Explore six scoped analytics and AI consulting services, sample deliverables, and a simple project inquiry. Get a suggested starting point within two business days.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Explore six scoped analytics and AI consulting services, sample deliverables, and a simple project inquiry. Get a suggested starting point within two business days.\">",
+      "contact_forms": [
+        {
+          "action": "https://formspree.io/f/xkjjznqr",
+          "fields": [
+            {
+              "type": "input",
+              "name": "_subject",
+              "value": "Consulting project inquiry: General inquiry",
+              "id": "",
+              "input_type": "hidden"
+            },
+            {
+              "type": "input",
+              "name": "name",
+              "value": "",
+              "id": "inquiry-name",
+              "input_type": "text"
+            },
+            {
+              "type": "input",
+              "name": "email",
+              "value": "",
+              "id": "inquiry-email",
+              "input_type": "email"
+            },
+            {
+              "type": "textarea",
+              "name": "challenge",
+              "value": "",
+              "id": "inquiry-challenge"
+            },
+            {
+              "type": "input",
+              "name": "organization",
+              "value": "",
+              "id": "inquiry-organization",
+              "input_type": "text"
+            },
+            {
+              "type": "select",
+              "name": "service",
+              "value": "",
+              "id": "inquiry-service"
+            },
+            {
+              "type": "textarea",
+              "name": "deliverables",
+              "value": "",
+              "id": "inquiry-deliverables"
+            },
+            {
+              "type": "select",
+              "name": "budget",
+              "value": "",
+              "id": "inquiry-budget"
+            },
+            {
+              "type": "input",
+              "name": "timeline",
+              "value": "",
+              "id": "inquiry-timeline",
+              "input_type": ""
+            },
+            {
+              "type": "input",
+              "name": "preferences",
+              "value": "",
+              "id": "inquiry-preferences",
+              "input_type": ""
+            },
+            {
+              "type": "textarea",
+              "name": "",
+              "value": "",
+              "id": "inquiry-draft"
+            }
+          ]
+        }
+      ],
+      "calendly_links": [
+        {
+          "href": "https://calendly.com/bapanalytics00",
+          "text": "Book an Intro Call"
+        }
+      ],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "consulting-title",
+        "consulting-proof-title",
+        "explore-title",
+        "fit-title",
+        "service-preview-title",
+        "work-title",
+        "contact",
+        "contact-title",
+        "inquiry",
+        "project-inquiry",
+        "inquiry-name",
+        "inquiry-email",
+        "inquiry-challenge",
+        "inquiry-organization",
+        "inquiry-service",
+        "inquiry-deliverables",
+        "inquiry-budget",
+        "inquiry-timeline",
+        "inquiry-preferences",
+        "inquiry-delivery-note",
+        "inquiry-status",
+        "inquiry-fallback",
+        "inquiry-draft",
+        "copy-inquiry",
+        "inquiry-email-app",
+        "inquiry-gmail",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Turn your data and workflows into practical business deliverables."
+        },
+        {
+          "type": "answer-summary",
+          "text": "I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work."
+        },
+        {
+          "type": "price",
+          "text": "Under $500"
+        },
+        {
+          "type": "price",
+          "text": "$500\u2013$900 (Analytics Clarity Audit, one-time)"
+        },
+        {
+          "type": "price",
+          "text": "$1,200\u2013$2,500 (Dashboard &amp; Reporting Sprint, one-time)"
+        },
+        {
+          "type": "price",
+          "text": "$1,200\u2013$2,500 per month (Structured Analytics Advisory or Monthly Reporting Support)"
+        },
+        {
+          "type": "employer_disclaimer",
+          "text": "Employers are not presented as independent consulting clients."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > div.consulting-hero-copy > p.hero-credibility > i.fas.fa-check-circle",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "e958bb73eb24b9f7b384ae6436c0585ae53bacb9eb7bf764c03ee2d49c43c98b"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-hero > div.section-content.consulting-hero-grid > aside.entry-offer > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-proof-bar > div.section-content > h2#consulting-proof-title",
+          "reason": "sr-only",
+          "outer_html_sha256": "9f7d3b27e54d10a07dcab1571b3b0430e88f712cfe0e1d6aaea6fa7b1504a34d"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(5) > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(6) > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(7) > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-overview-routes > div.section-content > div.consulting-route-grid > a.consulting-route-card > strong:nth-of-type(8) > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-outcomes > div.section-content.outcomes-layout > div.section-heading > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(11) > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(12) > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-work > div.section-content > div.consulting-compact-work > article:nth-of-type(13) > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/process/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://anthony-baptiste.com/\"},\n                {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Consulting\", \"item\": \"https://anthony-baptiste.com/consulting/\"},\n                {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"Process\", \"item\": \"https://anthony-baptiste.com/consulting/process/\"}\n            ]\n        }\n    </script>",
+        "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can I inquire without booking a call?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Send your business challenge and desired deliverables through the project inquiry form or email. A meeting is optional; scope, timeline, deliverables, and price are proposed before work begins.\"}}, {\"@type\": \"Question\", \"name\": \"When are live sessions available?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days.\"}}, {\"@type\": \"Question\", \"name\": \"What happens after technical handoff?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Your designated team owns dashboard operation and AI workflow maintenance after handoff. Documentation explains validation, limitations, and ownership. Additional maintenance or support must be separately scoped and approved.\"}}, {\"@type\": \"Question\", \"name\": \"Do you run live A/B tests?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. The Digital Experience & Growth Opportunity Audit delivers an assessment, evidence-based recommendations, and a prioritized backlog. Your team may later validate recommendations; live experiment operations and guaranteed conversion or revenue gains are not included.\"}}, {\"@type\": \"Question\", \"name\": \"How does recurring support work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Monthly Reporting Support delivers agreed KPI summaries, analysis, dashboard updates, insights, and recommendations. Structured Analytics Advisory provides scheduled strategy consultations and periodic deliverables. Both use defined monthly scopes and capped capacity.\"}}, {\"@type\": \"Question\", \"name\": \"Who provides tools and data?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Clients provide relevant secure exports or least-privilege access and any required paid platform licenses. Work can use Excel, SQL, Python, or existing BI tools; confidential data is not published to public portfolio platforms.\"}}]}</script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Consulting Process & Project Inquiry | Anthony Baptiste</title>",
+      "meta_description": "Submit a project inquiry without booking a call. Explore scope and proposal, independent execution, delivery and handoff, and evening or agreed weekend reviews.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Submit a project inquiry without booking a call. Explore scope and proposal, independent execution, delivery and handoff, and evening or agreed weekend reviews.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "faq",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "A clear path from inquiry to handoff."
+        },
+        {
+          "type": "answer-summary",
+          "text": "Independent execution, asynchronous communication, and defined deliverables keep the work focused on your business goals."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/samples/ai-workflow/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebPage\",\n        \"name\": \"Sample AI Workflow\",\n        \"url\": \"https://anthony-baptiste.com/consulting/samples/ai-workflow/\",\n        \"description\": \"An illustrative sample using synthetic data to demonstrate Applied AI Workflow Sprint deliverable structure.\",\n        \"about\": {\n            \"@type\": \"Service\",\n            \"name\": \"Applied AI Workflow Sprint\"\n        },\n        \"breadcrumb\": {\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 1,\n                    \"name\": \"Home\",\n                    \"item\": \"https://anthony-baptiste.com/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Consulting\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 3,\n                    \"name\": \"Samples\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/samples/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 4,\n                    \"name\": \"Sample AI Workflow\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/samples/ai-workflow/\"\n                }\n            ]\n        }\n    }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Sample AI Workflow | Anthony Baptiste</title>",
+      "meta_description": "A human-reviewed inquiry triage workflow for repetitive, non-critical work.",
+      "meta_description_raw": "<meta name=\"description\" content=\"A human-reviewed inquiry triage workflow for repetitive, non-critical work.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Sample AI Workflow"
+        },
+        {
+          "type": "answer-summary",
+          "text": "A human-reviewed inquiry triage workflow for repetitive, non-critical work."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/samples/analytics-clarity/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebPage\",\n        \"name\": \"Sample Analytics Clarity Audit\",\n        \"url\": \"https://anthony-baptiste.com/consulting/samples/analytics-clarity/\",\n        \"description\": \"An illustrative sample using synthetic data to demonstrate Analytics Clarity Audit deliverable structure.\",\n        \"about\": {\n            \"@type\": \"Service\",\n            \"name\": \"Analytics Clarity Audit\"\n        },\n        \"breadcrumb\": {\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 1,\n                    \"name\": \"Home\",\n                    \"item\": \"https://anthony-baptiste.com/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Consulting\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 3,\n                    \"name\": \"Samples\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/samples/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 4,\n                    \"name\": \"Sample Analytics Clarity Audit\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/samples/analytics-clarity/\"\n                }\n            ]\n        }\n    }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Sample Analytics Clarity Audit | Anthony Baptiste</title>",
+      "meta_description": "A fictional DTC storefront: measurement gaps and a prioritized action plan.",
+      "meta_description_raw": "<meta name=\"description\" content=\"A fictional DTC storefront: measurement gaps and a prioritized action plan.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Sample Analytics Clarity Audit"
+        },
+        {
+          "type": "answer-summary",
+          "text": "A fictional DTC storefront: measurement gaps and a prioritized action plan."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/samples/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebPage\",\n        \"name\": \"Sample Consulting Deliverables\",\n        \"url\": \"https://anthony-baptiste.com/consulting/samples/\",\n        \"description\": \"Illustrative sample deliverables using synthetic data to demonstrate deliverable structure and handoff documentation.\",\n        \"about\": [\n            {\n                \"@type\": \"Service\",\n                \"name\": \"Analytics Clarity Audit\"\n            },\n            {\n                \"@type\": \"Service\",\n                \"name\": \"Dashboard & Reporting Sprint\"\n            },\n            {\n                \"@type\": \"Service\",\n                \"name\": \"Applied AI Workflow Sprint\"\n            }\n        ],\n        \"breadcrumb\": {\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 1,\n                    \"name\": \"Home\",\n                    \"item\": \"https://anthony-baptiste.com/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Consulting\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 3,\n                    \"name\": \"Samples\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/samples/\"\n                }\n            ]\n        }\n    }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Sample Consulting Deliverables | Anthony Baptiste</title>",
+      "meta_description": "Explore illustrative analytics audit, reporting dashboard, and AI workflow deliverables using fictional scenarios and synthetic data.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Explore illustrative analytics audit, reporting dashboard, and AI workflow deliverables using fictional scenarios and synthetic data.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Explore sample consulting deliverables."
+        },
+        {
+          "type": "answer-summary",
+          "text": "See the structure, reasoning, and handoff notes behind an audit, a dashboard, and an AI workflow."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/samples/reporting-dashboard/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"WebPage\",\n        \"name\": \"Sample Reporting Dashboard\",\n        \"url\": \"https://anthony-baptiste.com/consulting/samples/reporting-dashboard/\",\n        \"description\": \"An illustrative sample using synthetic data to demonstrate Dashboard & Reporting Sprint deliverable structure.\",\n        \"about\": {\n            \"@type\": \"Service\",\n            \"name\": \"Dashboard & Reporting Sprint\"\n        },\n        \"breadcrumb\": {\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 1,\n                    \"name\": \"Home\",\n                    \"item\": \"https://anthony-baptiste.com/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Consulting\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 3,\n                    \"name\": \"Samples\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/samples/\"\n                },\n                {\n                    \"@type\": \"ListItem\",\n                    \"position\": 4,\n                    \"name\": \"Sample Reporting Dashboard\",\n                    \"item\": \"https://anthony-baptiste.com/consulting/samples/reporting-dashboard/\"\n                }\n            ]\n        }\n    }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Sample Reporting Dashboard | Anthony Baptiste</title>",
+      "meta_description": "A dashboard mockup with synthetic ecommerce data and explicit metric definitions.",
+      "meta_description_raw": "<meta name=\"description\" content=\"A dashboard mockup with synthetic ecommerce data and explicit metric definitions.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Sample Reporting Dashboard"
+        },
+        {
+          "type": "answer-summary",
+          "text": "A dashboard mockup with synthetic ecommerce data and explicit metric definitions."
+        },
+        {
+          "type": "price",
+          "text": "$42,000"
+        },
+        {
+          "type": "price",
+          "text": "$70"
+        },
+        {
+          "type": "price",
+          "text": "$42,000 \u00f7 600"
+        },
+        {
+          "type": "price",
+          "text": "$30,000"
+        },
+        {
+          "type": "price",
+          "text": "$36,000"
+        },
+        {
+          "type": "price",
+          "text": "$42,000"
+        },
+        {
+          "type": "price",
+          "text": "$30,000"
+        },
+        {
+          "type": "price",
+          "text": "$60"
+        },
+        {
+          "type": "price",
+          "text": "$36,000"
+        },
+        {
+          "type": "price",
+          "text": "$60"
+        },
+        {
+          "type": "price",
+          "text": "$42,000"
+        },
+        {
+          "type": "price",
+          "text": "$70"
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/consulting/services/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://anthony-baptiste.com/\"},\n                {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Consulting\", \"item\": \"https://anthony-baptiste.com/consulting/\"},\n                {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"Services\", \"item\": \"https://anthony-baptiste.com/consulting/services/\"}\n            ]\n        }\n    </script>",
+        "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"@id\": \"https://anthony-baptiste.com/consulting/services/#faq\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is included in a project?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Every engagement has an agreed scope, deliverables, milestones, deadlines, and review points before work begins. Each service card above lists its expected deliverables.\"}}, {\"@type\": \"Question\", \"name\": \"What is not included?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Services do not include emergency response, on-call coverage, real-time monitoring, or live experimentation operations. Additional work, revisions beyond the agreed scope, maintenance, and support require separate scoping and approval.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need to buy a BI tool?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Not necessarily. Excel, SQL, Python, or an existing BI platform can be used where appropriate. Your team supplies relevant secure exports or least-privilege access and any required paid software licenses.\"}}, {\"@type\": \"Question\", \"name\": \"Should I start with an audit or a sprint?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A Dashboard & Reporting Sprint builds the reporting deliverable itself, with KPI definitions, validation checks, documentation, and handoff. You can start with an analytics or digital experience audit, build a reporting or AI workflow deliverable, or agree a recurring reporting or advisory package.\"}}, {\"@type\": \"Question\", \"name\": \"How is the final price set?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Published ranges are in USD and depend on the agreed deliverables, data readiness, and complexity. The Digital Experience & Growth Opportunity Audit and the Applied AI Workflow Sprint are quoted after scoping. Scope, timeline, and price are confirmed in a written proposal before any work begins.\"}}, {\"@type\": \"Question\", \"name\": \"Who are these services for?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"These services cover analytics, business intelligence, digital experience assessment, and applied AI for startups, founders, Chicago and other small businesses, agencies, nonprofits, workforce boards, and growing organizations.\"}}]}</script>",
+        "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"OfferCatalog\", \"name\": \"Independent Analytics and Applied AI Consulting\", \"url\": \"https://anthony-baptiste.com/consulting/services/\", \"itemListElement\": [{\"@type\": \"Offer\", \"url\": \"https://anthony-baptiste.com/consulting/services/#analytics-clarity-audit\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Analytics Clarity Audit\", \"description\": \"Founders and small teams with conflicting KPIs, unreliable analytics, or reporting gaps. Deliverables: KPI assessment and analytics quality review; Reporting gap assessment and data interpretation; Diagnostic report, measurement recommendations, and prioritized improvement roadmap\"}, \"priceSpecification\": {\"@type\": \"PriceSpecification\", \"priceCurrency\": \"USD\", \"minPrice\": 500, \"maxPrice\": 900}}, {\"@type\": \"Offer\", \"url\": \"https://anthony-baptiste.com/consulting/services/#dashboard-reporting-sprint\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Dashboard & Reporting Sprint\", \"description\": \"Teams that need reusable business intelligence and executive reporting. Deliverables: KPI definitions, data preparation, and source map; Dashboard or reporting model with validation checks; Executive views, metric glossary, documentation, and handoff\"}, \"priceSpecification\": {\"@type\": \"PriceSpecification\", \"priceCurrency\": \"USD\", \"minPrice\": 1200, \"maxPrice\": 2500}}, {\"@type\": \"Offer\", \"url\": \"https://anthony-baptiste.com/consulting/services/#digital-experience-audit\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Digital Experience & Growth Opportunity Audit\", \"description\": \"E-commerce businesses, SaaS startups, growing businesses, digital product teams, and online service providers seeking clearer customer journeys. Deliverables: Review of agreed journeys, navigation, information architecture, conversion paths, and mobile/desktop friction; Available analytics, engagement patterns, funnel drop-offs, and customer journey barriers; Opportunities for messaging, content presentation, usability, product discovery, and acquisition-to-conversion journeys; Audit report and executive summary with supporting analytics and observations; Impact-versus-effort opportunity backlog, quick wins, longer-term recommendations, evidence, assumptions, and next steps; Optional scheduled walkthrough\"}}, {\"@type\": \"Offer\", \"url\": \"https://anthony-baptiste.com/consulting/services/#applied-ai-workflow-sprint\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Applied AI Workflow Sprint\", \"description\": \"Businesses and agencies with repetitive, non-critical workflows that can benefit from appropriately scoped AI automation. Deliverables: Business workflow assessment and automation opportunity identification; AI workflow design and agreed automation implementation; Testing, validation, limitations, documentation, and handoff\"}}, {\"@type\": \"Offer\", \"url\": \"https://anthony-baptiste.com/consulting/services/#monthly-reporting-support\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Monthly Reporting Support\", \"description\": \"Growing organizations that need a regular interpretation of performance. Deliverables: Monthly KPI summary, performance analysis, and business insights; Agreed dashboard updates and recommendations; Scheduled review sessions when included in the monthly scope\"}, \"priceSpecification\": {\"@type\": \"PriceSpecification\", \"priceCurrency\": \"USD\", \"minPrice\": 1200, \"maxPrice\": 2500, \"unitText\": \"MONTH\"}}, {\"@type\": \"Offer\", \"url\": \"https://anthony-baptiste.com/consulting/services/#structured-analytics-advisory\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Structured Analytics Advisory\", \"description\": \"Founders and digital teams seeking periodic analytics strategy and practical decision guidance. Deliverables: Scheduled strategic consultations and analytics roadmap reviews; KPI strategy, reporting recommendations, and digital growth opportunity assessment; Periodic advisory deliverables and agreed next steps\"}, \"priceSpecification\": {\"@type\": \"PriceSpecification\", \"priceCurrency\": \"USD\", \"minPrice\": 1200, \"maxPrice\": 2500, \"unitText\": \"MONTH\"}}]}</script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Analytics, Reporting & Digital Experience Services | Anthony Baptiste</title>",
+      "meta_description": "Compare six scoped analytics consulting services: KPI audits, dashboard development, digital experience audits, AI workflows, monthly reporting, and advisory.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Compare six scoped analytics consulting services: KPI audits, dashboard development, digital experience audits, AI workflows, monthly reporting, and advisory.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "main-content",
+        "offers-title",
+        "analytics-clarity-audit",
+        "decision-sprint",
+        "dashboard-reporting-sprint",
+        "measurement-build",
+        "digital-experience-audit",
+        "applied-ai-workflow-sprint",
+        "monthly-reporting-support",
+        "structured-analytics-advisory",
+        "fractional-partner",
+        "resource-title",
+        "faq",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Analytics, Reporting, Digital Experience and Applied AI Consulting Services"
+        },
+        {
+          "type": "answer-summary",
+          "text": "Defined projects. Useful insights. Professional handoffs."
+        },
+        {
+          "type": "price",
+          "text": "$500\u2013$900"
+        },
+        {
+          "type": "price",
+          "text": "$1,200\u2013$2,500"
+        },
+        {
+          "type": "price",
+          "text": "$1,200\u2013$2,500/mo"
+        },
+        {
+          "type": "price",
+          "text": "$1,200\u2013$2,500/mo"
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#analytics-clarity-audit > span#decision-sprint",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "1e04f20010540b4bad361156404d665cc12dba5f9e1762ddccc62bf760f4ca9c"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#dashboard-reporting-sprint > span#measurement-build",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "b40db109a895e064bb497992b77403dc212a96a7173f55c37427615fe6f9c3c7"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section#offers-title > div.section-content > div.consulting-offer-grid > article#structured-analytics-advisory > span#fractional-partner",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "a75d27804b584cb7f4ed6b909bda452f0cd2ed3a1fd5dcf1524b300b4d5af2f2"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > main#main-content > section.consulting-section.consulting-resource > div.section-content.resource-panel > div.resource-action > span.resource-format > i.far.fa-file-pdf",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "6d05d8470390c3b3561aab6f913bd233271a340b931d64d307a1583f03e4a852"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/experience/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/experience/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"Experience\",\n                            \"item\": \"https://anthony-baptiste.com/experience/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"Person\",\n                    \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\",\n                    \"name\": \"Anthony Baptiste\",\n                    \"url\": \"https://anthony-baptiste.com/\",\n                    \"jobTitle\": \"Digital Experimentation Analyst\",\n                    \"email\": \"mailto:bapanalytics00@gmail.com\",\n                    \"alumniOf\": {\n                        \"@type\": \"CollegeOrUniversity\",\n                        \"name\": \"Northern Illinois University\"\n                    },\n                    \"hasOccupation\": [\n                        {\n                            \"@type\": \"Occupation\",\n                            \"name\": \"Digital Experimentation Analyst\"\n                        },\n                        {\n                            \"@type\": \"Occupation\",\n                            \"name\": \"Product Analytics Consultant\"\n                        },\n                        {\n                            \"@type\": \"Occupation\",\n                            \"name\": \"AI/NLP Researcher\"\n                        }\n                    ],\n                    \"award\": \"1st Place, NIU Data Visualization Competition with HAVI\"\n                }\n            ]\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Experience | Anthony Baptiste</title>",
+      "meta_description": "Anthony Baptiste's analytics experience across Ulta Beauty digital experimentation, Shipt network planning, Innovation DuPage KPI reporting, client consulting, AI research, and BI dashboards.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Anthony Baptiste's analytics experience across Ulta Beauty digital experimentation, Shipt network planning, Innovation DuPage KPI reporting, client consulting, AI research, and BI dashboards.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "experience",
+        "experience-select",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Professional experience across digital experimentation, product analytics, operations, and research."
+        },
+        {
+          "type": "employer_disclaimer",
+          "text": "Employers are not presented as independent consulting clients."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"Person\",\n                    \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\",\n                    \"name\": \"Anthony Baptiste\",\n                    \"url\": \"https://anthony-baptiste.com/\",\n                    \"image\": \"https://anthony-baptiste.com/images/anthony-baptiste.webp\",\n                    \"email\": \"mailto:bapanalytics00@gmail.com\",\n                    \"jobTitle\": \"Digital Experimentation Analyst\",\n                    \"sameAs\": [\n                        \"https://www.linkedin.com/in/anthony-baptiste00/\",\n                        \"https://github.com/AntBap23\"\n                    ],\n                    \"alumniOf\": {\n                        \"@type\": \"CollegeOrUniversity\",\n                        \"name\": \"Northern Illinois University\"\n                    },\n                    \"description\": \"Anthony Baptiste is a Digital Experimentation Analyst at Ulta Beauty with experience across product analytics, A/B testing, KPI strategy, business intelligence, operations analytics, and applied AI research.\",\n                    \"knowsAbout\": [\n                        \"Product analytics\",\n                        \"Digital experimentation\",\n                        \"Adobe Analytics\",\n                        \"Adobe Target\",\n                        \"A/B testing analysis\",\n                        \"KPI reporting\",\n                        \"Tableau dashboards\",\n                        \"Power BI dashboards\",\n                        \"SQL\",\n                        \"Python\",\n                        \"Applied AI workflows\"\n                    ]\n                },\n                {\n                    \"@type\": \"ProfessionalService\",\n                    \"@id\": \"https://anthony-baptiste.com/#analytics-consulting\",\n                    \"name\": \"Anthony Baptiste Analytics and Applied AI Consulting\",\n                    \"url\": \"https://anthony-baptiste.com/consulting/\",\n                    \"description\": \"Independent analytics consulting for startups and small businesses: KPI audits, dashboards, digital experience audits, AI workflows, and structured monthly support.\",\n                    \"founder\": {\n                        \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\"\n                    },\n                    \"areaServed\": [\n                        \"Chicago\",\n                        \"Northern Illinois\",\n                        \"United States\",\n                        \"Remote\"\n                    ],\n                    \"priceRange\": \"Project ranges: $500\u2013$900 and $1,200\u2013$2,500; Structured Analytics Advisory or Monthly Reporting Support: $1,200\u2013$2,500/month. Final scope and price confirmed in proposal.\",\n                    \"potentialAction\": {\n                        \"@type\": \"CommunicateAction\",\n                        \"target\": \"https://anthony-baptiste.com/consulting/#inquiry\",\n                        \"name\": \"Request a Project Proposal\"\n                    }\n                },\n                {\n                    \"@type\": \"WebSite\",\n                    \"@id\": \"https://anthony-baptiste.com/#website\",\n                    \"url\": \"https://anthony-baptiste.com/\",\n                    \"name\": \"Anthony Baptiste - Analytics and Applied AI Consulting\",\n                    \"publisher\": {\n                        \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\"\n                    }\n                }\n            ]\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Analytics, Digital Experience & AI Consulting | Anthony Baptiste</title>",
+      "meta_description": "Anthony Baptiste helps ecommerce brands, SaaS founders, agencies, and Chicago small businesses with analytics, reporting, digital experience audits, and applied AI.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Anthony Baptiste helps ecommerce brands, SaaS founders, agencies, and Chicago small businesses with analytics, reporting, digital experience audits, and applied AI.\">",
+      "contact_forms": [],
+      "calendly_links": [
+        {
+          "href": "https://calendly.com/bapanalytics00",
+          "text": "Book an Intro Call (optional)"
+        }
+      ],
+      "element_ids": [
+        "site-menu",
+        "proof-strip-title",
+        "route-index-title",
+        "services",
+        "work",
+        "experience-strip-title",
+        "about",
+        "contact",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Independent Analytics and Applied AI Consultant"
+        },
+        {
+          "type": "answer-summary",
+          "text": "Clearer analytics. Practical growth opportunities. AI workflows your team can use."
+        },
+        {
+          "type": "answer-summary",
+          "text": "I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work."
+        },
+        {
+          "type": "employer_disclaimer",
+          "text": "Employers are not presented as independent consulting clients."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > header.home-hero > div.section-content.home-hero-grid > div.home-hero-copy.fade-panel > div.hero-buttons > a.btn.btn-secondary > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.proof-strip > div.section-content > h2#proof-strip-title",
+          "reason": "sr-only",
+          "outer_html_sha256": "27a04f96053c3f152fe39e533ed3a1c18c5892f5268bfc84f70a87293d5286ff"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(5) > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(6) > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section.route-index > div.section-content > div.route-card-grid > a.route-card.shine-card.spotlight-card > strong:nth-of-type(7) > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#services > div.section-content.two-column-section > div.section-heading > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#work > div.section-content > div.editorial-work-grid > article.editorial-work-card.spotlight-card > a.text-link > i.fas.fa-arrow-right",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "c5124eac7bbc03771dfc4cba9dd4c8f775d623e9b2531d5695a34394ba626110"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(7) > i.fas.fa-briefcase",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "64bc93206f663a4dc849ca0c6f0f785c86c57f9691dda0394305e2111e04312b"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(8) > i.fab.fa-linkedin-in",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "72900acf3a66942430b257062ce9b82e10bca10142e7d3d5b3fb269d5c087daf"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > section#about > div.section-content.about-layout > figure.about-photo > div.about-copy > div.about-links > a:nth-of-type(9) > i.fas.fa-chart-line",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "745740ecda3fa6c2c666dd36c1183fcba3aeda0fa9374974e5b965baa3e66237"
+        },
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > main:nth-of-type(1) > button#scrollToTop > i.fas.fa-arrow-up",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "39529c88f1bdf75d08a1ce5f3a74fdae65e98907923b8530ebac2ba20163d021"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/projects/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"Case Studies\",\n                            \"item\": \"https://anthony-baptiste.com/projects/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"ItemList\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#case-studies\",\n                    \"name\": \"Analytics Case Studies by Anthony Baptiste\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"Enterprise Operations Intelligence Platform\",\n                                \"url\": \"https://github.com/AntBap23/Enterprise_BI_Project_Repo\",\n                                \"about\": \"Analytics engineering, BI dashboards, dimensional modeling, data quality, and operational reporting.\",\n                                \"keywords\": \"Python, PostgreSQL, dbt, SQL, Tableau, analytics engineering\",\n                                \"text\": \"Anthony Baptiste built an end-to-end analytics engineering workflow that moves raw CSV files through validation, PostgreSQL, dbt transformations, dimensional modeling, data quality checks, and dashboard-ready SQL for operational and product analysis.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"HAVI Hackathon Demand Forecasting\",\n                                \"url\": \"https://github.com/AntBap23/Havi-Hackathon-2026\",\n                                \"about\": \"QSR demand forecasting, supply chain analytics, time-based validation, and wMAPE modeling.\",\n                                \"keywords\": \"Python, LightGBM, scikit-learn, forecasting, supply chain analytics\",\n                                \"text\": \"Anthony Baptiste built a demand forecasting workflow for the HAVI and NIU Quick Service Restaurant Demand Forecasting Challenge using calendar, weather, promotion, historical demand, and gradient boosting features.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 3,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"Ecommerce Strategy Analysis - A/B Testing\",\n                                \"url\": \"https://github.com/AntBap23/Ecommerce-Analysis\",\n                                \"about\": \"A/B testing, experiment validation, ecommerce analytics, SQL analysis, and business interpretation.\",\n                                \"keywords\": \"Python, SQL, Pandas, A/B testing, statistical analysis\",\n                                \"text\": \"Anthony Baptiste analyzed an ecommerce A/B test by cleaning experiment data, validating control and treatment setup, and comparing conversion behavior and session engagement before translating the results into business interpretation.\"\n                            }\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"FAQPage\",\n                    \"@id\": \"https://anthony-baptiste.com/projects/#faq\",\n                    \"mainEntity\": [\n                        {\n                            \"@type\": \"Question\",\n                            \"name\": \"What's the difference between an analytics audit and a dashboard build?\",\n                            \"acceptedAnswer\": {\n                                \"@type\": \"Answer\",\n                                \"text\": \"An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A dashboard build creates the reporting asset itself, including cleaned data, visual views, KPI definitions, QA checks, and handoff notes.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"Question\",\n                            \"name\": \"Can Anthony Baptiste analyze Adobe Target or A/B test results?\",\n                            \"acceptedAnswer\": {\n                                \"@type\": \"Answer\",\n                                \"text\": \"Anthony Baptiste can analyze A/B and multivariate tests by checking hypotheses, success metrics, sample size, traffic allocation, KPI movement, segments, and business implications.\"\n                            }\n                        }\n                    ]\n                }\n            ]\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Case Studies | Anthony Baptiste</title>",
+      "meta_description": "Explore sample consulting deliverables, independent analytics portfolio work, competitions, and academic projects by Anthony Baptiste.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Explore sample consulting deliverables, independent analytics portfolio work, competitions, and academic projects by Anthony Baptiste.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "projects",
+        "sample-deliverables-title",
+        "faq",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Proof that I can turn data into decision support."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/research/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/research/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"AI Research\",\n                            \"item\": \"https://anthony-baptiste.com/research/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"ScholarlyArticle\",\n                    \"@id\": \"https://anthony-baptiste.com/research/#ai-interview-research\",\n                    \"headline\": \"Applied AI Research on LLM-Based Interview Simulation\",\n                    \"author\": {\n                        \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\"\n                    },\n                    \"about\": \"AI-generated personas, LLM-based interview simulation, transcript comparison, qualitative research workflows, and NLP evaluation.\",\n                    \"keywords\": \"GPT, Claude, AI personas, transcript comparison, NLP, qualitative research, agentic workflows\",\n                    \"url\": \"https://anthony-baptiste.com/research/\",\n                    \"description\": \"Anthony Baptiste's applied AI research explores how LLM-based interview simulations and AI-generated personas can support qualitative research workflows while preserving human judgment.\"\n                }\n            ]\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>AI Research | Anthony Baptiste</title>",
+      "meta_description": "Applied AI research by Anthony Baptiste on GPT and Claude-style interview simulation, AI personas, transcript comparison, agentic workflows, MCP-style tool use, and NLP evaluation.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Applied AI research by Anthony Baptiste on GPT and Claude-style interview simulation, AI personas, transcript comparison, agentic workflows, MCP-style tool use, and NLP evaluation.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "research",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Applied AI research that can become real workflow tools."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    },
+    "/resume/": {
+      "jsonld_blocks": [
+        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/resume/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"Resume\",\n                            \"item\": \"https://anthony-baptiste.com/resume/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"ProfilePage\",\n                    \"@id\": \"https://anthony-baptiste.com/resume/#profile\",\n                    \"name\": \"Anthony Baptiste Resume\",\n                    \"url\": \"https://anthony-baptiste.com/resume/\",\n                    \"about\": {\n                        \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\"\n                    },\n                    \"description\": \"Resume versions for Anthony Baptiste across business intelligence, data analytics, data science, analytics engineering, operations, and supply chain analytics.\"\n                }\n            ]\n        }\n    </script>"
+      ],
+      "title": null,
+      "title_raw": "<title>Resume | Anthony Baptiste</title>",
+      "meta_description": "Resume versions for Anthony Baptiste across business intelligence, data analytics, data science, analytics engineering, operations, and supply chain analytics.",
+      "meta_description_raw": "<meta name=\"description\" content=\"Resume versions for Anthony Baptiste across business intelligence, data analytics, data science, analytics engineering, operations, and supply chain analytics.\">",
+      "contact_forms": [],
+      "calendly_links": [],
+      "element_ids": [
+        "site-menu",
+        "resume",
+        "scrollToTop"
+      ],
+      "locked_copy": [
+        {
+          "type": "h1",
+          "text": "Resume versions for analytics, BI, and operations roles."
+        }
+      ],
+      "hidden_elements": [
+        {
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "reason": "aria-hidden",
+          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
+        }
+      ],
+      "template_syntax": []
+    }
+  },
+  "llms_txt_blob_sha": "3b51141a346700b57fca132ed5d261360f869637",
+  "robots_txt_blob_sha": "e698bea3d563b0b4b97a89dbd0c3ca25e037eefb",
+  "sitemap_xml_normalized": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <url>\n        <loc>https://anthony-baptiste.com/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>1.0</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.75</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/services/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.72</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/process/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.68</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/about/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/projects/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.85</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/experience/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.95</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/competitions/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/resume/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.55</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/research/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/analytics-clarity/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/reporting-dashboard/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/ai-workflow/</loc><lastmod></lastmod></url>\n</urlset>\n",
+  "source_commit": "d2103f162905c4b767ecd6d5b1784f1803ebb601",
+  "fixture_id": "0c13d2e8f753dad83f61ef2e2dbb78252c5558b39fe80e49874c88f976c51f38"
+}
