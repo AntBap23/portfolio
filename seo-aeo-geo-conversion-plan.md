@@ -198,19 +198,19 @@ Analytics Audit:
 - What does an analytics audit include? An analytics audit reviews your current dashboards, spreadsheets, KPI definitions, data sources, and reporting workflow. The goal is to find where numbers are duplicated, unclear, manually maintained, or hard to trust.
 - When should we do an audit before building a dashboard? Do the audit first when stakeholders disagree on definitions, reports take too long to create, or no one knows which data source is correct. It prevents a dashboard build from copying the same confusion into a nicer interface.
 - What do we get at the end? You get a prioritized roadmap, a plain-language summary of reporting issues, and recommendations for what to fix first. If a build makes sense, the audit defines the scope.
-- How much does it cost? Analytics Clarity Audits start at $750. Final scope depends on the number of systems, dashboards, stakeholders, and data quality issues.
+- How much does it cost? Analytics Clarity Audits start at $500. Final scope depends on the number of systems, dashboards, stakeholders, and data quality issues.
 
 Dashboard & Reporting:
 - What dashboard tools do you work with? I work with Tableau, Power BI, Excel, SQL, Python, Pandas, PostgreSQL, dbt, Salesforce reporting, and Looker Studio depending on the team’s current stack.
 - What makes a dashboard useful? A useful dashboard has clear metric definitions, a known audience, clean source data, QA checks, and a decision it supports. It should reduce manual reporting, not become another place to debate numbers.
 - Can you clean the data before building? Yes. A reporting sprint can include data cleanup, SQL modeling, Python/Pandas transformations, and dashboard-ready tables before the visual layer is built.
-- What does a sprint cost? Dashboard and Reporting Sprints typically range from $3,500-$10,000 depending on data sources, dashboard complexity, cleanup work, and handoff needs.
+- What does a sprint cost? Dashboard and Reporting Sprints typically range from $1,200-$10,000 depending on data sources, dashboard complexity, cleanup work, and handoff needs.
 
 Digital Analytics & Experimentation:
 - Can you analyze Adobe Target or A/B test results? Yes. I can review Adobe Target, AB Tasty, Adobe Analytics, Customer Journey Analytics, A/B tests, and multivariate tests for setup quality, traffic splits, audience logic, KPI movement, and business implications.
 - What makes an A/B test readout trustworthy? A trustworthy readout checks whether the test was set up cleanly, whether the right KPI was used, whether segments behaved differently, and whether the result is strong enough to act on.
 - Do you help with funnel diagnostics? Yes. I can review conversion paths, customer journey behavior, campaign or experiment movement, and segment-level performance to find where the signal changes.
-- What does this sprint cost? Digital Analytics and Experimentation Sprints typically range from $1,500-$6,000 depending on the test, data sources, and reporting depth.
+- What does this sprint cost? Digital Analytics and Experimentation Sprints typically range from $1,200-$6,000 depending on the test, data sources, and reporting depth.
 
 Applied AI Workflow:
 - What is an applied AI workflow? It is a practical tool or process that uses AI to support a real business task, such as summarizing research, drafting reporting notes, comparing transcripts, routing data, or helping analysts work faster.
@@ -356,7 +356,7 @@ Paste one `@graph` on the homepage or split relevant pieces per page. Keep URLs 
         "Remote"
       ],
       "email": "bapanalytics00@gmail.com",
-      "priceRange": "$750-$10000+",
+      "priceRange": "$500-$10000+",
       "sameAs": [
         "https://www.linkedin.com/in/anthony-baptiste00/",
         "https://github.com/AntBap23"
@@ -389,11 +389,11 @@ Paste one `@graph` on the homepage or split relevant pieces per page. Keep URLs 
         "@type": "Offer",
         "@id": "https://anthony-baptiste.com/consulting/#analytics-clarity-audit-offer",
         "priceCurrency": "USD",
-        "price": "750",
+        "price": "500",
         "priceSpecification": {
           "@type": "PriceSpecification",
           "priceCurrency": "USD",
-          "minPrice": 750
+          "minPrice": 500
         }
       }
     },
@@ -411,7 +411,7 @@ Paste one `@graph` on the homepage or split relevant pieces per page. Keep URLs 
         "priceSpecification": {
           "@type": "PriceSpecification",
           "priceCurrency": "USD",
-          "minPrice": 3500,
+          "minPrice": 1200,
           "maxPrice": 10000
         }
       }
@@ -430,7 +430,7 @@ Paste one `@graph` on the homepage or split relevant pieces per page. Keep URLs 
         "priceSpecification": {
           "@type": "PriceSpecification",
           "priceCurrency": "USD",
-          "minPrice": 1500,
+          "minPrice": 1200,
           "maxPrice": 6000
         }
       }

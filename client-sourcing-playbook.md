@@ -83,9 +83,9 @@ Today is September 19, 2026.
 
 POSITIONING
 Anthony Baptiste is a Digital Experimentation Analyst at Ulta Beauty and an independent product analytics consultant. Outside his full-time role, he offers three async-first options:
-1. Product Analytics Decision Sprint: 10 business days, $750-$1,250.
-2. Dashboard & Measurement Build: 3-5 weeks, $1,500-$3,500.
-3. Fractional Product Analytics Partner: 8-12 hours per week on average, three-month minimum, $2,000-$4,000 per month. Up to 15 hours may be scheduled during planned push weeks; heavier scopes are generally $4,000-$5,000 per month.
+1. Product Analytics Decision Sprint: 10 business days, $500-$900.
+2. Dashboard & Measurement Build: 3-5 weeks, $1,200-$2,500.
+3. Fractional Product Analytics Partner: 8-12 hours per week on average, three-month minimum, $1,200-$2,500 per month. Up to 15 hours may be scheduled during planned push weeks; heavier scopes are generally $2,500-$5,000 per month.
 
 He does not provide embedded 9-5 coverage, same-day support, production data engineering, tag deployment, or unrestricted staff augmentation.
 
