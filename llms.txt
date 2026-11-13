@@ -23,7 +23,9 @@ I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago 
 - Nonprofits with grant reporting, program reporting, donor reporting, or resource allocation needs.
 - Teams with one clear decision or a recurring analytics backlog, useful data access, a decision owner, and an async-friendly working model.
 
-## Proof points
+## Professional and academic background (not consulting client work)
+
+Employers are not presented as independent consulting clients.
 
 - Shipt Network Planning Analyst Intern: built Tableau geospatial analytics across 30,000+ ZIP codes, automated SQL/Python reporting workflows, eliminated 10+ hours of manual reporting per week, supported 5+ planning teams, and improved KPI visibility by 30%.
 - Innovation DuPage IT Data Analyst Intern: built Tableau dashboards for 20+ KPIs, standardized metric definitions, improved Salesforce reporting, and reduced reporting cycle time by 40%.
@@ -43,6 +45,7 @@ I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago 
 - Experience proof: https://anthony-baptiste.com/experience/
 - Competitions and community proof: https://anthony-baptiste.com/competitions/
 - Resume: https://anthony-baptiste.com/resume/
+- Research: https://anthony-baptiste.com/research/
 - Email: bapanalytics00@gmail.com
 - LinkedIn: https://www.linkedin.com/in/anthony-baptiste00/
 - GitHub: https://github.com/AntBap23
