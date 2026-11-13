@@ -51,7 +51,7 @@ python3 _qa/locked-check.py check --root _qa/_site
 
 ### 2. Jekyll Build
 
-Builds the site using GitHub Pages configuration and copies `CNAME`, `llms.txt`, and `robots.txt` into `_qa/_site/` so fail-closed checks can verify them.
+Builds the site using GitHub Pages configuration. Copies only `CNAME` into `_qa/_site/` (Jekyll does not emit it). Does **not** copy `llms.txt` or `robots.txt`; Jekyll emits those byte-identical from source, and the checker reads Jekyll's own output (missing or changed = FAIL).
 
 **Usage (from repo root):**
 
@@ -114,7 +114,7 @@ cd _qa && npm install && node screenshots.mjs http://localhost:8080
 ## Files
 
 - `locked-check.py` - Content checker (Python 3 stdlib only)
-- `build.sh` - Jekyll build script (copies CNAME, llms.txt, robots.txt into `_site`)
+- `build.sh` - Jekyll build script (copies only CNAME into `_site`; llms.txt/robots.txt come from Jekyll)
 - `Gemfile` - Ruby dependencies (github-pages gem)
 - `package.json` - Node dependencies
 - `screenshots.mjs` - Screenshot capture script

@@ -16,16 +16,25 @@ bundle install
 echo "Building site..."
 bundle exec jekyll build --source "$REPO_ROOT" --destination "$SCRIPT_DIR/_site"
 
-# Copy static files Jekyll may not emit into _site so fail-closed checks can see them
-for f in CNAME llms.txt robots.txt; do
-  if [ -f "$REPO_ROOT/$f" ]; then
-    cp "$REPO_ROOT/$f" "$SCRIPT_DIR/_site/$f"
-    echo "Copied $f into _qa/_site/"
-  else
-    echo "WARNING: $f missing from repo root"
-    exit 1
-  fi
-done
+# CNAME is not emitted by Jekyll into _site; copy it so fail-closed checks can verify it.
+# Do NOT copy llms.txt or robots.txt: Jekyll already emits them byte-identical from source.
+# Copying them would hide a real publish failure if Jekyll stopped emitting either file.
+if [ -f "$REPO_ROOT/CNAME" ]; then
+  cp "$REPO_ROOT/CNAME" "$SCRIPT_DIR/_site/CNAME"
+  echo "Copied CNAME into _qa/_site/"
+else
+  echo "WARNING: CNAME missing from repo root"
+  exit 1
+fi
+
+if [ ! -f "$SCRIPT_DIR/_site/llms.txt" ]; then
+  echo "WARNING: Jekyll did not emit llms.txt into _site"
+  exit 1
+fi
+if [ ! -f "$SCRIPT_DIR/_site/robots.txt" ]; then
+  echo "WARNING: Jekyll did not emit robots.txt into _site"
+  exit 1
+fi
 
 echo "Build complete. Output in _qa/_site/"
 
