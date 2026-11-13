@@ -18,10 +18,59 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Community"
+        },
+        {
           "type": "h1",
           "text": "Competitions, clubs, and public proof beyond the classroom."
+        },
+        {
+          "type": "h2",
+          "text": "Competitions"
+        },
+        {
+          "type": "h3",
+          "text": "Havi Data Visualization Competition"
+        },
+        {
+          "type": "h3",
+          "text": "Havi Hackathon Competition"
+        },
+        {
+          "type": "h2",
+          "text": "Clubs"
+        },
+        {
+          "type": "h3",
+          "text": "Association for Computing Machinery (ACM)"
+        },
+        {
+          "type": "h3",
+          "text": "OMIS x IGNITE"
+        },
+        {
+          "type": "h2",
+          "text": "Workshops"
+        },
+        {
+          "type": "h3",
+          "text": "AI Agents Certification"
+        },
+        {
+          "type": "h3",
+          "text": "Services"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn Community Competitions, clubs, and public proof beyond the classroom. These moments support the client story too: I compete, present, organize, learn in public, and practice communicating technical work with people. Competitions Havi Data Visualization Competition Developed a Power BI dashboard using Python and Excel to identify inventory waste and supplier performance issues across a QSR supply chain. View gallery Havi Hackathon Competition Built a demand forecasting workflow for the HAVI / NIU Quick Service Restaurant Demand Forecasting Challenge, combining time-based validation, historical and promotion features, and gradient boosting models designed around the competition's wMAPE metric. View gallery Related Project Clubs Association for Computing Machinery (ACM) ACM Community Ambassador. Helped set up and promote events on LinkedIn. View gallery OMIS x IGNITE OMIS x IGNITE student founder. Helped set up events, speakers, promotions, and networking opportunities. View gallery Workshops AI Agents Certification Completed hands-on training focused on building and applying AI agents, including agentic workflows, automation patterns, and practical use cases for AI-assisted productivity and decision support. View certificate Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Services Consulting Offers Proof Consulting Proof Case Studies Samples Process About Experience Research Resume Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved. \u00d7 \u2190 Prev Next \u2192",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -41,7 +90,7 @@
           "matched_selectors": [
             "inline-style"
           ],
-          "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
+          "outer_html_sha256": "22e94e2419707adb3024a11823254e5f0fcedd2a7eb78e02b633491a77f17ddf"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.project-image > div.project-info > div.gallery-images",
@@ -51,7 +100,7 @@
           "matched_selectors": [
             "inline-style"
           ],
-          "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
+          "outer_html_sha256": "331e917a40549e1edc5e93790296c241ecdff424e870169d14cf27f9155314be"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
@@ -61,7 +110,7 @@
           "matched_selectors": [
             "inline-style"
           ],
-          "outer_html_sha256": "c2d7f8ef4f8029b0d590a58662c8cfb02d8910d6b09023f91893d82019cc3479"
+          "outer_html_sha256": "47b483daff14d422a4b6f33c08c2a3ec092c52924fae686e9c7d5b179bba99dc"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.project-info > div.gallery-images",
@@ -71,7 +120,7 @@
           "matched_selectors": [
             "inline-style"
           ],
-          "outer_html_sha256": "385c5ad6556edd43142aacb2980d3274f581f7c7b1d202d0c2c96becdb522f6b"
+          "outer_html_sha256": "668104b85d9f239dff4f1afc3443e6811e7d2a0db0015d01d63fdc971e025e98"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
@@ -81,7 +130,7 @@
           "matched_selectors": [
             "inline-style"
           ],
-          "outer_html_sha256": "587adeb1e815d8f5d556aa77c0ec9019ae6419ed982d33c9791dc442a34421d1"
+          "outer_html_sha256": "b391cd83bea867fd10501234021ab9c4cfaeb54af238610461e040577671b38d"
         },
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div#gallery-modal",
@@ -92,7 +141,7 @@
             "aria-hidden",
             "inline-style"
           ],
-          "outer_html_sha256": "c761ec9ac1a3786af57608c747f4d771aa800d79c33a38a7bdfc23ac5ba8856d"
+          "outer_html_sha256": "ddd1f19fb76dc28410149f5b1494af9d2a750fc0072c654c52cb8fbfccb7a601"
         }
       ],
       "template_syntax": []
@@ -122,14 +171,99 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "About Anthony"
+        },
+        {
           "type": "h1",
           "text": "An analyst who works from the decision backward."
         },
         {
           "type": "answer-summary",
           "text": "I am a Digital Experimentation Analyst at Ulta Beauty with experience across product analytics, operations analytics, KPI reporting, dashboard development, and growth strategy."
+        },
+        {
+          "type": "section-kicker",
+          "text": "My approach"
+        },
+        {
+          "type": "h2",
+          "text": "Start with the question. Build only what helps answer it."
+        },
+        {
+          "type": "h2",
+          "text": "Professional proof"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Expertise"
+        },
+        {
+          "type": "h2",
+          "text": "Measurement, analysis, reporting, and workflow design."
+        },
+        {
+          "type": "h3",
+          "text": "Product analytics"
+        },
+        {
+          "type": "h3",
+          "text": "Experimentation background"
+        },
+        {
+          "type": "h3",
+          "text": "BI & data"
+        },
+        {
+          "type": "h3",
+          "text": "Growth strategy"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Relevant background"
+        },
+        {
+          "type": "h2",
+          "text": "Different environments, one consistent job: make the decision clearer."
+        },
+        {
+          "type": "h3",
+          "text": "Digital experimentation"
+        },
+        {
+          "type": "h3",
+          "text": "Operations BI"
+        },
+        {
+          "type": "h3",
+          "text": "Client strategy"
+        },
+        {
+          "type": "h3",
+          "text": "Demand forecasting"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Limited consulting availability"
+        },
+        {
+          "type": "h2",
+          "text": "Need a focused project or recurring analytics support?"
+        },
+        {
+          "type": "h3",
+          "text": "Consulting"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal Consulting/About About Anthony An analyst who works from the decision backward. I am a Digital Experimentation Analyst at Ulta Beauty with experience across product analytics, operations analytics, KPI reporting, dashboard development, and growth strategy. View Full ExperienceView Consulting Options My approach Start with the question. Build only what helps answer it. My work begins with the business question and the person who needs to act on the answer. Then I define the measurement, inspect the data, build the simplest useful output, and explain the result in language stakeholders can use. My independent practice centers on defined projects and structured advisory deliverables. I work best with teams that value clear ownership, asynchronous updates, professional handoffs, and honest recommendations about what the data can and cannot support. My background in experimentation and conversion analysis informs evidence-based digital experience recommendations. Tools matter, but they do not lead the conversation. A dashboard, experiment readout, or reporting model is useful only when the team understands the metric, trusts the input, and knows what decision the output should inform. Professional proof A/B + MVTexperiment analysis across digital experiences Web + Appcustomer behavior and KPI measurement Product + BIdecision support, dashboards, and reporting Growthmarket insight, KPI frameworks, and recommendations Expertise Measurement, analysis, reporting, and workflow design. I work across the layers needed to move from a business question to a usable output. Product analytics KPI strategy, funnel thinking, segmentation, web and app behavior, customer outcomes, and decision-ready readouts. Experimentation background Professional experience with hypothesis design, A/B and multivariate testing, statistical significance, sample size, traffic allocation, and test duration informs my digital experience assessments. Independent engagements focus on assessment and recommendations; live experimentation operations are not offered. BI & data Adobe Analytics, Adobe Target, Tableau, Power BI, Excel, SQL, Python, Salesforce reporting, and cloud data tools. Growth strategy Discovery, market and competitor analysis, KPI framing, digital performance review, and prioritized recommendations. Relevant background Different environments, one consistent job: make the decision clearer. These categories describe my professional and academic background. Employers and academic affiliations are distinct from independent consulting clients. Professional experience Digital experimentation Hands-on A/B and multivariate test analysis, personalization measurement, audience logic, KPI impact, and executive-ready recommendations. Professional experience Operations BI Geospatial reporting, SQL and Python automation, KPI visibility, stakeholder requirements, and decision support for planning teams. Direct consulting proof Client strategy Discovery, SEO and campaign analysis, competitor research, KPI frameworks, structured recommendations, and leadership presentation. Analytics competition Demand forecasting Time-series analysis, forecast evaluation, scenario interpretation, and a recommendation built for business stakeholders. View ExperienceReview Case StudiesResume options Limited consulting availability Need a focused project or recurring analytics support? Share the business question, available data, timeline, tools, and the cadence your team needs. Request a Project ProposalCompare Engagements Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days.",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -259,6 +393,120 @@
               "value": "",
               "id": "inquiry-draft"
             }
+          ],
+          "labels": [
+            {
+              "for": "inquiry-name",
+              "text": "Name"
+            },
+            {
+              "for": "inquiry-email",
+              "text": "Email"
+            },
+            {
+              "for": "inquiry-challenge",
+              "text": "Business challenge"
+            },
+            {
+              "for": "inquiry-organization",
+              "text": "Organization (optional)"
+            },
+            {
+              "for": "inquiry-service",
+              "text": "Service of interest (optional)"
+            },
+            {
+              "for": "inquiry-deliverables",
+              "text": "Desired deliverables (optional)"
+            },
+            {
+              "for": "inquiry-budget",
+              "text": "Budget range (optional)"
+            },
+            {
+              "for": "inquiry-timeline",
+              "text": "Project timeline (optional)"
+            },
+            {
+              "for": "inquiry-preferences",
+              "text": "Meeting preferences (optional)"
+            },
+            {
+              "for": "inquiry-draft",
+              "text": "Your email draft"
+            }
+          ],
+          "options": [
+            {
+              "select_name": "service",
+              "value": "",
+              "text": "Not sure yet"
+            },
+            {
+              "select_name": "service",
+              "value": "analytics-clarity-audit",
+              "text": "Analytics Clarity Audit"
+            },
+            {
+              "select_name": "service",
+              "value": "dashboard-reporting-sprint",
+              "text": "Dashboard & Reporting Sprint"
+            },
+            {
+              "select_name": "service",
+              "value": "digital-experience-audit",
+              "text": "Digital Experience & Growth Opportunity Audit"
+            },
+            {
+              "select_name": "service",
+              "value": "applied-ai-workflow-sprint",
+              "text": "Applied AI Workflow Sprint"
+            },
+            {
+              "select_name": "service",
+              "value": "monthly-reporting-support",
+              "text": "Monthly Reporting Support"
+            },
+            {
+              "select_name": "service",
+              "value": "structured-analytics-advisory",
+              "text": "Structured Analytics Advisory"
+            },
+            {
+              "select_name": "service",
+              "value": "unsure",
+              "text": "Help me choose"
+            },
+            {
+              "select_name": "budget",
+              "value": "",
+              "text": "Choose a range"
+            },
+            {
+              "select_name": "budget",
+              "value": "",
+              "text": "Under $500"
+            },
+            {
+              "select_name": "budget",
+              "value": "",
+              "text": "$500\u2013$900 (Analytics Clarity Audit, one-time)"
+            },
+            {
+              "select_name": "budget",
+              "value": "",
+              "text": "$1,200\u2013$2,500 (Dashboard & Reporting Sprint, one-time)"
+            },
+            {
+              "select_name": "budget",
+              "value": "",
+              "text": "$1,200\u2013$2,500 per month (Structured Analytics Advisory or Monthly Reporting Support)"
+            },
+            {
+              "select_name": "budget",
+              "value": "",
+              "text": "Not sure yet"
+            }
           ]
         }
       ],
@@ -301,12 +549,160 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Analytics, reporting, and AI workflows"
+        },
+        {
           "type": "h1",
           "text": "Turn your data and workflows into practical business deliverables."
         },
         {
           "type": "answer-summary",
           "text": "I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work."
+        },
+        {
+          "type": "offer-eyebrow",
+          "text": "Flexible starting point"
+        },
+        {
+          "type": "h2",
+          "text": "Start with one decision. Continue only if the work earns it."
+        },
+        {
+          "type": "h2",
+          "text": "Selected professional proof"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Before reaching out"
+        },
+        {
+          "type": "h2",
+          "text": "A transparent working model built around completed deliverables."
+        },
+        {
+          "type": "h3",
+          "text": "Services & pricing"
+        },
+        {
+          "type": "h3",
+          "text": "Selected work"
+        },
+        {
+          "type": "h3",
+          "text": "Process & fit"
+        },
+        {
+          "type": "h3",
+          "text": "About Anthony"
+        },
+        {
+          "type": "section-kicker",
+          "text": "When to bring me in"
+        },
+        {
+          "type": "h2",
+          "text": "The data exists. The confidence does not."
+        },
+        {
+          "type": "h3",
+          "text": "Numbers are hard to trust"
+        },
+        {
+          "type": "h3",
+          "text": "Work is manual or fragmented"
+        },
+        {
+          "type": "h3",
+          "text": "Customer journeys have friction"
+        },
+        {
+          "type": "h3",
+          "text": "Questions outpace the team"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Six consulting services"
+        },
+        {
+          "type": "h2",
+          "text": "Match the support to the size and frequency of the problem."
+        },
+        {
+          "type": "h3",
+          "text": "Analytics Clarity Audit"
+        },
+        {
+          "type": "h3",
+          "text": "Dashboard & Reporting Sprint"
+        },
+        {
+          "type": "h3",
+          "text": "Digital Experience & Growth Opportunity Audit"
+        },
+        {
+          "type": "h3",
+          "text": "Applied AI Workflow Sprint"
+        },
+        {
+          "type": "h3",
+          "text": "Monthly Reporting Support"
+        },
+        {
+          "type": "h3",
+          "text": "Structured Analytics Advisory"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Selected proof"
+        },
+        {
+          "type": "h2",
+          "text": "Work that connects analysis to a decision."
+        },
+        {
+          "type": "h3",
+          "text": "Network planning across 30,000+ ZIP codes"
+        },
+        {
+          "type": "h3",
+          "text": "Ecommerce A/B testing strategy analysis"
+        },
+        {
+          "type": "h3",
+          "text": "Mystery Street Recording strategy"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Start a conversation"
+        },
+        {
+          "type": "h2",
+          "text": "Tell me what your team is trying to see more clearly."
+        },
+        {
+          "type": "h2",
+          "text": "Request a Project Proposal"
+        },
+        {
+          "type": "h3",
+          "text": "Prefer a brief conversation?"
+        },
+        {
+          "type": "h2",
+          "text": "See what delivery can look like."
+        },
+        {
+          "type": "h3",
+          "text": "Services"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         },
         {
           "type": "price",
@@ -329,6 +725,7 @@
           "text": "Employers are not presented as independent consulting clients."
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal Analytics, reporting, and AI workflows Turn your data and workflows into practical business deliverables. I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work. Request a Project Proposal Compare Engagements Independent execution with agreed scope, milestones, structured updates, documentation, and handoff. Flexible starting point Start with one decision. Continue only if the work earns it. Start with an analytics or digital experience audit, build a reporting or AI workflow deliverable, or agree a recurring reporting or advisory package. ProjectsAgreed deliverables and deadlines RecurringDefined monthly scopes ToolsYours or secure exports Compare all options Selected professional proof A/B + MVTexperiment analysis across digital experiences Web + Appcustomer behavior and KPI measurement Product + BIdecision support, dashboards, and reporting SQL + Pythonstructured analysis when exports are the best input Before reaching out A transparent working model built around completed deliverables. Review the offer, supporting work, process, and professional background before deciding whether the fit is right. 01 Services & pricing Compare six scoped analytics, reporting, digital experience, AI, and advisory services.Compare engagements 02 Selected work See BI, experimentation, forecasting, operations, and applied AI work framed around business decisions.Review case studies 03 Process & fit Understand how projects begin, what collaboration looks like, and where this model works best.See how it works 04 About Anthony Review my professional background, working approach, and supporting experience.Read my background When to bring me in The data exists. The confidence does not. I am most useful when a team has a real decision to support, useful but messy data, and a reporting or measurement process that needs to become clearer. Check project fit Reporting Numbers are hard to trust Definitions differ, dashboards conflict, or the same answer keeps getting rebuilt. Visibility Work is manual or fragmented Important reporting depends on spreadsheets, exports, repeated cleanup, or disconnected tools. Decisions Customer journeys have friction Funnel drop-offs, unclear navigation, or messaging gaps need evidence-based assessment and prioritization. Capacity Questions outpace the team Recurring analysis is important, but the workload does not justify another full-time analytics hire. Six consulting services Match the support to the size and frequency of the problem. Every option has defined deliverables, agreed deadlines, documentation, and clear operational ownership. Analytics Clarity Audit Founders and small teams with conflicting KPIs, unreliable analytics, or reporting gaps. Dashboard & Reporting Sprint Teams that need reusable business intelligence and executive reporting. Digital Experience & Growth Opportunity Audit E-commerce businesses, SaaS startups, growing businesses, digital product teams, and online service providers seeking clearer customer journeys. Applied AI Workflow Sprint Businesses and agencies with repetitive, non-critical workflows that can benefit from appropriately scoped AI automation. Monthly Reporting Support Growing organizations that need a regular interpretation of performance. Structured Analytics Advisory Founders and digital teams seeking periodic analytics strategy and practical decision guidance. Review the Full Scope Selected proof Work that connects analysis to a decision. Professional experience and portfolio case studies are labeled clearly. Employers are not presented as independent consulting clients. Operations BI Network planning across 30,000+ ZIP codes Tableau, SQL, and Python reporting that eliminated 10+ hours of weekly manual work.View experience Experimentation Ecommerce A/B testing strategy analysis A Python and SQL readout connecting setup quality, segments, conversion behavior, and interpretation.View case study Growth Consulting Mystery Street Recording strategy Discovery, market and competitor analysis, KPI framing, and digital recommendations translated into an actionable growth direction.View experience View All Case Studies Start a conversation Tell me what your team is trying to see more clearly. Share your business challenge, desired deliverables, and constraints. I will recommend an appropriate scope and next steps. Request a Project Proposal Email Project Details Request a Project Proposal Tell me what you\u2019re trying to see more clearly. A few sentences is plenty. I\u2019ll reply within two business days with a suggested starting point. No call needed. Name Email Business challenge Add project details (optional)Organization (optional) Service of interest (optional) Not sure yet Analytics Clarity Audit Dashboard & Reporting Sprint Digital Experience & Growth Opportunity Audit Applied AI Workflow Sprint Monthly Reporting Support Structured Analytics Advisory Help me choose Desired deliverables (optional) Budget range (optional) Choose a range Under $500 $500\u2013$900 (Analytics Clarity Audit, one-time) $1,200\u2013$2,500 (Dashboard & Reporting Sprint, one-time) $1,200\u2013$2,500 per month (Structured Analytics Advisory or Monthly Reporting Support) Not sure yet Project timeline (optional) Meeting preferences (optional) Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Please do not include credentials or confidential data.Your inquiry is processed by Formspree and emailed to my inbox. Your email address lets me reply directly. Please share only information needed to discuss your project.Send Project Inquiry Your email draft Copy Inquiry Open email appOpen Gmail draftReview and send your draft to bapanalytics00@gmail.com. Nothing is sent automatically. Email your project details directly to bapanalytics00@gmail.com. Prefer a brief conversation? You can book an introductory call on Calendly. A call is optional; you can also send your project inquiry above. Book an Intro Call See what delivery can look like.Explore an illustrative audit report, a dashboard mockup, and a human-reviewed AI workflow, each clearly labeled as a sample.Explore Sample Deliverables",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -458,7 +855,7 @@
           "matched_selectors": [
             "hidden-attribute"
           ],
-          "outer_html_sha256": "df6cc1127247e19a7c0d8ab7e00ebaeb361705984b575124bef3f9912610f08a"
+          "outer_html_sha256": "b1ca667cf8ea1f16c94c2bfb7686fbae11df7c8b0b7f0250716f6a7786757c90"
         }
       ],
       "template_syntax": []
@@ -488,8 +885,101 @@
         {
           "type": "answer-summary",
           "text": "Independent execution, asynchronous communication, and defined deliverables keep the work focused on your business goals."
+        },
+        {
+          "type": "h2",
+          "text": "Four steps, scoped before work begins."
+        },
+        {
+          "type": "h3",
+          "text": "Project Inquiry"
+        },
+        {
+          "type": "h3",
+          "text": "Scope & Proposal"
+        },
+        {
+          "type": "h3",
+          "text": "Independent Execution"
+        },
+        {
+          "type": "h3",
+          "text": "Delivery & Handoff"
+        },
+        {
+          "type": "h2",
+          "text": "A practical working relationship."
+        },
+        {
+          "type": "h2",
+          "text": "Common questions."
+        },
+        {
+          "type": "faq_question",
+          "text": "Can I inquire without booking a call?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Yes. Send your business challenge and desired deliverables through the project inquiry form or email. A meeting is optional; scope, timeline, deliverables, and price are proposed before work begins."
+        },
+        {
+          "type": "faq_question",
+          "text": "When are live sessions available?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days."
+        },
+        {
+          "type": "faq_question",
+          "text": "What happens after technical handoff?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Your designated team owns dashboard operation and AI workflow maintenance after handoff. Documentation explains validation, limitations, and ownership. Additional maintenance or support must be separately scoped and approved."
+        },
+        {
+          "type": "faq_question",
+          "text": "Do you run live A/B tests?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "No. The Digital Experience & Growth Opportunity Audit delivers an assessment, evidence-based recommendations, and a prioritized backlog. Your team may later validate recommendations; live experiment operations and guaranteed conversion or revenue gains are not included."
+        },
+        {
+          "type": "faq_question",
+          "text": "How does recurring support work?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Monthly Reporting Support delivers agreed KPI summaries, analysis, dashboard updates, insights, and recommendations. Structured Analytics Advisory provides scheduled strategy consultations and periodic deliverables. Both use defined monthly scopes and capped capacity."
+        },
+        {
+          "type": "faq_question",
+          "text": "Who provides tools and data?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Clients provide relevant secure exports or least-privilege access and any required paid platform licenses. Work can use Excel, SQL, Python, or existing BI tools; confidential data is not published to public portfolio platforms."
+        },
+        {
+          "type": "h2",
+          "text": "Start with your business challenge."
+        },
+        {
+          "type": "h3",
+          "text": "Consulting"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal A clear path from inquiry to handoff. Independent execution, asynchronous communication, and defined deliverables keep the work focused on your business goals. Four steps, scoped before work begins. 01 Project Inquiry Submit your business problem, goals, requirements, and desired outputs through the form. No meeting is required. 02 Scope & Proposal I evaluate fit and propose the scope, timeline, deliverables, milestones, and price for approval. 03 Independent Execution Work proceeds independently against agreed milestones, with asynchronous updates and scheduled reviews. 04 Delivery & Handoff Receive completed deliverables, documentation, recommendations, and an optional scheduled final walkthrough. A practical working relationship. Bring a decision owner, relevant data, milestone feedback, and someone who can take ownership at handoff. This model suits startups, founders, agencies, small businesses, and growing teams that value structured project delivery. Every engagement has an agreed scope, deliverables, milestones, deadlines, and review points before work begins. Additional work, revisions beyond the agreed scope, maintenance, and support require separate scoping and approval. Services do not include emergency response, on-call coverage, real-time monitoring, or live experimentation operations. Common questions. Can I inquire without booking a call? Yes. Send your business challenge and desired deliverables through the project inquiry form or email. A meeting is optional; scope, timeline, deliverables, and price are proposed before work begins. When are live sessions available? Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days. What happens after technical handoff? Your designated team owns dashboard operation and AI workflow maintenance after handoff. Documentation explains validation, limitations, and ownership. Additional maintenance or support must be separately scoped and approved. Do you run live A/B tests? No. The Digital Experience & Growth Opportunity Audit delivers an assessment, evidence-based recommendations, and a prioritized backlog. Your team may later validate recommendations; live experiment operations and guaranteed conversion or revenue gains are not included. How does recurring support work? Monthly Reporting Support delivers agreed KPI summaries, analysis, dashboard updates, insights, and recommendations. Structured Analytics Advisory provides scheduled strategy consultations and periodic deliverables. Both use defined monthly scopes and capped capacity. Who provides tools and data? Clients provide relevant secure exports or least-privilege access and any required paid platform licenses. Work can use Excel, SQL, Python, or existing BI tools; confidential data is not published to public portfolio platforms. Start with your business challenge.Request a Project Proposal",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -521,14 +1011,51 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Sample deliverable"
+        },
+        {
           "type": "h1",
           "text": "Sample AI Workflow"
         },
         {
           "type": "answer-summary",
           "text": "A human-reviewed inquiry triage workflow for repetitive, non-critical work."
+        },
+        {
+          "type": "sample-notice",
+          "text": "Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results."
+        },
+        {
+          "type": "h2",
+          "text": "Workflow overview"
+        },
+        {
+          "type": "h2",
+          "text": "Example input and output"
+        },
+        {
+          "type": "h2",
+          "text": "Validation and acceptance checks"
+        },
+        {
+          "type": "h2",
+          "text": "Handoff and ownership"
+        },
+        {
+          "type": "h3",
+          "text": "Consulting"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal All sample deliverablesSample deliverableSample AI WorkflowA human-reviewed inquiry triage workflow for repetitive, non-critical work.Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.Scenario: A fictional agency wants to sort routine project inquiries into a review queue. AI proposes a category and a short summary; a person decides what happens next. This example does not send replies, accept work, or make commitments automatically. Workflow overview1. Receive an inquiryA normal form creates a message for the team. The existing inbox remains the source of record.2. Validate and minimize inputsCheck required fields and remove unnecessary personal or confidential information before any model call.3. Draft a category and summaryThe model selects an allowed service category or \u201cNeeds review\u201d and produces a short summary. Incoming message text is treated as untrusted content, never as system instructions.4. Apply deterministic checksValidate the output schema, allowed categories, and required fields. Invalid output, timeouts, or uncertain cases go to manual review.5. Human reviewA person checks the original message and proposed summary, chooses the service fit, and writes or approves a response.6. Log the reviewed outcomeRecord the approved category and review status under the team\u2019s retention policy. No automated production action is taken. Example input and outputFictional inquiry triage exampleInput\u201cWe combine three spreadsheets every month and need one reporting view.\u201dSuggested categoryDashboard & Reporting SprintDraft summaryThe team wants to consolidate monthly spreadsheet reporting into a reusable view. Data sources and KPI definitions still need clarification.Review statusAwaiting human review; no reply sent.Validation and acceptance checksKnown examples produce permitted categories; ambiguous requests route to manual review.Instruction-like content in an inquiry cannot change workflow rules or trigger external actions.Missing fields, malformed model output, and provider failures preserve the original inquiry and use the manual path.Reviewers compare summaries against source messages for unsupported details before use.Handoff and ownershipA scoped project would include the workflow design, test examples, failure-path documentation, approved data handling, and a named maintenance owner. The client retains credentials and owns provider usage, ongoing review, maintenance, and operational support. This is non-critical assistance; email and manual review continue if AI is unavailable.Discuss a similar project",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -560,14 +1087,47 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Sample deliverable"
+        },
+        {
           "type": "h1",
           "text": "Sample Analytics Clarity Audit"
         },
         {
           "type": "answer-summary",
           "text": "A fictional DTC storefront: measurement gaps and a prioritized action plan."
+        },
+        {
+          "type": "sample-notice",
+          "text": "Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results."
+        },
+        {
+          "type": "h2",
+          "text": "Executive summary"
+        },
+        {
+          "type": "h2",
+          "text": "Prioritized roadmap"
+        },
+        {
+          "type": "h2",
+          "text": "Handoff and limitations"
+        },
+        {
+          "type": "h3",
+          "text": "Consulting"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal All sample deliverablesSample deliverableSample Analytics Clarity AuditA fictional DTC storefront: measurement gaps and a prioritized action plan.Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.Scenario: A fictional DTC storefront has conflicting purchase counts between its store backend and analytics tool. The owner wants to understand which metrics are safe to use before investing in a new dashboard.Example scope: One storefront, one purchase journey, existing exports, and a review of KPI definitions. The output is a diagnostic report, a measurement map, and a prioritized improvement roadmap. Executive summaryIn this hypothetical scenario, revenue definitions and event coverage need reconciliation before the team uses the funnel for planning. The sample recommendations below describe checks to perform, not verified findings about any business. Example measurement reviewAreaHypothetical observationEvidence to requestRecommended checkPurchase countStore orders and analytics purchases differ.Transaction IDs, order statuses, and purchase event exports.Compare the same date range and time zone; check missing and duplicate transaction IDs.Revenue definitionTwo reports may treat refunds and shipping differently.Metric glossary and refund records.Document gross vs. net revenue and exclusions before comparing reports.Funnel stepsCheckout events may not be consistent across devices.Event specification and device-level event counts.Check event coverage with the implementation owner before interpreting drop-off. Prioritized roadmapFirst: agree KPI definitions. Expected impact: clearer comparisons. Effort: low. Owner: business decision maker.Next: reconcile transaction IDs. Expected impact: more credible purchase reporting. Effort: medium. Owner: analytics or implementation team.Then: review funnel coverage. Expected impact: more interpretable journey analysis. Effort: medium. Owner: website implementation team.Handoff and limitationsThe final diagnostic would include the reviewed sources, definitions, assumptions, open questions, evidence limitations, and recommended next steps. Production fixes, tag deployment, live experiment operations, and continuous monitoring are outside this example scope. Priorities would change if actual evidence contradicted these assumptions.Discuss a similar project",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -599,14 +1159,59 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "What delivery can look like"
+        },
+        {
           "type": "h1",
           "text": "Explore sample consulting deliverables."
         },
         {
           "type": "answer-summary",
           "text": "See the structure, reasoning, and handoff notes behind an audit, a dashboard, and an AI workflow."
+        },
+        {
+          "type": "sample-notice",
+          "text": "Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results."
+        },
+        {
+          "type": "section-kicker",
+          "text": "Illustrative sample"
+        },
+        {
+          "type": "h2",
+          "text": "Sample Analytics Clarity Audit"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Illustrative sample"
+        },
+        {
+          "type": "h2",
+          "text": "Sample Reporting Dashboard"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Illustrative sample"
+        },
+        {
+          "type": "h2",
+          "text": "Sample AI Workflow"
+        },
+        {
+          "type": "h3",
+          "text": "Consulting"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal What delivery can look likeExplore sample consulting deliverables.See the structure, reasoning, and handoff notes behind an audit, a dashboard, and an AI workflow.Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.Illustrative sampleSample Analytics Clarity AuditA fictional DTC storefront: measurement gaps and a prioritized action plan.Explore the sampleIllustrative sampleSample Reporting DashboardA dashboard mockup with synthetic ecommerce data and explicit metric definitions.Explore the sampleIllustrative sampleSample AI WorkflowA human-reviewed inquiry triage workflow for repetitive, non-critical work.Explore the sample",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -638,12 +1243,44 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Sample deliverable"
+        },
+        {
           "type": "h1",
           "text": "Sample Reporting Dashboard"
         },
         {
           "type": "answer-summary",
           "text": "A dashboard mockup with synthetic ecommerce data and explicit metric definitions."
+        },
+        {
+          "type": "sample-notice",
+          "text": "Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results."
+        },
+        {
+          "type": "h2",
+          "text": "What the summary would say"
+        },
+        {
+          "type": "h2",
+          "text": "Metric glossary and validation"
+        },
+        {
+          "type": "h2",
+          "text": "Operational handoff"
+        },
+        {
+          "type": "h3",
+          "text": "Consulting"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         },
         {
           "type": "price",
@@ -694,6 +1331,7 @@
           "text": "$70"
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal All sample deliverablesSample deliverableSample Reporting DashboardA dashboard mockup with synthetic ecommerce data and explicit metric definitions.Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.Example scope: A reusable monthly executive report with KPI definitions, a source map, validation checks, and ownership notes. All figures below are invented for illustration.Net sales$42,000Synthetic month 3Orders600Completed, non-test ordersAverage order value$70$42,000 \u00f7 600 Illustrative net sales by month (USD)Month 1$30,000Month 2$36,000Month 3$42,000 Synthetic source data behind the mockupPeriodNet salesOrdersAverage order valueMonth 1$30,000500$60Month 2$36,000600$60Month 3$42,000600$70 What the summary would sayIn the synthetic dataset, month 3 sales are higher than month 2 while order count is unchanged. The arithmetic points to a higher average order value; it does not explain why customers spent more. Product mix, pricing, and refund timing would need review before recommending action. Metric glossary and validationNet sales: completed merchandise revenue less discounts and refunds; excludes shipping and taxes in this example.Orders: distinct completed, non-test order IDs in the reporting period.Average order value: net sales divided by orders, calculated consistently for each period.Checks: unique order IDs, reconciled totals, documented refund treatment, complete reporting dates, and an agreed time zone.Operational handoffA project would provide the dashboard or reporting model, source map, validation notes, and refresh instructions. The client-designated owner operates refreshes, permissions, and maintenance after handoff. This example is a monthly report, not a live incident-monitoring dashboard.Discuss a similar project",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -739,12 +1377,220 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Independent consulting"
+        },
+        {
           "type": "h1",
           "text": "Analytics, Reporting, Digital Experience and Applied AI Consulting Services"
         },
         {
           "type": "answer-summary",
           "text": "Defined projects. Useful insights. Professional handoffs."
+        },
+        {
+          "type": "h2",
+          "text": "Six ways to move your business forward."
+        },
+        {
+          "type": "offer-eyebrow",
+          "text": "Project \u2022 Timeline agreed in proposal"
+        },
+        {
+          "type": "h3",
+          "text": "Analytics Clarity Audit"
+        },
+        {
+          "type": "service_name",
+          "text": "Analytics Clarity Audit"
+        },
+        {
+          "type": "service_opener",
+          "text": "The Analytics Clarity Audit is a $500\u2013$900 project for founders and small teams with conflicting KPIs, unreliable analytics, or reporting gaps, ending in a diagnostic report, measurement recommendations, and a prioritized improvement roadmap."
+        },
+        {
+          "type": "h4",
+          "text": "Expected deliverables"
+        },
+        {
+          "type": "offer-eyebrow",
+          "text": "Project \u2022 Timeline agreed in proposal"
+        },
+        {
+          "type": "h3",
+          "text": "Dashboard & Reporting Sprint"
+        },
+        {
+          "type": "service_name",
+          "text": "Dashboard & Reporting Sprint"
+        },
+        {
+          "type": "service_opener",
+          "text": "The Dashboard & Reporting Sprint is a $1,200\u2013$2,500 project for teams that need reusable business intelligence and executive reporting, covering KPI definitions, a dashboard or reporting model with validation checks, and documentation and handoff."
+        },
+        {
+          "type": "h4",
+          "text": "Expected deliverables"
+        },
+        {
+          "type": "offer-eyebrow",
+          "text": "Project \u2022 Timeline agreed in proposal"
+        },
+        {
+          "type": "h3",
+          "text": "Digital Experience & Growth Opportunity Audit"
+        },
+        {
+          "type": "service_name",
+          "text": "Digital Experience & Growth Opportunity Audit"
+        },
+        {
+          "type": "service_opener",
+          "text": "The Digital Experience & Growth Opportunity Audit is a project, quoted after scoping, that reviews agreed customer journeys, conversion paths, and available analytics and delivers an audit report with an impact-versus-effort opportunity backlog."
+        },
+        {
+          "type": "h4",
+          "text": "Expected deliverables"
+        },
+        {
+          "type": "offer-eyebrow",
+          "text": "Project \u2022 Timeline agreed in proposal"
+        },
+        {
+          "type": "h3",
+          "text": "Applied AI Workflow Sprint"
+        },
+        {
+          "type": "service_name",
+          "text": "Applied AI Workflow Sprint"
+        },
+        {
+          "type": "service_opener",
+          "text": "The Applied AI Workflow Sprint is a project, quoted after scoping, for businesses and agencies with repetitive, non-critical workflows, covering workflow assessment, AI workflow design and agreed automation implementation, and testing, documentation, and handoff."
+        },
+        {
+          "type": "h4",
+          "text": "Expected deliverables"
+        },
+        {
+          "type": "offer-eyebrow",
+          "text": "Recurring \u2022 Defined monthly scope"
+        },
+        {
+          "type": "h3",
+          "text": "Monthly Reporting Support"
+        },
+        {
+          "type": "service_name",
+          "text": "Monthly Reporting Support"
+        },
+        {
+          "type": "service_opener",
+          "text": "Monthly Reporting Support is a recurring service at $1,200\u2013$2,500/mo for growing organizations that need a regular interpretation of performance, with a monthly KPI summary, performance analysis, and agreed dashboard updates and recommendations."
+        },
+        {
+          "type": "h4",
+          "text": "Expected deliverables"
+        },
+        {
+          "type": "offer-eyebrow",
+          "text": "Recurring \u2022 Defined monthly scope"
+        },
+        {
+          "type": "h3",
+          "text": "Structured Analytics Advisory"
+        },
+        {
+          "type": "service_name",
+          "text": "Structured Analytics Advisory"
+        },
+        {
+          "type": "service_opener",
+          "text": "Structured Analytics Advisory is a recurring service at $1,200\u2013$2,500/mo for founders and digital teams seeking periodic analytics strategy and practical decision guidance, with scheduled strategic consultations, analytics roadmap reviews, and periodic advisory deliverables."
+        },
+        {
+          "type": "h4",
+          "text": "Expected deliverables"
+        },
+        {
+          "type": "h2",
+          "text": "Clear scope and ownership."
+        },
+        {
+          "type": "section-kicker",
+          "text": "Before your next project"
+        },
+        {
+          "type": "h2",
+          "text": "Use the KPI / Dashboard Readiness Checklist."
+        },
+        {
+          "type": "h2",
+          "text": "Questions before you start."
+        },
+        {
+          "type": "faq_question",
+          "text": "What is included in a project?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Every engagement has an agreed scope, deliverables, milestones, deadlines, and review points before work begins. Each service card above lists its expected deliverables."
+        },
+        {
+          "type": "faq_question",
+          "text": "What is not included?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Services do not include emergency response, on-call coverage, real-time monitoring, or live experimentation operations. Additional work, revisions beyond the agreed scope, maintenance, and support require separate scoping and approval."
+        },
+        {
+          "type": "faq_question",
+          "text": "Do I need to buy a BI tool?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Not necessarily. Excel, SQL, Python, or an existing BI platform can be used where appropriate. Your team supplies relevant secure exports or least-privilege access and any required paid software licenses."
+        },
+        {
+          "type": "faq_question",
+          "text": "Should I start with an audit or a sprint?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A Dashboard & Reporting Sprint builds the reporting deliverable itself, with KPI definitions, validation checks, documentation, and handoff. You can start with an analytics or digital experience audit, build a reporting or AI workflow deliverable, or agree a recurring reporting or advisory package."
+        },
+        {
+          "type": "faq_question",
+          "text": "How is the final price set?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "Published ranges are in USD and depend on the agreed deliverables, data readiness, and complexity. The Digital Experience & Growth Opportunity Audit and the Applied AI Workflow Sprint are quoted after scoping. Scope, timeline, and price are confirmed in a written proposal before any work begins."
+        },
+        {
+          "type": "faq_question",
+          "text": "Who are these services for?"
+        },
+        {
+          "type": "faq_answer",
+          "text": "These services cover analytics, business intelligence, digital experience assessment, and applied AI for startups, founders, Chicago and other small businesses, agencies, nonprofits, workforce boards, and growing organizations."
+        },
+        {
+          "type": "h2",
+          "text": "See what delivery can look like."
+        },
+        {
+          "type": "h3",
+          "text": "Consulting"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         },
         {
           "type": "price",
@@ -763,6 +1609,7 @@
           "text": "$1,200\u2013$2,500/mo"
         }
       ],
+      "main_visible_text": "Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal Independent consulting Analytics, Reporting, Digital Experience and Applied AI Consulting Services Defined projects. Useful insights. Professional handoffs. Six ways to move your business forward. Every engagement is scoped first. Scope, timeline, and price are confirmed in a written proposal before any work begins. Published ranges are in USD and depend on the agreed deliverables, data readiness, and complexity. New services are quoted after scoping. Project \u2022 Timeline agreed in proposal Analytics Clarity Audit$500\u2013$900 The Analytics Clarity Audit is a $500\u2013$900 project for founders and small teams with conflicting KPIs, unreliable analytics, or reporting gaps, ending in a diagnostic report, measurement recommendations, and a prioritized improvement roadmap. Best for: Founders and small teams with conflicting KPIs, unreliable analytics, or reporting gaps. Expected deliverables KPI assessment and analytics quality review Reporting gap assessment and data interpretation Diagnostic report, measurement recommendations, and prioritized improvement roadmap Not included: Continuous monitoring, tag deployment, production data engineering, or analytics administration.See a sampleGet a Project Estimate Project \u2022 Timeline agreed in proposal Dashboard & Reporting Sprint$1,200\u2013$2,500 The Dashboard & Reporting Sprint is a $1,200\u2013$2,500 project for teams that need reusable business intelligence and executive reporting, covering KPI definitions, a dashboard or reporting model with validation checks, and documentation and handoff. Best for: Teams that need reusable business intelligence and executive reporting. Expected deliverables KPI definitions, data preparation, and source map Dashboard or reporting model with validation checks Executive views, metric glossary, documentation, and handoff Not included: Production pipelines, continuous monitoring, emergency support, or ongoing administration. Your team owns refreshes, access, and operations after handoff.See a sampleGet a Project Estimate Project \u2022 Timeline agreed in proposal Digital Experience & Growth Opportunity AuditQuoted after scoping The Digital Experience & Growth Opportunity Audit is a project, quoted after scoping, that reviews agreed customer journeys, conversion paths, and available analytics and delivers an audit report with an impact-versus-effort opportunity backlog. Best for: E-commerce businesses, SaaS startups, growing businesses, digital product teams, and online service providers seeking clearer customer journeys. Expected deliverables Review of agreed journeys, navigation, information architecture, conversion paths, and mobile/desktop friction Available analytics, engagement patterns, funnel drop-offs, and customer journey barriers Opportunities for messaging, content presentation, usability, product discovery, and acquisition-to-conversion journeys Audit report and executive summary with supporting analytics and observations Impact-versus-effort opportunity backlog, quick wins, longer-term recommendations, evidence, assumptions, and next steps Optional scheduled walkthrough Not included: Live A/B test launches, variant management, live monitoring, website releases, emergency production changes, or incident response. Client teams may validate recommendations later. Implementation requires a separate suitable scope; conversion and revenue improvements are not guaranteed.Get a Project Estimate Project \u2022 Timeline agreed in proposal Applied AI Workflow SprintQuoted after scoping The Applied AI Workflow Sprint is a project, quoted after scoping, for businesses and agencies with repetitive, non-critical workflows, covering workflow assessment, AI workflow design and agreed automation implementation, and testing, documentation, and handoff. Best for: Businesses and agencies with repetitive, non-critical workflows that can benefit from appropriately scoped AI automation. Expected deliverables Business workflow assessment and automation opportunity identification AI workflow design and agreed automation implementation Testing, validation, limitations, documentation, and handoff Not included: Mission-critical automation or around-the-clock incident response. Your designated team owns maintenance, credentials, and operational support after handoff; additional support requires a separately approved scope.See a sampleGet a Project Estimate Recurring \u2022 Defined monthly scope Monthly Reporting Support$1,200\u2013$2,500/mo Monthly Reporting Support is a recurring service at $1,200\u2013$2,500/mo for growing organizations that need a regular interpretation of performance, with a monthly KPI summary, performance analysis, and agreed dashboard updates and recommendations. Best for: Growing organizations that need a regular interpretation of performance. Expected deliverables Monthly KPI summary, performance analysis, and business insights Agreed dashboard updates and recommendations Scheduled review sessions when included in the monthly scope Not included: Daily monitoring, immediate troubleshooting, emergency analytics support, or unrestricted access. Monthly deliverables and capped capacity are agreed before work begins.Get a Project Estimate Recurring \u2022 Defined monthly scope Structured Analytics Advisory$1,200\u2013$2,500/mo Structured Analytics Advisory is a recurring service at $1,200\u2013$2,500/mo for founders and digital teams seeking periodic analytics strategy and practical decision guidance, with scheduled strategic consultations, analytics roadmap reviews, and periodic advisory deliverables. Best for: Founders and digital teams seeking periodic analytics strategy and practical decision guidance. Expected deliverables Scheduled strategic consultations and analytics roadmap reviews KPI strategy, reporting recommendations, and digital growth opportunity assessment Periodic advisory deliverables and agreed next steps Not included: Embedded daily operations, staffing, unrestricted advisory access, or on-call coverage. Each month has defined deliverables, scheduled reviews, and capped consulting capacity agreed in the proposal.Get a Project Estimate Clear scope and ownership. Every engagement has an agreed scope, deliverables, milestones, deadlines, and review points before work begins. Additional work, revisions beyond the agreed scope, maintenance, and support require separate scoping and approval. Services do not include emergency response, on-call coverage, real-time monitoring, or live experimentation operations. Your team supplies relevant secure exports or least-privilege access and any required paid software licenses. Excel, SQL, Python, or an existing BI platform can be used where appropriate. Confidential data is never published to public portfolio platforms. Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days.Request a Project Proposal Before your next project Use the KPI / Dashboard Readiness Checklist. This free one-page resource covers the data, stakeholder, KPI, QA, and handoff questions worth answering before you approve another dashboard. Free PDF \u2022 No email requiredOpen the Checklist Questions before you start. What is included in a project? Every engagement has an agreed scope, deliverables, milestones, deadlines, and review points before work begins. Each service card above lists its expected deliverables. What is not included? Services do not include emergency response, on-call coverage, real-time monitoring, or live experimentation operations. Additional work, revisions beyond the agreed scope, maintenance, and support require separate scoping and approval. Do I need to buy a BI tool? Not necessarily. Excel, SQL, Python, or an existing BI platform can be used where appropriate. Your team supplies relevant secure exports or least-privilege access and any required paid software licenses. Should I start with an audit or a sprint? An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A Dashboard & Reporting Sprint builds the reporting deliverable itself, with KPI definitions, validation checks, documentation, and handoff. You can start with an analytics or digital experience audit, build a reporting or AI workflow deliverable, or agree a recurring reporting or advisory package. How is the final price set? Published ranges are in USD and depend on the agreed deliverables, data readiness, and complexity. The Digital Experience & Growth Opportunity Audit and the Applied AI Workflow Sprint are quoted after scoping. Scope, timeline, and price are confirmed in a written proposal before any work begins. Who are these services for? These services cover analytics, business intelligence, digital experience assessment, and applied AI for startups, founders, Chicago and other small businesses, agencies, nonprofits, workforce boards, and growing organizations. See what delivery can look like.Explore an illustrative audit report, a dashboard mockup, and a human-reviewed AI workflow, each clearly labeled as a sample.Explore Sample Deliverables",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-consulting > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -835,14 +1682,79 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Experience"
+        },
+        {
           "type": "h1",
           "text": "Professional experience across digital experimentation, product analytics, operations, and research."
+        },
+        {
+          "type": "h3",
+          "text": "Digital Experimentation Analyst - Ulta Beauty"
+        },
+        {
+          "type": "h4",
+          "text": "What I did"
+        },
+        {
+          "type": "h3",
+          "text": "Undergraduate Student Researcher - NIU College of Business"
+        },
+        {
+          "type": "h4",
+          "text": "What I did"
+        },
+        {
+          "type": "h3",
+          "text": "Growth Consultant - Mystery Street Recording Company"
+        },
+        {
+          "type": "h4",
+          "text": "What I did"
+        },
+        {
+          "type": "h3",
+          "text": "Network Planning - Shipt"
+        },
+        {
+          "type": "h4",
+          "text": "What I did"
+        },
+        {
+          "type": "h3",
+          "text": "IT Data Analyst Intern - Innovation DuPage"
+        },
+        {
+          "type": "h4",
+          "text": "What I did"
+        },
+        {
+          "type": "h3",
+          "text": "Leadership & Industry Presentations - OMIS IGNITE, ACM NIU, and HAVI"
+        },
+        {
+          "type": "h4",
+          "text": "What I did"
+        },
+        {
+          "type": "h3",
+          "text": "Explore"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         },
         {
           "type": "employer_disclaimer",
           "text": "Employers are not presented as independent consulting clients."
         }
       ],
+      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn Experience Professional experience across digital experimentation, product analytics, operations, and research. My current role at Ulta Beauty comes first. The earlier roles show the foundation behind it: stakeholder partnership, KPI definition, dashboarding, quantitative analysis, and clear business recommendations. Employers are not presented as independent consulting clients. Select a role Digital Experimentation Analyst - Ulta Beauty AI/NLP Researcher - NIU College of Business Growth Consultant - Mystery Street Recording Company Network Planning Analyst Intern - Shipt IT Data Analyst - Innovation DuPage Leadership & Industry Presentations - NIU June 2026 - Present | Ulta Beauty | Bolingbrook, IL Digital Experimentation Analyst - Ulta Beauty Digital Experimentation At Ulta Beauty, I support A/B and multivariate testing across web and app experiences. The work focuses on defining hypotheses, measurement strategies, KPIs, and success criteria before evaluating how digital changes affect customers and business performance. What I did Support digital experiments by helping define hypotheses, measurement strategies, KPIs, and success criteria. Analyze experiment performance with Adobe Analytics, Adobe Target, and Excel across conversion, revenue, engagement, and customer behavior. Evaluate statistical significance, sample size requirements, minimum detectable effects, traffic allocation, and test duration. Partner with Product, eCommerce, and cross-functional stakeholders to turn business questions into measurable experiments and actionable readouts. What this demonstrates: practical experience connecting experimentation design, product metrics, statistical reasoning, and stakeholder recommendations. May 2025 - May 2026 | Northern Illinois University | DeKalb, IL Undergraduate Student Researcher - NIU College of Business Applied AI Research I contribute to research on how large language models can support interview-based qualitative research without replacing human interpretation. The work combines prompt design, transcript generation, NLP evaluation, qualitative research methods, and practical awareness of tools like Claude, Custom GPTs, MCP-style connections, and n8n automation. What I did Built a GPT-based simulation pipeline that generated AI interview transcripts for 28 founder personas using consistent structured prompts, with patterns transferable to Claude and Custom GPT workflows. Compared AI-generated and human interview responses across tone, depth, factual accuracy, strengths, weaknesses, and alignment gaps. Developed a Python NLP workflow for thematic coding and sentiment scoring so transcript analysis could be evaluated more systematically. Helped design a qualitative evaluation framework with faculty mentors that balances quantitative signals with human interpretation. What this demonstrates: structured AI-assisted research, qualitative analysis, evaluation, and responsible human oversight. August 2025 - December 2025 | Mystery Street Recording Company | Chicago, IL Growth Consultant - Mystery Street Recording Company Growth Consulting Through NIU's Experiential Learning Center, I worked on a consulting engagement for a Chicago-based recording studio. The project required turning ambiguous growth goals, fragmented market information, and competitor activity into a structured recommendation set for leadership. What I did Led business analysis across SEO performance, engagement metrics, campaign KPIs, competitor positioning, and customer segments. Analyzed 15+ competitor studios to define audience segments, market opportunities, and measurable success criteria. Translated fragmented market and demand data into KPI frameworks and strategic recommendations around growth, audience targeting, and marketing investment. Owned deliverables from data gathering through executive presentation, incorporating feedback so the final recommendations were practical for a real client. What this demonstrates: discovery, market analysis, structured recommendations, and presentation to non-technical leadership. May 2025 - August 2025 | Shipt | Birmingham, AL Network Planning - Shipt Operations BI At Shipt, I worked on network planning analytics for a large delivery operation. The role gave me hands-on experience building analytics systems for operational teams that needed better visibility into ZIP-code coverage, daily order volume, and market-level performance. What I did Designed and deployed a Tableau geospatial analytics platform analyzing daily order volume across 30,000+ ZIP codes. Helped Market Operations surface delivery blind spots, misconfigured ZIP-code coverage, and high-risk network regions with 30% better KPI visibility. Built SQL and Python ETL pipelines to process daily delivery data and automate Tableau extract refreshes, eliminating 10+ hours of manual reporting per week. Partnered with Market Operations and Network Planning stakeholders to translate ambiguous operational questions into dashboard requirements and reliable reporting outputs for 5+ planning teams. What this demonstrates: dashboard development, automated reporting, KPI definition, and decision support for operations teams. March 2025 - May 2025 | Innovation DuPage | Glen Ellyn, IL IT Data Analyst Intern - Innovation DuPage KPI Reporting At Innovation DuPage, I supported reporting and operational analysis across program areas. The work focused on making program performance easier to measure, improving Salesforce reporting visibility, and giving leadership more consistent KPI definitions. What I did Built and maintained Tableau dashboards tracking 20+ KPIs across program areas. Standardized metric definitions and reporting logic, reducing reporting cycle time by 40%. Used SQL and Excel transformation workflows to clean and structure raw program data for downstream analysis. Applied Excel-based modeling to identify engagement, utilization, and cohort trends that informed outreach strategy and resource allocation. Improved Salesforce CRM reporting workflows so stakeholders had better visibility into program performance. What this demonstrates: KPI reporting, participant analysis, Salesforce visibility, and decision support in a startup-incubator environment. 2022 - Present | Northern Illinois University Leadership & Industry Presentations - OMIS IGNITE, ACM NIU, and HAVI Public Proof My leadership and presentation experience shows that I can communicate technical work clearly, organize professional development opportunities, and present analytics recommendations to people outside the classroom. What I did Won 1st Place in the NIU Data Visualization Competition with HAVI by building a Power BI dashboard using Python and Excel to analyze QSR supply chain inefficiencies. Presented findings and recommendations to an industry panel of supply chain professionals and data scientists. Founded and chaired OMIS IGNITE, a student-led initiative connecting Operations and Information Management students with professional development, speaker panels, workshops, and networking opportunities. Helped coordinate ACM NIU events, promote technical learning opportunities, and connect peers with professional resources. What this demonstrates: leadership, presentation, organization, and the ability to explain analytics work to real audiences. Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Explore Experience Consulting Proof Research Proof Case Studies Samples Process About Experience Resume Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved.",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -885,6 +1797,10 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Analytics, reporting, and AI workflows"
+        },
+        {
           "type": "h1",
           "text": "Independent Analytics and Applied AI Consultant"
         },
@@ -897,10 +1813,127 @@
           "text": "I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work."
         },
         {
+          "type": "h2",
+          "text": "Product analytics that connects measurement to action."
+        },
+        {
+          "type": "h2",
+          "text": "Relevant experience"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Professional portfolio"
+        },
+        {
+          "type": "h2",
+          "text": "Professional experience and applied work behind the recommendations."
+        },
+        {
+          "type": "h3",
+          "text": "Professional Experience"
+        },
+        {
+          "type": "h3",
+          "text": "Case Studies"
+        },
+        {
+          "type": "h3",
+          "text": "Independent Consulting"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Deliverable-based consulting"
+        },
+        {
+          "type": "h2",
+          "text": "Expertise scoped around your business goals."
+        },
+        {
+          "type": "h3",
+          "text": "Analytics Clarity Audit"
+        },
+        {
+          "type": "h3",
+          "text": "Dashboard & Reporting Sprint"
+        },
+        {
+          "type": "h3",
+          "text": "Digital Experience & Growth Opportunity Audit"
+        },
+        {
+          "type": "h3",
+          "text": "Applied AI Workflow Sprint"
+        },
+        {
+          "type": "h3",
+          "text": "Monthly Reporting Support"
+        },
+        {
+          "type": "h3",
+          "text": "Structured Analytics Advisory"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Selected work"
+        },
+        {
+          "type": "h2",
+          "text": "Evidence, framed as business problems."
+        },
+        {
+          "type": "h3",
+          "text": "Network planning dashboard work"
+        },
+        {
+          "type": "h3",
+          "text": "Ecommerce A/B test analysis"
+        },
+        {
+          "type": "h3",
+          "text": "Mystery Street Recording growth strategy"
+        },
+        {
+          "type": "h2",
+          "text": "Background"
+        },
+        {
+          "type": "section-kicker",
+          "text": "About Anthony"
+        },
+        {
+          "type": "h2",
+          "text": "Building depth in digital experimentation and product analytics."
+        },
+        {
+          "type": "section-kicker",
+          "text": "Connect"
+        },
+        {
+          "type": "h2",
+          "text": "Have a business challenge to solve?"
+        },
+        {
+          "type": "h2",
+          "text": "See what delivery can look like."
+        },
+        {
+          "type": "h3",
+          "text": "Explore"
+        },
+        {
+          "type": "h3",
+          "text": "Assets"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
+        },
+        {
           "type": "employer_disclaimer",
           "text": "Employers are not presented as independent consulting clients."
         }
       ],
+      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn Analytics, reporting, and AI workflows Independent Analytics and Applied AI Consultant Clearer analytics. Practical growth opportunities. AI workflows your team can use. I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work. Request a Project Proposal View Case Studies Current focus Product analytics that connects measurement to action. At Ulta Beauty, I support experimentation across web and app experiences while continuing to build expertise in product analytics, customer behavior, and digital strategy. In my role Hypotheses, KPI strategy, test analysis, statistical interpretation, and stakeholder-ready readouts. Independent practice Independent consulting through defined projects, recurring reporting deliverables, and structured advisory. Relevant experience A/B + MVT digital experimentation across web and app Product KPI strategy, customer behavior, and decision support BI dashboards, reporting systems, and operational visibility Growth market insights, KPI frameworks, and prioritized recommendations Professional portfolio Professional experience and applied work behind the recommendations. Explore my professional experience, review applied analytics work, or see how my independent consulting practice supports business decisions. 01 Professional Experience Digital experimentation at Ulta Beauty, network planning at Shipt, KPI reporting, client strategy, and AI research. Review experience 02 Case Studies BI foundations, demand forecasting, ecommerce A/B testing, operations reporting, and applied AI workflow examples. See the work 03 Independent Consulting Defined analytics, reporting, digital experience, and AI deliverables with structured advisory support. Explore Consulting Services Deliverable-based consulting Expertise scoped around your business goals. Choose an audit, reporting or AI workflow project, or a defined monthly reporting or advisory package. Every engagement begins with agreed scope, deliverables, deadlines, and handoff. Compare consulting options Analytics Clarity Audit Founders and small teams with conflicting KPIs, unreliable analytics, or reporting gaps. Dashboard & Reporting Sprint Teams that need reusable business intelligence and executive reporting. Digital Experience & Growth Opportunity Audit E-commerce businesses, SaaS startups, growing businesses, digital product teams, and online service providers seeking clearer customer journeys. Applied AI Workflow Sprint Businesses and agencies with repetitive, non-critical workflows that can benefit from appropriately scoped AI automation. Monthly Reporting Support Growing organizations that need a regular interpretation of performance. Structured Analytics Advisory Founders and digital teams seeking periodic analytics strategy and practical decision guidance. Selected work Evidence, framed as business problems. Operations BI Network planning dashboard work Built reporting and automation around market operations, ZIP-code coverage, and daily order volume so planning teams could see operational movement more clearly. Read experience Experimentation Ecommerce A/B test analysis Cleaned experiment data, validated control/treatment setup, compared conversion behavior, and translated the analysis into a business interpretation. Open case studies Growth Consulting Mystery Street Recording growth strategy Connected discovery, market and competitor analysis, KPI thinking, and digital recommendations to a clearer growth plan. Read experience BackgroundMy background includes employment, internships, research, competitions, and academic work connected to Ulta Beauty, Shipt, Innovation DuPage, HAVI, Northern Illinois University, and Mystery Street Recording Company. These affiliations describe experience and do not identify clients of my independent consulting practice. Employers are not presented as independent consulting clients.Explore my professional background About Anthony Building depth in digital experimentation and product analytics. I am a Digital Experimentation Analyst at Ulta Beauty and a Northern Illinois University graduate in Operations & Information Management with a Computer Science minor. My background spans experimentation, product and operations analytics, business intelligence, client strategy, and applied AI research. Across each setting, the common thread is translating complex analysis into a decision someone can confidently make. Experience LinkedIn Consulting Connect Have a business challenge to solve? Tell me what you\u2019re trying to see more clearly. A few sentences is plenty. Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days. Request a Project Proposal Book an Intro Call (optional) Connect on LinkedIn See what delivery can look like.Explore an illustrative audit report, a dashboard mockup, and a human-reviewed AI workflow, each clearly labeled as a sample.Explore Sample Deliverables",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-home > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -1064,10 +2097,107 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Case Studies"
+        },
+        {
           "type": "h1",
           "text": "Proof that I can turn data into decision support."
+        },
+        {
+          "type": "h2",
+          "text": "Sample consulting deliverables"
+        },
+        {
+          "type": "sample-notice",
+          "text": "Illustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results."
+        },
+        {
+          "type": "section-kicker",
+          "text": "Illustrative sample"
+        },
+        {
+          "type": "h2",
+          "text": "Sample Analytics Clarity Audit"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Illustrative sample"
+        },
+        {
+          "type": "h2",
+          "text": "Sample Reporting Dashboard"
+        },
+        {
+          "type": "section-kicker",
+          "text": "Illustrative sample"
+        },
+        {
+          "type": "h2",
+          "text": "Sample AI Workflow"
+        },
+        {
+          "type": "h2",
+          "text": "Independent portfolio and competition projects"
+        },
+        {
+          "type": "h3",
+          "text": "Enterprise Operations Intelligence Platform"
+        },
+        {
+          "type": "h3",
+          "text": "Havi Hackathon - Demand Forecasting"
+        },
+        {
+          "type": "h3",
+          "text": "Ecommerce Strategy Analysis - A/B Testing"
+        },
+        {
+          "type": "section-kicker",
+          "text": "More Work"
+        },
+        {
+          "type": "h2",
+          "text": "Academic, group, and independent learning projects"
+        },
+        {
+          "type": "h4",
+          "text": "Academic and group projects"
+        },
+        {
+          "type": "h4",
+          "text": "Solo Projects"
+        },
+        {
+          "type": "section-kicker",
+          "text": "FAQ"
+        },
+        {
+          "type": "h2",
+          "text": "How to read these case studies"
+        },
+        {
+          "type": "h3",
+          "text": "What's the difference between an analytics audit and a dashboard build?"
+        },
+        {
+          "type": "h3",
+          "text": "How does experimentation experience inform consulting?"
+        },
+        {
+          "type": "h3",
+          "text": "Services"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn Case Studies Proof that I can turn data into decision support. Start with sample consulting deliverables, then explore independent portfolio work, competition projects, and academic/group projects. Samples use fictional scenarios and synthetic data; portfolio work is not presented as paid client delivery. View Professional Experience View Consulting Options Sample consulting deliverablesIllustrative sample. Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.Illustrative sampleSample Analytics Clarity AuditA fictional DTC storefront: measurement gaps and a prioritized action plan.Explore the sampleIllustrative sampleSample Reporting DashboardA dashboard mockup with synthetic ecommerce data and explicit metric definitions.Explore the sampleIllustrative sampleSample AI WorkflowA human-reviewed inquiry triage workflow for repetitive, non-critical work.Explore the sampleIndependent portfolio and competition projects Enterprise Operations Intelligence Platform I built this as an end-to-end analytics engineering and BI workflow for the kind of problem many growing teams face: raw files exist, but the data is not ready for trusted reporting. The project moves from CSV cleaning and validation into PostgreSQL, dbt transformations, dimensional modeling, data quality checks, and dashboard-oriented SQL for operational and product analysis. Decision: Give operators a trustworthy view of product and operational performance from raw files. Data: CSV inputs cleaned and validated before loading into PostgreSQL and dbt models. What I built: Dimensional models, data quality checks, and dashboard-ready SQL for analysis. Result: A repeatable BI foundation that shows how messy source files can become decision-ready reporting. What to watch next: Refresh reliability, metric ownership, and whether stakeholders act from the same definitions. Python PostgreSQL dbt SQL Tableau View on GitHub Havi Hackathon - Demand Forecasting This project was built for the HAVI / NIU Quick Service Restaurant Demand Forecasting Challenge, where the business problem was predicting daily menu-item demand by restaurant. The workflow combined exploratory analysis, time-based validation, calendar, weather, promotion, and historical demand features, plus gradient boosting models designed around the competition's wMAPE objective. Decision: Improve demand planning for daily restaurant menu-item volume. Data: Historical demand joined with calendar, weather, promotion, and restaurant-level context. What I built: A time-aware validation workflow and gradient boosting models aligned to wMAPE. Result: A forecasting approach that connected model evaluation to a supply chain planning question. What to watch next: Forecast drift, promotion effects, item-level bias, and planning adoption. Python LightGBM scikit-learn Forecasting Supply Chain Analytics View on GitHub Discuss Forecasting Work Ecommerce Strategy Analysis - A/B Testing This project analyzes an ecommerce A/B test by cleaning experiment data, validating the control and treatment setup, and comparing conversion behavior and session engagement across groups and countries. It demonstrates how experimentation work should connect data validation, SQL analysis, Python workflows, and business interpretation before a team acts on test results. Decision: Understand whether an ecommerce test produced a credible conversion signal. Data: Experiment assignments, sessions, country segments, and conversion behavior. What I built: A Python and SQL workflow for cleaning, validation, group comparison, and interpretation. Result: A clearer readout of test behavior before turning analysis into a business recommendation. What to watch next: Sample quality, segment-level effects, test duration, and repeated learning across future tests. Python SQL Pandas A/B Testing Statistical Analysis View on GitHub More Work Academic, group, and independent learning projects Explore additional academic/group projects and independent learning examples. These demonstrate skills and are distinct from paid independent consulting engagements. Academic and group projects Nonprofit Engagement Consulting Project This project focused on analyzing engagement patterns and translating findings into recommendations that could support stronger outreach and program decision-making. Open PDF UBUS 288 Group Case Study - Business Strategy & Analytics Project A collaborative case project centered on structured business analysis, recommendation development, and communicating insights clearly as a team. Open PDF NIU csci 466 Webstore A web development project that gave me hands-on experience building a more complete application workflow beyond analytics alone. Solo Projects Employee Churn Prediction A predictive analytics project focused on identifying patterns related to employee attrition and turning modeling output into insights that could support retention decisions. GitHub Streamlit App Anime Data Analysis Dashboard A dashboarding project built around exploratory analysis, visualization, and presenting trends in a way that is both engaging and easy to interpret. GitHub Streamlit App FAQ How to read these case studies What's the difference between an analytics audit and a dashboard build? An analytics audit identifies the decision, metric gaps, data quality issues, and reporting workflow problems before a team invests in a build. A dashboard build creates the reporting asset itself, including cleaned data, visual views, KPI definitions, QA checks, and handoff notes. How does experimentation experience inform consulting? My experimentation background informs evidence-based assessments of customer journeys, measurement, and digital experience opportunities. The portfolio includes A/B analysis; independent services focus on scoped assessments and recommendations rather than live test operations. Last updated October 28, 2026. Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Services Consulting Offers Proof Consulting Proof Case Studies Samples Process About Experience Research Resume Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved.",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -1099,10 +2229,43 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "AI Research"
+        },
+        {
           "type": "h1",
           "text": "Applied AI research that can become real workflow tools."
+        },
+        {
+          "type": "h3",
+          "text": "Dean's Research Seminar"
+        },
+        {
+          "type": "h3",
+          "text": "CURE Presentation"
+        },
+        {
+          "type": "h3",
+          "text": "Research Paper"
+        },
+        {
+          "type": "h3",
+          "text": "Qualitative AI Studio"
+        },
+        {
+          "type": "h3",
+          "text": "Services"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn AI Research Applied AI research that can become real workflow tools. My research explores how AI-generated personas and LLM-based interview simulations can strengthen interview-based qualitative research. For clients, this translates into a practical capability: designing Claude, Custom GPT, MCP-style, n8n, and Streamlit workflows that support researchers, analysts, and operators without replacing human judgment. Dean's Research Seminar Open in new tab CURE Presentation Open in new tab Research Paper This work examines how matched AI and human interviews can be compared to understand where LLMs are helpful, where they fall short, and how they can be used responsibly in qualitative research workflows. The consulting lesson is simple: AI is most useful when it is designed around a real workflow, clear evaluation, and human interpretation. Qualitative AI Studio This separate research tool extends the project into a more interactive workflow, showing how AI can support persona-based interview simulation, transcript comparison, and qualitative interpretation in a more guided environment. It is also proof that I can move from research idea to a usable workflow. Visit Website Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Services Consulting Offers Proof Consulting Proof Case Studies Samples Process About Experience Research Resume Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved.",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -1134,10 +2297,43 @@
       ],
       "locked_copy": [
         {
+          "type": "section-kicker",
+          "text": "Resume"
+        },
+        {
           "type": "h1",
           "text": "Resume versions for analytics, BI, and operations roles."
+        },
+        {
+          "type": "h3",
+          "text": "Preview: Data Analytics and Business Intelligence Resume"
+        },
+        {
+          "type": "h3",
+          "text": "Data Science / Machine Learning"
+        },
+        {
+          "type": "h3",
+          "text": "Data Analytics"
+        },
+        {
+          "type": "h3",
+          "text": "Supply Chain / Operations"
+        },
+        {
+          "type": "h3",
+          "text": "Services"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
         }
       ],
+      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn Resume Resume versions for analytics, BI, and operations roles. For recruiters, these resumes show the employment side of the same positioning: analytics work that connects data, operations, BI systems, and business decisions. Preview: Data Analytics and Business Intelligence Resume Download This Resume Data Science / Machine Learning Focus on machine learning, AI, and advanced analytics projects. View Resume Download PDF Data Analytics Emphasis on data analysis, visualization, and business intelligence. View Resume Download PDF Supply Chain / Operations Focused on logistics, operations, and supply chain management. View Resume Download PDF Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Services Consulting Offers Proof Consulting Proof Case Studies Samples Process About Experience Research Competitions Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved.",
       "hidden_elements": [
         {
           "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
@@ -1156,6 +2352,7 @@
   "llms_txt_blob_sha": "3b51141a346700b57fca132ed5d261360f869637",
   "robots_txt_blob_sha": "e698bea3d563b0b4b97a89dbd0c3ca25e037eefb",
   "sitemap_xml_normalized": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <url>\n        <loc>https://anthony-baptiste.com/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>1.0</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.75</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/services/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.72</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/process/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.68</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/about/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/projects/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.85</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/experience/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.95</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/competitions/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/resume/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.55</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/research/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/analytics-clarity/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/reporting-dashboard/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/ai-workflow/</loc><lastmod></lastmod></url>\n</urlset>\n",
+  "cname_sha256": "79115b5174ce414ba90ca2af1cc75a29d21769dfbd9c74542ca437fb49b89ef6",
   "source_commit": "218193ad3132bbe1fe397194b9fdccedb045977d",
-  "fixture_id": "93e944c05c1c15e6509f9b3612840819636e95a42375d766fadcd6215263e1d8"
+  "fixture_id": "21193af370b62f95e9ad63e65f887d78406d3cd7051b3db2136e71ec4f75961a"
 }
