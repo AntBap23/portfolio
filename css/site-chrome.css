@@ -3,6 +3,7 @@
     --chrome-navy: #102431;
     --chrome-blue: var(--blue, #1f5fbf);
     --chrome-teal: var(--green, #0f766e);
+    --chrome-booking-bar-height: 4.75rem;
 }
 
 /* overflow-x:hidden on html/body breaks position:sticky; clip preserves stickiness */
@@ -23,6 +24,12 @@ body {
     z-index: auto;
 }
 
+/* AA: logo subtitle contrast (was #8793a3 at ~10.4px / 2.96:1) */
+.site-header .logo span {
+    color: #5f6b7a;
+    font-size: 12px;
+}
+
 .site-header .nav-actions {
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -38,6 +45,15 @@ body {
 .site-header .nav-cta-secondary:hover {
     background: rgba(31, 95, 191, 0.08);
     color: var(--blue-dark, #184a98);
+}
+
+/* Dark footer focus ring (AA on navy) */
+.site-footer a:focus-visible,
+.footer a:focus-visible,
+.site-footer .social-links a:focus-visible,
+.footer .social-links a:focus-visible {
+    outline: 2px solid #74d3c4;
+    outline-offset: 4px;
 }
 
 /* Preserve locked aria-hidden slash remnant on About without showing it */
@@ -101,20 +117,29 @@ body {
     display: none;
 }
 
+.mobile-booking-bar[hidden] {
+    display: none !important;
+}
+
 @media (max-width: 860px) {
     .site-header .nav-content {
+        position: static;
         min-height: 56px;
         padding: 0 1rem;
     }
 
+    /* Pin open menu to the sticky header / viewport edges (not the padded nav-content box) */
     .site-header .nav-panel {
+        position: absolute;
         left: 0;
         right: 0;
+        width: 100%;
         top: 56px;
         border-radius: 0;
         border-left: none;
         border-right: none;
         padding: 0;
+        box-sizing: border-box;
     }
 
     .site-header .nav-links {
@@ -149,7 +174,9 @@ body {
     }
 
     .mobile-booking-bar {
-        position: sticky;
+        position: fixed;
+        left: 0;
+        right: 0;
         bottom: 0;
         z-index: 950;
         display: grid;
@@ -159,10 +186,11 @@ body {
         border-top: 1px solid var(--line, #d9e1ea);
         background: rgba(255, 255, 255, 0.96);
         backdrop-filter: blur(12px);
+        box-sizing: border-box;
     }
 
     .mobile-booking-bar[hidden] {
-        display: grid;
+        display: none !important;
     }
 
     .mobile-booking-bar .btn {
@@ -173,6 +201,6 @@ body {
     }
 
     body {
-        padding-bottom: 4.75rem;
+        padding-bottom: var(--chrome-booking-bar-height);
     }
 }

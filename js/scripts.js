@@ -187,7 +187,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const matchesPath = !isHashLink && normalizedHref === currentPath;
             const matchesSection = isHashLink && href.slice(1) === currentSection;
 
-            link.classList.toggle('active', matchesPath || matchesSection);
+            const isActive = matchesPath || matchesSection;
+            link.classList.toggle('active', isActive);
+            if (isActive) {
+                link.setAttribute('aria-current', 'page');
+            } else {
+                link.removeAttribute('aria-current');
+            }
         });
     };
 
