@@ -62,6 +62,7 @@
         }());
     </script>
     <link href="/css/figma-styles.css?v=20261028-1" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -73,14 +74,20 @@
 </head>
 
 <body class="page-consulting">
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-{% include nav-consulting-about.html %}
+{% include header.html %}
 
     <main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><a href="https://anthony-baptiste.com/consulting/">Consulting</a></li>
+            <li><span aria-current="page">About</span></li>
+        </ol>
+    </nav>
+
         <section class="consulting-about-hero" aria-labelledby="about-title">
             <div class="section-content consulting-about-hero-grid">
                 <div class="consulting-about-copy">
-                    <nav class="breadcrumb breadcrumb-dark" aria-label="Breadcrumb"><a href="/consulting/">Consulting</a><span aria-hidden="true">/</span><span>About</span></nav>
                     <span class="section-kicker">About Anthony</span>
                     <h1 id="about-title">An analyst who works from the decision backward.</h1>
                     <p class="answer-summary">I am a Digital Experimentation Analyst at Ulta Beauty with experience across product analytics, operations analytics, KPI reporting, dashboard development, and growth strategy.</p>
@@ -175,8 +182,9 @@
             </div>
         </section>
     <section class="consulting-section"><div class="section-content"><p>Happy to find a time after 5 p.m. Central on a weekday or during mutually agreed weekend hours. Email works any time, and I reply within two business days.</p></div></section></main>
+    <span aria-hidden="true">/</span>
 
-{% include footer-consulting-sub.html %}
+{% include footer.html %}
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
     <script src="/js/scripts.js?v=20261028-1"></script>
 </body>

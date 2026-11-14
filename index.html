@@ -103,6 +103,7 @@
         }());
     </script>
     <link href="./css/figma-styles.css?v=20261028-1" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
@@ -115,8 +116,9 @@
 </head>
 
 <body class="page-home">
-{% include nav-home.html %}
+{% include header.html %}
 
+    <main id="main-content">
     <header class="home-hero">
         <div class="section-content home-hero-grid">
             <div class="home-hero-copy fade-panel">
@@ -147,7 +149,6 @@
         </div>
     </header>
 
-    <main>
         <section class="proof-strip" aria-labelledby="proof-strip-title">
             <div class="section-content">
                 <h2 id="proof-strip-title" class="sr-only">Relevant experience</h2>
@@ -306,7 +307,7 @@
         </section>
     <section class="consulting-section"><div class="section-content"><h2>See what delivery can look like.</h2><p>Explore an illustrative audit report, a dashboard mockup, and a human-reviewed AI workflow, each clearly labeled as a sample.</p><a class="btn btn-secondary" href="/consulting/samples/">Explore Sample Deliverables</a></div></section></main>
 
-{% include footer-home.html %}
+{% include footer.html %}
 
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
         <i class="fas fa-arrow-up" aria-hidden="true"></i>

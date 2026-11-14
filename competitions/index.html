@@ -100,6 +100,7 @@
         }());
     </script>
     <link href="../css/figma-styles.css?v=20260919-2" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -111,9 +112,16 @@
 </head>
 
 <body class="page-shell">
-{% include nav-portfolio.html %}
+{% include header.html %}
 
-    <section id="competitions" class="competitions">
+    <main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><span aria-current="page">Competitions</span></li>
+        </ol>
+    </nav>
+<section id="competitions" class="competitions">
         <div class="section-content">
             <div class="page-intro">
                 <span class="section-kicker">Community</span>
@@ -218,8 +226,9 @@
             </div>
         </div>
     </section>
+    </main>
 
-{% include footer-portfolio.html %}
+{% include footer.html %}
 
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
         <i class="fas fa-arrow-up"></i>

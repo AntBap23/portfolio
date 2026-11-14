@@ -71,6 +71,7 @@
         }());
     </script>
     <link href="../css/figma-styles.css?v=20260919-2" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -82,9 +83,16 @@
 </head>
 
 <body class="page-shell">
-{% include nav-portfolio.html %}
+{% include header.html %}
 
-    <section id="research" class="research">
+    <main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><span aria-current="page">AI Research</span></li>
+        </ol>
+    </nav>
+<section id="research" class="research">
         <div class="section-content">
             <div class="page-intro">
                 <span class="section-kicker">AI Research</span>
@@ -94,7 +102,7 @@
 
             <div class="research-presentations">
                 <article class="research-card">
-                    <h3>Dean's Research Seminar</h3>
+                    <h2>Dean's Research Seminar</h2>
                     <div class="pdf-iframe-wrapper research-cure-pdf">
                         <iframe src="../assets/research.pdf" title="Dean's Research Seminar PDF" loading="lazy"></iframe>
                     </div>
@@ -104,7 +112,7 @@
                 </article>
 
                 <article class="research-card">
-                    <h3>CURE Presentation</h3>
+                    <h2>CURE Presentation</h2>
                     <figure class="research-cure-photo">
                         <img src="../images/cure.webp" alt="Anthony Baptiste presenting CURE research" width="1200" height="900" loading="lazy">
                     </figure>
@@ -119,12 +127,12 @@
 
             <div class="research-grid">
                 <article class="research-card">
-                    <h3>Research Paper</h3>
+                    <h2>Research Paper</h2>
                     <p>This work examines how matched AI and human interviews can be compared to understand where LLMs are helpful, where they fall short, and how they can be used responsibly in qualitative research workflows. The consulting lesson is simple: AI is most useful when it is designed around a real workflow, clear evaluation, and human interpretation.</p>
                 </article>
 
                 <article class="research-card">
-                    <h3>Qualitative AI Studio</h3>
+                    <h2>Qualitative AI Studio</h2>
                     <p>This separate research tool extends the project into a more interactive workflow, showing how AI can support persona-based interview simulation, transcript comparison, and qualitative interpretation in a more guided environment. It is also proof that I can move from research idea to a usable workflow.</p>
                     <div class="research-actions">
                         <a href="https://custom-gpt-interview-research-assistant.streamlit.app" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit Website</a>
@@ -134,8 +142,9 @@
 
         </div>
     </section>
+    </main>
 
-{% include footer-portfolio.html %}
+{% include footer.html %}
 
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
         <i class="fas fa-arrow-up"></i>

@@ -1,0 +1,178 @@
+/* Scoped header/footer/breadcrumb chrome for redesign 1c. Keeps tokens local. */
+:root {
+    --chrome-navy: #102431;
+    --chrome-blue: var(--blue, #1f5fbf);
+    --chrome-teal: var(--green, #0f766e);
+}
+
+/* overflow-x:hidden on html/body breaks position:sticky; clip preserves stickiness */
+html,
+body {
+    overflow-x: clip;
+}
+
+.site-header.site-chrome {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.site-header.site-chrome .navbar {
+    position: relative;
+    top: auto;
+    z-index: auto;
+}
+
+.site-header .nav-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.site-header .nav-cta-secondary {
+    border-color: var(--chrome-blue);
+    color: var(--chrome-blue);
+    background: transparent;
+    box-shadow: none;
+}
+
+.site-header .nav-cta-secondary:hover {
+    background: rgba(31, 95, 191, 0.08);
+    color: var(--blue-dark, #184a98);
+}
+
+/* Preserve locked aria-hidden slash remnant on About without showing it */
+.consulting-about-copy > span[aria-hidden="true"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0.85rem 2rem 0;
+}
+
+.breadcrumbs ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.55rem;
+    align-items: center;
+    max-width: var(--content, 1240px);
+    margin: 0 auto;
+    padding: 0;
+    color: var(--muted, #5f6b7a);
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.breadcrumbs li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    content: "/";
+    color: var(--subtle, #8793a3);
+    font-weight: 600;
+}
+
+.breadcrumbs a {
+    color: var(--chrome-blue);
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs [aria-current="page"] {
+    color: var(--ink, #111827);
+}
+
+.mobile-booking-bar {
+    display: none;
+}
+
+@media (max-width: 860px) {
+    .site-header .nav-content {
+        min-height: 56px;
+        padding: 0 1rem;
+    }
+
+    .site-header .nav-panel {
+        left: 0;
+        right: 0;
+        top: 56px;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        padding: 0;
+    }
+
+    .site-header .nav-links {
+        gap: 0;
+    }
+
+    .site-header .nav-links li {
+        width: 100%;
+        border-bottom: 1px solid var(--line, #d9e1ea);
+    }
+
+    .site-header .nav-links a {
+        justify-content: flex-start;
+        min-height: 48px;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        padding: 0.85rem 1rem;
+        font-size: 1rem;
+    }
+
+    .site-header .nav-actions {
+        display: grid;
+        gap: 0.65rem;
+        padding: 0.85rem 1rem 1rem;
+        width: 100%;
+    }
+
+    .site-header .nav-actions .btn {
+        width: 100%;
+        min-height: 48px;
+    }
+
+    .mobile-booking-bar {
+        position: sticky;
+        bottom: 0;
+        z-index: 950;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.55rem;
+        padding: 0.65rem 0.85rem calc(0.65rem + env(safe-area-inset-bottom, 0));
+        border-top: 1px solid var(--line, #d9e1ea);
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(12px);
+    }
+
+    .mobile-booking-bar[hidden] {
+        display: grid;
+    }
+
+    .mobile-booking-bar .btn {
+        min-height: 48px;
+        width: 100%;
+        font-size: 0.82rem;
+        padding: 0.65rem 0.5rem;
+    }
+
+    body {
+        padding-bottom: 4.75rem;
+    }
+}

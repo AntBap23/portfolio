@@ -79,6 +79,7 @@
         }());
     </script>
     <link href="/css/figma-styles.css?v=20261028-1" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -90,12 +91,19 @@
 </head>
 
 <body class="page-consulting">
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-{% include nav-consulting-samples.html %}
+{% include header.html %}
 
-    <main id="main-content"><section class="consulting-subpage-hero"><div class="section-content"><p class="section-kicker">What delivery can look like</p><h1>Explore sample consulting deliverables.</h1><p class="answer-summary">See the structure, reasoning, and handoff notes behind an audit, a dashboard, and an AI workflow.</p></div></section><section class="consulting-section"><div class="section-content"><p class="sample-notice"><strong>Illustrative sample.</strong> Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.</p><div class="consulting-teaser-grid"><article><p class="section-kicker">Illustrative sample</p><h2><a href="/consulting/samples/analytics-clarity/">Sample Analytics Clarity Audit</a></h2><p>A fictional DTC storefront: measurement gaps and a prioritized action plan.</p><a class="text-link" href="/consulting/samples/analytics-clarity/">Explore the sample</a></article><article><p class="section-kicker">Illustrative sample</p><h2><a href="/consulting/samples/reporting-dashboard/">Sample Reporting Dashboard</a></h2><p>A dashboard mockup with synthetic ecommerce data and explicit metric definitions.</p><a class="text-link" href="/consulting/samples/reporting-dashboard/">Explore the sample</a></article><article><p class="section-kicker">Illustrative sample</p><h2><a href="/consulting/samples/ai-workflow/">Sample AI Workflow</a></h2><p>A human-reviewed inquiry triage workflow for repetitive, non-critical work.</p><a class="text-link" href="/consulting/samples/ai-workflow/">Explore the sample</a></article></div></div></section></main>
+    <main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><a href="https://anthony-baptiste.com/consulting/">Consulting</a></li>
+            <li><span aria-current="page">Samples</span></li>
+        </ol>
+    </nav>
+<section class="consulting-subpage-hero"><div class="section-content"><p class="section-kicker">What delivery can look like</p><h1>Explore sample consulting deliverables.</h1><p class="answer-summary">See the structure, reasoning, and handoff notes behind an audit, a dashboard, and an AI workflow.</p></div></section><section class="consulting-section"><div class="section-content"><p class="sample-notice"><strong>Illustrative sample.</strong> Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.</p><div class="consulting-teaser-grid"><article><p class="section-kicker">Illustrative sample</p><h2><a href="/consulting/samples/analytics-clarity/">Sample Analytics Clarity Audit</a></h2><p>A fictional DTC storefront: measurement gaps and a prioritized action plan.</p><a class="text-link" href="/consulting/samples/analytics-clarity/">Explore the sample</a></article><article><p class="section-kicker">Illustrative sample</p><h2><a href="/consulting/samples/reporting-dashboard/">Sample Reporting Dashboard</a></h2><p>A dashboard mockup with synthetic ecommerce data and explicit metric definitions.</p><a class="text-link" href="/consulting/samples/reporting-dashboard/">Explore the sample</a></article><article><p class="section-kicker">Illustrative sample</p><h2><a href="/consulting/samples/ai-workflow/">Sample AI Workflow</a></h2><p>A human-reviewed inquiry triage workflow for repetitive, non-critical work.</p><a class="text-link" href="/consulting/samples/ai-workflow/">Explore the sample</a></article></div></div></section></main>
 
-{% include footer-consulting-sub.html %}
+{% include footer.html %}
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
     <script src="/js/scripts.js?v=20261028-1"></script>
 </body>

@@ -86,6 +86,7 @@
         }());
     </script>
     <link href="../css/figma-styles.css?v=20260919-2" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -97,9 +98,16 @@
 </head>
 
 <body class="page-shell">
-{% include nav-experience.html %}
+{% include header.html %}
 
-    <section id="experience" class="experience">
+    <main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><span aria-current="page">Experience</span></li>
+        </ol>
+    </nav>
+<section id="experience" class="experience">
         <div class="section-content">
             <div class="page-intro">
                 <span class="section-kicker">Experience</span>
@@ -124,13 +132,13 @@
                     <div class="experience-card-header">
                         <div>
                             <p class="experience-meta">June 2026 - Present | Ulta Beauty | Bolingbrook, IL</p>
-                            <h3>Digital Experimentation Analyst - Ulta Beauty</h3>
+                            <h2>Digital Experimentation Analyst - Ulta Beauty</h2>
                         </div>
                         <span class="experience-pill">Digital Experimentation</span>
                     </div>
                     <p>At Ulta Beauty, I support A/B and multivariate testing across web and app experiences. The work focuses on defining hypotheses, measurement strategies, KPIs, and success criteria before evaluating how digital changes affect customers and business performance.</p>
                     <div class="experience-outcomes">
-                        <h4>What I did</h4>
+                        <h3>What I did</h3>
                         <ul>
                             <li>Support digital experiments by helping define hypotheses, measurement strategies, KPIs, and success criteria.</li>
                             <li>Analyze experiment performance with Adobe Analytics, Adobe Target, and Excel across conversion, revenue, engagement, and customer behavior.</li>
@@ -145,13 +153,13 @@
                     <div class="experience-card-header">
                         <div>
                             <p class="experience-meta">May 2025 - May 2026 | Northern Illinois University | DeKalb, IL</p>
-                            <h3>Undergraduate Student Researcher - NIU College of Business</h3>
+                            <h2>Undergraduate Student Researcher - NIU College of Business</h2>
                         </div>
                         <span class="experience-pill">Applied AI Research</span>
                     </div>
                     <p>I contribute to research on how large language models can support interview-based qualitative research without replacing human interpretation. The work combines prompt design, transcript generation, NLP evaluation, qualitative research methods, and practical awareness of tools like Claude, Custom GPTs, MCP-style connections, and n8n automation.</p>
                     <div class="experience-outcomes">
-                        <h4>What I did</h4>
+                        <h3>What I did</h3>
                         <ul>
                             <li>Built a GPT-based simulation pipeline that generated AI interview transcripts for 28 founder personas using consistent structured prompts, with patterns transferable to Claude and Custom GPT workflows.</li>
                             <li>Compared AI-generated and human interview responses across tone, depth, factual accuracy, strengths, weaknesses, and alignment gaps.</li>
@@ -166,13 +174,13 @@
                     <div class="experience-card-header">
                         <div>
                             <p class="experience-meta">August 2025 - December 2025 | Mystery Street Recording Company | Chicago, IL</p>
-                            <h3>Growth Consultant - Mystery Street Recording Company</h3>
+                            <h2>Growth Consultant - Mystery Street Recording Company</h2>
                         </div>
                         <span class="experience-pill">Growth Consulting</span>
                     </div>
                     <p>Through NIU's Experiential Learning Center, I worked on a consulting engagement for a Chicago-based recording studio. The project required turning ambiguous growth goals, fragmented market information, and competitor activity into a structured recommendation set for leadership.</p>
                     <div class="experience-outcomes">
-                        <h4>What I did</h4>
+                        <h3>What I did</h3>
                         <ul>
                             <li>Led business analysis across SEO performance, engagement metrics, campaign KPIs, competitor positioning, and customer segments.</li>
                             <li>Analyzed 15+ competitor studios to define audience segments, market opportunities, and measurable success criteria.</li>
@@ -187,13 +195,13 @@
                     <div class="experience-card-header">
                         <div>
                             <p class="experience-meta">May 2025 - August 2025 | Shipt | Birmingham, AL</p>
-                            <h3>Network Planning - Shipt</h3>
+                            <h2>Network Planning - Shipt</h2>
                         </div>
                         <span class="experience-pill">Operations BI</span>
                     </div>
                     <p>At Shipt, I worked on network planning analytics for a large delivery operation. The role gave me hands-on experience building analytics systems for operational teams that needed better visibility into ZIP-code coverage, daily order volume, and market-level performance.</p>
                     <div class="experience-outcomes">
-                        <h4>What I did</h4>
+                        <h3>What I did</h3>
                         <ul>
                             <li>Designed and deployed a Tableau geospatial analytics platform analyzing daily order volume across 30,000+ ZIP codes.</li>
                             <li>Helped Market Operations surface delivery blind spots, misconfigured ZIP-code coverage, and high-risk network regions with 30% better KPI visibility.</li>
@@ -208,13 +216,13 @@
                     <div class="experience-card-header">
                         <div>
                             <p class="experience-meta">March 2025 - May 2025 | Innovation DuPage | Glen Ellyn, IL</p>
-                            <h3>IT Data Analyst Intern - Innovation DuPage</h3>
+                            <h2>IT Data Analyst Intern - Innovation DuPage</h2>
                         </div>
                         <span class="experience-pill">KPI Reporting</span>
                     </div>
                     <p>At Innovation DuPage, I supported reporting and operational analysis across program areas. The work focused on making program performance easier to measure, improving Salesforce reporting visibility, and giving leadership more consistent KPI definitions.</p>
                     <div class="experience-outcomes">
-                        <h4>What I did</h4>
+                        <h3>What I did</h3>
                         <ul>
                             <li>Built and maintained Tableau dashboards tracking 20+ KPIs across program areas.</li>
                             <li>Standardized metric definitions and reporting logic, reducing reporting cycle time by 40%.</li>
@@ -230,13 +238,13 @@
                     <div class="experience-card-header">
                         <div>
                             <p class="experience-meta">2022 - Present | Northern Illinois University</p>
-                            <h3>Leadership &amp; Industry Presentations - OMIS IGNITE, ACM NIU, and HAVI</h3>
+                            <h2>Leadership &amp; Industry Presentations - OMIS IGNITE, ACM NIU, and HAVI</h2>
                         </div>
                         <span class="experience-pill">Public Proof</span>
                     </div>
                     <p>My leadership and presentation experience shows that I can communicate technical work clearly, organize professional development opportunities, and present analytics recommendations to people outside the classroom.</p>
                     <div class="experience-outcomes">
-                        <h4>What I did</h4>
+                        <h3>What I did</h3>
                         <ul>
                             <li>Won 1st Place in the NIU Data Visualization Competition with HAVI by building a Power BI dashboard using Python and Excel to analyze QSR supply chain inefficiencies.</li>
                             <li>Presented findings and recommendations to an industry panel of supply chain professionals and data scientists.</li>
@@ -249,8 +257,9 @@
             </div>
         </div>
     </section>
+    </main>
 
-{% include footer-experience.html %}
+{% include footer.html %}
 
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
         <i class="fas fa-arrow-up"></i>

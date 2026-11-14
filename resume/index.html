@@ -69,6 +69,7 @@
         }());
     </script>
     <link href="../css/figma-styles.css?v=20260919-2" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -80,9 +81,16 @@
 </head>
 
 <body class="page-shell">
-{% include nav-portfolio.html %}
+{% include header.html %}
 
-    <section id="resume" class="resume">
+    <main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><span aria-current="page">Resume</span></li>
+        </ol>
+    </nav>
+<section id="resume" class="resume">
         <div class="section-content">
             <div class="page-intro">
                 <span class="section-kicker">Resume</span>
@@ -92,7 +100,7 @@
 
             <div class="resume-preview-card">
                 <div class="resume-viewer">
-                    <h3>Preview: Data Analytics and Business Intelligence Resume</h3>
+                    <h2>Preview: Data Analytics and Business Intelligence Resume</h2>
                     <iframe src="../resumes/Anthony_Baptiste_DA.pdf" title="Anthony Baptiste Data Analytics and Business Intelligence Resume"></iframe>
                     <div class="resume-actions">
                         <a href="../resumes/Anthony_Baptiste_DA.pdf" class="btn btn-primary" download="Anthony_Baptiste_DA.pdf">Download This Resume</a>
@@ -102,7 +110,7 @@
 
             <div class="resume-grid" style="margin-top: 1.5rem;">
                 <article class="resume-card">
-                    <h3>Data Science / Machine Learning</h3>
+                    <h2>Data Science / Machine Learning</h2>
                     <p>Focus on machine learning, AI, and advanced analytics projects.</p>
                     <div class="resume-actions">
                         <a href="../resumes/Anthony_Baptiste_DSML.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Resume</a>
@@ -111,7 +119,7 @@
                 </article>
 
                 <article class="resume-card">
-                    <h3>Data Analytics</h3>
+                    <h2>Data Analytics</h2>
                     <p>Emphasis on data analysis, visualization, and business intelligence.</p>
                     <div class="resume-actions">
                         <a href="../resumes/Anthony_Baptiste_DA.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Resume</a>
@@ -120,7 +128,7 @@
                 </article>
 
                 <article class="resume-card">
-                    <h3>Supply Chain / Operations</h3>
+                    <h2>Supply Chain / Operations</h2>
                     <p>Focused on logistics, operations, and supply chain management.</p>
                     <div class="resume-actions">
                         <a href="../resumes/Anthony_Baptiste_OIM.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Resume</a>
@@ -130,8 +138,9 @@
             </div>
         </div>
     </section>
+    </main>
 
-{% include footer-resume.html %}
+{% include footer.html %}
 
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
         <i class="fas fa-arrow-up"></i>

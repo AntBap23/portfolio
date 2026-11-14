@@ -45,6 +45,7 @@
         }());
     </script>
     <link href="/css/figma-styles.css?v=20261028-1" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261113-1c" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -56,10 +57,17 @@
 </head>
 
 <body class="page-consulting">
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-{% include nav-consulting-services.html %}
+{% include header.html %}
 
     <main id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><a href="https://anthony-baptiste.com/consulting/">Consulting</a></li>
+            <li><span aria-current="page">Services</span></li>
+        </ol>
+    </nav>
+
 <section class="consulting-subpage-hero">
 <div class="section-content"><span class="section-kicker">Independent consulting</span>
 <h1>Analytics, Reporting, Digital Experience and Applied AI Consulting Services</h1>
@@ -202,7 +210,7 @@
 </section>
 <section class="consulting-section"><div class="section-content"><h2>See what delivery can look like.</h2><p>Explore an illustrative audit report, a dashboard mockup, and a human-reviewed AI workflow, each clearly labeled as a sample.</p><a class="btn btn-secondary" href="/consulting/samples/">Explore Sample Deliverables</a></div></section></main>
 
-{% include footer-consulting-sub.html %}
+{% include footer.html %}
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
     <script src="/js/scripts.js?v=20261028-1"></script>
 </body>
