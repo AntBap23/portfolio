@@ -111,6 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 behavior: prefersReducedMotion.matches ? 'auto' : 'smooth',
                 block: 'start'
             });
+
+            // Skip link must move keyboard focus into main (tabindex="-1" on target).
+            if (anchor.classList.contains('skip-link')) {
+                if (typeof target.focus === 'function') {
+                    target.focus({ preventScroll: true });
+                }
+            }
+
             closeNavMenu();
         });
     });
@@ -187,7 +195,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const matchesPath = !isHashLink && normalizedHref === currentPath;
             const matchesSection = isHashLink && href.slice(1) === currentSection;
 
-            link.classList.toggle('active', matchesPath || matchesSection);
+            const isActive = matchesPath || matchesSection;
+            link.classList.toggle('active', isActive);
+            if (isActive) {
+                link.setAttribute('aria-current', 'page');
+            } else {
+                link.removeAttribute('aria-current');
+            }
         });
     };
 

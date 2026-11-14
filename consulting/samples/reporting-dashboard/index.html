@@ -75,6 +75,7 @@
         }());
     </script>
     <link href="/css/figma-styles.css?v=20261028-1" rel="stylesheet">
+    <link href="/css/site-chrome.css?v=20261114-1c3" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERXLTSZNYJ"></script>
     <script>
@@ -86,16 +87,24 @@
 </head>
 
 <body class="page-consulting">
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-{% include nav-consulting-samples.html %}
+{% include header.html %}
 
-    <main id="main-content"><section class="consulting-subpage-hero"><div class="section-content"><a class="text-link" href="/consulting/samples/">All sample deliverables</a><p class="section-kicker">Sample deliverable</p><h1>Sample Reporting Dashboard</h1><p class="answer-summary">A dashboard mockup with synthetic ecommerce data and explicit metric definitions.</p></div></section><section class="consulting-section"><div class="section-content sample-document"><p class="sample-notice"><strong>Illustrative sample.</strong> Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.</p><p><strong>Example scope:</strong> A reusable monthly executive report with KPI definitions, a source map, validation checks, and ownership notes. All figures below are invented for illustration.</p><div class="sample-kpis"><article><span>Net sales</span><strong>$42,000</strong><small>Synthetic month 3</small></article><article><span>Orders</span><strong>600</strong><small>Completed, non-test orders</small></article><article><span>Average order value</span><strong>$70</strong><small>$42,000 ÷ 600</small></article></div>
+    <main id="main-content" tabindex="-1">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="https://anthony-baptiste.com/">Home</a></li>
+            <li><a href="https://anthony-baptiste.com/consulting/">Consulting</a></li>
+            <li><a href="https://anthony-baptiste.com/consulting/samples/">Samples</a></li>
+            <li><span aria-current="page">Sample Reporting Dashboard</span></li>
+        </ol>
+    </nav>
+<section class="consulting-subpage-hero"><div class="section-content"><a class="text-link" href="/consulting/samples/">All sample deliverables</a><p class="section-kicker">Sample deliverable</p><h1>Sample Reporting Dashboard</h1><p class="answer-summary">A dashboard mockup with synthetic ecommerce data and explicit metric definitions.</p></div></section><section class="consulting-section"><div class="section-content sample-document"><p class="sample-notice"><strong>Illustrative sample.</strong> Fictional scenario and synthetic data, created to demonstrate deliverable structure. This is not a paid client engagement, a real audit, or evidence of business results.</p><p><strong>Example scope:</strong> A reusable monthly executive report with KPI definitions, a source map, validation checks, and ownership notes. All figures below are invented for illustration.</p><div class="sample-kpis"><article><span>Net sales</span><strong>$42,000</strong><small>Synthetic month 3</small></article><article><span>Orders</span><strong>600</strong><small>Completed, non-test orders</small></article><article><span>Average order value</span><strong>$70</strong><small>$42,000 ÷ 600</small></article></div>
 <figure class="sample-chart"><figcaption>Illustrative net sales by month (USD)</figcaption><div class="sample-bar-row"><span>Month 1</span><div class="sample-bar" style="--bar-size:71.43%">$30,000</div></div><div class="sample-bar-row"><span>Month 2</span><div class="sample-bar" style="--bar-size:85.71%">$36,000</div></div><div class="sample-bar-row"><span>Month 3</span><div class="sample-bar" style="--bar-size:100%">$42,000</div></div></figure>
 <div class="sample-table-wrap"><table><caption>Synthetic source data behind the mockup</caption><thead><tr><th>Period</th><th>Net sales</th><th>Orders</th><th>Average order value</th></tr></thead><tbody><tr><th>Month 1</th><td>$30,000</td><td>500</td><td>$60</td></tr><tr><th>Month 2</th><td>$36,000</td><td>600</td><td>$60</td></tr><tr><th>Month 3</th><td>$42,000</td><td>600</td><td>$70</td></tr></tbody></table></div>
 <h2>What the summary would say</h2><p>In the synthetic dataset, month 3 sales are higher than month 2 while order count is unchanged. The arithmetic points to a higher average order value; it does not explain why customers spent more. Product mix, pricing, and refund timing would need review before recommending action.</p>
 <h2>Metric glossary and validation</h2><ul class="sample-list"><li><strong>Net sales:</strong> completed merchandise revenue less discounts and refunds; excludes shipping and taxes in this example.</li><li><strong>Orders:</strong> distinct completed, non-test order IDs in the reporting period.</li><li><strong>Average order value:</strong> net sales divided by orders, calculated consistently for each period.</li><li><strong>Checks:</strong> unique order IDs, reconciled totals, documented refund treatment, complete reporting dates, and an agreed time zone.</li></ul><h2>Operational handoff</h2><p>A project would provide the dashboard or reporting model, source map, validation notes, and refresh instructions. The client-designated owner operates refreshes, permissions, and maintenance after handoff. This example is a monthly report, not a live incident-monitoring dashboard.</p><a class="btn btn-primary" href="/consulting/#inquiry">Discuss a similar project</a></div></section></main>
 
-{% include footer-consulting-sub.html %}
+{% include footer.html %}
     <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
     <script src="/js/scripts.js?v=20261028-1"></script>
 </body>

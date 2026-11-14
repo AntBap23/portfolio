@@ -95,7 +95,14 @@ node _qa/visual-diff.mjs path/to/screenshots
 
 ## Exceptions allowlist
 
-`_qa/locked-exceptions.json` exists so later redesign PRs can declare approved differences by page and item. For **1a the allowlist is empty (`{}`) and not applied** by `check`. Future use is reserved for rev 1.1 exceptions only: **P1, P2, P3, F18**.
+`_qa/locked-exceptions.json` declares approved differences by page and element. **1c applies only P1 and P2**:
+
+- **P1** - Visible breadcrumb markup on pages with BreadcrumbList JSON-LD. The checker verifies visible names/URLs equal that page's schema items (it does not blindly skip them).
+- **P2** - Footer link labels inside the unified footer include (official service names).
+
+**F18 (Calendly) is not permitted here** (belongs to 1e). Unknown exception classes cause `check` to exit non-zero.
+
+`check` also refuses an unexpanded source root: if scanned HTML still contains `{%`, `{{`, or `{#`, it exits non-zero and asks for `_qa/_site`.
 
 ## Workflow
 
