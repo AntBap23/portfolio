@@ -111,6 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 behavior: prefersReducedMotion.matches ? 'auto' : 'smooth',
                 block: 'start'
             });
+
+            // Skip link must move keyboard focus into main (tabindex="-1" on target).
+            if (anchor.classList.contains('skip-link')) {
+                if (typeof target.focus === 'function') {
+                    target.focus({ preventScroll: true });
+                }
+            }
+
             closeNavMenu();
         });
     });

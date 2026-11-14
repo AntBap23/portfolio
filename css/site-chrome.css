@@ -122,6 +122,19 @@ body {
 }
 
 @media (max-width: 860px) {
+    /* Keep focused/hash targets (inquiry submit, etc.) clear of the fixed booking bar */
+    html {
+        scroll-padding-bottom: var(--chrome-booking-bar-height);
+    }
+
+    #inquiry,
+    #project-inquiry,
+    .inquiry-form,
+    .inquiry-form button[type="submit"],
+    #project-inquiry button[type="submit"] {
+        scroll-margin-bottom: calc(var(--chrome-booking-bar-height) + 0.75rem);
+    }
+
     .site-header .nav-content {
         position: static;
         min-height: 56px;
@@ -129,7 +142,8 @@ body {
     }
 
     /* Pin open menu to the sticky header / viewport edges (not the padded nav-content box) */
-    .site-header .nav-panel {
+    .site-header .nav-panel,
+    .site-header .nav-panel.open {
         position: absolute;
         left: 0;
         right: 0;
@@ -140,10 +154,19 @@ body {
         border-right: none;
         padding: 0;
         box-sizing: border-box;
+        align-items: stretch;
+        justify-content: stretch;
+        justify-items: stretch;
     }
 
     .site-header .nav-links {
         gap: 0;
+        width: 100%;
+        max-width: none;
+        justify-self: stretch;
+        align-items: stretch;
+        justify-content: stretch;
+        justify-items: stretch;
     }
 
     .site-header .nav-links li {
@@ -198,6 +221,12 @@ body {
         width: 100%;
         font-size: 0.82rem;
         padding: 0.65rem 0.5rem;
+    }
+
+    /* Keep scroll-to-top above the booking bar so it never covers bar CTAs */
+    #scrollToTop,
+    .scroll-to-top {
+        bottom: calc(var(--chrome-booking-bar-height) + 1.2rem);
     }
 
     body {
