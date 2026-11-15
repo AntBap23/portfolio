@@ -112,10 +112,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 block: 'start'
             });
 
-            // Skip link must move keyboard focus into main (tabindex="-1" on target).
+            // Skip link must move keyboard focus into main (tabindex="-1" on target)
+            // and update the URL hash to #main-content.
             if (anchor.classList.contains('skip-link')) {
                 if (typeof target.focus === 'function') {
                     target.focus({ preventScroll: true });
+                }
+                if (window.history && typeof window.history.replaceState === 'function') {
+                    window.history.replaceState(null, '', '#main-content');
+                } else {
+                    window.location.hash = 'main-content';
                 }
             }
 
@@ -198,7 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const isActive = matchesPath || matchesSection;
             link.classList.toggle('active', isActive);
             if (isActive) {
-                link.setAttribute('aria-current', 'page');
+                // Path matches use page; in-page hash/section matches use location.
+                link.setAttribute('aria-current', matchesSection ? 'location' : 'page');
             } else {
                 link.removeAttribute('aria-current');
             }

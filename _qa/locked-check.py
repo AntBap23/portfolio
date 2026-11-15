@@ -734,6 +734,88 @@ FOOTER_H3_TEXTS = frozenset({
 
 ALLOWED_EXCEPTION_CLASSES = frozenset({'P1', 'P2'})
 
+# Cut-locked official service names (1c/1d). Must NOT be derived from the allowlist,
+# so renaming in both the allowlist and the HTML still fails closed.
+OFFICIAL_SERVICE_NAMES = {
+    '/consulting/services/#analytics-clarity-audit': 'Analytics Clarity Audit',
+    '/consulting/services/#dashboard-reporting-sprint': 'Dashboard & Reporting Sprint',
+    '/consulting/services/#digital-experience-audit': 'Digital Experience & Growth Opportunity Audit',
+    '/consulting/services/#applied-ai-workflow-sprint': 'Applied AI Workflow Sprint',
+    '/consulting/services/#monthly-reporting-support': 'Monthly Reporting Support',
+    '/consulting/services/#structured-analytics-advisory': 'Structured Analytics Advisory',
+}
+
+# Exact chrome link sets from the 1c header/footer includes (fail closed; not blanket-exempt).
+EXPECTED_SKIP_LINK = {'href': '#main-content', 'text': 'Skip to main content'}
+
+EXPECTED_HEADER_NAV = [
+    {'href': '/consulting/services/', 'text': 'Services'},
+    {'href': '/projects/', 'text': 'Projects'},
+    {'href': '/consulting/samples/', 'text': 'Samples'},
+    {'href': '/consulting/about/', 'text': 'About'},
+]
+
+EXPECTED_PROPOSAL_CTA = {
+    'href': '/consulting/#inquiry',
+    'text': 'Request a Project Proposal',
+}
+
+EXPECTED_BOOKING_CTA = {
+    'href': 'https://calendly.com/bapanalytics00',
+    'text': 'Book an Intro Call',
+}
+
+EXPECTED_FOOTER_BRAND = {
+    'blurb': (
+        'Independent analytics, digital experience, and applied AI consulting '
+        'with defined deliverables.'
+    ),
+    'copyright': '© 2026 Anthony Baptiste. All rights reserved.',
+    'email_href': 'mailto:bapanalytics00@gmail.com',
+    'email_text': 'bapanalytics00@gmail.com',
+    'headings': ('Services', 'Explore', 'Contact'),
+}
+
+EXPECTED_FOOTER_LINKS = [
+    {'href': '/', 'text': 'Anthony BaptisteAnalytics & Applied AI'},
+    {'href': '/consulting/services/#analytics-clarity-audit', 'text': 'Analytics Clarity Audit'},
+    {'href': '/consulting/services/#dashboard-reporting-sprint', 'text': 'Dashboard & Reporting Sprint'},
+    {
+        'href': '/consulting/services/#digital-experience-audit',
+        'text': 'Digital Experience & Growth Opportunity Audit',
+    },
+    {'href': '/consulting/services/#applied-ai-workflow-sprint', 'text': 'Applied AI Workflow Sprint'},
+    {'href': '/consulting/services/#monthly-reporting-support', 'text': 'Monthly Reporting Support'},
+    {
+        'href': '/consulting/services/#structured-analytics-advisory',
+        'text': 'Structured Analytics Advisory',
+    },
+    {'href': '/', 'text': 'Home'},
+    {'href': '/consulting/', 'text': 'Consulting'},
+    {'href': '/consulting/services/', 'text': 'Services'},
+    {'href': '/consulting/samples/', 'text': 'Samples'},
+    {'href': '/consulting/process/', 'text': 'Process'},
+    {'href': '/consulting/about/', 'text': 'About'},
+    {'href': '/projects/', 'text': 'Projects'},
+    {'href': '/experience/', 'text': 'Experience'},
+    {'href': '/research/', 'text': 'Research'},
+    {'href': '/competitions/', 'text': 'Competitions'},
+    {'href': '/resume/', 'text': 'Resume'},
+    {
+        'href': '/consulting/samples/analytics-clarity/',
+        'text': 'Sample Analytics Clarity Audit',
+    },
+    {
+        'href': '/consulting/samples/reporting-dashboard/',
+        'text': 'Sample Reporting Dashboard',
+    },
+    {'href': '/consulting/samples/ai-workflow/', 'text': 'Sample AI Workflow'},
+    {'href': '/consulting/#inquiry', 'text': 'Request a Project Proposal'},
+    {'href': 'mailto:bapanalytics00@gmail.com', 'text': 'bapanalytics00@gmail.com'},
+    {'href': 'https://www.linkedin.com/in/anthony-baptiste00/', 'text': 'LinkedIn'},
+    {'href': 'https://github.com/AntBap23', 'text': 'GitHub'},
+]
+
 
 def refuse_unexpanded_source(root_dir):
     """AC-1 is a rendered comparison: refuse Liquid/unexpanded includes in scanned HTML."""
@@ -772,6 +854,12 @@ def load_exceptions(exceptions_file):
                 f"FAIL: exception class {cls!r} is not permitted in this PR "
                 f"(allowed: {sorted(ALLOWED_EXCEPTION_CLASSES)}; F18 belongs to 1e)"
             )
+        pages = exc.get('pages', [])
+        if '*' in pages:
+            raise SystemExit(
+                f"FAIL: exception {exc.get('id')!r} uses pages:'*' which is not "
+                f"permitted (fail closed; list exact page URLs)"
+            )
     return data
 
 
@@ -779,9 +867,165 @@ def exceptions_for_page(exceptions_data, page_url):
     matched = []
     for exc in exceptions_data.get('exceptions', []):
         pages = exc.get('pages', [])
-        if page_url in pages or '*' in pages:
+        if '*' in pages:
+            raise SystemExit(
+                "FAIL: pages:'*' is not permitted in locked-exceptions "
+                "(fail closed; list exact page URLs)"
+            )
+        if page_url in pages:
             matched.append(exc)
     return matched
+
+
+def _decode_basic_entities(text):
+    return (
+        text.replace('&amp;', '&')
+        .replace('&lt;', '<')
+        .replace('&gt;', '>')
+        .replace('&quot;', '"')
+        .replace('&nbsp;', ' ')
+        .replace('&copy;', '©')
+    )
+
+
+def _extract_links(html_fragment):
+    """Return ordered [{href, text}] from anchor tags in an HTML fragment."""
+    links = []
+    pattern = re.compile(r'<a\b([^>]*)>(.*?)</a>', re.I | re.S)
+    for attrs, inner in pattern.findall(html_fragment):
+        href_m = re.search(r'\bhref="([^"]*)"', attrs, re.I)
+        href = href_m.group(1) if href_m else ''
+        text = normalize_visible_text(_decode_basic_entities(re.sub(r'<[^>]+>', '', inner)))
+        links.append({'href': href, 'text': text})
+    return links
+
+
+def _first_match(html, pattern):
+    m = re.search(pattern, html, re.I | re.S)
+    return m.group(0) if m else ''
+
+
+def _first_group(html, pattern, group=1):
+    m = re.search(pattern, html, re.I | re.S)
+    return m.group(group) if m else ''
+
+
+def verify_chrome_locks(root_dir, page_url):
+    """Fail closed: header, footer, booking-bar, and skip-link hrefs/labels are locked."""
+    page_file = page_file_for_url(root_dir, page_url)
+    html = page_file.read_text(encoding='utf-8')
+    failures = []
+
+    skip = _first_match(html, r'<a\b[^>]*class="[^"]*\bskip-link\b[^"]*"[^>]*>.*?</a>')
+    if not skip:
+        failures.append('missing skip-link')
+    else:
+        links = _extract_links(skip)
+        if not links or links[0] != EXPECTED_SKIP_LINK:
+            failures.append(f'skip-link mismatch: got {links[:1]!r}')
+
+    header = _first_group(
+        html,
+        r'<header\b[^>]*class="[^"]*\bsite-header\b[^"]*"[^>]*>(.*?)</header>',
+    )
+    if not header:
+        failures.append('missing site-header')
+    else:
+        nav_ul = _first_group(header, r'<ul\b[^>]*class="[^"]*\bnav-links\b[^"]*"[^>]*>(.*?)</ul>')
+        nav_links = _extract_links(nav_ul)
+        if nav_links != EXPECTED_HEADER_NAV:
+            failures.append(f'header nav mismatch: got {nav_links!r}')
+
+        actions = _first_group(
+            header, r'<div\b[^>]*class="[^"]*\bnav-actions\b[^"]*"[^>]*>(.*?)</div>'
+        )
+        action_links = _extract_links(actions)
+        expected_actions = [EXPECTED_BOOKING_CTA, EXPECTED_PROPOSAL_CTA]
+        if action_links != expected_actions:
+            failures.append(f'header CTA mismatch: got {action_links!r}')
+
+    bar = _first_group(
+        html,
+        r'<div\b[^>]*class="[^"]*\bmobile-booking-bar\b[^"]*"[^>]*>(.*?)</div>',
+    )
+    if not bar:
+        failures.append('missing mobile-booking-bar')
+    else:
+        bar_links = _extract_links(bar)
+        expected_bar = [EXPECTED_BOOKING_CTA, EXPECTED_PROPOSAL_CTA]
+        if bar_links != expected_bar:
+            failures.append(f'booking-bar CTA mismatch: got {bar_links!r}')
+
+    footer = _first_group(
+        html,
+        r'<footer\b[^>]*class="[^"]*\bfooter\b[^"]*"[^>]*>(.*?)</footer>',
+    )
+    if not footer:
+        failures.append('missing footer')
+    else:
+        # Headings
+        headings = [
+            normalize_visible_text(_decode_basic_entities(h))
+            for h in re.findall(r'<h3\b[^>]*>(.*?)</h3>', footer, re.I | re.S)
+        ]
+        for expected_h in EXPECTED_FOOTER_BRAND['headings']:
+            if expected_h not in headings:
+                failures.append(f'missing footer heading {expected_h!r}')
+
+        blurb = normalize_visible_text(
+            _decode_basic_entities(
+                re.sub(
+                    r'<[^>]+>',
+                    '',
+                    _first_group(footer, r'<div\b[^>]*class="[^"]*\bfooter-brand\b[^"]*"[^>]*>.*?<p>(.*?)</p>'),
+                )
+            )
+        )
+        if blurb != EXPECTED_FOOTER_BRAND['blurb']:
+            failures.append(f'footer blurb mismatch: got {blurb!r}')
+
+        copyright_text = normalize_visible_text(
+            _decode_basic_entities(
+                re.sub(
+                    r'<[^>]+>',
+                    '',
+                    _first_group(
+                        footer,
+                        r'<div\b[^>]*class="[^"]*\bfooter-bottom\b[^"]*"[^>]*>.*?<p>(.*?)</p>',
+                    ),
+                )
+            )
+        )
+        if copyright_text != EXPECTED_FOOTER_BRAND['copyright']:
+            failures.append(f'footer copyright mismatch: got {copyright_text!r}')
+
+        footer_links = _extract_links(footer)
+        # Text links only (exclude icon-only social duplicates that have aria-label and empty/icon text)
+        text_links = [l for l in footer_links if l['text']]
+        # Normalize logo text collapse (Anthony Baptiste + span)
+        expected = list(EXPECTED_FOOTER_LINKS)
+        # Compare as multiset of (href, text) for required text links; icon-only extras allowed
+        expected_pairs = [(e['href'], e['text']) for e in expected]
+        actual_pairs = [(l['href'], l['text']) for l in text_links]
+        for pair in expected_pairs:
+            if pair not in actual_pairs:
+                failures.append(f'missing footer link {pair!r}')
+        # Proposal, Research, Projects specifically called out
+        if ('/research/', 'Research') not in actual_pairs:
+            failures.append("footer missing Research link")
+        if ('/projects/', 'Projects') not in actual_pairs:
+            failures.append("footer missing Projects link")
+        if (EXPECTED_PROPOSAL_CTA['href'], EXPECTED_PROPOSAL_CTA['text']) not in actual_pairs:
+            failures.append('footer proposal CTA mismatch')
+        if (
+            EXPECTED_FOOTER_BRAND['email_href'],
+            EXPECTED_FOOTER_BRAND['email_text'],
+        ) not in actual_pairs:
+            failures.append('footer email mismatch')
+
+    if failures:
+        return False, failures
+    return True, ['chrome skip/header/booking/footer locks match 1c sets']
 
 
 def strip_legacy_chrome_from_fixture_text(text):
@@ -900,21 +1144,34 @@ def verify_p1_breadcrumbs(page_url, actual, page_exceptions):
 
 
 def verify_p2_footer_labels(root_dir, page_url, page_exceptions, exceptions_data):
-    """Verify footer service link labels match official names from allowlist."""
+    """Verify footer service link labels match OFFICIAL_SERVICE_NAMES (cut constant)."""
     p2 = [e for e in page_exceptions if e.get('class') == 'P2']
     if not p2:
         return True, ['no P2 on page']
 
-    # Collective official labels from allowlist elements
-    official = {}
+    # Official names come from the cut constant, not the allowlist (fail closed).
+    official = dict(OFFICIAL_SERVICE_NAMES)
+
+    # Allowlist elements must also match the constant (renaming only the allowlist fails).
     for exc in exceptions_data.get('exceptions', []):
         if exc.get('class') != 'P2':
             continue
+        element_sel = exc.get('element', '')
+        if element_sel in ('footer.site-footer a', 'footer a', 'footer.site-footer'):
+            return False, [
+                f'P2 element selector {element_sel!r} is too broad; '
+                f'scope to service links only'
+            ]
         for el in exc.get('elements', []):
             href = el.get('href')
             text = el.get('text')
-            if href and text:
-                official[href] = text
+            if href not in official:
+                return False, [f'P2 allowlist href not in OFFICIAL_SERVICE_NAMES: {href}']
+            if text != official[href]:
+                return False, [
+                    f'P2 allowlist text for {href} is {text!r}, '
+                    f'constant expects {official[href]!r}'
+                ]
 
     page_file = page_file_for_url(root_dir, page_url)
     html = page_file.read_text(encoding='utf-8')
@@ -939,13 +1196,7 @@ def verify_p2_footer_labels(root_dir, page_url, page_exceptions, exceptions_data
             failures.append(f'missing footer link {href}')
             continue
         for raw in found:
-            got = normalize_visible_text(re.sub(r'<[^>]+>', '', raw))
-            got = (
-                got.replace('&amp;', '&')
-                .replace('&lt;', '<')
-                .replace('&gt;', '>')
-                .replace('&quot;', '"')
-            )
+            got = normalize_visible_text(_decode_basic_entities(re.sub(r'<[^>]+>', '', raw)))
             if got != expected_text:
                 failures.append(
                     f'footer label for {href}: got {got!r}, expected {expected_text!r}'
@@ -1143,6 +1394,12 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
         for msg in p2_msgs:
             print(f"  {'PASS' if p2_ok else 'FAIL'}: P2 footer ({msg})")
         if not p2_ok:
+            all_pass = False
+
+        chrome_ok, chrome_msgs = verify_chrome_locks(root_dir, url_path)
+        for msg in chrome_msgs:
+            print(f"  {'PASS' if chrome_ok else 'FAIL'}: Chrome locks ({msg})")
+        if not chrome_ok:
             all_pass = False
 
         if actual.get('template_syntax'):

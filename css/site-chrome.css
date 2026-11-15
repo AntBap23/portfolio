@@ -1,9 +1,10 @@
-/* Scoped header/footer/breadcrumb chrome for redesign 1c. Keeps tokens local. */
+/* Scoped header/footer/breadcrumb chrome for redesign 1c/1d. Uses site tokens. */
 :root {
-    --chrome-navy: #102431;
+    --chrome-navy: var(--navy, #102431);
     --chrome-blue: var(--blue, #1f5fbf);
     --chrome-teal: var(--green, #0f766e);
     --chrome-booking-bar-height: 4.75rem;
+    --chrome-header-height: 64px;
 }
 
 /* overflow-x:hidden on html/body breaks position:sticky; clip preserves stickiness */
@@ -24,15 +25,25 @@ body {
     z-index: auto;
 }
 
+.site-header.site-chrome .nav-content {
+    min-height: var(--chrome-header-height);
+}
+
 /* AA: logo subtitle contrast (was #8793a3 at ~10.4px / 2.96:1) */
 .site-header .logo span {
-    color: #5f6b7a;
+    color: var(--subtle, #5f6b7a);
     font-size: 12px;
 }
 
 .site-header .nav-actions {
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+/* Desktop header buttons: 48px tap targets */
+.site-header .nav-links a,
+.site-header .nav-actions .btn {
+    min-height: var(--btn-min-height, 48px);
 }
 
 .site-header .nav-cta-secondary {
@@ -52,7 +63,7 @@ body {
 .footer a:focus-visible,
 .site-footer .social-links a:focus-visible,
 .footer .social-links a:focus-visible {
-    outline: 2px solid #74d3c4;
+    outline: 2px solid var(--focus-on-dark, #74d3c4);
     outline-offset: 4px;
 }
 
@@ -89,7 +100,7 @@ main + span[aria-hidden="true"] {
 
 .breadcrumbs li:not(:last-child)::after {
     content: "/";
-    color: var(--subtle, #8793a3);
+    color: var(--subtle, #5f6b7a);
     font-weight: 600;
 }
 
@@ -110,6 +121,7 @@ main + span[aria-hidden="true"] {
     display: none;
 }
 
+/* Fail-closed: [hidden] must win over any display:grid on the bar */
 .mobile-booking-bar[hidden] {
     display: none !important;
 }
@@ -130,7 +142,7 @@ main + span[aria-hidden="true"] {
 
     .site-header .nav-content {
         position: static;
-        min-height: 56px;
+        min-height: var(--chrome-header-height);
         padding: 0 1rem;
     }
 
@@ -141,7 +153,7 @@ main + span[aria-hidden="true"] {
         left: 0;
         right: 0;
         width: 100%;
-        top: 56px;
+        top: var(--chrome-header-height);
         border-radius: 0;
         border-left: none;
         border-right: none;
@@ -179,14 +191,23 @@ main + span[aria-hidden="true"] {
 
     .site-header .nav-actions {
         display: grid;
+        grid-template-columns: minmax(0, 1fr);
         gap: 0.65rem;
         padding: 0.85rem 1rem 1rem;
         width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+        justify-items: stretch;
     }
 
+    /* Full-width in-menu CTAs (was ~224px content-sized column) */
     .site-header .nav-actions .btn {
         width: 100%;
+        max-width: none;
+        min-width: 0;
         min-height: 48px;
+        justify-self: stretch;
+        box-sizing: border-box;
     }
 
     .mobile-booking-bar {
@@ -220,9 +241,19 @@ main + span[aria-hidden="true"] {
     #scrollToTop,
     .scroll-to-top {
         bottom: calc(var(--chrome-booking-bar-height) + 1.2rem);
+        right: 1.2rem;
     }
 
     body {
         padding-bottom: var(--chrome-booking-bar-height);
+    }
+
+    /* Keep #scrollToTop off the inquiry submit button's right edge */
+    .inquiry-form {
+        padding-right: calc(var(--tap-min, 44px) + 1.25rem);
+    }
+
+    .inquiry-form button[type="submit"] {
+        max-width: 100%;
     }
 }
