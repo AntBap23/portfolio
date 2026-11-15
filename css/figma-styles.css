@@ -66,10 +66,12 @@
     /* ONE on-dark secondary modifier (navy heroes); white text + 1.5px white border >=60% */
     --btn-secondary-on-dark-bg: transparent;
     --btn-secondary-on-dark-fg: #fff;
-    --btn-secondary-on-dark-border: rgba(255, 255, 255, 0.7);
-    --btn-secondary-on-dark-border-hover: #fff;
+    --btn-secondary-on-dark-border: #ffffff; /* solid white stroke (rev 1.11) */
+    --btn-secondary-on-dark-border-hover: #ffffff;
     --btn-secondary-on-dark-stroke: inset 0 0 0 1.5px var(--btn-secondary-on-dark-border);
     --btn-secondary-on-dark-stroke-hover: inset 0 0 0 1.5px var(--btn-secondary-on-dark-border-hover);
+    --btn-secondary-on-dark-focus: #74d3c4; /* >=3:1 on navy */
+    --btn-secondary-hover-bg: var(--paper); /* #f7f9fc canvas */
     --card-bg: var(--surface);
     --card-border: var(--line);
     --card-radius: var(--radius);
@@ -434,6 +436,7 @@ h4 {
 .btn-website:hover,
 .btn-huggingface:hover {
     border-color: transparent;
+    background: var(--btn-secondary-hover-bg);
     color: var(--blue-dark);
     box-shadow: var(--btn-secondary-stroke);
 }
@@ -1269,13 +1272,28 @@ h4 {
     object-fit: cover;
 }
 
+/* CURE photo is 3:4; size the media box to that aspect so there is no letterbox or crop */
+.research-cure-photo {
+    position: relative;
+    aspect-ratio: 3 / 4;
+    width: min(100%, 315px);
+    max-width: 100%;
+    margin-inline: 0;
+    /* outline keeps the frame without inset letterbox from border */
+    border: 0;
+    outline: 1px solid var(--line);
+    outline-offset: -1px;
+    background: transparent;
+}
+
 .research-cure-photo img {
+    display: block;
     width: 100%;
-    height: auto;
-    max-height: 420px;
-    object-fit: contain;
+    height: 100%;
+    max-height: none;
+    object-fit: cover;
     object-position: center top;
-    background: var(--surface-2);
+    background: transparent;
 }
 
 .extra-card {
@@ -1321,6 +1339,15 @@ h4 {
 .footer .footer-logo,
 .footer h3 {
     color: #fff;
+}
+
+/* Mobile/desktop: footer wordmark tap target >= 44px tall */
+.footer .footer-logo,
+.footer-brand .footer-logo {
+    min-height: var(--tap-min);
+    align-items: center;
+    box-sizing: border-box;
+    padding-block: var(--space-2);
 }
 
 .footer-logo span,
@@ -1569,8 +1596,16 @@ html.js-enabled .consulting-hero {
 .consulting-final-cta .btn-secondary:hover,
 .consulting-about-hero .btn-secondary:hover {
     border-color: transparent;
+    background: var(--btn-secondary-on-dark-bg);
     color: var(--btn-secondary-on-dark-fg);
     box-shadow: var(--btn-secondary-on-dark-stroke-hover);
+}
+
+.consulting-hero .btn-secondary:focus-visible,
+.consulting-final-cta .btn-secondary:focus-visible,
+.consulting-about-hero .btn-secondary:focus-visible {
+    outline: 2px solid var(--btn-secondary-on-dark-focus);
+    outline-offset: 4px;
 }
 
 .hero-credibility {

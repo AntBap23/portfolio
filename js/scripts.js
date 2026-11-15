@@ -183,8 +183,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const homeSections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-links a[href]');
 
+    const normalizeNavPath = (pathname) => {
+        let path = (pathname || '/').replace(/index\.html$/, '');
+        if (!path.startsWith('/')) {
+            path = `/${path}`;
+        }
+        if (path.length > 1 && !path.endsWith('/')) {
+            path = `${path}/`;
+        }
+        return path || '/';
+    };
+
+    // Path match: page URL equals the nav item URL, or is nested under it.
+    // Home "/" never nests other pages. Longest matching nav prefix wins (0 or 1).
+    const pathMatchesNavItem = (currentPath, navPath) => {
+        if (!navPath || navPath === '/') {
+            return currentPath === '/';
+        }
+        return currentPath === navPath || currentPath.startsWith(navPath);
+    };
+
     const updateActiveLinks = () => {
-        const currentPath = window.location.pathname.replace(/index\.html$/, '');
+        const currentPath = normalizeNavPath(window.location.pathname);
         let currentSection = '';
 
         homeSections.forEach((section) => {
@@ -194,12 +214,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        let bestPathLink = null;
+        let bestPathLen = -1;
+
         navLinks.forEach((link) => {
-            const href = link.getAttribute('href');
+            const href = link.getAttribute('href') || '';
             const isHashLink = href.startsWith('#');
-            const normalizedHref = new URL(href, window.location.href).pathname.replace(/index\.html$/, '');
-            const matchesPath = !isHashLink && normalizedHref === currentPath;
+            if (isHashLink) {
+                return;
+            }
+            const navPath = normalizeNavPath(new URL(href, window.location.href).pathname);
+            if (pathMatchesNavItem(currentPath, navPath) && navPath.length > bestPathLen) {
+                bestPathLink = link;
+                bestPathLen = navPath.length;
+            }
+        });
+
+        navLinks.forEach((link) => {
+            const href = link.getAttribute('href') || '';
+            const isHashLink = href.startsWith('#');
             const matchesSection = isHashLink && href.slice(1) === currentSection;
+            const matchesPath = !isHashLink && link === bestPathLink;
 
             const isActive = matchesPath || matchesSection;
             link.classList.toggle('active', isActive);
