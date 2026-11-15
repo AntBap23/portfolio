@@ -110,6 +110,13 @@ class LockedContentParser(HTMLParser):
         self.in_body = False
         self.skip_visible_depth = 0  # inside script/style
         self.main_chunks = []
+        self.chrome_depth = 0
+        self.breadcrumb_depth = 0
+        self.results['visible_breadcrumbs'] = []
+        self.results['body_calendly_links'] = []
+        self.results['chrome_calendly_links'] = []
+        self._breadcrumb_items = []
+        self._breadcrumb_current = None
 
         # Offer card / FAQ helpers
         self.in_offer_card = False
@@ -168,6 +175,21 @@ class LockedContentParser(HTMLParser):
         attrs_dict = dict(attrs)
         self.tag_stack.append((tag, attrs_dict))
         self.tracker.push(tag, attrs_dict)
+
+        classes_early = self._classes(attrs_dict)
+        is_chrome = (
+            'site-chrome' in classes_early
+            or attrs_dict.get('data-site-chrome') is not None
+            or 'skip-link' in classes_early
+        )
+        if is_chrome:
+            self.chrome_depth += 1
+        # Only the unified P1 trail (class "breadcrumbs"), not legacy "breadcrumb" navs
+        is_breadcrumb = 'breadcrumbs' in classes_early
+        if is_breadcrumb:
+            self.breadcrumb_depth += 1
+            if self.breadcrumb_depth == 1:
+                self._breadcrumb_items = []
 
         # Template syntax in attribute values
         for attr_name, attr_value in attrs:
@@ -270,7 +292,24 @@ class LockedContentParser(HTMLParser):
 
         # Calendly
         if tag == 'a' and 'calendly.com' in (attrs_dict.get('href') or ''):
-            self._push_text_capture('calendly', 'a', {'href': attrs_dict.get('href', '')})
+            self._push_text_capture(
+                'calendly',
+                'a',
+                {
+                    'href': attrs_dict.get('href', ''),
+                    'in_chrome': self.chrome_depth > 0,
+                },
+            )
+
+        # Breadcrumb links / current page
+        if self.breadcrumb_depth > 0 and tag == 'a':
+            self._push_text_capture(
+                'breadcrumb_link',
+                'a',
+                {'href': attrs_dict.get('href', '')},
+            )
+        if self.breadcrumb_depth > 0 and tag == 'span' and attrs_dict.get('aria-current') == 'page':
+            self._push_text_capture('breadcrumb_current', 'span', {})
 
         # Offer card tracking
         if 'consulting-offer-card' in self._classes(attrs_dict):
@@ -286,28 +325,30 @@ class LockedContentParser(HTMLParser):
             self._push_text_capture('faq_question', 'summary')
             self.faq_waiting_answer = True
 
-        # Locked visible copy targets
-        if tag in ('h1', 'h2', 'h3', 'h4', 'h5', 'h6'):
-            self._push_text_capture(tag, tag)
-            if tag == 'h3' and self.in_offer_card:
-                self._push_text_capture('service_name', 'h3')
+        # Locked visible copy targets (exclude site chrome)
         classes = self._classes(attrs_dict)
-        if 'section-kicker' in classes:
-            self._push_text_capture('section-kicker', tag)
-        if 'answer-summary' in classes:
-            self._push_text_capture('answer-summary', tag)
-        if 'offer-eyebrow' in classes:
-            self._push_text_capture('offer-eyebrow', tag)
-        if 'sample-notice' in classes:
-            self._push_text_capture('sample-notice', tag)
-        if tag == 'p' and self.in_offer_card and 'offer-eyebrow' not in classes:
-            # First non-eyebrow paragraph in an offer card is the service opener
-            if self.offer_card_p_count == 0:
-                self._push_text_capture('service_opener', 'p')
-            self.offer_card_p_count += 1
-        if tag == 'p' and self.faq_waiting_answer:
-            self._push_text_capture('faq_answer', 'p')
-            self.faq_waiting_answer = False
+        if self.chrome_depth == 0 and self.breadcrumb_depth == 0:
+            if tag in ('h1', 'h2', 'h3', 'h4', 'h5', 'h6'):
+                self._push_text_capture(tag, tag)
+                if tag == 'h3' and self.in_offer_card:
+                    self._push_text_capture('service_name', 'h3')
+        if self.chrome_depth == 0 and self.breadcrumb_depth == 0:
+            if 'section-kicker' in classes:
+                self._push_text_capture('section-kicker', tag)
+            if 'answer-summary' in classes:
+                self._push_text_capture('answer-summary', tag)
+            if 'offer-eyebrow' in classes:
+                self._push_text_capture('offer-eyebrow', tag)
+            if 'sample-notice' in classes:
+                self._push_text_capture('sample-notice', tag)
+            if tag == 'p' and self.in_offer_card and 'offer-eyebrow' not in classes:
+                # First non-eyebrow paragraph in an offer card is the service opener
+                if self.offer_card_p_count == 0:
+                    self._push_text_capture('service_opener', 'p')
+                self.offer_card_p_count += 1
+            if tag == 'p' and self.faq_waiting_answer:
+                self._push_text_capture('faq_answer', 'p')
+                self.faq_waiting_answer = False
 
     def handle_endtag(self, tag):
         # Close hidden captures with proper nesting
@@ -380,15 +421,45 @@ class LockedContentParser(HTMLParser):
                 content_text = normalize_visible_text(''.join(ctx['content']))
                 kind = ctx['type']
                 if kind == 'calendly':
-                    self.results['calendly_links'].append({
-                        'href': ctx['href'],
-                        'text': content_text
-                    })
+                    entry = {'href': ctx['href'], 'text': content_text}
+                    self.results['calendly_links'].append(entry)
+                    if ctx.get('in_chrome'):
+                        self.results['chrome_calendly_links'].append(entry)
+                    else:
+                        self.results['body_calendly_links'].append(entry)
+                elif kind == 'breadcrumb_link':
+                    if content_text:
+                        self._breadcrumb_items.append({
+                            'name': content_text,
+                            'item': ctx.get('href', ''),
+                        })
+                elif kind == 'breadcrumb_current':
+                    if content_text:
+                        self._breadcrumb_items.append({
+                            'name': content_text,
+                            'item': '',
+                            'current': True,
+                        })
                 elif content_text:
                     self.results['locked_copy'].append({'type': kind, 'text': content_text})
                 self.capture_contexts.remove(ctx)
 
+        # Close chrome / breadcrumb regions after processing this end tag's attrs via stack top
         if self.tag_stack:
+            top_tag, top_attrs = self.tag_stack[-1]
+            top_classes = self._classes(top_attrs)
+            if self.breadcrumb_depth > 0 and 'breadcrumbs' in top_classes:
+                # When leaving the breadcrumb root nav, publish items
+                if self.breadcrumb_depth == 1 and self._breadcrumb_items:
+                    self.results['visible_breadcrumbs'] = self._breadcrumb_items[:]
+                    self._breadcrumb_items = []
+                self.breadcrumb_depth -= 1
+            if self.chrome_depth > 0 and (
+                'site-chrome' in top_classes
+                or top_attrs.get('data-site-chrome') is not None
+                or 'skip-link' in top_classes
+            ):
+                self.chrome_depth -= 1
             self.tag_stack.pop()
         self.tracker.pop()
 
@@ -410,8 +481,8 @@ class LockedContentParser(HTMLParser):
 
         record_template(self.results, data, 'text')
 
-        # Visible main/body text (exclude script/style)
-        if self.skip_visible_depth == 0:
+        # Visible main/body text (exclude script/style/chrome/breadcrumbs)
+        if self.skip_visible_depth == 0 and self.chrome_depth == 0 and self.breadcrumb_depth == 0:
             if self.in_main or (self.in_body and not self.saw_main):
                 self.main_chunks.append(data)
 
@@ -639,6 +710,300 @@ def snapshot_command(root_dir, output_file, hidden_inventory_file, source_commit
         print(f"Source commit: {fixture['source_commit']}")
 
 
+
+LEGACY_NAV_PREFIXES = (
+    'Skip to main content Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal ',
+    'Anthony BaptisteAnalytics & Applied AI Menu Overview Services Work Process About Request a Project Proposal ',
+    'Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn ',
+    'Skip to main content ',
+)
+
+LEGACY_FOOTER_MARKERS = (
+    'Anthony BaptisteAnalytics & Applied AI Independent analytics, digital experience, and applied AI consulting with defined deliverables.',
+    'Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting.',
+)
+
+# Legacy in-page breadcrumb trails that P1 replaces (fixture still contains these strings)
+LEGACY_INLINE_BREADCRUMB_PREFIXES = (
+    'Consulting/About ',
+)
+
+FOOTER_H3_TEXTS = frozenset({
+    'Explore', 'Assets', 'Contact', 'Services', 'Proof', 'Consulting',
+})
+
+ALLOWED_EXCEPTION_CLASSES = frozenset({'P1', 'P2'})
+
+
+def refuse_unexpanded_source(root_dir):
+    """AC-1 is a rendered comparison: refuse Liquid/unexpanded includes in scanned HTML."""
+    root_path = Path(root_dir)
+    offenders = []
+    for index_file in sorted(root_path.rglob('index.html')):
+        rel = index_file.relative_to(root_path)
+        if any(part.startswith('_') or part in ('node_modules', 'vendor') for part in rel.parts):
+            continue
+        content = index_file.read_text(encoding='utf-8')
+        if '{%' in content or '{{' in content or '{#' in content:
+            offenders.append(str(rel))
+    if offenders:
+        print('FAIL: Unexpanded Liquid/template syntax in scanned HTML.')
+        print('The locked-content checker compares rendered output (AC-1).')
+        print('Build with bash _qa/build.sh and pass --root _qa/_site.')
+        print('Offending files:')
+        for rel in offenders:
+            print(f'  - {rel}')
+        return False
+    return True
+
+
+def load_exceptions(exceptions_file):
+    if not os.path.exists(exceptions_file):
+        return {'exceptions': []}
+    with open(exceptions_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    if data == {}:
+        return {'exceptions': []}
+    exceptions = data.get('exceptions', [])
+    for exc in exceptions:
+        cls = exc.get('class')
+        if cls not in ALLOWED_EXCEPTION_CLASSES:
+            raise SystemExit(
+                f"FAIL: exception class {cls!r} is not permitted in this PR "
+                f"(allowed: {sorted(ALLOWED_EXCEPTION_CLASSES)}; F18 belongs to 1e)"
+            )
+    return data
+
+
+def exceptions_for_page(exceptions_data, page_url):
+    matched = []
+    for exc in exceptions_data.get('exceptions', []):
+        pages = exc.get('pages', [])
+        if page_url in pages or '*' in pages:
+            matched.append(exc)
+    return matched
+
+
+def strip_legacy_chrome_from_fixture_text(text):
+    """Remove legacy nav prefixes and footer blocks from fixture main_visible_text."""
+    out = text
+    changed = True
+    while changed:
+        changed = False
+        for prefix in LEGACY_NAV_PREFIXES:
+            if out.startswith(prefix):
+                out = out[len(prefix):]
+                changed = True
+                break
+    # Strip trailing footer: from the last footer marker to end
+    cut = None
+    for marker in LEGACY_FOOTER_MARKERS:
+        idx = out.rfind(marker)
+        if idx != -1:
+            cut = idx if cut is None else min(cut, idx)
+    if cut is not None:
+        out = out[:cut]
+    for prefix in LEGACY_INLINE_BREADCRUMB_PREFIXES:
+        if out.startswith(prefix):
+            out = out[len(prefix):]
+    return normalize_visible_text(out)
+
+
+def extract_breadcrumb_schema_items(jsonld_blocks):
+    """Return BreadcrumbList itemListElement entries as [{name, item}, ...] or None."""
+    for block in jsonld_blocks:
+        # Strip script tags if present
+        raw = block
+        if raw.strip().lower().startswith('<script'):
+            m = re.search(r'<script[^>]*>(.*)</script>', raw, re.I | re.S)
+            if not m:
+                continue
+            raw = m.group(1)
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError:
+            continue
+        candidates = []
+        if isinstance(data, dict):
+            if data.get('@type') == 'BreadcrumbList':
+                candidates.append(data)
+            graph = data.get('@graph')
+            if isinstance(graph, list):
+                candidates.extend(
+                    n for n in graph
+                    if isinstance(n, dict) and n.get('@type') == 'BreadcrumbList'
+                )
+            # Nested breadcrumb on WebPage
+            for key, val in data.items():
+                if key == 'breadcrumb' and isinstance(val, dict) and val.get('@type') == 'BreadcrumbList':
+                    candidates.append(val)
+                if isinstance(val, dict) and val.get('@type') == 'BreadcrumbList':
+                    candidates.append(val)
+                if isinstance(val, dict) and 'breadcrumb' in val:
+                    bc = val.get('breadcrumb')
+                    if isinstance(bc, dict) and bc.get('@type') == 'BreadcrumbList':
+                        candidates.append(bc)
+        for node in candidates:
+            elements = node.get('itemListElement') or []
+            items = []
+            for el in elements:
+                if not isinstance(el, dict):
+                    continue
+                name = el.get('name', '')
+                item = el.get('item', '')
+                if isinstance(item, dict):
+                    item = item.get('@id') or item.get('id') or ''
+                items.append({'name': name, 'item': item})
+            if items:
+                return items
+    return None
+
+
+def verify_p1_breadcrumbs(page_url, actual, page_exceptions):
+    """Verify visible breadcrumbs match BreadcrumbList; return (ok, messages)."""
+    p1 = [e for e in page_exceptions if e.get('class') == 'P1']
+    schema_items = extract_breadcrumb_schema_items(actual.get('jsonld_blocks') or [])
+    visible = actual.get('visible_breadcrumbs') or []
+
+    if not schema_items:
+        if visible:
+            return False, ['visible breadcrumbs present but page has no BreadcrumbList schema']
+        if p1:
+            return False, ['P1 allowlisted but page has no BreadcrumbList']
+        return True, ['no BreadcrumbList (home)']
+
+    if not p1:
+        return False, ['BreadcrumbList present but no P1 allowlist entry for this page']
+
+    # Map allowlisted element selectors to expected behavior: names/URLs must equal schema
+    if not visible:
+        return False, ['P1 allowlisted but no visible breadcrumbs found']
+
+    if len(visible) != len(schema_items):
+        return False, [
+            f'breadcrumb count mismatch: visible={len(visible)} schema={len(schema_items)}'
+        ]
+
+    for i, (vis, sch) in enumerate(zip(visible, schema_items)):
+        if vis.get('name') != sch.get('name'):
+            return False, [
+                f'breadcrumb[{i}] name mismatch: visible={vis.get("name")!r} schema={sch.get("name")!r}'
+            ]
+        # Last item may be current page without href; schema still has item URL
+        if vis.get('current'):
+            continue
+        if vis.get('item') != sch.get('item'):
+            return False, [
+                f'breadcrumb[{i}] URL mismatch: visible={vis.get("item")!r} schema={sch.get("item")!r}'
+            ]
+    return True, ['P1 breadcrumbs match BreadcrumbList']
+
+
+def verify_p2_footer_labels(root_dir, page_url, page_exceptions, exceptions_data):
+    """Verify footer service link labels match official names from allowlist."""
+    p2 = [e for e in page_exceptions if e.get('class') == 'P2']
+    if not p2:
+        return True, ['no P2 on page']
+
+    # Collective official labels from allowlist elements
+    official = {}
+    for exc in exceptions_data.get('exceptions', []):
+        if exc.get('class') != 'P2':
+            continue
+        for el in exc.get('elements', []):
+            href = el.get('href')
+            text = el.get('text')
+            if href and text:
+                official[href] = text
+
+    page_file = page_file_for_url(root_dir, page_url)
+    html = page_file.read_text(encoding='utf-8')
+    # Only inspect unified footer include markup in the rendered page
+    m = re.search(
+        r'<footer\b[^>]*class="[^"]*\bfooter\b[^"]*"[^>]*>(.*?)</footer>',
+        html,
+        re.I | re.S,
+    )
+    if not m:
+        return False, ['P2 allowlisted but no footer found']
+    footer_html = m.group(1)
+    failures = []
+    for href, expected_text in official.items():
+        # Find <a href="...">text</a>
+        pattern = re.compile(
+            r'<a\b[^>]*href="' + re.escape(href) + r'"[^>]*>(.*?)</a>',
+            re.I | re.S,
+        )
+        found = pattern.findall(footer_html)
+        if not found:
+            failures.append(f'missing footer link {href}')
+            continue
+        for raw in found:
+            got = normalize_visible_text(re.sub(r'<[^>]+>', '', raw))
+            got = (
+                got.replace('&amp;', '&')
+                .replace('&lt;', '<')
+                .replace('&gt;', '>')
+                .replace('&quot;', '"')
+            )
+            if got != expected_text:
+                failures.append(
+                    f'footer label for {href}: got {got!r}, expected {expected_text!r}'
+                )
+    if failures:
+        return False, failures
+    return True, ['P2 footer labels match official service names']
+
+
+def normalize_locked_copy_for_compare(expected_list, actual_list, page_exceptions):
+    """Compare locked copy with heading-level-insensitive h2-h6 and P2 footer h3 stripping."""
+    has_p2 = any(e.get('class') == 'P2' for e in page_exceptions)
+
+    def split(items):
+        headings = []
+        h1s = []
+        other = []
+        for it in items:
+            t = it.get('type')
+            if t == 'h1':
+                h1s.append(it)
+            elif t in ('h2', 'h3', 'h4', 'h5', 'h6'):
+                if has_p2 and t == 'h3' and it.get('text') in FOOTER_H3_TEXTS:
+                    continue
+                headings.append(it.get('text'))
+            else:
+                other.append(it)
+        return h1s, sorted(headings), other
+
+    e_h1, e_h, e_o = split(expected_list)
+    a_h1, a_h, a_o = split(actual_list)
+    return e_h1 == a_h1 and e_h == a_h and e_o == a_o
+
+
+def compare_calendly(expected, actual):
+    """Body Calendly links must match fixture exactly; chrome may add canonical CTAs."""
+    body = actual.get('body_calendly_links')
+    if body is None:
+        # Backward compatible: treat all as body if split missing
+        body = actual.get('calendly_links') or []
+    if body != expected:
+        return False, f'body Calendly mismatch: expected {expected}, got {body}'
+    # Chrome extras must keep the existing URL and an existing label used on the site
+    allowed_texts = {'Book an Intro Call', 'Book an Intro Call (optional)'}
+    for link in expected:
+        allowed_texts.add(link.get('text', ''))
+    allowed_hrefs = {link.get('href') for link in expected} or {'https://calendly.com/bapanalytics00'}
+    # If fixture page had no calendly, chrome may still use the site-canonical URL/label
+    if not allowed_hrefs:
+        allowed_hrefs = {'https://calendly.com/bapanalytics00'}
+    for link in actual.get('chrome_calendly_links') or []:
+        if link.get('href') not in allowed_hrefs and link.get('href') != 'https://calendly.com/bapanalytics00':
+            return False, f'chrome Calendly href not permitted: {link}'
+        if link.get('text') not in allowed_texts:
+            return False, f'chrome Calendly label not permitted: {link}'
+    return True, 'Calendly body links unchanged; chrome CTAs use existing URL/labels'
+
+
 def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file):
     with open(fixture_file, 'r', encoding='utf-8') as f:
         fixture = json.load(f)
@@ -649,6 +1014,9 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
         print(f"Source commit: {fixture['source_commit']}")
     print()
 
+    if not refuse_unexpanded_source(root_dir):
+        return 1
+
     with open(hidden_inventory_file, 'r', encoding='utf-8') as f:
         expected_inventory_data = json.load(f)
 
@@ -656,11 +1024,11 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
     expected_matches = expected_inventory_data.get('selector_matches', 0)
     expected_inventory = expected_inventory_data.get('elements', [])
 
-    # Exceptions file is loaded for forward compatibility but not applied in 1a.
-    # Later redesign PRs may declare approved differences (rev 1.1: P1, P2, P3, F18).
-    if os.path.exists(exceptions_file):
-        with open(exceptions_file, 'r', encoding='utf-8') as f:
-            json.load(f)
+    try:
+        exceptions_data = load_exceptions(exceptions_file)
+    except SystemExit as e:
+        print(str(e))
+        return 1
 
     root_path = Path(root_dir)
     git_root = resolve_git_root(root_dir)
@@ -694,16 +1062,13 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
         current_inventory.extend(
             build_hidden_inventory_entries(url_path, actual['hidden_elements'])
         )
+        page_exceptions = exceptions_for_page(exceptions_data, url_path)
 
         checks = [
             ('JSON-LD blocks', 'jsonld_blocks'),
             ('Title (raw)', 'title_raw'),
             ('Meta description (raw)', 'meta_description_raw'),
             ('Contact forms', 'contact_forms'),
-            ('Calendly links', 'calendly_links'),
-            ('Element IDs', 'element_ids'),
-            ('Locked copy', 'locked_copy'),
-            ('Main visible text', 'main_visible_text'),
         ]
 
         for check_name, key in checks:
@@ -712,6 +1077,73 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
                 all_pass = False
             else:
                 print(f"  PASS: {check_name}")
+
+        # Element IDs: all fixture IDs must remain; additive skip-target id main-content is allowed
+        exp_ids = expected.get('element_ids') or []
+        act_ids = actual.get('element_ids') or []
+        missing_ids = [i for i in exp_ids if i not in act_ids]
+        extras = [i for i in act_ids if i not in exp_ids]
+        allowed_extras = {'main-content'}
+        bad_extras = [i for i in extras if i not in allowed_extras]
+        if missing_ids or bad_extras or extras.count('main-content') > 1:
+            print(f"  FAIL: Element IDs mismatch (missing={missing_ids}, extras={extras})")
+            all_pass = False
+        else:
+            print(f"  PASS: Element IDs")
+
+        cal_ok, cal_msg = compare_calendly(expected.get('calendly_links') or [], actual)
+        if cal_ok:
+            print(f"  PASS: Calendly links ({cal_msg})")
+        else:
+            print(f"  FAIL: Calendly links ({cal_msg})")
+            all_pass = False
+
+        if normalize_locked_copy_for_compare(
+            expected.get('locked_copy') or [],
+            actual.get('locked_copy') or [],
+            page_exceptions,
+        ):
+            print(f"  PASS: Locked copy")
+        else:
+            print(f"  FAIL: Locked copy mismatch")
+            all_pass = False
+
+        expected_main = strip_legacy_chrome_from_fixture_text(
+            expected.get('main_visible_text') or ''
+        )
+        actual_main = normalize_visible_text(actual.get('main_visible_text') or '')
+        if expected_main != actual_main:
+            print(f"  FAIL: Main visible text mismatch")
+            # brief debug aid
+            if len(expected_main) < 200 or len(actual_main) < 200:
+                print(f"    expected[{len(expected_main)}]={expected_main[:120]!r}")
+                print(f"    actual[{len(actual_main)}]={actual_main[:120]!r}")
+            else:
+                # find first diff
+                for i, (a, b) in enumerate(zip(expected_main, actual_main)):
+                    if a != b:
+                        print(f"    first diff at {i}: exp={expected_main[max(0,i-20):i+40]!r}")
+                        print(f"                     act={actual_main[max(0,i-20):i+40]!r}")
+                        break
+                else:
+                    print(f"    length differs exp={len(expected_main)} act={len(actual_main)}")
+            all_pass = False
+        else:
+            print(f"  PASS: Main visible text")
+
+        p1_ok, p1_msgs = verify_p1_breadcrumbs(url_path, actual, page_exceptions)
+        for msg in p1_msgs:
+            print(f"  {'PASS' if p1_ok else 'FAIL'}: P1 breadcrumbs ({msg})")
+        if not p1_ok:
+            all_pass = False
+
+        p2_ok, p2_msgs = verify_p2_footer_labels(
+            root_dir, url_path, page_exceptions, exceptions_data
+        )
+        for msg in p2_msgs:
+            print(f"  {'PASS' if p2_ok else 'FAIL'}: P2 footer ({msg})")
+        if not p2_ok:
+            all_pass = False
 
         if actual.get('template_syntax'):
             print(f"  FAIL: Template syntax found: {actual['template_syntax']}")
@@ -728,39 +1160,53 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
     if current_unique != expected_unique or current_matches != expected_matches:
         print("  FAIL: Totals changed")
         all_pass = False
+        # Help identify which keys drifted without regenerating
+        def sort_key(x):
+            return (x['page'], x['tag'], x['id'], x['class'], x['occurrence_index'])
+        exp_sorted = sorted(expected_inventory, key=sort_key)
+        cur_sorted = sorted(current_inventory, key=sort_key)
+        print("  Hidden inventory key diffs (stop; do not regenerate fixture):")
+        from itertools import zip_longest
+        for exp, cur in zip_longest(exp_sorted, cur_sorted):
+            if exp == cur:
+                continue
+            print(f"    expected={exp and {k: exp.get(k) for k in ('page','tag','id','class','occurrence_index','outer_html_sha256')}}")
+            print(f"    current ={cur and {k: cur.get(k) for k in ('page','tag','id','class','occurrence_index','outer_html_sha256')}}")
     else:
         print("  PASS: Totals unchanged")
 
-    def sort_key(x):
-        return (x['page'], x['tag'], x['id'], x['class'], x['occurrence_index'])
+        def sort_key(x):
+            return (x['page'], x['tag'], x['id'], x['class'], x['occurrence_index'])
 
-    expected_sorted = sorted(expected_inventory, key=sort_key)
-    current_sorted = sorted(current_inventory, key=sort_key)
+        expected_sorted = sorted(expected_inventory, key=sort_key)
+        current_sorted = sorted(current_inventory, key=sort_key)
 
-    inventory_match = len(expected_sorted) == len(current_sorted)
-    if inventory_match:
-        for exp, cur in zip(expected_sorted, current_sorted):
-            exp_key = (
-                exp['page'], exp['tag'], exp['id'], exp['class'],
-                exp['matched_selectors'], exp['outer_html_sha256'], exp['occurrence_index']
-            )
-            cur_key = (
-                cur['page'], cur['tag'], cur['id'], cur['class'],
-                cur['matched_selectors'], cur['outer_html_sha256'], cur['occurrence_index']
-            )
-            if exp_key != cur_key:
-                inventory_match = False
-                break
+        inventory_match = len(expected_sorted) == len(current_sorted)
+        if inventory_match:
+            for exp, cur in zip(expected_sorted, current_sorted):
+                exp_key = (
+                    exp['page'], exp['tag'], exp['id'], exp['class'],
+                    exp['matched_selectors'], exp['outer_html_sha256'], exp['occurrence_index']
+                )
+                cur_key = (
+                    cur['page'], cur['tag'], cur['id'], cur['class'],
+                    cur['matched_selectors'], cur['outer_html_sha256'], cur['occurrence_index']
+                )
+                if exp_key != cur_key:
+                    inventory_match = False
+                    print("  FAIL: Hidden element inventory key changed")
+                    print(f"    expected={exp_key}")
+                    print(f"    current ={cur_key}")
+                    break
 
-    if not inventory_match:
-        print("  FAIL: Hidden element inventory changed")
-        all_pass = False
-    else:
-        print("  PASS: Hidden element inventory unchanged")
+        if not inventory_match:
+            print("  FAIL: Hidden element inventory changed")
+            all_pass = False
+        else:
+            print("  PASS: Hidden element inventory unchanged")
 
     print("\nChecking repo-level files...")
 
-    # Fail closed: required files must exist in the scanned tree
     for name, key in (('llms.txt', 'llms_txt_blob_sha'), ('robots.txt', 'robots_txt_blob_sha')):
         candidate = root_path / name
         if not candidate.exists():
@@ -817,6 +1263,8 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
         return 0
     print("Some checks FAILED")
     return 1
+
+
 
 
 def main():

@@ -1,1 +1,158 @@
-{}
+{
+  "version": 1,
+  "description": "Redesign 1c allowlist only: P1 visible breadcrumbs (must equal BreadcrumbList) and P2 footer service labels. No F18/Calendly exceptions.",
+  "exceptions": [
+    {
+      "id": "P1-consulting",
+      "class": "P1",
+      "page": "/consulting/",
+      "pages": ["/consulting/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-consulting-services",
+      "class": "P1",
+      "page": "/consulting/services/",
+      "pages": ["/consulting/services/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-consulting-process",
+      "class": "P1",
+      "page": "/consulting/process/",
+      "pages": ["/consulting/process/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-consulting-about",
+      "class": "P1",
+      "page": "/consulting/about/",
+      "pages": ["/consulting/about/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-consulting-samples",
+      "class": "P1",
+      "page": "/consulting/samples/",
+      "pages": ["/consulting/samples/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-consulting-samples-ai-workflow",
+      "class": "P1",
+      "page": "/consulting/samples/ai-workflow/",
+      "pages": ["/consulting/samples/ai-workflow/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-consulting-samples-analytics-clarity",
+      "class": "P1",
+      "page": "/consulting/samples/analytics-clarity/",
+      "pages": ["/consulting/samples/analytics-clarity/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-consulting-samples-reporting-dashboard",
+      "class": "P1",
+      "page": "/consulting/samples/reporting-dashboard/",
+      "pages": ["/consulting/samples/reporting-dashboard/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-projects",
+      "class": "P1",
+      "page": "/projects/",
+      "pages": ["/projects/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-experience",
+      "class": "P1",
+      "page": "/experience/",
+      "pages": ["/experience/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-research",
+      "class": "P1",
+      "page": "/research/",
+      "pages": ["/research/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-resume",
+      "class": "P1",
+      "page": "/resume/",
+      "pages": ["/resume/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P1-competitions",
+      "class": "P1",
+      "page": "/competitions/",
+      "pages": ["/competitions/"],
+      "element": "nav.breadcrumbs",
+      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
+    },
+    {
+      "id": "P2-footer-service-labels",
+      "class": "P2",
+      "pages": [
+        "/",
+        "/consulting/",
+        "/consulting/services/",
+        "/consulting/process/",
+        "/consulting/about/",
+        "/consulting/samples/",
+        "/consulting/samples/ai-workflow/",
+        "/consulting/samples/analytics-clarity/",
+        "/consulting/samples/reporting-dashboard/",
+        "/projects/",
+        "/experience/",
+        "/research/",
+        "/resume/",
+        "/competitions/"
+      ],
+      "element": "footer.site-footer a",
+      "reason": "Unified footer service labels use official service names; Offers/Engagements removed",
+      "elements": [
+        {
+          "href": "/consulting/services/#analytics-clarity-audit",
+          "text": "Analytics Clarity Audit"
+        },
+        {
+          "href": "/consulting/services/#dashboard-reporting-sprint",
+          "text": "Dashboard & Reporting Sprint"
+        },
+        {
+          "href": "/consulting/services/#digital-experience-audit",
+          "text": "Digital Experience & Growth Opportunity Audit"
+        },
+        {
+          "href": "/consulting/services/#applied-ai-workflow-sprint",
+          "text": "Applied AI Workflow Sprint"
+        },
+        {
+          "href": "/consulting/services/#monthly-reporting-support",
+          "text": "Monthly Reporting Support"
+        },
+        {
+          "href": "/consulting/services/#structured-analytics-advisory",
+          "text": "Structured Analytics Advisory"
+        }
+      ]
+    }
+  ]
+}
