@@ -40,22 +40,12 @@ body {
     justify-content: flex-end;
 }
 
-/* Desktop header buttons: 48px tap targets */
+/* Desktop header buttons: 48px tap targets.
+   Header / in-menu / booking-bar Book CTAs use the shared .btn-secondary token
+   (no chrome override). */
 .site-header .nav-links a,
 .site-header .nav-actions .btn {
     min-height: var(--btn-min-height, 48px);
-}
-
-.site-header .nav-cta-secondary {
-    border-color: var(--chrome-blue);
-    color: var(--chrome-blue);
-    background: transparent;
-    box-shadow: none;
-}
-
-.site-header .nav-cta-secondary:hover {
-    background: rgba(31, 95, 191, 0.08);
-    color: var(--blue-dark, #184a98);
 }
 
 /* Dark footer focus ring (AA on navy) */

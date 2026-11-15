@@ -13,7 +13,7 @@
     --line-strong: #bdcad8;
     --navy: #102431;
     --blue: #1f5fbf;
-    --blue-dark: #184a98;
+    --blue-dark: #184c99;
     --green: #0f766e;
     --green-soft: #dff6ef;
     --teal: var(--green);
@@ -59,7 +59,17 @@
     --btn-primary-shadow: 0 12px 30px rgba(31, 95, 191, 0.18);
     --btn-secondary-bg: var(--surface);
     --btn-secondary-fg: var(--ink);
-    --btn-secondary-border: var(--line-strong);
+    --btn-secondary-border: #1f5fbf; /* primary blue */
+    --btn-secondary-border-width: 1.5px;
+    /* Visible 1.5px stroke (inset shadow; some engines floor border-width 1.5px to 1px) */
+    --btn-secondary-stroke: inset 0 0 0 1.5px var(--btn-secondary-border);
+    /* ONE on-dark secondary modifier (navy heroes); white text + 1.5px white border >=60% */
+    --btn-secondary-on-dark-bg: transparent;
+    --btn-secondary-on-dark-fg: #fff;
+    --btn-secondary-on-dark-border: rgba(255, 255, 255, 0.7);
+    --btn-secondary-on-dark-border-hover: #fff;
+    --btn-secondary-on-dark-stroke: inset 0 0 0 1.5px var(--btn-secondary-on-dark-border);
+    --btn-secondary-on-dark-stroke-hover: inset 0 0 0 1.5px var(--btn-secondary-on-dark-border-hover);
     --card-bg: var(--surface);
     --card-border: var(--line);
     --card-radius: var(--radius);
@@ -406,22 +416,26 @@ h4 {
     background: var(--btn-primary-bg-hover);
 }
 
-/* ONE secondary button style */
+/* ONE secondary button style (surface bg, ink text, 1.5px primary blue stroke) */
 .btn-secondary,
 .btn-github,
 .btn-website,
 .btn-huggingface {
-    border-color: var(--btn-secondary-border);
+    border-style: solid;
+    border-width: var(--btn-secondary-border-width);
+    border-color: transparent;
     background: var(--btn-secondary-bg);
     color: var(--btn-secondary-fg);
+    box-shadow: var(--btn-secondary-stroke);
 }
 
 .btn-secondary:hover,
 .btn-github:hover,
 .btn-website:hover,
 .btn-huggingface:hover {
-    border-color: var(--blue);
+    border-color: transparent;
     color: var(--blue-dark);
+    box-shadow: var(--btn-secondary-stroke);
 }
 
 .text-link {
@@ -1366,8 +1380,9 @@ h4 {
 
 .scroll-to-top {
     position: fixed;
-    right: 1.2rem;
-    bottom: 1.2rem;
+    /* Extra desktop clearance from footer GitHub / social icons */
+    right: 2.5rem;
+    bottom: 5rem;
     z-index: 1000;
     width: var(--tap-min);
     height: var(--tap-min);
@@ -1538,17 +1553,24 @@ html.js-enabled .consulting-hero {
     color: #d7e2e8;
 }
 
+/* ONE on-dark secondary: token-driven via dark hero selectors (no HTML changes) */
 .consulting-hero .btn-secondary,
-.consulting-final-cta .btn-secondary {
-    border-color: rgba(255, 255, 255, 0.3);
-    background: transparent;
-    color: #fff;
+.consulting-final-cta .btn-secondary,
+.consulting-about-hero .btn-secondary {
+    border-style: solid;
+    border-width: var(--btn-secondary-border-width);
+    border-color: transparent;
+    background: var(--btn-secondary-on-dark-bg);
+    color: var(--btn-secondary-on-dark-fg);
+    box-shadow: var(--btn-secondary-on-dark-stroke);
 }
 
 .consulting-hero .btn-secondary:hover,
-.consulting-final-cta .btn-secondary:hover {
-    border-color: #fff;
-    color: #fff;
+.consulting-final-cta .btn-secondary:hover,
+.consulting-about-hero .btn-secondary:hover {
+    border-color: transparent;
+    color: var(--btn-secondary-on-dark-fg);
+    box-shadow: var(--btn-secondary-on-dark-stroke-hover);
 }
 
 .hero-credibility {
@@ -2155,12 +2177,6 @@ html.js-enabled .consulting-about-hero {
     color: #74d3c4;
 }
 
-.consulting-about-hero .btn-secondary {
-    border-color: rgba(255, 255, 255, 0.3);
-    background: transparent;
-    color: #fff;
-}
-
 .subpage-summary {
     display: grid;
     gap: 1rem;
@@ -2243,6 +2259,10 @@ html.js-enabled .consulting-about-hero {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.25rem;
+}
+
+.consulting-teaser-grid {
+    gap: var(--space-6); /* 24px desktop + mobile */
 }
 
 .consulting-teaser-grid article,
