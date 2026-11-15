@@ -22,7 +22,7 @@ Fingerprints critical content, structure, and metadata to detect unintended chan
 - Element IDs (fragment identifiers)
 - Locked copy: all h1-h6, `.section-kicker`, `.answer-summary`, `.offer-eyebrow`, `.sample-notice`, service openers, service names, visible FAQ Q&A, prices, employer disclaimer
 - Normalized visible text of each page `<main>` (or `<body>` if no main), excluding script/style
-- Hidden element inventory (52 unique elements, 53 selector matches)
+- Hidden element inventory (45 unique elements, 45 selector matches; was 52/53 before competitions removal)
 - Template syntax (`{{`, `{%`, `{#`) in text nodes and attribute values
 - Repo files in the scanned tree: `llms.txt`, `robots.txt`, `sitemap.xml`, `CNAME` (missing file = FAIL)
 - Every fixture page must exist in the scanned tree (missing page = FAIL)
@@ -81,7 +81,7 @@ npm install
 node _qa/screenshots.mjs http://localhost:8080
 ```
 
-**Output:** `_qa/baseline/*.png` (28 screenshots: 14 pages × 2 viewports)
+**Output:** `_qa/baseline/*.png` (26 screenshots: 13 pages × 2 viewports; competitions removed in phase 2b)
 
 The script scrolls each page to trigger reveal animations, waits for fonts, disables animations and transitions, then saves full-page screenshots.
 
@@ -137,12 +137,12 @@ cd _qa && npm install && node screenshots.mjs http://localhost:8080
 
 - The fixture includes a fixture ID (SHA256 hash) and source commit SHA
 - Hidden element inventory format (rev 1.4):
-  - Top-level `unique_elements` and `selector_matches` totals (52 and 53)
+  - Top-level `unique_elements` and `selector_matches` totals (45 and 45)
   - Each entry: page, tag, id, class, matched_selectors array, outerHTML SHA256, occurrence_index
   - Keyed by page + tag + id + class + hash + occurrence (not positional CSS path)
   - outerHTML hashes cover the full element subtree (nesting-aware, void-element aware)
-  - `#gallery-modal` on `/competitions/` matches both `aria-hidden` and `inline-style`
+  - `/competitions/` (and its `#gallery-modal`) removed in phase 2b; remaining 13 pages keep prior hidden hashes
 - Locked files use git blob SHAs:
-  - `llms.txt`: `3b51141a346700b57fca132ed5d261360f869637`
+  - `llms.txt`: `0aebb802a028292e677cd25f6bdbde3987632fd8`
   - `robots.txt`: `e698bea3d563b0b4b97a89dbd0c3ca25e037eefb`
 - Jekyll automatically excludes `_qa/` from build output (underscore prefix)

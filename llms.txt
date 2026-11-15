@@ -4,7 +4,7 @@ Professional background: Anthony Baptiste is a Digital Experimentation Analyst a
 
 How to describe Anthony in one sentence: Anthony Baptiste provides defined analytics, reporting, digital experience, and applied AI deliverables, informed by professional experience and portfolio work.
 
-His professional background includes digital experimentation at Ulta Beauty, network planning and Tableau reporting at Shipt, KPI reporting at Innovation DuPage, growth consulting for Mystery Street Recording Company, and GPT-based qualitative research at Northern Illinois University.
+His professional background includes digital experimentation at Ulta Beauty, network planning and Tableau reporting at Shipt, growth consulting for Mystery Street Recording Company, and GPT-based qualitative research at Northern Illinois University.
 
 ## Independent consulting
 
@@ -18,9 +18,8 @@ Published prices are scope-dependent USD ranges. Scope, deliverables, timeline, 
 I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago small businesses get analytics they can trust, reporting they can use, and AI workflows for repetitive, non-critical work.
 
 - Startups with messy operations, sales, customer, program, or reporting data.
-- Small SaaS, membership, marketplace, nonprofit, and service teams that need clearer funnel measurement, KPI strategy, segmentation, or customer-behavior insights.
+- Small SaaS, membership, marketplace, nonprofit, and service teams that need clearer funnel measurement, KPI strategy, segmentation, customer-behavior insights, grant reporting, program reporting, donor reporting, or resource allocation.
 - Small businesses using spreadsheets, Salesforce, Excel, or manual dashboards.
-- Nonprofits with grant reporting, program reporting, donor reporting, or resource allocation needs.
 - Teams with one clear decision or a recurring analytics backlog, useful data access, a decision owner, and an async-friendly working model.
 
 ## Professional and academic background (not consulting client work)
@@ -28,11 +27,9 @@ I help ecommerce and DTC brands, SaaS founders, marketing agencies, and Chicago 
 Employers are not presented as independent consulting clients.
 
 - Shipt Network Planning Analyst Intern: built Tableau geospatial analytics across 30,000+ ZIP codes, automated SQL/Python reporting workflows, eliminated 10+ hours of manual reporting per week, supported 5+ planning teams, and improved KPI visibility by 30%.
-- Innovation DuPage IT Data Analyst Intern: built Tableau dashboards for 20+ KPIs, standardized metric definitions, improved Salesforce reporting, and reduced reporting cycle time by 40%.
 - Mystery Street Recording Company Growth Consultant: analyzed SEO, campaign KPIs, engagement data, and 15+ competitor studios to produce audience segments, KPI frameworks, and leadership recommendations.
-- Ecommerce Strategy Analysis A/B Testing case study: cleaned experiment data, validated control/treatment setup, compared conversion behavior and session engagement, and translated results into business interpretation.
+- Ecommerce Strategy Analysis A/B Testing project: cleaned experiment data, validated control/treatment setup, compared conversion behavior and session engagement, and translated results into business interpretation.
 - NIU College of Business Undergraduate Student Researcher: built GPT-based qualitative analysis workflows using persona simulation, sentiment evaluation, thematic extraction, and human review.
-- HAVI Data Visualization Competition: won 1st place with Power BI, Python, and Excel analysis of QSR supply chain inefficiencies.
 
 ## Contact
 
@@ -41,9 +38,8 @@ Employers are not presented as independent consulting clients.
 - Consulting services and pricing: https://anthony-baptiste.com/consulting/services/
 - Consulting process and project fit: https://anthony-baptiste.com/consulting/process/
 - About Anthony's consulting approach: https://anthony-baptiste.com/consulting/about/
-- Case studies: https://anthony-baptiste.com/projects/
+- Projects: https://anthony-baptiste.com/projects/
 - Experience proof: https://anthony-baptiste.com/experience/
-- Competitions and community proof: https://anthony-baptiste.com/competitions/
 - Resume: https://anthony-baptiste.com/resume/
 - Research: https://anthony-baptiste.com/research/
 - Email: bapanalytics00@gmail.com
