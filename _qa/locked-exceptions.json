@@ -125,8 +125,8 @@
         "/resume/",
         "/competitions/"
       ],
-      "element": "footer.site-footer a",
-      "reason": "Unified footer service labels use official service names; Offers/Engagements removed",
+      "element": "footer.site-footer .footer-column a[href^='/consulting/services/#']",
+      "reason": "Unified footer service labels use official service names; Offers/Engagements removed. Scoped to Services column anchors only (not every footer a).",
       "elements": [
         {
           "href": "/consulting/services/#analytics-clarity-audit",
