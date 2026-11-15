@@ -461,7 +461,8 @@ h4 {
 
 .home-hero-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.62fr);
+    /* Narrow side card (~0.50fr) so home H1 wraps to 3 lines at 1280 while CTAs stay above the fold */
+    grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.50fr);
     gap: clamp(2rem, 5vw, 4rem);
     align-items: start;
 }
@@ -1817,6 +1818,13 @@ html.js-enabled .consulting-hero {
     flex-wrap: wrap;
     gap: var(--space-3) var(--space-4);
     align-items: center;
+}
+
+.offer-card-ctas .text-link,
+.consulting-offer-card .text-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap-min);
 }
 
 .consulting-offer-card.offer-featured {
