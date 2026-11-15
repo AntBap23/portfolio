@@ -35,6 +35,13 @@ body {
     font-size: 12px;
 }
 
+/* AC-7: logo-link tap target >=44px without enlarging the wordmark */
+.site-header a.logo-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap-min, 44px);
+}
+
 .site-header .nav-actions {
     flex-wrap: wrap;
     justify-content: flex-end;
