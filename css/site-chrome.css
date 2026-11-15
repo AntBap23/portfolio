@@ -56,17 +56,10 @@ body {
     outline-offset: 4px;
 }
 
-/* Preserve locked aria-hidden slash remnant on About without showing it */
-.consulting-about-copy > span[aria-hidden="true"] {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+/* Preserve locked aria-hidden slash remnant on About without showing it.
+   Span sits between </main> and the footer; breadcrumb separators are inside main. */
+main + span[aria-hidden="true"] {
+    display: none;
 }
 
 .breadcrumbs {
