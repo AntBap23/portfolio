@@ -448,6 +448,15 @@ h4 {
     gap: 0.45rem;
     color: var(--blue);
     font-weight: 800;
+    /* AC-7: standalone text-link CTAs >=44px tap target */
+    min-height: var(--tap-min);
+}
+
+/* Paragraph and breadcrumb links keep compact inline size */
+p .text-link,
+.breadcrumbs .text-link,
+nav.breadcrumbs a {
+    min-height: 0;
 }
 
 .text-link:hover {
@@ -2314,6 +2323,13 @@ html.js-enabled .consulting-about-hero {
 
 .consulting-teaser-grid {
     gap: var(--space-6); /* 24px desktop + mobile */
+}
+
+/* AC-7: teaser service title links (home + consulting) >=44px tap target */
+.consulting-teaser-grid h3 a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap-min);
 }
 
 .consulting-teaser-grid article,
