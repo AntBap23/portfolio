@@ -26,7 +26,6 @@ const PAGES = [
   { path: '/research/', slug: 'research' },
   { path: '/projects/', slug: 'projects' },
   { path: '/experience/', slug: 'experience' },
-  { path: '/competitions/', slug: 'competitions' },
   { path: '/resume/', slug: 'resume' }
 ];
 

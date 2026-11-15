@@ -827,7 +827,6 @@ EXPECTED_FOOTER_LINKS = [
     {'href': '/projects/', 'text': 'Projects'},
     {'href': '/experience/', 'text': 'Experience'},
     {'href': '/research/', 'text': 'Research'},
-    {'href': '/competitions/', 'text': 'Competitions'},
     {'href': '/resume/', 'text': 'Resume'},
     {
         'href': '/consulting/samples/analytics-clarity/',

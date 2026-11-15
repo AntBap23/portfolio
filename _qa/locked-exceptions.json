@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "description": "Redesign 1c/1d/1e allowlist: P1 breadcrumbs, P2 footer service labels, F18 Calendly canonical href/label plus exact placement additions (no wildcards).",
+  "description": "Phase 2a/2b allowlist: P1 breadcrumbs (13 URLs; competitions removed), P2 footer service labels, F18 Calendly canonical href/label plus exact placement additions (no wildcards).",
   "exceptions": [
     {
       "id": "P1-consulting",
@@ -99,14 +99,6 @@
       "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
     },
     {
-      "id": "P1-competitions",
-      "class": "P1",
-      "page": "/competitions/",
-      "pages": ["/competitions/"],
-      "element": "nav.breadcrumbs",
-      "reason": "Visible breadcrumb trail matching page BreadcrumbList JSON-LD"
-    },
-    {
       "id": "P2-footer-service-labels",
       "class": "P2",
       "pages": [
@@ -122,8 +114,7 @@
         "/projects/",
         "/experience/",
         "/research/",
-        "/resume/",
-        "/competitions/"
+        "/resume/"
       ],
       "element": "footer.site-footer .footer-column a[href^='/consulting/services/#']",
       "reason": "Unified footer service labels use official service names; Offers/Engagements removed. Scoped to Services column anchors only (not every footer a).",

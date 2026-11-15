@@ -180,6 +180,16 @@ def main() -> int:
 
     case('removing Research link fails', remove_research)
 
+    # 9b) Replacing Resume with removed /competitions/ footer link fails (13-URL chrome lock)
+    case(
+        'replacing resume footer link with competitions fails',
+        lambda s: mutate_all_pages(
+            s,
+            '<a href="/resume/">Resume</a>',
+            '<a href="/competitions/">Competitions</a>',
+        ),
+    )
+
     # 10) Rename nav Projects
     case(
         "renaming nav 'Projects' fails",

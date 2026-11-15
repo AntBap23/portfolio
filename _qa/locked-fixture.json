@@ -1,151 +1,5 @@
 {
   "pages": {
-    "/competitions/": {
-      "jsonld_blocks": [
-        "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@graph\": [\n                {\n                    \"@type\": \"BreadcrumbList\",\n                    \"@id\": \"https://anthony-baptiste.com/competitions/#breadcrumb\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"name\": \"Home\",\n                            \"item\": \"https://anthony-baptiste.com/\"\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"name\": \"Competitions\",\n                            \"item\": \"https://anthony-baptiste.com/competitions/\"\n                        }\n                    ]\n                },\n                {\n                    \"@type\": \"Person\",\n                    \"@id\": \"https://anthony-baptiste.com/#anthony-baptiste\",\n                    \"name\": \"Anthony Baptiste\",\n                    \"award\": \"1st Place, NIU Data Visualization Competition with HAVI\"\n                },\n                {\n                    \"@type\": \"ItemList\",\n                    \"@id\": \"https://anthony-baptiste.com/competitions/#awards-and-community\",\n                    \"name\": \"Analytics competitions and community work\",\n                    \"itemListElement\": [\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 1,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"HAVI Data Visualization Competition\",\n                                \"award\": \"1st Place, NIU Data Visualization Competition with HAVI\",\n                                \"about\": \"Power BI, Python, Excel, QSR supply chain analytics, inventory waste, and supplier performance.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 2,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"HAVI Hackathon Competition\",\n                                \"about\": \"Demand forecasting workflow for the HAVI and NIU Quick Service Restaurant Demand Forecasting Challenge.\"\n                            }\n                        },\n                        {\n                            \"@type\": \"ListItem\",\n                            \"position\": 3,\n                            \"item\": {\n                                \"@type\": \"CreativeWork\",\n                                \"name\": \"OMIS x IGNITE\",\n                                \"about\": \"Student-led professional development, speaker, promotion, and networking initiative.\"\n                            }\n                        }\n                    ]\n                }\n            ]\n        }\n    </script>"
-      ],
-      "title": null,
-      "title_raw": "<title>Community & Competitions | Anthony Baptiste</title>",
-      "meta_description": "Analytics competitions, leadership, workshops, and community work by Anthony Baptiste, including HAVI data visualization, OMIS IGNITE, ACM NIU, and AI agents training.",
-      "meta_description_raw": "<meta name=\"description\" content=\"Analytics competitions, leadership, workshops, and community work by Anthony Baptiste, including HAVI data visualization, OMIS IGNITE, ACM NIU, and AI agents training.\">",
-      "contact_forms": [],
-      "calendly_links": [],
-      "element_ids": [
-        "site-menu",
-        "competitions",
-        "scrollToTop",
-        "gallery-modal"
-      ],
-      "locked_copy": [
-        {
-          "type": "section-kicker",
-          "text": "Community"
-        },
-        {
-          "type": "h1",
-          "text": "Competitions, clubs, and public proof beyond the classroom."
-        },
-        {
-          "type": "h2",
-          "text": "Competitions"
-        },
-        {
-          "type": "h3",
-          "text": "Havi Data Visualization Competition"
-        },
-        {
-          "type": "h3",
-          "text": "Havi Hackathon Competition"
-        },
-        {
-          "type": "h2",
-          "text": "Clubs"
-        },
-        {
-          "type": "h3",
-          "text": "Association for Computing Machinery (ACM)"
-        },
-        {
-          "type": "h3",
-          "text": "OMIS x IGNITE"
-        },
-        {
-          "type": "h2",
-          "text": "Workshops"
-        },
-        {
-          "type": "h3",
-          "text": "AI Agents Certification"
-        },
-        {
-          "type": "h3",
-          "text": "Services"
-        },
-        {
-          "type": "h3",
-          "text": "Proof"
-        },
-        {
-          "type": "h3",
-          "text": "Contact"
-        }
-      ],
-      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn Community Competitions, clubs, and public proof beyond the classroom. These moments support the client story too: I compete, present, organize, learn in public, and practice communicating technical work with people. Competitions Havi Data Visualization Competition Developed a Power BI dashboard using Python and Excel to identify inventory waste and supplier performance issues across a QSR supply chain. View gallery Havi Hackathon Competition Built a demand forecasting workflow for the HAVI / NIU Quick Service Restaurant Demand Forecasting Challenge, combining time-based validation, historical and promotion features, and gradient boosting models designed around the competition's wMAPE metric. View gallery Related Project Clubs Association for Computing Machinery (ACM) ACM Community Ambassador. Helped set up and promote events on LinkedIn. View gallery OMIS x IGNITE OMIS x IGNITE student founder. Helped set up events, speakers, promotions, and networking opportunities. View gallery Workshops AI Agents Certification Completed hands-on training focused on building and applying AI agents, including agentic workflows, automation patterns, and practical use cases for AI-assisted productivity and decision support. View certificate Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Services Consulting Offers Proof Consulting Proof Case Studies Samples Process About Experience Research Resume Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved. \u00d7 \u2190 Prev Next \u2192",
-      "hidden_elements": [
-        {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
-          "tag": "i",
-          "id": "",
-          "class": "fas fa-bars",
-          "matched_selectors": [
-            "aria-hidden"
-          ],
-          "outer_html_sha256": "536028112e3828f3c5fa5dc3c487f4c8adbea0445f5efa88e3fe1f51b27a2f25"
-        },
-        {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "tag": "div",
-          "id": "",
-          "class": "gallery-images",
-          "matched_selectors": [
-            "inline-style"
-          ],
-          "outer_html_sha256": "22e94e2419707adb3024a11823254e5f0fcedd2a7eb78e02b633491a77f17ddf"
-        },
-        {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "tag": "div",
-          "id": "",
-          "class": "gallery-images",
-          "matched_selectors": [
-            "inline-style"
-          ],
-          "outer_html_sha256": "331e917a40549e1edc5e93790296c241ecdff424e870169d14cf27f9155314be"
-        },
-        {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "tag": "div",
-          "id": "",
-          "class": "gallery-images",
-          "matched_selectors": [
-            "inline-style"
-          ],
-          "outer_html_sha256": "47b483daff14d422a4b6f33c08c2a3ec092c52924fae686e9c7d5b179bba99dc"
-        },
-        {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "tag": "div",
-          "id": "",
-          "class": "gallery-images",
-          "matched_selectors": [
-            "inline-style"
-          ],
-          "outer_html_sha256": "668104b85d9f239dff4f1afc3443e6811e7d2a0db0015d01d63fdc971e025e98"
-        },
-        {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images",
-          "tag": "div",
-          "id": "",
-          "class": "gallery-images",
-          "matched_selectors": [
-            "inline-style"
-          ],
-          "outer_html_sha256": "b391cd83bea867fd10501234021ab9c4cfaeb54af238610461e040577671b38d"
-        },
-        {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > section#competitions > div.section-content > div.extras-grid > article.extra-card > div.project-image > div.project-info > article.extra-card > div.extras-grid > article.extra-card > div.project-image > div.project-info > div.gallery-images > img:nth-of-type(1) > img:nth-of-type(1) > article.extra-card > div.project-image > div#gallery-modal",
-          "tag": "div",
-          "id": "gallery-modal",
-          "class": "gallery-modal",
-          "matched_selectors": [
-            "aria-hidden",
-            "inline-style"
-          ],
-          "outer_html_sha256": "ddd1f19fb76dc28410149f5b1494af9d2a750fc0072c654c52cb8fbfccb7a601"
-        }
-      ],
-      "template_syntax": []
-    },
     "/consulting/about/": {
       "jsonld_blocks": [
         "<script type=\"application/ld+json\">\n        {\n            \"@context\": \"https://schema.org\",\n            \"@type\": \"BreadcrumbList\",\n            \"itemListElement\": [\n                {\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://anthony-baptiste.com/\"},\n                {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Consulting\", \"item\": \"https://anthony-baptiste.com/consulting/\"},\n                {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"About\", \"item\": \"https://anthony-baptiste.com/consulting/about/\"}\n            ]\n        }\n    </script>",
@@ -2245,10 +2099,10 @@
           "text": "Contact"
         }
       ],
-      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn AI Research Applied AI research that can become real workflow tools. My research explores how AI-generated personas and LLM-based interview simulations can strengthen interview-based qualitative research. For clients, this translates into a practical capability: designing Claude, Custom GPT, MCP-style, n8n, and Streamlit workflows that support researchers, analysts, and operators without replacing human judgment. Dean's Research Seminar Open in new tab CURE Presentation Open in new tab Research Paper This work examines how matched AI and human interviews can be compared to understand where LLMs are helpful, where they fall short, and how they can be used responsibly in qualitative research workflows. The consulting lesson is simple: AI is most useful when it is designed around a real workflow, clear evaluation, and human interpretation. Qualitative AI Studio This separate research tool extends the project into a more interactive workflow, showing how AI can support persona-based interview simulation, transcript comparison, and qualitative interpretation in a more guided environment. It is also proof that I can move from research idea to a usable workflow. Visit Website Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Services Consulting Offers Proof Consulting Proof Case Studies Samples Process About Experience Research Resume Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved.",
+      "main_visible_text": "AI Research Applied AI research that can become real workflow tools. My research explores how AI-generated personas and LLM-based interview simulations can strengthen interview-based qualitative research. For clients, this translates into a practical capability: designing Claude, Custom GPT, MCP-style, n8n, and Streamlit workflows that support researchers, analysts, and operators without replacing human judgment. Dean's Research Seminar Download PDF Open in new tab CURE Presentation Download PDF Open in new tab Research Paper This work examines how matched AI and human interviews can be compared to understand where LLMs are helpful, where they fall short, and how they can be used responsibly in qualitative research workflows. The consulting lesson is simple: AI is most useful when it is designed around a real workflow, clear evaluation, and human interpretation. Qualitative AI Studio This separate research tool extends the project into a more interactive workflow, showing how AI can support persona-based interview simulation, transcript comparison, and qualitative interpretation in a more guided environment. It is also proof that I can move from research idea to a usable workflow. Visit Website",
       "hidden_elements": [
         {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > header.site-header.site-chrome > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
           "tag": "i",
           "id": "",
           "class": "fas fa-bars",
@@ -2286,10 +2140,6 @@
         },
         {
           "type": "h3",
-          "text": "Preview: Data Analytics and Business Intelligence Resume"
-        },
-        {
-          "type": "h3",
           "text": "Data Science / Machine Learning"
         },
         {
@@ -2313,10 +2163,10 @@
           "text": "Contact"
         }
       ],
-      "main_visible_text": "Anthony BaptisteAnalytics & Applied AI Menu Work Experience Consulting Contact Connect on LinkedIn Resume Resume versions for analytics, BI, and operations roles. For recruiters, these resumes show the employment side of the same positioning: analytics work that connects data, operations, BI systems, and business decisions. Preview: Data Analytics and Business Intelligence Resume Download This Resume Data Science / Machine Learning Focus on machine learning, AI, and advanced analytics projects. View Resume Download PDF Data Analytics Emphasis on data analysis, visualization, and business intelligence. View Resume Download PDF Supply Chain / Operations Focused on logistics, operations, and supply chain management. View Resume Download PDF Anthony BaptisteAnalytics & Applied AI Digital experimentation, product analytics, business intelligence, and independent consulting. Services Consulting Offers Proof Consulting Proof Case Studies Samples Process About Experience Research Competitions Contact Request a Project Proposal bapanalytics00@gmail.com LinkedIn GitHub \u00a9 2026 Anthony Baptiste. All rights reserved.",
+      "main_visible_text": "Resume Resume versions for analytics, BI, and operations roles. For recruiters, these resumes show the employment side of the same positioning: analytics work that connects data, operations, BI systems, and business decisions. Data Science / Machine Learning Focus on machine learning, AI, and advanced analytics projects. Data Analytics Emphasis on data analysis, visualization, and business intelligence. Supply Chain / Operations Focused on logistics, operations, and supply chain management.",
       "hidden_elements": [
         {
-          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
+          "selector": "html:nth-of-type(1) > head:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > meta:nth-of-type(1) > link:nth-of-type(1) > link:nth-of-type(1) > body.page-shell > header.site-header.site-chrome > nav.navbar > div.nav-content > button.nav-toggle > i.fas.fa-bars",
           "tag": "i",
           "id": "",
           "class": "fas fa-bars",
@@ -2329,10 +2179,10 @@
       "template_syntax": []
     }
   },
-  "llms_txt_blob_sha": "9c045be6c93d8eb19a829a644b9cee9e406e1a0e",
+  "llms_txt_blob_sha": "0aebb802a028292e677cd25f6bdbde3987632fd8",
   "robots_txt_blob_sha": "e698bea3d563b0b4b97a89dbd0c3ca25e037eefb",
-  "sitemap_xml_normalized": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <url>\n        <loc>https://anthony-baptiste.com/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>1.0</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.75</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/services/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.72</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/process/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.68</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/about/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/projects/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.85</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/experience/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.95</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/competitions/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/resume/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.55</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/research/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/analytics-clarity/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/reporting-dashboard/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/ai-workflow/</loc><lastmod></lastmod></url>\n</urlset>\n",
+  "sitemap_xml_normalized": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <url>\n        <loc>https://anthony-baptiste.com/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>1.0</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.75</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/services/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.72</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/process/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.68</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/about/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/projects/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.85</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/experience/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.95</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/resume/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.55</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/research/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/analytics-clarity/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/reporting-dashboard/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/ai-workflow/</loc><lastmod></lastmod></url>\n</urlset>\n",
   "cname_sha256": "79115b5174ce414ba90ca2af1cc75a29d21769dfbd9c74542ca437fb49b89ef6",
   "source_commit": "734fa277f340194353f92211b25959994ed0cd0c",
-  "fixture_id": "7355f82053ecbcfbcbeca74cedc8a52fb40b7603e974c29df2d50e1a6d111f9d"
+  "fixture_id": "7e9f6761b452b4785f1283bac28b2df5bb95feae3809dd0493219a55d5553b67"
 }
