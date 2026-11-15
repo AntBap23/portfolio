@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "description": "Redesign 1c allowlist only: P1 visible breadcrumbs (must equal BreadcrumbList) and P2 footer service labels. No F18/Calendly exceptions.",
+  "version": 2,
+  "description": "Redesign 1c/1d/1e allowlist: P1 breadcrumbs, P2 footer service labels, F18 Calendly canonical href/label plus exact placement additions (no wildcards).",
   "exceptions": [
     {
       "id": "P1-consulting",
@@ -151,6 +151,130 @@
         {
           "href": "/consulting/services/#structured-analytics-advisory",
           "text": "Structured Analytics Advisory"
+        }
+      ]
+    },
+    {
+      "id": "F18-home-hero-book",
+      "class": "F18",
+      "pages": ["/"],
+      "reason": "1e placement: Book an Intro Call secondary in home hero beside Proposal; F18 drops (optional) on closing CTA.",
+      "added_calendly_links": [
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        }
+      ],
+      "main_text_insertions": [
+        {
+          "after": "Request a Project Proposal",
+          "insert": " Book an Intro Call",
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "id": "F18-consulting-final-cta-book",
+      "class": "F18",
+      "pages": ["/consulting/"],
+      "reason": "1e placement: Book an Intro Call in consulting final-cta panel (fixture already has form-section Book).",
+      "added_calendly_links": [
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        }
+      ],
+      "main_text_insertions": [
+        {
+          "after": "Request a Project Proposal",
+          "insert": " Book an Intro Call",
+          "occurrence": 1
+        }
+      ]
+    },
+    {
+      "id": "F18-about-final-cta-book",
+      "class": "F18",
+      "pages": ["/consulting/about/"],
+      "reason": "1e placement: Book an Intro Call in about consulting-final-cta panel.",
+      "added_calendly_links": [
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        }
+      ],
+      "main_text_insertions": [
+        {
+          "after": "Request a Project Proposal",
+          "insert": " Book an Intro Call",
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "id": "F18-process-closing-book",
+      "class": "F18",
+      "pages": ["/consulting/process/"],
+      "reason": "1e placement: Book an Intro Call beside closing Proposal on process.",
+      "added_calendly_links": [
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        }
+      ],
+      "main_text_insertions": [
+        {
+          "after": "Request a Project Proposal",
+          "insert": " Book an Intro Call",
+          "occurrence": 0
+        }
+      ]
+    },
+    {
+      "id": "F18-services-cards-and-closing",
+      "class": "F18",
+      "pages": ["/consulting/services/"],
+      "reason": "1e placement: Book beside each of 6 Get a Project Estimate links plus closing CTA.",
+      "added_calendly_links": [
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        },
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        },
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        },
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        },
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        },
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        },
+        {
+          "href": "https://calendly.com/bapanalytics00/project-discussion",
+          "text": "Book an Intro Call"
+        }
+      ],
+      "main_text_insertions": [
+        {
+          "after": "Get a Project Estimate",
+          "insert": " Book an Intro Call",
+          "occurrence": "all"
+        },
+        {
+          "after": "Request a Project Proposal",
+          "insert": " Book an Intro Call",
+          "occurrence": 0
         }
       ]
     }

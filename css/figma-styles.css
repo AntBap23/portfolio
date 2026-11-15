@@ -448,6 +448,15 @@ h4 {
     gap: 0.45rem;
     color: var(--blue);
     font-weight: 800;
+    /* AC-7: standalone text-link CTAs >=44px tap target */
+    min-height: var(--tap-min);
+}
+
+/* Paragraph and breadcrumb links keep compact inline size */
+p .text-link,
+.breadcrumbs .text-link,
+nav.breadcrumbs a {
+    min-height: 0;
 }
 
 .text-link:hover {
@@ -455,19 +464,21 @@ h4 {
 }
 
 .home-hero {
-    padding: 8rem 2rem 6.75rem;
+    /* AC-8: keep hero Proposal + Book CTAs above the 800px fold */
+    padding: var(--space-10) 2rem var(--space-9);
 }
 
 .home-hero-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.62fr);
-    gap: clamp(3rem, 8vw, 7rem);
-    align-items: center;
+    /* Narrow side card (~0.50fr) so home H1 wraps to 3 lines at 1280 while CTAs stay above the fold */
+    grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.50fr);
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: start;
 }
 
 .home-hero-copy {
     display: grid;
-    gap: 1.55rem;
+    gap: var(--space-5);
 }
 
 .hero-buttons,
@@ -1811,6 +1822,20 @@ html.js-enabled .consulting-hero {
     box-shadow: 0 14px 42px rgba(16, 36, 49, 0.05);
 }
 
+.offer-card-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-4);
+    align-items: center;
+}
+
+.offer-card-ctas .text-link,
+.consulting-offer-card .text-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap-min);
+}
+
 .consulting-offer-card.offer-featured {
     grid-column: 1 / -1;
     border-color: #397e75;
@@ -2300,6 +2325,13 @@ html.js-enabled .consulting-about-hero {
     gap: var(--space-6); /* 24px desktop + mobile */
 }
 
+/* AC-7: teaser service title links (home + consulting) >=44px tap target */
+.consulting-teaser-grid h3 a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap-min);
+}
+
 .consulting-teaser-grid article,
 .consulting-compact-work article,
 .background-grid article,
@@ -2451,7 +2483,7 @@ html.js-enabled .consulting-about-hero {
     }
 
     .home-hero {
-        padding-top: 6rem;
+        padding-top: var(--space-9);
     }
 
     .route-card,
@@ -2634,8 +2666,8 @@ html.js-enabled .consulting-about-hero {
     }
 
     .home-hero {
-        padding-top: 4.75rem;
-        padding-bottom: 4.75rem;
+        padding-top: var(--space-8);
+        padding-bottom: var(--space-7);
     }
 
     h1 {

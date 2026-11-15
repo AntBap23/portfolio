@@ -95,12 +95,13 @@ node _qa/visual-diff.mjs path/to/screenshots
 
 ## Exceptions allowlist
 
-`_qa/locked-exceptions.json` declares approved differences by page and element. **1c applies only P1 and P2**:
+`_qa/locked-exceptions.json` declares approved differences by page and element. **1e allows P1, P2, and F18**:
 
 - **P1** - Visible breadcrumb markup on pages with BreadcrumbList JSON-LD. The checker verifies visible names/URLs equal that page's schema items (it does not blindly skip them).
 - **P2** - Footer link labels inside the unified footer include (official service names).
+- **F18** - Calendly canonical href `https://calendly.com/bapanalytics00/project-discussion` and label `Book an Intro Call` only (tight allowlist; exact `added_calendly_links` counts per page; no wildcards). Chrome locks expect the same pair.
 
-**F18 (Calendly) is not permitted here** (belongs to 1e). Unknown exception classes cause `check` to exit non-zero.
+Unknown exception classes cause `check` to exit non-zero.
 
 `check` also refuses an unexpanded source root: if scanned HTML still contains `{%`, `{{`, or `{#`, it exits non-zero and asks for `_qa/_site`.
 

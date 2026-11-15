@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fail-closed negative tests for redesign 1d chrome / P2 locks.
+Fail-closed negative tests for redesign 1d/1e chrome / P2 / F18 locks.
 
 Applies each forbidden edit to a temp copy of the built site (and, where noted,
 temp copies of the checker / exceptions) and asserts locked-check exits non-zero.
@@ -76,9 +76,11 @@ def main() -> int:
         return 1
     print('PASS: unmodified build passes locked-check')
 
-    tmp = Path(tempfile.mkdtemp(prefix='locked-1d-neg-'))
+    tmp = Path(tempfile.mkdtemp(prefix='locked-1e-neg-'))
     site = tmp / '_site'
     results = []
+    F18 = 'https://calendly.com/bapanalytics00/project-discussion'
+    LEGACY = 'https://calendly.com/bapanalytics00'
 
     def case(label: str, mutate) -> None:
         if site.exists():
@@ -259,6 +261,48 @@ def main() -> int:
     if not ok:
         print(out[-800:])
     results.append(ok)
+
+    # 14) Old Calendly URL anywhere fails
+    case(
+        'old-URL Calendly link anywhere fails',
+        lambda s: mutate_all_pages(s, F18, LEGACY),
+    )
+
+    # 15) Different Calendly label fails
+    case(
+        'different Calendly label fails',
+        lambda s: mutate_all_pages(
+            s,
+            f'href="{F18}" class="btn btn-secondary nav-cta-secondary" target="_blank" rel="noopener noreferrer">Book an Intro Call</a>',
+            f'href="{F18}" class="btn btn-secondary nav-cta-secondary" target="_blank" rel="noopener noreferrer">Book a Call</a>',
+        ),
+    )
+
+    # 16) Hero CTA href change fails (home Proposal in hero)
+    case(
+        'hero CTA href change fails',
+        lambda s: mutate_all_pages(
+            s,
+            'href="/consulting/#inquiry" class="btn btn-primary">Request a Project Proposal</a>',
+            'href="/consulting/#changed" class="btn btn-primary">Request a Project Proposal</a>',
+            count=1,
+        ),
+    )
+
+    # 17) Home teaser internal link href change fails
+    def teaser_href(s: Path) -> None:
+        home = s / 'index.html'
+        text = home.read_text(encoding='utf-8')
+        text2 = text.replace(
+            'href="/consulting/services/#analytics-clarity-audit"',
+            'href="/consulting/services/#analytics-clarity-audit-CHANGED"',
+            1,
+        )
+        if text2 == text:
+            raise RuntimeError('teaser href not found on home')
+        home.write_text(text2, encoding='utf-8')
+
+    case('home teaser h3 href change fails', teaser_href)
 
     shutil.rmtree(tmp, ignore_errors=True)
 

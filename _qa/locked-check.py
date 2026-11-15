@@ -732,7 +732,35 @@ FOOTER_H3_TEXTS = frozenset({
     'Explore', 'Assets', 'Contact', 'Services', 'Proof', 'Consulting',
 })
 
-ALLOWED_EXCEPTION_CLASSES = frozenset({'P1', 'P2'})
+ALLOWED_EXCEPTION_CLASSES = frozenset({'P1', 'P2', 'F18'})
+
+# F18 canonical Calendly (1e). Fixture may still list the legacy root URL / optional label.
+F18_HREF = 'https://calendly.com/bapanalytics00/project-discussion'
+F18_TEXT = 'Book an Intro Call'
+F18_LEGACY_HREFS = frozenset({
+    'https://calendly.com/bapanalytics00',
+    F18_HREF,
+})
+F18_LEGACY_TEXTS = frozenset({
+    'Book an Intro Call',
+    'Book an Intro Call (optional)',
+})
+
+# Home teaser h3 body links (Engineering Lead wrap): hrefs locked fail-closed.
+EXPECTED_HOME_TEASER_LINKS = [
+    {'href': '/consulting/services/#analytics-clarity-audit', 'text': 'Analytics Clarity Audit'},
+    {'href': '/consulting/services/#dashboard-reporting-sprint', 'text': 'Dashboard & Reporting Sprint'},
+    {
+        'href': '/consulting/services/#digital-experience-audit',
+        'text': 'Digital Experience & Growth Opportunity Audit',
+    },
+    {'href': '/consulting/services/#applied-ai-workflow-sprint', 'text': 'Applied AI Workflow Sprint'},
+    {'href': '/consulting/services/#monthly-reporting-support', 'text': 'Monthly Reporting Support'},
+    {
+        'href': '/consulting/services/#structured-analytics-advisory',
+        'text': 'Structured Analytics Advisory',
+    },
+]
 
 # Cut-locked official service names (1c/1d). Must NOT be derived from the allowlist,
 # so renaming in both the allowlist and the HTML still fails closed.
@@ -761,8 +789,8 @@ EXPECTED_PROPOSAL_CTA = {
 }
 
 EXPECTED_BOOKING_CTA = {
-    'href': 'https://calendly.com/bapanalytics00',
-    'text': 'Book an Intro Call',
+    'href': F18_HREF,
+    'text': F18_TEXT,
 }
 
 EXPECTED_FOOTER_BRAND = {
@@ -851,9 +879,23 @@ def load_exceptions(exceptions_file):
         cls = exc.get('class')
         if cls not in ALLOWED_EXCEPTION_CLASSES:
             raise SystemExit(
-                f"FAIL: exception class {cls!r} is not permitted in this PR "
-                f"(allowed: {sorted(ALLOWED_EXCEPTION_CLASSES)}; F18 belongs to 1e)"
+                f"FAIL: exception class {cls!r} is not permitted "
+                f"(allowed: {sorted(ALLOWED_EXCEPTION_CLASSES)})"
             )
+        if cls == 'F18':
+            for el in exc.get('added_calendly_links', []):
+                if el.get('href') != F18_HREF or el.get('text') != F18_TEXT:
+                    raise SystemExit(
+                        f"FAIL: F18 exception {exc.get('id')!r} added_calendly_links "
+                        f"must be exact canonical {{href: {F18_HREF!r}, text: {F18_TEXT!r}}}; "
+                        f"got {el!r}"
+                    )
+            for ins in exc.get('main_text_insertions', []):
+                if ins.get('insert') != f' {F18_TEXT}':
+                    raise SystemExit(
+                        f"FAIL: F18 exception {exc.get('id')!r} main_text_insertions "
+                        f"insert must be exactly ' {F18_TEXT}'; got {ins!r}"
+                    )
         pages = exc.get('pages', [])
         if '*' in pages:
             raise SystemExit(
@@ -1231,28 +1273,127 @@ def normalize_locked_copy_for_compare(expected_list, actual_list, page_exception
     return e_h1 == a_h1 and e_h == a_h and e_o == a_o
 
 
-def compare_calendly(expected, actual):
-    """Body Calendly links must match fixture exactly; chrome may add canonical CTAs."""
+def normalize_f18_calendly_link(link):
+    """Map fixture/legacy Calendly href+label to the F18 canonical pair, or None."""
+    href = link.get('href', '')
+    text = link.get('text', '')
+    if href not in F18_LEGACY_HREFS:
+        return None
+    if text not in F18_LEGACY_TEXTS:
+        return None
+    return {'href': F18_HREF, 'text': F18_TEXT}
+
+
+def f18_added_calendly_count(page_exceptions):
+    n = 0
+    for exc in page_exceptions:
+        if exc.get('class') == 'F18':
+            n += len(exc.get('added_calendly_links') or [])
+    return n
+
+
+def apply_f18_main_text(expected_text, page_exceptions):
+    """Apply F18 label rewrite and allowlisted insertions to fixture main_visible_text."""
+    out = expected_text.replace('Book an Intro Call (optional)', F18_TEXT)
+    insertions = []
+    for exc in page_exceptions:
+        if exc.get('class') == 'F18':
+            insertions.extend(exc.get('main_text_insertions') or [])
+    for ins in insertions:
+        after = ins.get('after', '')
+        insert = ins.get('insert', '')
+        occ = ins.get('occurrence', 0)
+        if not after or not insert:
+            continue
+        if occ == 'all':
+            parts = []
+            start = 0
+            while True:
+                idx = out.find(after, start)
+                if idx == -1:
+                    parts.append(out[start:])
+                    break
+                end = idx + len(after)
+                parts.append(out[start:end])
+                if not out.startswith(insert, end):
+                    parts.append(insert)
+                start = end
+            out = ''.join(parts)
+            continue
+        # Nth occurrence (0-based)
+        start = 0
+        found_at = -1
+        for i in range(int(occ) + 1):
+            idx = out.find(after, start)
+            if idx == -1:
+                found_at = -1
+                break
+            found_at = idx
+            start = idx + len(after)
+        if found_at == -1:
+            continue
+        end = found_at + len(after)
+        if not out.startswith(insert, end):
+            out = out[:end] + insert + out[end:]
+    return normalize_visible_text(out)
+
+
+def compare_calendly(expected, actual, page_exceptions):
+    """Body Calendly: fixture links F18-normalized + exact allowlisted additions; chrome = F18 only."""
     body = actual.get('body_calendly_links')
     if body is None:
-        # Backward compatible: treat all as body if split missing
         body = actual.get('calendly_links') or []
-    if body != expected:
-        return False, f'body Calendly mismatch: expected {expected}, got {body}'
-    # Chrome extras must keep the existing URL and an existing label used on the site
-    allowed_texts = {'Book an Intro Call', 'Book an Intro Call (optional)'}
+
+    norm_expected = []
     for link in expected:
-        allowed_texts.add(link.get('text', ''))
-    allowed_hrefs = {link.get('href') for link in expected} or {'https://calendly.com/bapanalytics00'}
-    # If fixture page had no calendly, chrome may still use the site-canonical URL/label
-    if not allowed_hrefs:
-        allowed_hrefs = {'https://calendly.com/bapanalytics00'}
+        n = normalize_f18_calendly_link(link)
+        if n is None:
+            return False, f'fixture Calendly link is not an F18-migratable pair: {link}'
+        norm_expected.append(n)
+
+    additions = f18_added_calendly_count(page_exceptions)
+    expected_count = len(norm_expected) + additions
+
+    for link in body:
+        if link.get('href') != F18_HREF or link.get('text') != F18_TEXT:
+            return False, f'body Calendly must be exact F18 canonical: {link}'
+
+    if len(body) != expected_count:
+        return False, (
+            f'body Calendly count mismatch: expected {expected_count} '
+            f'(fixture {len(norm_expected)} + F18 additions {additions}), got {len(body)}'
+        )
+
     for link in actual.get('chrome_calendly_links') or []:
-        if link.get('href') not in allowed_hrefs and link.get('href') != 'https://calendly.com/bapanalytics00':
-            return False, f'chrome Calendly href not permitted: {link}'
-        if link.get('text') not in allowed_texts:
-            return False, f'chrome Calendly label not permitted: {link}'
-    return True, 'Calendly body links unchanged; chrome CTAs use existing URL/labels'
+        if link.get('href') != F18_HREF or link.get('text') != F18_TEXT:
+            return False, f'chrome Calendly must be exact F18 canonical: {link}'
+
+    return True, (
+        f'Calendly F18 canonical ({expected_count} body, chrome locked to {F18_HREF})'
+    )
+
+
+def verify_home_teaser_links(root_dir, page_url):
+    """Fail closed: home consulting-teaser-grid h3 hrefs/labels stay locked."""
+    if page_url != '/':
+        return True, ['home teaser links N/A']
+    page_file = page_file_for_url(root_dir, page_url)
+    html = page_file.read_text(encoding='utf-8')
+    grid = _first_group(
+        html,
+        r'<div\b[^>]*class="[^"]*\bconsulting-teaser-grid\b[^"]*"[^>]*>(.*?)</div>',
+    )
+    if not grid:
+        return False, ['missing consulting-teaser-grid on home']
+    links = []
+    for attrs, inner in re.findall(r'<h3\b[^>]*>\s*<a\b([^>]*)>(.*?)</a>', grid, re.I | re.S):
+        href_m = re.search(r'\bhref="([^"]*)"', attrs, re.I)
+        href = href_m.group(1) if href_m else ''
+        text = normalize_visible_text(_decode_basic_entities(re.sub(r'<[^>]+>', '', inner)))
+        links.append({'href': href, 'text': text})
+    if links != EXPECTED_HOME_TEASER_LINKS:
+        return False, [f'home teaser links mismatch: got {links!r}']
+    return True, ['home teaser h3 links locked']
 
 
 def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file):
@@ -1342,7 +1483,9 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
         else:
             print(f"  PASS: Element IDs")
 
-        cal_ok, cal_msg = compare_calendly(expected.get('calendly_links') or [], actual)
+        cal_ok, cal_msg = compare_calendly(
+            expected.get('calendly_links') or [], actual, page_exceptions
+        )
         if cal_ok:
             print(f"  PASS: Calendly links ({cal_msg})")
         else:
@@ -1359,8 +1502,11 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
             print(f"  FAIL: Locked copy mismatch")
             all_pass = False
 
-        expected_main = strip_legacy_chrome_from_fixture_text(
-            expected.get('main_visible_text') or ''
+        expected_main = apply_f18_main_text(
+            strip_legacy_chrome_from_fixture_text(
+                expected.get('main_visible_text') or ''
+            ),
+            page_exceptions,
         )
         actual_main = normalize_visible_text(actual.get('main_visible_text') or '')
         if expected_main != actual_main:
@@ -1400,6 +1546,12 @@ def check_command(root_dir, fixture_file, hidden_inventory_file, exceptions_file
         for msg in chrome_msgs:
             print(f"  {'PASS' if chrome_ok else 'FAIL'}: Chrome locks ({msg})")
         if not chrome_ok:
+            all_pass = False
+
+        teaser_ok, teaser_msgs = verify_home_teaser_links(root_dir, url_path)
+        for msg in teaser_msgs:
+            print(f"  {'PASS' if teaser_ok else 'FAIL'}: Body internal links ({msg})")
+        if not teaser_ok:
             all_pass = False
 
         if actual.get('template_syntax'):
