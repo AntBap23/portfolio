@@ -28,7 +28,7 @@ Employers are not presented as independent consulting clients.
 
 - Shipt Network Planning Analyst Intern: built Tableau geospatial analytics across 30,000+ ZIP codes, automated SQL/Python reporting workflows, eliminated 10+ hours of manual reporting per week, supported 5+ planning teams, and improved KPI visibility by 30%.
 - Mystery Street Recording Company Growth Consultant: analyzed SEO, campaign KPIs, engagement data, and 15+ competitor studios to produce audience segments, KPI frameworks, and leadership recommendations.
-- Ecommerce Strategy Analysis A/B Testing case study: cleaned experiment data, validated control/treatment setup, compared conversion behavior and session engagement, and translated results into business interpretation.
+- Ecommerce Strategy Analysis A/B Testing project: cleaned experiment data, validated control/treatment setup, compared conversion behavior and session engagement, and translated results into business interpretation.
 - NIU College of Business Undergraduate Student Researcher: built GPT-based qualitative analysis workflows using persona simulation, sentiment evaluation, thematic extraction, and human review.
 
 ## Contact
