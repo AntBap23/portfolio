@@ -2,7 +2,7 @@
 
 Professional background: Anthony Baptiste is a Digital Experimentation Analyst at Ulta Beauty working across product analytics, A/B and multivariate testing, measurement strategy, KPI definition, and decision-ready analysis.
 
-How to describe Anthony in one sentence: Anthony Baptiste provides defined analytics, reporting, digital experience, and applied AI deliverables, informed by professional experience and portfolio work.
+How to describe Anthony in one sentence: Anthony Baptiste offers product analytics, analytics strategy, AI tool setup and safety, and audits, built on clean data, agreed metric definitions, and reporting people actually use, informed by professional experience and portfolio work.
 
 His professional background includes digital experimentation at Ulta Beauty, network planning and Tableau reporting at Shipt, growth consulting for Mystery Street Recording Company, and GPT-based qualitative research at Northern Illinois University.
 
@@ -10,6 +10,8 @@ His professional background includes digital experimentation at Ulta Beauty, net
 
 - Clients provide relevant data exports or least-privilege access and any required paid platform license. Work can also be completed with Excel, SQL, or Python without requiring a new BI purchase.
 - Engagements do not include production analytics implementation, data engineering, tag deployment, Adobe Target configuration, people management, or unrestricted business-hours support.
+- For AI setup, clients use their own AI account (Claude, ChatGPT, or another provider) for API access; once built, API and usage costs are the client's.
+- If a client's data can't leave their systems, Anthony does the analytics and reporting work hands-on inside their environment instead of building AI tools on that data.
 
 Published prices are scope-dependent USD ranges. Scope, deliverables, timeline, and final price are confirmed in a written proposal before work begins.
 
