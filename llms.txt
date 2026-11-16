@@ -30,7 +30,11 @@ Employers are not presented as independent consulting clients.
 
 - Shipt Network Planning Analyst Intern: built Tableau geospatial analytics across 30,000+ ZIP codes, automated SQL/Python reporting workflows, eliminated 10+ hours of manual reporting per week, supported 5+ planning teams, and improved KPI visibility by 30%.
 - Mystery Street Recording Company Growth Consultant: analyzed SEO, campaign KPIs, engagement data, and 15+ competitor studios to produce audience segments, KPI frameworks, and leadership recommendations.
-- Ecommerce Strategy Analysis A/B Testing project: cleaned experiment data, validated control/treatment setup, compared conversion behavior and session engagement, and translated results into business interpretation.
+- Product Experimentation Copilot: A local-first tool for product analysts to investigate metric changes, turn findings into testable hypotheses, and monitor active A/B tests. The first demo uses synthetic checkout data, and any AI help is limited to approved analysis functions, with the analyst owning interpretation and sign-off.
+- Qualitative AI Interview Studio: A research platform for structured qualitative work: studies, protocols, personas, interview guides, transcripts, AI interview simulations, and comparative analysis. It's designed for researchers who want AI-assisted interviewing and analysis without losing methodological control, with sign-in and security controls built in.
+- QSR Demand Forecasting Platform (HAVI x NIU Hackathon): A team-built machine learning pipeline from the HAVI x Northern Illinois University Hackathon that forecasts daily menu item demand across restaurants using historical sales, weather, promotions, holidays, and calendar effects.
+- Ecommerce A/B Test Analysis: An analysis of an ecommerce A/B test comparing a legacy landing page with a new one. It cleans the experiment data, keeps only valid control and treatment pairs, and compares conversion overall and by country, checking whether the differences are statistically meaningful.
+- Nonprofit Engagement Consulting Project: This project focused on analyzing engagement patterns and translating findings into recommendations that could support stronger outreach and program decision-making.
 - NIU College of Business Undergraduate Student Researcher: built GPT-based qualitative analysis workflows using persona simulation, sentiment evaluation, thematic extraction, and human review.
 
 ## Contact
