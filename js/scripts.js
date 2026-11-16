@@ -270,6 +270,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 behavior: prefersReducedMotion.matches ? 'auto' : 'smooth'
             });
         });
+
+        // C2: on narrow viewports, clear #scrollToTop while the consulting
+        // inquiry form is on screen so it cannot cover labels or controls.
+        const inquiryForm = document.getElementById('project-inquiry');
+        if (inquiryForm && 'IntersectionObserver' in window) {
+            const narrowViewport = window.matchMedia('(max-width: 860px)');
+            let inquiryInView = false;
+            const syncScrollTopClearance = () => {
+                scrollToTopButton.classList.toggle(
+                    'scroll-to-top--clear-inquiry',
+                    narrowViewport.matches && inquiryInView
+                );
+            };
+            const inquiryObserver = new IntersectionObserver((entries) => {
+                inquiryInView = entries.some((entry) => entry.isIntersecting);
+                syncScrollTopClearance();
+            }, { threshold: 0, rootMargin: '0px' });
+            inquiryObserver.observe(inquiryForm);
+            if (typeof narrowViewport.addEventListener === 'function') {
+                narrowViewport.addEventListener('change', syncScrollTopClearance);
+            } else if (typeof narrowViewport.addListener === 'function') {
+                narrowViewport.addListener(syncScrollTopClearance);
+            }
+            syncScrollTopClearance();
+        }
     }
 
     const experienceSelect = document.getElementById('experience-select');
