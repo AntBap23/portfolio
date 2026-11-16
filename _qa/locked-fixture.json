@@ -547,6 +547,18 @@
           "text": "See what delivery can look like."
         },
         {
+          "type": "h3",
+          "text": "Services"
+        },
+        {
+          "type": "h3",
+          "text": "Proof"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
+        },
+        {
           "type": "price",
           "text": "Under $500"
         },
@@ -1743,6 +1755,18 @@
           "text": "See what delivery can look like."
         },
         {
+          "type": "h3",
+          "text": "Explore"
+        },
+        {
+          "type": "h3",
+          "text": "Assets"
+        },
+        {
+          "type": "h3",
+          "text": "Contact"
+        },
+        {
           "type": "employer_disclaimer",
           "text": "Employers are not presented as independent consulting clients."
         }
@@ -2160,5 +2184,5 @@
   "sitemap_xml_normalized": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    <url>\n        <loc>https://anthony-baptiste.com/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>1.0</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.75</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/services/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.72</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/process/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.68</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/consulting/about/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/projects/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.85</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/experience/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.95</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/resume/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.55</priority>\n    </url>\n    <url>\n        <loc>https://anthony-baptiste.com/research/</loc>\n        <lastmod></lastmod>\n        <changefreq>monthly</changefreq>\n        <priority>0.65</priority>\n    </url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/analytics-clarity/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/reporting-dashboard/</loc><lastmod></lastmod></url>\n<url><loc>https://anthony-baptiste.com/consulting/samples/ai-workflow/</loc><lastmod></lastmod></url>\n</urlset>\n",
   "cname_sha256": "79115b5174ce414ba90ca2af1cc75a29d21769dfbd9c74542ca437fb49b89ef6",
   "source_commit": "0f5e6128c77ed04eb8b21a627704cc8977ca3cd0",
-  "fixture_id": "5ae6ad94ac08d4c0b3fc47e4c69c2e356a660e335c0417818e9409c92cc90882"
+  "fixture_id": "c311c8fad8a8abe12709ec75e2af19c69e91f088b58be914866a41736fc26537"
 }
