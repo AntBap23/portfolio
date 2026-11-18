@@ -749,12 +749,12 @@ F18_LEGACY_TEXTS = frozenset({
 # Home teaser h3 body links (Engineering Lead wrap): hrefs locked fail-closed.
 EXPECTED_HOME_TEASER_LINKS = [
     {'href': '/consulting/services/#analytics-clarity-audit', 'text': 'Analytics Clarity Audit'},
-    {'href': '/consulting/services/#dashboard-reporting-sprint', 'text': 'Dashboard & Reporting Sprint'},
+    {'href': '/consulting/services/#applied-ai-workflow-sprint', 'text': 'Applied AI Workflow Sprint'},
     {
         'href': '/consulting/services/#digital-experience-audit',
         'text': 'Digital Experience & Growth Opportunity Audit',
     },
-    {'href': '/consulting/services/#applied-ai-workflow-sprint', 'text': 'Applied AI Workflow Sprint'},
+    {'href': '/consulting/services/#dashboard-reporting-sprint', 'text': 'Dashboard & Reporting Sprint'},
     {'href': '/consulting/services/#monthly-reporting-support', 'text': 'Monthly Reporting Support'},
     {
         'href': '/consulting/services/#structured-analytics-advisory',

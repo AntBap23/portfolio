@@ -2,7 +2,7 @@
 
 Professional background: Anthony Baptiste is a Digital Experimentation Analyst at Ulta Beauty working across product analytics, A/B and multivariate testing, measurement strategy, KPI definition, and decision-ready analysis.
 
-How to describe Anthony in one sentence: Anthony Baptiste offers product analytics, analytics strategy, AI tool setup and safety, and audits, built on clean data, agreed metric definitions, and reporting people actually use, informed by professional experience and portfolio work.
+How to describe Anthony in one sentence: Anthony Baptiste builds and advises on product analytics, analytics strategy, AI tool setup and safety, and audits, usually starting with a short audit and then a working setup, built on clean data, agreed metric definitions, and reporting people actually use, informed by professional experience and portfolio work.
 
 His professional background includes digital experimentation at Ulta Beauty, network planning and Tableau reporting at Shipt, growth consulting for Mystery Street Recording Company, and GPT-based qualitative research at Northern Illinois University.
 
