@@ -6,6 +6,8 @@ How to describe Anthony in one sentence: Anthony Baptiste builds and advises on 
 
 His professional background includes digital experimentation at Ulta Beauty, network planning and Tableau reporting at Shipt, growth consulting for Mystery Street Recording Company, and GPT-based qualitative research at Northern Illinois University.
 
+Credential: Claude Certified Associate: Foundations (Anthropic), verify at https://www.credly.com/badges/395c73d6-e76a-4ea6-8293-daa2914f4d45
+
 ## Independent consulting
 
 - Clients provide relevant data exports or least-privilege access and any required paid platform license. Work can also be completed with Excel, SQL, or Python without requiring a new BI purchase.
