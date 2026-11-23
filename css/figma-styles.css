@@ -2995,3 +2995,127 @@ html.js-enabled .consulting-about-hero {
 .research-grid {
     gap: var(--space-card-gap);
 }
+
+/* Claude Certified Associate: Foundations credential (chip / proof / spacing) */
+.credential-chip {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem 0.75rem;
+    width: fit-content;
+    max-width: 100%;
+    min-height: var(--tap-min);
+    margin-top: 0.15rem;
+    padding: 0.35rem 0.15rem;
+    color: var(--ink);
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.credential-chip:focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 4px;
+}
+
+.credential-chip img,
+.proof-credential img {
+    display: block;
+    width: auto;
+    height: 48px;
+    max-height: 64px;
+    flex-shrink: 0;
+}
+
+.credential-chip-label {
+    color: var(--muted);
+    font-size: 0.88rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.credential-chip-verify {
+    color: var(--blue);
+    font-size: 0.88rem;
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.credential-chip:hover .credential-chip-verify {
+    color: var(--blue-dark);
+}
+
+.about-credential-action {
+    margin: 0;
+}
+
+.about-credential-action .btn {
+    width: fit-content;
+    min-height: var(--tap-min);
+}
+
+.proof-credential {
+    align-content: center;
+    gap: 0.55rem;
+}
+
+.proof-credential strong {
+    font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+    line-height: 1.25;
+}
+
+.proof-credential a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap-min);
+    width: fit-content;
+    color: var(--blue);
+    font-size: 0.88rem;
+    font-weight: 800;
+}
+
+.proof-credential a:focus-visible,
+.offer-credential a:focus-visible,
+.footer-credential a:focus-visible,
+.about-credential-action a:focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 4px;
+}
+
+.offer-credential {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.offer-credential a {
+    color: var(--blue);
+    font-weight: 800;
+}
+
+.footer-credential {
+    margin: 0.35rem 0 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 0.82rem;
+    line-height: 1.4;
+}
+
+.footer-credential a {
+    color: #a7d8ce;
+    font-weight: 700;
+}
+
+.footer-credential a:focus-visible {
+    outline: 2px solid var(--focus-on-dark, #74d3c4);
+    outline-offset: 4px;
+}
+
+.consulting-proof-grid:has(> :nth-child(5)) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+    .consulting-proof-grid:has(> :nth-child(5)) {
+        grid-template-columns: 1fr;
+    }
+}
