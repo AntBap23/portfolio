@@ -53,7 +53,7 @@
                             "position": 1,
                             "item": {
                                 "@type": "CreativeWork",
-                                "name": "Product Experimentation Copilot",
+                                "name": "Fieldwork (Product Experimentation Copilot)",
                                 "url": "https://github.com/AntBap23/product-experimentation-copilot"
                             }
                         },
@@ -71,13 +71,22 @@
                             "position": 3,
                             "item": {
                                 "@type": "CreativeWork",
+                                "name": "Support Triage & Intake Workflow (Qualitative AI Studio)",
+                                "url": "https://github.com/AntBap23/customer-ticket-agent"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "item": {
+                                "@type": "CreativeWork",
                                 "name": "QSR Demand Forecasting Platform (HAVI x NIU Hackathon)",
                                 "url": "https://github.com/AntBap23/Havi-Hackathon-2026"
                             }
                         },
                         {
                             "@type": "ListItem",
-                            "position": 4,
+                            "position": 5,
                             "item": {
                                 "@type": "CreativeWork",
                                 "name": "Ecommerce A/B Test Analysis",
@@ -86,7 +95,7 @@
                         },
                         {
                             "@type": "ListItem",
-                            "position": 5,
+                            "position": 6,
                             "item": {
                                 "@type": "CreativeWork",
                                 "name": "Nonprofit Engagement Consulting Project",
@@ -171,9 +180,9 @@
             <div class="projects-grid">
                 <article class="project-card">
                     <div class="project-info">
-                        <h3>Product Experimentation Copilot</h3>
-                        <p>A local-first tool for product analysts to investigate metric changes, turn findings into testable hypotheses, and monitor active A/B tests. The first demo uses synthetic checkout data, and any AI help is limited to approved analysis functions, with the analyst owning interpretation and sign-off.</p>
-                        <p>Built with: DuckDB, SQL, Streamlit, SciPy.</p>
+                        <h3>Fieldwork (Product Experimentation Copilot)</h3>
+                        <p>A product analytics and A/B experimentation workspace built on PostHog and Supabase. It pairs a 22-entry data dictionary and cross-source reconciliation checks with source-backed AI answers that run only approved read-only queries and show the exact query, cohort, and date window. Teams can review experiment guardrails and export an editable PowerPoint readout for human sign-off, without letting AI modify data or launch variants.</p>
+                        <p>Built with: Cloudflare Workers, PostHog, Supabase, OpenAI API.</p>
                         <div class="project-buttons">
                             <a href="https://github.com/AntBap23/product-experimentation-copilot" class="btn btn-github" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                             <span class="project-demo-slot"></span>
@@ -184,10 +193,22 @@
                 <article class="project-card">
                     <div class="project-info">
                         <h3>Qualitative AI Interview Studio</h3>
-                        <p>A research platform for structured qualitative work: studies, protocols, personas, interview guides, transcripts, AI interview simulations, and comparative analysis. It's designed for researchers who want AI-assisted interviewing and analysis without losing methodological control, with sign-in and security controls built in.</p>
-                        <p>Built with: FastAPI, Supabase, Render.</p>
+                        <p>Turns a manual qualitative research workflow into a structured, human-controlled AI workspace across studies, protocol rules, document-extracted personas and guides, real transcripts, persona-conditioned simulations, and Gioia-oriented comparative analysis. Built with Supabase session authentication, protected routes, upload limits, and multi-format exports so researchers keep methodological control.</p>
+                        <p>Built with: FastAPI, Supabase, OpenAI API, Render.</p>
                         <div class="project-buttons">
                             <a href="https://github.com/AntBap23/Qualitative-AI-Studio" class="btn btn-github" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                            <span class="project-demo-slot"></span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-info">
+                        <h3>Support Triage &amp; Intake Workflow (Qualitative AI Studio)</h3>
+                        <p>A support triage and intake workflow built for Qualitative AI Studio. It gives signed-in users grounded guidance with product-source links, assigns P1-P4 severity routing, and hands follow-up to a human review queue with an activity audit trail, server-side authentication, and a guided intake fallback when AI is unavailable. It does not auto-resolve tickets or take external actions.</p>
+                        <p>Built with: Cloudflare Workers, Cloudflare D1, TypeScript, OpenAI API.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/AntBap23/customer-ticket-agent" class="btn btn-github" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                             <span class="project-demo-slot"></span>
                         </div>
                     </div>
